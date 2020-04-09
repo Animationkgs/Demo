@@ -4,8 +4,8 @@
 var home= 'initfields'; 
 var style= `
 div { background-color: green; border: 10px; }
-div div { background-color: pink; border: 4px; }
-div div div { background-color: maroon; border: 16px; }
+div div { background-color: pink; border: 4px; font-size: small; }
+div div div { background-color: indigo; border: 16px; }
 img { width: 500px; height: auto; }
 .green { background-color: violet; }
 `;
