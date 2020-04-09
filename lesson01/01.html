@@ -29,19 +29,26 @@ function get(k) {
 field(lesson01.name)('lessonname').div();
 
 function put(x,id) {
-   if (x) return field(x)(id).div();
+	if (x) {
+		field('0')('0').hr();
+		return field(x)(id).div();
+	}
 	return null;
 }
 function view (n) {
    var m= pad(n);
-   var concept= put(lesson01.concept[n-1], 'concept01'+m);
-	concept.className= 'green';
-   put(lesson01.vid[n-1].split(' ').map(html.iframe), 'embed01'+m);
-   lesson01.subtitle[n-1].map( function (x,n) {
-      field(x)('subtitle01'+m+pad(n)).pretty().div();
+   put(lesson01.concept[n-1], 'concept01'+m).setclassName('green');
+   var d= field('')('embed01'+m).div();
+   lesson01.vid[n-1].map( function (x,n2) {
+	   d.append(x);
+	   d.append( lesson01.subtitle[n-1][n2] );
+	   d.append( dom.hr() );
    });
+   //lesson01.subtitle[n-1].map( function (x,n) {
+   //   put(html.pretty(x), 'subtitle01'+m+pad(n)).setclassName('passage');
+   //});
    lesson01.meaning[n-1].map( function (x,n) {
-      field(x)('meaning01'+m + pad(n)).pretty().div();
+      put( html.pretty(x), 'meaning01'+m + pad(n));
    });
    put (lesson01.p[n-1], 'p01'+m);
    put (lesson01.form[n-1], 'form01'+m);
@@ -59,10 +66,11 @@ view(7);
 view(8);
 view(9);
 view(10);
-view(11);;
+view(11);
 
 
 
+alert(`01.html`);
 
 
 page.append();

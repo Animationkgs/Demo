@@ -14,7 +14,8 @@ var _element= function () {
    append: function (e) { this._e.appendChild(e._e); return this; },
    setme: function (x) { this._e.innerHTML= x; return this; }, 
    setonclick: function (f) { this._e.onclick= f; return this; },
-   setsrc: function (x) { this._e.src= x; return this; }
+   setsrc: function (x) { this._e.src= x; return this; },
+   setclassName: function (x) { this._e.className= x; return this; }
 	};
 };
 
@@ -36,7 +37,9 @@ var dom;
 	      //alert("style= "+x);
 	      return i.make('style').setme(x); };
       i.img= function (x) { return i.make('img').setsrc(x); };
+      i.hr= function () {  return i.make('hr'); };
       i.div= function (x) {  return i.make('div').setme(x.toString()); };
+      i.iframe= function () {  return i.make('iframe'); };
       i.button= function (x) { return i.make('button').setme(x); };
       i.title= function (x) { return i.make('title').setme(x); };
 	   return i;

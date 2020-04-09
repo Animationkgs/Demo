@@ -42,13 +42,18 @@ function leapme (xs,j) {
 	return ret;
 }
 
-lesson01.vid= [vid0101,vid0102,vid0103,vid0104,
-vid0105,vid0106,vid0107,vid0108,vid0109,vid0110,vid0111];
+lesson01.vid= [vid0101,vid0102,vid0103,vid0104,vid0105,vid0106,vid0107,vid0108,vid0109,vid0110,vid0111].map( function (x,n) {
+   return x.split(' ').map( function (x2,n2) {
+	   return dom.iframe().setsrc(html.embed(x2));
+   }
+   );
+}
+);
 
 var form0103= `<form><div class="image-form-question--image-container--3HTvR" style="position: relative;"><img src="https://lh6.ggpht.com/4F9okwFNAQRqIg37kC6dunDssPf4HrK1wwGhse4Il4yIWuaq1Ahbo1uoZS5Q49G0gE5Me3WvzPplmzkX_QU=s0#w=1920&amp;h=1080" style="width: 100%; max-height: 100%;"><div style="top: 68.6856%; left: 8.72872%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;"><span><label for="radio-0" class="radio-button-widget--label--vDh18">Empty</label><input type="radio" name="group0" id="radio-0" class="radio-button-widget--radio--ws3E_" value="0"></span></div><div style="top: 60.3737%; left: 8.29409%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;"><span><label for="radio-1" class="radio-button-widget--label--vDh18">Empty</label><input type="radio" name="group0" id="radio-1" class="radio-button-widget--radio--ws3E_" value="1"></span></div><div style="top: 52.2552%; left: 8.40275%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;"><span><label for="radio-2" class="radio-button-widget--label--vDh18">Empty</label><input type="radio" name="group0" id="radio-2" class="radio-button-widget--radio--ws3E_" value="2"></span></div><div style="top: 44.7165%; left: 8.29409%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;"><span><label for="radio-3" class="radio-button-widget--label--vDh18">Empty</label><input type="radio" name="group0" id="radio-3" class="radio-button-widget--radio--ws3E_" value="3"></span></div><div style="top: 37.1778%; left: 8.18544%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;"><span><label for="radio-4" class="radio-button-widget--label--vDh18">Empty</label><input type="radio" name="group0" id="radio-4" class="radio-button-widget--radio--ws3E_" value="4"></span></div></div></form>`;
 form0103= ` <form>
    <div style="position: relative;">
-   <img src="quiz/0103.jpg#w=1920&amp;h=1080" style="width: 100%; max-height: 100%;">
+   <img src="js/quiz01/0103.jpg#w=1920&amp;h=1080" style="width: 100%; max-height: 100%;">
    <div style="top: 64.6856%; left: 1.72872%; position: absolute; width: 0%; height: 0%; max-width: 15px; max-height: 15px;">
    <span>
    <label for="radio-0">yellow</label>
@@ -106,7 +111,15 @@ var p0111= `<p>You can get to the course wiki by clicking "Materials" or followi
 lesson01.p= [null,null,null,null,null,p0106,p0107,p0108,p0109,p0110,p0111];
 
 var view= leapme([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],leaps);
+
+srt01= srt01.map( function (x,n) {
+	var ret= html.pretty(x);
+	return dom.div(ret).setclassName('passage');
+});
 lesson01.subtitle= view.map( function (x,n) { return x.map( function (x2,n2) {return srt01[x2];} ); } );
+
 lesson01.meaning= view.map( function (x,n) { return x.map( function (x2,n2) {return srtm01[x2];} ); } );
 lesson01.table= [1,2,3,4,5,6,7,8,9,10,11];
 lesson01.graph= range(1,12);
+
+alert('lesson01');

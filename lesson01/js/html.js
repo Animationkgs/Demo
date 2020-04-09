@@ -10,6 +10,7 @@ var html= {
    iframe : function (vid) {
 	return ` <iframe width="440" height="248" src="https://www.youtube.com/embed/${vid}?rel=0&amp;mute=1&cc_load_policy=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `;
    },
+   embed: function (vid) { return `https://www.youtube.com/embed/${vid}?rel=0&amp;mute=1&cc_load_policy=1`; }, 
    richbutton : function (id, code, s) {
 	return ` <button id= ${id} onclick= "(${code})()"> ${s} </button> `;
    },

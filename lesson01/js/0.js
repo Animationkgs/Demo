@@ -4,12 +4,34 @@
 var home= 'initfields'; 
 var style= `
 div { background-color: green; border: 10px; }
-div div { background-color: pink; border: 4px; font-size: small; }
+div div { 
+background-color: pink;
+border: 4px;
+font-size: xx-small;
+}
+
+.passage {
+display: inline-block;
+height:200px;
+width:320px;
+overflow:auto;
+background-color:pink;
+color:black;
+scrollbar-base-color:gold;
+font-family:arial;
+font-size: large;
+padding:15px;
+}
+
+hr { width: 900px; }
 div div div { background-color: indigo; border: 16px; }
 img { width: 500px; height: auto; }
-.green { background-color: violet; }
+.green {
+background-color: violet;
+font-size: large; 
+}
+iframe { width: 300px; height: 200px; frameborder: 1; }
 `;
-
 
 var pad= function (x)   { return x.toString().padStart(2, "0"); };
 var parse= function (s)   { return s.split(/\s+/); }; 

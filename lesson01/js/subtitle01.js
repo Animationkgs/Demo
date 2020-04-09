@@ -255,16 +255,16 @@ quiz, will it definitely be blue? This time, type yes or no.
 var srt0106= `4`;
 
 var srt0107= `5`;
-var srt0108= ``;
-var srt0109= ``;
-var srt0110= ``;
-var srt0111= ``;
-var srt0112= ``;
-var srt0113= ``;
-var srt0114= ``;
-var srt0115= ``;
-var srt0116= ``;
-var srt0117= ``;
+var srt0108= `08`;
+var srt0109= `09`;
+var srt0110= `10`;
+var srt0111= `11`;
+var srt0112= `12`;
+var srt0113= `13`;
+var srt0114= `14`;
+var srt0115= `15`;
+var srt0116= `16`;
+var srt0117= `17`;
 
 var srt01= [srt0101, srt0102, srt0103, srt0104, srt0105, srt0106, srt0107, srt0108, srt0109, srt0110];
 srt01= srt01.concat([ srt0111, srt0112, srt0113, srt0114, srt0115, srt0116, srt0117] );
