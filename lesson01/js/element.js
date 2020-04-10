@@ -38,7 +38,11 @@ var dom;
 	      return i.make('style').setme(x); };
       i.img= function (x) { return i.make('img').setsrc(x); };
       i.hr= function () {  return i.make('hr'); };
-      i.div= function (x) {  return i.make('div').setme(x.toString()); };
+      i.div= function (x= null) {  
+	      var d= i.make('div');
+	      if (x) d= d.setme(x.toString());
+	      return d;
+      };
       i.iframe= function () {  return i.make('iframe'); };
       i.button= function (x) { return i.make('button').setme(x); };
       i.title= function (x) { return i.make('title').setme(x); };

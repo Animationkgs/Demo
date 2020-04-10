@@ -18,6 +18,8 @@
 <script src= "js/util.js"> </script>
 <script src= "js/lesson01.js"> </script>
 <script>
+
+//alert('01.html');
 dom.style(style).appendTo(dom.head);
 
 
@@ -40,16 +42,19 @@ function view (n) {
    put(lesson01.concept[n-1], 'concept01'+m).setclassName('green');
    var d= field('')('embed01'+m).div();
    lesson01.vid[n-1].map( function (x,n2) {
-	   d.append(x);
-	   d.append( lesson01.subtitle[n-1][n2] );
-	   d.append( dom.hr() );
+	   //alert(x);
+	   var c= dom.div().setclassName('wrapper');
+	   c.append(x);
+	   c.append( lesson01.subtitle[n-1][n2] );
+	   c.append( lesson01.meaning[n-1][n2] );
+	   d.append(c);
    });
    //lesson01.subtitle[n-1].map( function (x,n) {
    //   put(html.pretty(x), 'subtitle01'+m+pad(n)).setclassName('passage');
    //});
-   lesson01.meaning[n-1].map( function (x,n) {
-      put( html.pretty(x), 'meaning01'+m + pad(n));
-   });
+   //lesson01.meaning[n-1].map( function (x,n) {
+   //   put( html.pretty(x), 'meaning01'+m + pad(n));
+   //});
    put (lesson01.p[n-1], 'p01'+m);
    put (lesson01.form[n-1], 'form01'+m);
    put (lesson01.table[n-1], 'table01'+m);
@@ -69,8 +74,6 @@ view(10);
 view(11);
 
 
-
-alert(`01.html`);
 
 
 page.append();

@@ -2,18 +2,26 @@
 
 
 var home= 'initfields'; 
+
 var style= `
 div { background-color: green; border: 10px; }
+
 div div { 
 background-color: pink;
 border: 4px;
-font-size: xx-small;
+font-size: 20pt;
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .passage {
 display: inline-block;
-height:200px;
-width:320px;
+height:240px;
+width: 440px;
 overflow:auto;
 background-color:pink;
 color:black;
@@ -24,13 +32,22 @@ padding:15px;
 }
 
 hr { width: 900px; }
+
 div div div { background-color: indigo; border: 16px; }
+
 img { width: 500px; height: auto; }
+
 .green {
 background-color: violet;
-font-size: large; 
+font-size: 30pt; 
 }
-iframe { width: 300px; height: 200px; frameborder: 1; }
+
+iframe {
+width: 440px;
+height: 248px;
+frameborder: 0; 
+allow: "accelerometer; encrypted-media; gyroscope; picture-in-picture";
+}
 `;
 
 var pad= function (x)   { return x.toString().padStart(2, "0"); };
@@ -55,6 +72,7 @@ var zipme= function (a,b) { return a.map( function(e, i) { return [e, b[i]]; } )
  * @throws {TypeError} (If any of start, end and step is not a finite number.)
  * @throws {Error} (If step is not a positive number.)
  */
+
 function range(start, end, step = 1) {
 
   // Test that the first 3 arguments are finite numbers.
@@ -87,6 +105,5 @@ function range(start, end, step = 1) {
 
 }
 
-
-
+//alert('0.js');
 

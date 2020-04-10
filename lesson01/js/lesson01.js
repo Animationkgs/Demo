@@ -116,10 +116,18 @@ srt01= srt01.map( function (x,n) {
 	var ret= html.pretty(x);
 	return dom.div(ret).setclassName('passage');
 });
+
+
+srtm01= srtm01.map( function (x,n) {
+	var ret= html.pretty(x);
+	return dom.div(ret);
+});
+
+
 lesson01.subtitle= view.map( function (x,n) { return x.map( function (x2,n2) {return srt01[x2];} ); } );
 
 lesson01.meaning= view.map( function (x,n) { return x.map( function (x2,n2) {return srtm01[x2];} ); } );
 lesson01.table= [1,2,3,4,5,6,7,8,9,10,11];
 lesson01.graph= range(1,12);
 
-alert('lesson01');
+//alert('lesson01.js');
