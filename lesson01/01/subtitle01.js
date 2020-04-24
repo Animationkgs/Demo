@@ -974,7 +974,13 @@ You're done with this orientation lesson. And we
 hope you're really excited to take the class.
 `;
 
-var srt01= [srt0101, srt0102, srt0103, srt0104, srt0105, srt0106, srt0107, srt0108, srt0109, srt0110];
-srt01= srt01.concat([ srt0111, srt0112, srt0113, srt0114, srt0115, srt0116, srt0117] );
+var srt01= [srt0101, srt0102, srt0103, srt0104, srt0105,
+srt0106, srt0107, srt0108, srt0109, srt0110,
+srt0111, srt0112, srt0113, srt0114, srt0115,
+srt0116, srt0117];
 
+srt01= srt01.map( function (x,n) {
+	var ret= html.pretty(x);
+	return dom.div(ret).cn('subtitle');
+});
 //alert('subtitle01');

@@ -31,9 +31,12 @@ var field= function (x) {
       i.ispretty= false;
       i.pretty= function () { i.ispretty= true; return i; };
       i.inner= function () {
+	      if (x) {
 		var t= x.toString();
 	      	if (i.ispretty) { t= html.pretty(t); }
 	      return id + "= " + t; 
+	      }
+	      return id;
       };
       i.div= function () { return page.div(i.inner()).id(id).push(); };
       i.hr= function () { return page.hr().push(); };

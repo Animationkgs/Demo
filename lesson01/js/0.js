@@ -4,7 +4,8 @@
 var home= 'initfields'; 
 
 var style= `
-div { background-color: green; border: 10px; }
+
+div { background-color: gainsboro; border: 2px solid silver;}
 
 div div { 
 background-color: pink;
@@ -18,7 +19,7 @@ flex-direction: column;
 align-items: center;
 }
 
-.passage {
+.subtitle {
 display: inline-block;
 height:240px;
 width: 440px;
@@ -31,16 +32,22 @@ font-size: large;
 padding:15px;
 }
 
+
+.meaning {
+background-color:yellow;
+color:black;
+font-family:arial;
+font-size: large;
+}
+
+
 hr { width: 900px; }
 
-div div div { background-color: indigo; border: 16px; }
+div div div { background-color: hotpink; border: 16px; }
 
 img { width: 500px; height: auto; }
 
-.green {
-background-color: violet;
-font-size: 30pt; 
-}
+.concept { background-color: violet; font-size: 30pt; }
 
 iframe {
 width: 440px;
@@ -104,6 +111,19 @@ function range(start, end, step = 1) {
   return Array.from(Array(length), (x, index) => start + index * step);
 
 }
+
+function range0(end, step = 1) {
+  const allNumbers = [end, step].every(Number.isFinite);
+  if (!allNumbers) {
+    throw new TypeError('only finite numbers as arguments.');
+  }
+  if (step <= 0) {
+    throw new Error('step must be a number greater than 0.');
+  }
+  const length = Math.floor(Math.abs(end/step)) + 1;
+  return Array.from(Array(length), (x,n) => n*step);
+}
+
 
 //alert('0.js');
 
