@@ -1,5 +1,4 @@
 
-alert(3);
 
 var m01= {
   "data": {
