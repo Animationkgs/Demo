@@ -3412,3 +3412,141 @@ POST https://sgmt.udacity.com/api/v1/m
 200
 439ms	
 >>>
+
+
+
+ 
+ InspectClear
+ConsoleHTMLCSSScriptDOMNetwork 
+POST https://hub-bff.udacity.com/graphql
+POST https://hub-bff.udacity.com/graphql
+200
+1768ms	
+POST https://hub-bff.udacity.com/graphql
+200
+2365ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+930ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+1895ms	
+HeadersPostResponseJSON
+JSON
+locale
+"en-gb"
+query
+"\n    query CourseQuery {\n      course(key: "st095" version: "1.0.0" locale: "en-us") {\n        id\n        key\n        version\n        locale\n        semantic_type\n        forum_path\n        title\n        is_public\n        is_default\n        \n  user_state {\n    node_key\n    completed_at\n    last_viewed_at\n    unstructured\n  }\n\n        \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n        instructors {\n          \n  image_url\n  first_name\n\n        }\n        project_deadline {\n          \n  due_at\n  node_key\n\n        }\n        project {\n          \n  key\n  version\n  locale\n  duration\n  semantic_type\n  title\n  description\n  is_public\n  summary\n  forum_path\n  rubric_id\n  terminal_project_id\n  reviews_project_id\n  \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n  \n  image {\n    url\n    width\n    height\n  }\n\n\n        }\n        \n  aggregated_state {\n    node_key\n    completion_amount\n    completed_count\n    concept_count\n    last_viewed_child_key\n    lesson_aggregated_states {\n      node_key\n      completed_at\n      completion_amount\n      completed_count\n      concept_count\n      last_viewed_child_key\n    }\n  }\n\n        lessons {\n          \n  id\n  key\n  version\n  locale\n  semantic_type\n  summary\n  title\n  duration\n  is_public\n  is_project_lesson\n  display_workspace_project_only\n  lesson_type\n\n          \n  image {\n    url\n    width\n    height\n  }\n\n          \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n          concepts {\n            id\n            key\n            is_public\n            semantic_type\n            title\n            \n  user_state {\n    node_key\n    completed_at\n    last_viewed_at\n    unstructured\n  }\n\n            \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n          }\n          project {\n            \n  key\n  version\n  locale\n  duration\n  semantic_type\n  title\n  description\n  is_public\n  summary\n  forum_path\n  rubric_id\n  terminal_project_id\n  reviews_project_id\n  \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n  \n  image {\n    url\n    width\n    height\n  }\n\n\n            \n  project_state {\n    state\n    submissions {\n      created_at\n      updated_at\n      url\n      result\n      is_legacy\n      id\n      status\n    }\n  }\n\n          }\n        }\n      }\n    }\n  "
+variables
+null
+Source
+{"query":"\n    query CourseQuery {\n      course(key: \"st095\" version: \"1.0.0\" locale: \"en-us\") {\n        id\n        key\n        version\n        locale\n        semantic_type\n        forum_path\n        title\n        is_public\n        is_default\n        \n  user_state {\n    node_key\n    completed_at\n    last_viewed_at\n    unstructured\n  }\n\n        \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n        instructors {\n          \n  image_url\n  first_name\n\n        }\n        project_deadline {\n          \n  due_at\n  node_key\n\n        }\n        project {\n          \n  key\n  version\n  locale\n  duration\n  semantic_type\n  title\n  description\n  is_public\n  summary\n  forum_path\n  rubric_id\n  terminal_project_id\n  reviews_project_id\n  \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n  \n  image {\n    url\n    width\n    height\n  }\n\n\n        }\n        \n  aggregated_state {\n    node_key\n    completion_amount\n    completed_count\n    concept_count\n    last_viewed_child_key\n    lesson_aggregated_states {\n      node_key\n      completed_at\n      completion_amount\n      completed_count\n      concept_count\n      last_viewed_child_key\n    }\n  }\n\n        lessons {\n          \n  id\n  key\n  version\n  locale\n  semantic_type\n  summary\n  title\n  duration\n  is_public\n  is_project_lesson\n  display_workspace_project_only\n  lesson_type\n\n          \n  image {\n    url\n    width\n    height\n  }\n\n          \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n          concepts {\n            id\n            key\n            is_public\n            semantic_type\n            title\n            \n  user_state {\n    node_key\n    completed_at\n    last_viewed_at\n    unstructured\n  }\n\n            \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n          }\n          project {\n            \n  key\n  version\n  locale\n  duration\n  semantic_type\n  title\n  description\n  is_public\n  summary\n  forum_path\n  rubric_id\n  terminal_project_id\n  reviews_project_id\n  \n  resources {\n    files {\n      name\n      uri\n    }\n    google_plus_link\n    career_resource_center_link\n    coaching_appointments_link\n    office_hours_link\n    aws_provisioning_link\n  }\n\n  \n  image {\n    url\n    width\n    height\n  }\n\n\n            \n  project_state {\n    state\n    submissions {\n      created_at\n      updated_at\n      url\n      result\n      is_legacy\n      id\n      status\n    }\n  }\n\n          }\n        }\n      }\n    }\n  ","variables":null,"locale":"en-gb"}
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+536ms	
+GET https://careers-api.udacity.com/v2/career_services?is_testing=undefined
+200
+930ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+463ms	
+POST https://hub-bff.udacity.com/graphql
+200
+1502ms	
+POST https://hub-bff.udacity.com/graphql
+200
+1718ms	
+POST https://bam.nr-data.net/events/1/2059d2614a?a=1787...14&ref=https://classroom.udacity.com/courses/st095
+200 OK
+1059ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+3127ms	
+POST https://sgmt.udacity.com/api/v1/p
+200
+3188ms	
+GET https://api.getblueshift.com/unity.gif?t=158789693...9&anonymousId=6adbc87e-c0c5-47bf-a69b-c7cc18f74ac1
+200
+3167ms	
+POST https://api.amplitude.com
+200
+2988ms	
+POST https://hub-bff.udacity.com/graphql
+200
+3464ms	
+POST https://hub-bff.udacity.com/graphql
+200
+3901ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+1460ms	
+POST https://sgmt.udacity.com/api/v1/m
+200
+439ms	
+POST https://sgmt.udacity.com/api/v1/t
+200
+2207ms	
+GET https://api.getblueshift.com/unity.gif?t=158789711...9&anonymousId=6adbc87e-c0c5-47bf-a69b-c7cc18f74ac1
+200
+3138ms	
+POST https://api.amplitude.com
+200
+3047ms	
+POST https://hub-bff.udacity.com/graphql
+200
+3217ms	
+POST https://hub-bff.udacity.com/graphql
+200
+3206ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+2139ms	
+GET https://braavos.udacity.com/api/users/u12087119/order_history
+200
+2136ms	
+POST https://hub-bff.udacity.com/graphql
+200
+78278ms	
+POST https://hub-bff.udacity.com/graphql
+200
+2516ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+2411ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+1728ms	
+GET https://careers-api.udacity.com/v2/career_services?is_testing=undefined
+200
+1739ms	
+POST https://classroom-content.udacity.com/api/v1/graphql
+200
+1726ms	
+POST https://hub-bff.udacity.com/graphql
+200
+1535ms	
+POST https://hub-bff.udacity.com/graphql
+200
+2087ms	
+GET https://geode.udacity.com
+200
+1403ms	
+POST https://hub-bff.udacity.com/graphql
+200
+72619ms	
+POST https://hub-bff.udacity.com/graphql
+200
+74102ms	
+POST https://bam.nr-data.net/events/1/2059d2614a?a=1787...27&ref=https://classroom.udacity.com/courses/st095
+200 OK
+2429ms	
+POST https://sgmt.udacity.com/api/v1/m
+200
+694ms	
+>>>
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "198ms",
+  "headers": {
+    "content-type": "application/javascript",
+    "cache-control": "no-cache",
+    "content-length": "859",
+    "expires": "Tue, 27 Apr 1971 19:44:06 GMT",
+    "x-content-type-options": "nosniff",
+    "date": "Mon, 27 Apr 2020 12:36:17 GMT",
+    "server": "YouTube Frontend Proxy",
+    "x-xss-protection": "0",
+    "alt-svc": "quic\u003d\":443\"; ma\u003d2592000; v\u003d\"46,43\",h3-Q050\u003d\":443\"; ma\u003d2592000,h3-Q049\u003d\":443\"; ma\u003d2592000,h3-Q048\u003d\":443\"; ma\u003d2592000,h3-Q046\u003d\":443\"; ma\u003d2592000,h3-Q043\u003d\":443\"; ma\u003d2592000,h3-T050\u003d\":443\"; ma\u003d2592000"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "172.217.31.206",
+  "remotePort": 443,
+  "sessionId": "469211c8-b879-4a1c-a496-831e9ecc59f8",
+  "time": "2020-04-27 18:06:16"
+}

@@ -1,0 +1,41 @@
+POST /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8 h2
+Host: www.youtube.com
+content-length: 2338
+x-origin: https://www.youtube.com
+authorization: SAPISIDHASH 1587990992_035ef78e1d63c71659947fab191c31692019a29b
+content-type: application/json
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+x-youtube-utc-offset: 330
+x-youtube-client-name: 56
+x-youtube-client-version: 20200424
+x-goog-authuser: 0
+sec-fetch-dest: empty
+save-data: on
+x-youtube-time-zone: Asia/Calcutta
+x-goog-visitor-id: CgtSSGVBQ3BvRGlzSSjCo5v1BQ%3D%3D
+x-youtube-ad-signals: dt=1587990980492&flash=0&frm=2&u_tz=330&u_his=5&u_java&u_h=1280&u_w=800&u_ah=1280&u_aw=800&u_cd=24&u_nplug&u_nmime&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C1112%2C440%2C248&vis=2&wgl=true&ca_type=image
+accept: */*
+origin: https://www.youtube.com
+x-client-data: CKi1yQEIjrbJAQiitskBCKmdygEI46zKAQjQr8oBCLywygEIl7XKAQjttcoBCI66ygEIpcbKAQicx8oBCM7HygEY87vKAQ==
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+referer: https://www.youtube.com/embed/kTsQyHV_T5E?showinfo=0&rel=0&autohide=1&vq=hd720&hl=en-gb&cc_load_policy=1&enablejsapi=1&origin=https%3A%2F%2Fclassroom.udacity.com&widgetid=1
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+cookie: VISITOR_INFO1_LIVE=RHeACpoDisI
+cookie: CONSENT=YES+IN.en-GB+202001
+cookie: SID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCpP7sZ6FIr2qRhirK2mfOUw.
+cookie: __Secure-3PSID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCQSNzHyo-qJjico1456ae6g.
+cookie: HSID=AyrmGr2yc293wAiCm
+cookie: SSID=AQ1XeeOFYRevJljTN
+cookie: APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: SAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: __Secure-HSID=AyrmGr2yc293wAiCm
+cookie: __Secure-SSID=AQ1XeeOFYRevJljTN
+cookie: __Secure-APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: __Secure-3PAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: LOGIN_INFO=AFmmF2swRQIhAO1BdRl3b080P83VZlh5jy4PGBTmWVBM06unFYKOJYsKAiB2iLRQj4vJpAknfkXUoFg0S-9o1VUaRLQe0QwPo65S_A:QUQ3MjNmeFljcDViOUdnSDMtUWFUeVg5Z0VSVHRTZXVJRlFhSDg4MTFHZG9iSkhGemQwWnZFN1JzNW9DSzJRSU9Mc3lpaHg1a081REQzUGxVVVNuNXZ4YUVwaUNrbGxGSjU0RTRLbmtsMEhTMnJjeTlmdlVaQlRxanQtUTFOQUZCRXBhVjhWNWNpMlJ5YmlxMFBBVjdwU2dtZVpOQkYtdWgtbnRVVGhjUi1xNXJzSTcxbEEtVmR3
+cookie: YSC=le6_mc_vOVk
+cookie: SIDCC=AJi4QfHducrRfBJIh4169TRNZBTkbJS8tFto_XkmAu9X2CzzVGtgxIE_OnZYRxb_kEv1sJxO
+
+{"context":{"client":{"hl":"en-GB","gl":"IN","clientName":56,"clientVersion":"20200424"}},"events":[{"eventTimeMs":1587990981175,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":51663,"veCounter":1}]},"context":{"lastActivityMs":"300"}},{"eventTimeMs":1587990981210,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":70344,"veCounter":2}]},"context":{"lastActivityMs":"335"}},{"eventTimeMs":1587990981218,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":36925,"veCounter":3}]},"context":{"lastActivityMs":"343"}},{"eventTimeMs":1587990981226,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":36926,"veCounter":4}]},"context":{"lastActivityMs":"351"}},{"eventTimeMs":1587990981232,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":36927,"veCounter":5}]},"context":{"lastActivityMs":"357"}},{"eventTimeMs":1587990981243,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":23851,"veCounter":6}]},"context":{"lastActivityMs":"369"}},{"eventTimeMs":1587990981251,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":28665,"veCounter":7}]},"context":{"lastActivityMs":"376"}},{"eventTimeMs":1587990981271,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":28664,"veCounter":8}]},"context":{"lastActivityMs":"396"}},{"eventTimeMs":1587990981276,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":86570,"veCounter":9}]},"context":{"lastActivityMs":"401"}},{"eventTimeMs":1587990981290,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":16499,"veCounter":10}]},"context":{"lastActivityMs":"416"}},{"eventTimeMs":1587990981311,"visualElementAttached":{"csn":"wtGmXp3aNJCYvwT5mLII","parentVe":{"veType":16623},"childVes":[{"veType":28656,"veCounter":11}]},"context":{"lastActivityMs":"436"}}],"requestTimeMs":1587990992130,"serializedClientEventId":{"serializedEventId":"wtGmXp3aNJCYvwT5mLII","clientCounter":17510}}

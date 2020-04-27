@@ -1,0 +1,1 @@
+{"series":[{"type":"Counter","metric":"analytics_js.invoke","value":1,"tags":{"method":"page"}}]}

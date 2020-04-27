@@ -1,0 +1,28 @@
+GET /iframe_api h2
+Host: www.youtube.com
+sec-fetch-dest: script
+save-data: on
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+accept: */*
+x-client-data: CKi1yQEIjrbJAQiitskBCKmdygEI46zKAQjQr8oBCLywygEIl7XKAQjttcoBCI66ygEIpcbKAQicx8oBCM7HygEY87vKAQ==
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+referer: https://classroom.udacity.com/courses/st095/lessons/56465734/concepts/634823990923
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+cookie: VISITOR_INFO1_LIVE=RHeACpoDisI
+cookie: CONSENT=YES+IN.en-GB+202001
+cookie: SID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCpP7sZ6FIr2qRhirK2mfOUw.
+cookie: __Secure-3PSID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCQSNzHyo-qJjico1456ae6g.
+cookie: HSID=AyrmGr2yc293wAiCm
+cookie: SSID=AQ1XeeOFYRevJljTN
+cookie: APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: SAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: __Secure-HSID=AyrmGr2yc293wAiCm
+cookie: __Secure-SSID=AQ1XeeOFYRevJljTN
+cookie: __Secure-APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: __Secure-3PAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: LOGIN_INFO=AFmmF2swRQIhAO1BdRl3b080P83VZlh5jy4PGBTmWVBM06unFYKOJYsKAiB2iLRQj4vJpAknfkXUoFg0S-9o1VUaRLQe0QwPo65S_A:QUQ3MjNmeFljcDViOUdnSDMtUWFUeVg5Z0VSVHRTZXVJRlFhSDg4MTFHZG9iSkhGemQwWnZFN1JzNW9DSzJRSU9Mc3lpaHg1a081REQzUGxVVVNuNXZ4YUVwaUNrbGxGSjU0RTRLbmtsMEhTMnJjeTlmdlVaQlRxanQtUTFOQUZCRXBhVjhWNWNpMlJ5YmlxMFBBVjdwU2dtZVpOQkYtdWgtbnRVVGhjUi1xNXJzSTcxbEEtVmR3
+cookie: YSC=le6_mc_vOVk
+cookie: SIDCC=AJi4QfHleHxY-jr8MNIgTND45aU48C8L2pCw12rGoZqzhZN-6_1WpnFAaiE2Yi_duzzq_9Cy
+

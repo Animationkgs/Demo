@@ -1,0 +1,26 @@
+{
+  "app": "com.android.chrome",
+  "duration": "547ms",
+  "headers": {
+    "Host": "sgmt.udacity.com",
+    "content-length": "1189",
+    "sec-fetch-dest": "empty",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "content-type": "text/plain",
+    "accept": "*/*",
+    "origin": "https://classroom.udacity.com",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "referer": "https://classroom.udacity.com/courses/st095/lessons/56465734/concepts/634823990923",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1"
+  },
+  "method": "POST",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "b095c253-739d-49a0-90cb-1b28c207f1f3",
+  "time": "2020-04-27 18:06:09",
+  "url": "https://sgmt.udacity.com/api/v1/p"
+}
