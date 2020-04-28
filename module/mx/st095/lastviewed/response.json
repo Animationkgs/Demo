@@ -1,0 +1,30 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "429ms",
+  "headers": {
+    "date": "Tue, 28 Apr 2020 09:44:57 GMT",
+    "content-type": "text/html",
+    "cf-ray": "58afd8ff0c7fdddf-SIN",
+    "age": "50090",
+    "cache-control": "public, max-age\u003d120",
+    "etag": "W/\"b8e3760a95ddd3aed2c4b04082340089\"",
+    "expires": "Tue, 28 Apr 2020 13:44:57 GMT",
+    "last-modified": "Mon, 27 Apr 2020 19:49:50 GMT",
+    "strict-transport-security": "max-age\u003d15552000; includeSubDomains",
+    "cf-cache-status": "HIT",
+    "expect-ct": "max-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding",
+    "server": "cloudflare",
+    "content-encoding": "br",
+    "cf-request-id": "0261c5f3620000dddffaa26200000001"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "104.16.103.31",
+  "remotePort": 443,
+  "sessionId": "3f479f75-a238-41fe-ab5c-2b89b680ea30",
+  "time": "2020-04-28 15:14:56"
+}

@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "419ms",
+  "headers": {
+    "Host": "www.youtube.com",
+    "sec-fetch-dest": "track",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "x-client-data": "CKi1yQEIjrbJAQiitskBCKmdygEI46zKAQjQr8oBCLywygEIl7XKAQjttcoBCI66ygEIpcbKAQicx8oBCM7HygEY87vKAQ\u003d\u003d",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "same-origin",
+    "referer": "https://www.youtube.com/embed/1HmiArFN-EI?showinfo\u003d0\u0026rel\u003d0\u0026autohide\u003d1\u0026vq\u003dhd720\u0026hl\u003den-gb\u0026cc_load_policy\u003d1\u0026enablejsapi\u003d1\u0026origin\u003dhttps%3A%2F%2Fclassroom.udacity.com\u0026widgetid\u003d5",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "SIDCC\u003dAJi4QfHKdlzcxi6-VG8AN_x3gfUPdPibunUBOCpxppmrhYTctdVakFCQHh65HNAFZMiQoB0q"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "216.58.196.174",
+  "remotePort": 443,
+  "sessionId": "08e1efbc-8965-4a12-9987-0084b16785a2",
+  "time": "2020-04-28 14:34:41",
+  "url": "https://www.youtube.com/api/timedtext?v\u003d1HmiArFN-EI\u0026asr_langs\u003dde%2Cen%2Ces%2Cfr%2Cit%2Cja%2Cko%2Cnl%2Cpt%2Cru\u0026caps\u003dasr\u0026xorp\u003dtrue\u0026hl\u003den-GB\u0026ip\u003d0.0.0.0\u0026ipbits\u003d0\u0026expire\u003d1588089879\u0026sparams\u003dip%2Cipbits%2Cexpire%2Cv%2Casr_langs%2Ccaps%2Cxorp\u0026signature\u003d36761E5F4A9F6F11B4A64910170F9B8C85DE2F5D.65DAFEB51307311524A5AEB6D73F1200DDA72249\u0026key\u003dyt8\u0026lang\u003den\u0026fmt\u003dvtt"
+}

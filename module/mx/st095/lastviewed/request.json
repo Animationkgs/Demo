@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "429ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "save-data": "on",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "sec-fetch-dest": "document",
+    "accept": "text/html,application/xhtml+xml,application/xml;q\u003d0.9,image/webp,image/apng,*/*;q\u003d0.8,application/signed-exchange;v\u003db3;q\u003d0.9",
+    "sec-fetch-site": "none",
+    "sec-fetch-mode": "navigate",
+    "referer": "https://classroom.udacity.com/courses/st095",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "intercom-session-av16vnft\u003dSkNPQUp3MFRzblpEcjVtYUZPemZqYVNMbWZuWWNPdUFPSjIwM09JZ3RiRWNvN0xUUTZ2ZWFpdlNVTlN0RTNXMS0tVXQ4bHVPR09ucFNQeWtiQXRXb2NOdz09--664712f780d3453bb263912bbb70d8ee8ef9d701"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.103.31",
+  "remotePort": 443,
+  "sessionId": "3f479f75-a238-41fe-ab5c-2b89b680ea30",
+  "time": "2020-04-28 15:14:56",
+  "url": "https://classroom.udacity.com/courses/st095/lessons/116588931/concepts/last-viewed"
+}

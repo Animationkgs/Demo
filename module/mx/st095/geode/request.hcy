@@ -1,0 +1,13 @@
+GET / h2
+Host: geode.udacity.com
+accept: application/json, text/plain, */*
+sec-fetch-dest: empty
+save-data: on
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+origin: https://classroom.udacity.com
+sec-fetch-site: same-site
+sec-fetch-mode: cors
+referer: https://classroom.udacity.com/courses/st095
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+

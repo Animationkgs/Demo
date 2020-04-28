@@ -1,0 +1,26 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "222ms",
+  "headers": {
+    "content-type": "application/json; charset\u003dUTF-8",
+    "vary": "Referer",
+    "content-encoding": "br",
+    "date": "Mon, 27 Apr 2020 12:36:33 GMT",
+    "server": "ESF",
+    "content-length": "31",
+    "x-xss-protection": "0",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "SIDCC\u003dAJi4QfGp0R5CryyomPVGcDOLlkdu7s-HXl474oDzthIgbXC0q89BnPDQrpzd1hNes8n8NksE; expires\u003dTue, 27-Apr-2021 12:36:33 GMT; path\u003d/; domain\u003d.youtube.com; priority\u003dhigh",
+    "alt-svc": "quic\u003d\":443\"; ma\u003d2592000; v\u003d\"46,43\",h3-Q050\u003d\":443\"; ma\u003d2592000,h3-Q049\u003d\":443\"; ma\u003d2592000,h3-Q048\u003d\":443\"; ma\u003d2592000,h3-Q046\u003d\":443\"; ma\u003d2592000,h3-Q043\u003d\":443\"; ma\u003d2592000,h3-T050\u003d\":443\"; ma\u003d2592000",
+    "expires": "Mon, 27 Apr 2020 12:36:33 GMT",
+    "cache-control": "private"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "172.217.31.206",
+  "remotePort": 443,
+  "sessionId": "83c630d0-ec88-4c22-85d0-00c7f8aa15ee",
+  "time": "2020-04-27 18:06:32"
+}

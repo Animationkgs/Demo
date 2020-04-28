@@ -1,0 +1,22 @@
+{
+  "app": "com.android.chrome",
+  "duration": "2960ms",
+  "headers": {
+    "Host": "js.intercomcdn.com",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "sec-fetch-dest": "script",
+    "accept": "*/*",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "no-cors",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "13.33.169.128",
+  "remotePort": 443,
+  "sessionId": "78763a34-66be-4355-9a4f-42d5c787ce36",
+  "time": "2020-04-27 18:06:14",
+  "url": "https://js.intercomcdn.com/sentry-modern.4dc05914.js"
+}

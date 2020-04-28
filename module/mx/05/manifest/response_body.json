@@ -1,0 +1,10 @@
+{
+  "name": "Udacity",
+  "icons": [
+    {
+      "src": "/touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

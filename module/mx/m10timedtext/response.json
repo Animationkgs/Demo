@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "419ms",
+  "headers": {
+    "content-type": "text/vtt; charset\u003dUTF-8",
+    "date": "Tue, 28 Apr 2020 09:04:42 GMT",
+    "pragma": "no-cache",
+    "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+    "cache-control": "no-cache, must-revalidate",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip",
+    "server": "video-timedtext",
+    "content-length": "732",
+    "x-xss-protection": "0",
+    "x-frame-options": "SAMEORIGIN",
+    "alt-svc": "quic\u003d\":443\"; ma\u003d2592000; v\u003d\"46,43\",h3-Q050\u003d\":443\"; ma\u003d2592000,h3-Q049\u003d\":443\"; ma\u003d2592000,h3-Q048\u003d\":443\"; ma\u003d2592000,h3-Q046\u003d\":443\"; ma\u003d2592000,h3-Q043\u003d\":443\"; ma\u003d2592000,h3-T050\u003d\":443\"; ma\u003d2592000"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "216.58.196.174",
+  "remotePort": 443,
+  "sessionId": "08e1efbc-8965-4a12-9987-0084b16785a2",
+  "time": "2020-04-28 14:34:41"
+}

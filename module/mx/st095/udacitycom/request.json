@@ -1,0 +1,26 @@
+{
+  "app": "com.android.chrome",
+  "duration": "807ms",
+  "headers": {
+    "Host": "www.udacity.com",
+    "upgrade-insecure-requests": "1",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "sec-fetch-dest": "document",
+    "accept": "text/html,application/xhtml+xml,application/xml;q\u003d0.9,image/webp,image/apng,*/*;q\u003d0.8,application/signed-exchange;v\u003db3;q\u003d0.9",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "referer": "https://classroom.udacity.com/courses/st095",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "amplitude_id_0143e7ffb7c6fc432d74f0a362536439udacity.com\u003deyJkZXZpY2VJZCI6ImJlZmIzNGQzLTI5YjAtNDVkNi04ZGJmLTZjYjQ4ZDllOGIxMyIsInVzZXJJZCI6InUxMjA4NzExOSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4ODA2MzU1MTUzOCwibGFzdEV2ZW50VGltZSI6MTU4ODA2NTUxNjA2NiwiZXZlbnRJZCI6NDQ2OSwiaWRlbnRpZnlJZCI6MTUzLCJzZXF1ZW5jZU51bWJlciI6NDYyMn0\u003d"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "53a2b2ff-7ef6-4971-b9ff-07337c3b7748",
+  "time": "2020-04-28 14:48:44",
+  "url": "https://www.udacity.com/"
+}

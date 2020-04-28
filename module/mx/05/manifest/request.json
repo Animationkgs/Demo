@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "828ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "sec-fetch-dest": "manifest",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "referer": "https://classroom.udacity.com/courses/st095/lessons/55937989/concepts/2514367150923",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "if-none-match": "W/\"98e41fbb955e3ccd057a040829c990a6\"",
+    "if-modified-since": "Fri, 24 Apr 2020 23:46:37 GMT"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "c914bd29-9a26-45c9-826c-699c2a72d436",
+  "time": "2020-04-27 17:28:09",
+  "url": "https://classroom.udacity.com/manifest.json"
+}

@@ -1,0 +1,29 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "1525ms",
+  "headers": {
+    "date": "Tue, 28 Apr 2020 09:18:42 GMT",
+    "content-type": "text/plain;charset\u003dUTF-8",
+    "set-cookie": "__cf_bm\u003d91931c65fa61f654af612918dd83071a8efcbe9e-1588065522-1800-AUn2GeryKYIxDH83kF2TyhPpU/AVsIYvnJDSSIZCvtS+a8KdSg44+IMtg9Lq9EX5T6pv/cwGW5WV5RMBxKAps+4\u003d; path\u003d/; expires\u003dTue, 28-Apr-20 09:48:42 GMT; domain\u003d.udacity.com; HttpOnly; Secure; SameSite\u003dNone",
+    "access-control-allow-origin": "https://classroom.udacity.com",
+    "cache-control": "private, max-age\u003d60",
+    "vary": "Origin, Accept-Encoding",
+    "access-control-allow-headers": "X-Berlioz-Country",
+    "access-control-expose-headers": "X-Berlioz-Country",
+    "x-berlioz-country": "IN",
+    "expect-ct": "max-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "strict-transport-security": "max-age\u003d15552000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare",
+    "cf-ray": "58afb28a39e0c363-SIN",
+    "content-encoding": "br",
+    "cf-request-id": "0261adea660000c36339a8e200000001"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "104.16.103.31",
+  "remotePort": 443,
+  "sessionId": "181930d3-9722-456e-aa15-6aea1a8f3438",
+  "time": "2020-04-28 14:48:41"
+}

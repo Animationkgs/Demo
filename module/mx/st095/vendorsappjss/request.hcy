@@ -1,0 +1,39 @@
+GET /js/vendors~app.711f5.js h2
+Host: classroom.udacity.com
+sec-fetch-dest: script
+save-data: on
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+accept: */*
+sec-fetch-site: same-origin
+sec-fetch-mode: no-cors
+referer: https://classroom.udacity.com/courses/st095/lessons/116588934/concepts/last-viewed
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+cookie: _opexp=bandicoot.18371.1.t
+cookie: ajs_anonymous_id=%22befb34d3-29b0-45d6-8dbf-6cb48d9e8b13%22
+cookie: ajs_created_at=1582037018469
+cookie: ajs_group_id=null
+cookie: _ga=GA1.2.94899956.1582037033
+cookie: _hjid=504037a3-76a3-47ec-88a4-7e5a58b1a2aa
+cookie: _fbp=fb.1.1582037053285.1417436783
+cookie: intercom-id-av16vnft=88716d9b-9c5a-4293-aaba-d79310d38853
+cookie: ajs_user_id=%22u12087119%22
+cookie: _bs=befb34d3-29b0-45d6-8dbf-6cb48d9e8b13
+cookie: __qca=P0-808094151-1585203579990
+cookie: _bs=befb34d3-29b0-45d6-8dbf-6cb48d9e8b13
+cookie: ei_client_id=5e8a0a12664ab8001023fb4d
+cookie: optimizelyEndUserId=lo_2986d8b6038b
+cookie: _parsely_visitor={%22id%22:%22pid=4f8534267fb301e7307ec63108bde11d%22%2C%22session_count%22:1%2C%22last_session_ts%22:1586251999304}
+cookie: IR_PI=bfbc1c6a-6f29-11ea-b20e-42010a246306%7C1587032527986
+cookie: _jwt=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODk1MzgxOTksImlhdCI6MTU4Njk0NjE5OSwia2lkIjoiMTAwMCIsInVpZCI6InUxMjA4NzExOSIsInJvbGVzIjpbInVzZXIiXX0.GrH6u2DXcAE-cQ0coiSfJbwBMPzMZQMDnKSlMLeFOLm8aF6LCsagO7JH7yodZ-REXwDIJczl9r-yl1WZJhAP7n6fLjj1IjnSl94tK86shPz9uRIOlRUKQbedCJXg8XsbBI7EKkXHGrSuYjaSfEb5HBdM5XFwi70z-ig3d05yQGAs_TytMEZHHVKxzsvEqNZUg3mewCL02fnkh7OPwGu8j6dHNyNqtpocNg6MJGQqHQFivK4lBQ8R8SjZVdWoAtAOqun6GIkeVVVTrMUzuFcwg9BmPWtnf1OMe-pEv4vHWS71A_nHU_o6y1Jh_vr6U_CE90tuxdA_JcKrcV0MoOEo7g
+cookie: __cfduid=dbbde9fcb009a6339651401347b4321ba1587494184
+cookie: _gid=GA1.2.1598056440.1587946029
+cookie: amplitude_idundefinedudacity.com=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==
+cookie: viewer_country=IN
+cookie: intercom-session-av16vnft=SkNPQUp3MFRzblpEcjVtYUZPemZqYVNMbWZuWWNPdUFPSjIwM09JZ3RiRWNvN0xUUTZ2ZWFpdlNVTlN0RTNXMS0tVXQ4bHVPR09ucFNQeWtiQXRXb2NOdz09--664712f780d3453bb263912bbb70d8ee8ef9d701
+cookie: __cf_bm=9177d200d66055e8904fcdf22494d14828ce5246-1588067804-1800-Adj3k5JeXjNRY65f0qnBSSOUA2+66cZGP6ch2LsSlA1Ae/4un/X9tpJM2J+H3K31TK+KRhJyLLfx9EsHO+koKIg=
+cookie: _gat=1
+cookie: amplitude_id_0143e7ffb7c6fc432d74f0a362536439udacity.com=eyJkZXZpY2VJZCI6ImJlZmIzNGQzLTI5YjAtNDVkNi04ZGJmLTZjYjQ4ZDllOGIxMyIsInVzZXJJZCI6InUxMjA4NzExOSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4ODA2MzU1MTUzOCwibGFzdEV2ZW50VGltZSI6MTU4ODA2ODAxNzk2NywiZXZlbnRJZCI6NDQ4MSwiaWRlbnRpZnlJZCI6MTYxLCJzZXF1ZW5jZU51bWJlciI6NDY0Mn0=
+if-none-match: W/"5a41d21fb95e781cc9e492edceca3122"
+if-modified-since: Mon, 27 Apr 2020 19:49:46 GMT
+

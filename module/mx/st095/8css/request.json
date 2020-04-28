@@ -1,0 +1,26 @@
+{
+  "app": "com.android.chrome",
+  "duration": "197ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "sec-fetch-dest": "style",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "text/css,*/*;q\u003d0.1",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "referer": "https://classroom.udacity.com/courses/st095",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "amplitude_id_0143e7ffb7c6fc432d74f0a362536439udacity.com\u003deyJkZXZpY2VJZCI6ImJlZmIzNGQzLTI5YjAtNDVkNi04ZGJmLTZjYjQ4ZDllOGIxMyIsInVzZXJJZCI6InUxMjA4NzExOSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4ODA2MzU1MTUzOCwibGFzdEV2ZW50VGltZSI6MTU4ODA2NjY2MjMwNywiZXZlbnRJZCI6NDQ3NywiaWRlbnRpZnlJZCI6MTU0LCJzZXF1ZW5jZU51bWJlciI6NDYzMX0\u003d",
+    "if-none-match": "W/\"9dd41802b2940732b78631f37248756c\"",
+    "if-modified-since": "Mon, 27 Apr 2020 19:49:34 GMT"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.103.31",
+  "remotePort": 443,
+  "sessionId": "b1287db1-726e-4394-a8ba-b87a43fca1d8",
+  "time": "2020-04-28 15:08:35",
+  "url": "https://classroom.udacity.com/css/8.85d1e.css"
+}

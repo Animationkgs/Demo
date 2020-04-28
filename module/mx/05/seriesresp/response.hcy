@@ -1,0 +1,20 @@
+h2 200
+date: Mon, 27 Apr 2020 12:36:32 GMT
+content-type: application/json
+content-length: 21
+set-cookie: __cfduid=d2f4d41bca59e118dfe93358843a135261587990992; expires=Wed, 27-May-20 12:36:32 GMT; path=/; domain=.udacity.com; HttpOnly; SameSite=Lax; Secure
+cf-ray: 58a896f82f0be247-SIN
+accept-ranges: bytes
+access-control-allow-origin: https://classroom.udacity.com
+strict-transport-security: max-age=15552000; includeSubDomains
+vary: Origin, Accept-Encoding
+cf-cache-status: DYNAMIC
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+x-content-type-options: nosniff
+set-cookie: __cf_bm=cf34f3f6c4558fec248a04a7d3b0af71f1f1dbfd-1587990992-1800-AeVsmsFQUUr8ix/KaBoslLNNkVAYCG5u1PE1xIazn/qxLbygSDGtIIIuuVE8sN1jZhqDg5ECqfaOcNuvmgsPmZo=; path=/; expires=Mon, 27-Apr-20 13:06:32 GMT; domain=.udacity.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-request-id: 025d3caf1c0000e2478f24c200000001
+
+{
+  "success": true
+}

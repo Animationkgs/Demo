@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "198ms",
+  "headers": {
+    "Host": "www.youtube.com",
+    "sec-fetch-dest": "script",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "x-client-data": "CKi1yQEIjrbJAQiitskBCKmdygEI46zKAQjQr8oBCLywygEIl7XKAQjttcoBCI66ygEIpcbKAQicx8oBCM7HygEY87vKAQ\u003d\u003d",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "no-cors",
+    "referer": "https://classroom.udacity.com/courses/st095/lessons/56465734/concepts/634823990923",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "SIDCC\u003dAJi4QfHleHxY-jr8MNIgTND45aU48C8L2pCw12rGoZqzhZN-6_1WpnFAaiE2Yi_duzzq_9Cy"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "172.217.31.206",
+  "remotePort": 443,
+  "sessionId": "469211c8-b879-4a1c-a496-831e9ecc59f8",
+  "time": "2020-04-27 18:06:16",
+  "url": "https://www.youtube.com/iframe_api"
+}
