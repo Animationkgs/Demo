@@ -1,0 +1,5 @@
+GET /courses/st095/lessons/212304785/concepts/2126145500923 h2
+user-agent: HttpCanary/3.2.5
+Host: classroom.udacity.com
+accept: */*
+

@@ -1,0 +1,11 @@
+GET /frame-modern.a608a031.js h2
+Host: js.intercomcdn.com
+save-data: on
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+sec-fetch-dest: script
+accept: */*
+sec-fetch-site: cross-site
+sec-fetch-mode: no-cors
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+

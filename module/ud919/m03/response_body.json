@@ -1,0 +1,1702 @@
+{
+  "data": {
+    "lesson": {
+      "id": 130973,
+      "key": "3104648634",
+      "title": "Lesson 3 - The Modeling Phase",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3104648634/130973/1516882053172/Lesson%203%20-%20The%20Modeling%20Phase%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3104648634/130973/1516881970666/Lesson%203%20-%20The%20Modeling%20Phase%20Subtitles.zip"
+          },
+          {
+            "name": "Sliver of Medicare Doctors Get Big Share of Payouts - NYTimes.com.pdf",
+            "uri": "https://www.udacity.com/api/nodes/3104648634/supplemental_media/sliver-of-medicare-doctors-get-big-share-of-payouts-nytimescompdf/download"
+          },
+          {
+            "name": "Hodge+Austin_OutlierDetection_AIRE381.pdf",
+            "uri": "https://www.udacity.com/api/nodes/3104648634/supplemental_media/hodgeaustin-outlierdetection-aire381pdf/download"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 18124,
+          "key": "36057085960923",
+          "title": "Before You Start",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "36057085960923",
+            "completed_at": "2020-03-26T16:20:02.970Z",
+            "last_viewed_at": "2020-03-26T16:20:02.635Z",
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "lesson_3_files.zip",
+                "uri": "https://www.udacity.com/api/nodes/3605708596/supplemental_media/lesson-3-fileszip/download"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 94773,
+              "key": "3605708596",
+              "title": "Before You Start",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Introduction\nIn this lesson, we will focus on the modeling part of the QMV process in more depth.\n\nGiven that you have already had some background in machine learning, we highlight non-parametric statistical models as the focus of this lesson. \n\nThe techniques we will cover in this lesson will carry over to parametric models, mathematical models and machine learning models. \n  \n### Downloads\nThis [download link](https://www.udacity.com/api/nodes/3605708596/supplemental_media/lesson-3-fileszip/download) contains the files that you need to follow along Rishi in lesson 3.",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 18582,
+          "key": "30958086550923",
+          "title": "The Modeling Process",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086550923",
+            "completed_at": "2020-03-26T16:20:11.898Z",
+            "last_viewed_at": "2020-03-26T16:20:11.545Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10510,
+              "key": "3095808655",
+              "title": "The Modeling Process",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "FmNXSzuierg",
+                "china_cdn_id": "FmNXSzuierg.mp4",
+                "topher_id": "8540c238-d4a2-11e9-ab25-c7bfd691f03b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e2df_the-modeling-process-model-building-and-validation/the-modeling-process-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e2df_the-modeling-process-model-building-and-validation/the-modeling-process-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e2df_the-modeling-process-model-building-and-validation/the-modeling-process-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 138211,
+          "key": "30958086560923",
+          "title": "Different Modeling Techniques",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086560923",
+            "completed_at": "2020-03-26T16:20:18.432Z",
+            "last_viewed_at": "2020-03-26T16:20:18.079Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 33860,
+              "key": "3095808656",
+              "title": "Different Modeling Techniques",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Hgj_gRkkqs8",
+                "china_cdn_id": "Hgj_gRkkqs8.mp4",
+                "topher_id": "854345f8-d4a2-11e9-b1ff-ffe3381dca02",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d10b8a_different-modeling-techniques-model-building-and-validation/different-modeling-techniques-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d10b8a_different-modeling-techniques-model-building-and-validation/different-modeling-techniques-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d10b8a_different-modeling-techniques-model-building-and-validation/different-modeling-techniques-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 37693,
+          "key": "30958086570923",
+          "title": "The Medicare Challenge",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086570923",
+            "completed_at": "2020-03-26T16:20:24.687Z",
+            "last_viewed_at": "2020-03-26T16:20:24.361Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 51758,
+              "key": "3095808657",
+              "title": "The Medicare Challenge",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3095808657",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "9smgs3k07tg",
+                  "china_cdn_id": "9smgs3k07tg.mp4",
+                  "topher_id": "8535de68-d4a2-11e9-9890-7bab0cda3b26",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b9a_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b9a_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b9a_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "The Medicare Challenge",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/Kb_MxKd2DUbIxrcQF0ZH_E31RPBwVfTDQFtaw1Ezkmq7o-HHv5tijBd362naolRd9XTlvImkx2k_8YWKmQ=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3095808657",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3095808659",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.8495947630922693,
+                      "y": 0.7019470620842572
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "d93V8Y0dP-A",
+                  "china_cdn_id": "d93V8Y0dP-A.mp4",
+                  "topher_id": "853e42ce-d4a2-11e9-a456-a39ead542a8a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af2f_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af2f_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af2f_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 56634,
+          "key": "30870888080923",
+          "title": "Introducing the Medicare Dataset",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30870888080923",
+            "completed_at": "2020-03-26T16:20:32.548Z",
+            "last_viewed_at": "2020-03-26T16:20:32.226Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120124,
+              "key": "3087088808",
+              "title": "Introducing the Medicare Dataset",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "fZcacL6bKaU",
+                "china_cdn_id": "fZcacL6bKaU.mp4",
+                "topher_id": "85400fbe-d4a2-11e9-a97d-43ce60d364ab",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0eb8a_introducing-the-medicare-dataset-model-building-and-validation/introducing-the-medicare-dataset-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0eb8a_introducing-the-medicare-dataset-model-building-and-validation/introducing-the-medicare-dataset-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0eb8a_introducing-the-medicare-dataset-model-building-and-validation/introducing-the-medicare-dataset-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 42824,
+          "key": "31687386000923",
+          "title": "Load the Medicare Data for CA",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31687386000923",
+            "completed_at": "2020-03-26T16:20:38.591Z",
+            "last_viewed_at": "2020-03-26T16:20:38.225Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 4973,
+              "key": "3168738600",
+              "title": "Load the Medicare Data for CA",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Please do this exercise on your own computer using the ipython notebook that we provided you for lesson 3.\n\nCheck out <a href=\"https://classroom.udacity.com/courses/ud359/lessons/664109694/concepts/34929191690923\" target=\"_blank\"> this lesson </a> of our Intro to Data Science class to learn more about Pandas.",
+              "user_state": {
+                "node_key": "3168738600",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kgLatQMWS5w",
+                  "china_cdn_id": "kgLatQMWS5w.mp4",
+                  "topher_id": "854ce13a-d4a2-11e9-bd4a-83177ef27fff",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d14508_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d14508_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d14508_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Load the Medicare Data for California",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/WQrSaPTFgabndLyLX9wYR-SvxbDkpa5YN3Bf6ujAQGzzHNGselrCy3TEcAJRh87LlD-xTKa1uSBeG-9ZIKM=s0#w=2014&h=1134",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3168738600",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3166038571",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1868375935162095,
+                      "y": 0.7037139689578714
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XM28-gBjZyw",
+                  "china_cdn_id": "XM28-gBjZyw.mp4",
+                  "topher_id": "85578cd4-d4a2-11e9-a1f1-0bb251c30650",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d342_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d342_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d342_load-the-medicare-data-for-california-model-building-and-validation/load-the-medicare-data-for-california-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 15996,
+          "key": "30986587340923",
+          "title": "Explore the Medicare Dataset",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30986587340923",
+            "completed_at": "2020-03-26T16:20:48.379Z",
+            "last_viewed_at": "2020-03-26T16:20:48.046Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 131043,
+              "key": "3098658734",
+              "title": "Explore the Medicare Dataset",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Dp3zcDHYTNs",
+                "china_cdn_id": "Dp3zcDHYTNs.mp4",
+                "topher_id": "853f372e-d4a2-11e9-a718-1f5e0edf8ec1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b135_explore-the-medicare-dataset-model-building-and-validation/explore-the-medicare-dataset-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b135_explore-the-medicare-dataset-model-building-and-validation/explore-the-medicare-dataset-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b135_explore-the-medicare-dataset-model-building-and-validation/explore-the-medicare-dataset-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128426,
+          "key": "30958086610923",
+          "title": "Inspecting Distributions of Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086610923",
+            "completed_at": "2020-03-26T16:20:54.865Z",
+            "last_viewed_at": "2020-03-26T16:20:54.514Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10512,
+              "key": "3095808661",
+              "title": "Inspecting Distributions of Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Rishi mean that there are 50 bins of width 20, instead of bin width of 50.",
+              "video": {
+                "youtube_id": "j47VnAmOwwE",
+                "china_cdn_id": "j47VnAmOwwE.mp4",
+                "topher_id": "854596aa-d4a2-11e9-b8be-73aeb6915886",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d12b07_inspecting-distributions-of-variables-model-building-and-validation/inspecting-distributions-of-variables-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d12b07_inspecting-distributions-of-variables-model-building-and-validation/inspecting-distributions-of-variables-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d12b07_inspecting-distributions-of-variables-model-building-and-validation/inspecting-distributions-of-variables-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 12516,
+          "key": "30958086650923",
+          "title": "The Medicare Challenge ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086650923",
+            "completed_at": "2020-03-26T16:21:13.165Z",
+            "last_viewed_at": "2020-03-26T16:21:12.796Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 78660,
+              "key": "3095808665",
+              "title": "The Medicare Challenge ",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3095808665",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "5Qfq1d7r6LQ",
+                  "china_cdn_id": "5Qfq1d7r6LQ.mp4",
+                  "topher_id": "8533bd9a-d4a2-11e9-926a-a3d7d430b2af",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d08787_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d08787_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d08787_the-medicare-challenge-model-building-and-validation/the-medicare-challenge-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "The Medicare Challenge ",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/-vXt45nAhsLlcB8_enVm0uMsYN2w8KNt3UnBkG337SWxTwVgKr1TlgcmNWfmvVm-flMR391FN368-hJO2w6z=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3095808665",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3095808666",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6937149314214464,
+                      "y": 0.33640521064301554
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ax2o2LvockM",
+                  "china_cdn_id": "ax2o2LvockM.mp4",
+                  "topher_id": "84c8f7d0-d4a2-11e9-b25a-4f395aafc1ee",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a29f_the-medicare-challenge-inspecting-distributions-model-building-and-validation/the-medicare-challenge-inspecting-distributions-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a29f_the-medicare-challenge-inspecting-distributions-model-building-and-validation/the-medicare-challenge-inspecting-distributions-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a29f_the-medicare-challenge-inspecting-distributions-model-building-and-validation/the-medicare-challenge-inspecting-distributions-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 12470,
+          "key": "31687386020923",
+          "title": "Recap of What We've Done",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31687386020923",
+            "completed_at": "2020-03-26T16:21:22.033Z",
+            "last_viewed_at": "2020-03-26T16:21:21.679Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 76976,
+              "key": "3168738602",
+              "title": "Recap of What We've Done",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "YEpbVJrDzBU",
+                "china_cdn_id": "YEpbVJrDzBU.mp4",
+                "topher_id": "8554fd3e-d4a2-11e9-9aef-779f148053fa",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9b9_recap-of-what-weve-done-model-building-and-validation/recap-of-what-weve-done-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9b9_recap-of-what-weve-done-model-building-and-validation/recap-of-what-weve-done-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9b9_recap-of-what-weve-done-model-building-and-validation/recap-of-what-weve-done-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30822,
+          "key": "30958086680923",
+          "title": "Inspecting Distributions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086680923",
+            "completed_at": "2020-03-26T16:21:28.146Z",
+            "last_viewed_at": "2020-03-26T16:21:27.818Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120274,
+              "key": "3095808668",
+              "title": "Inspecting Distributions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "MEP35FcrQGs",
+                "china_cdn_id": "MEP35FcrQGs.mp4",
+                "topher_id": "84ccd08a-d4a2-11e9-bda7-67c545f1498c",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c09_inspecting-distributions-model-building-and-validation/inspecting-distributions-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c09_inspecting-distributions-model-building-and-validation/inspecting-distributions-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c09_inspecting-distributions-model-building-and-validation/inspecting-distributions-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 37256,
+          "key": "30958086690923",
+          "title": "Calculating Correlation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086690923",
+            "completed_at": "2020-03-26T16:21:35.561Z",
+            "last_viewed_at": "2020-03-26T16:21:35.244Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 67987,
+              "key": "3095808669",
+              "title": "Calculating Correlation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Please check out chapter 7 in Statistics in a Nutshell on more information about Pearson's Correlation Coefficients.",
+              "video": {
+                "youtube_id": "gEyRWa96AiQ",
+                "china_cdn_id": "gEyRWa96AiQ.mp4",
+                "topher_id": "8541c926-d4a2-11e9-ae15-cf966d25a06b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f208_calculating-correlation-model-building-and-validation/calculating-correlation-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f208_calculating-correlation-model-building-and-validation/calculating-correlation-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f208_calculating-correlation-model-building-and-validation/calculating-correlation-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 121960,
+          "key": "30958086700923",
+          "title": "Pearson’s Correlation Coefficient",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086700923",
+            "completed_at": "2020-03-26T16:21:41.451Z",
+            "last_viewed_at": "2020-03-26T16:21:41.120Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 138604,
+              "key": "3095808670",
+              "title": "Pearson’s Correlation Coefficient",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3095808670",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "EjaplWyBRh4",
+                  "china_cdn_id": "EjaplWyBRh4.mp4",
+                  "topher_id": "853f5e48-d4a2-11e9-a78a-c3b2b6f40f83",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cef8_untitled/untitled_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cef8_untitled/untitled_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cef8_untitled/untitled_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Pearson’s Correlation Coefficient",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/d-2DU5VfQmrVQ3Ou0l7YIjsuDt6PFt6RCz-T3BLZts-HqNvmBl2bUJAaT-4JBpNako65xWFSzuoqo2Bm6pv5=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3095808670",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3095808671",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5392183603491272,
+                      "y": 0.6825803769401331
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.547829644638404,
+                      "y": 0.8434728381374723
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.23690773067331672,
+                      "x": 0.6586463528678305,
+                      "y": 0.7336820953436807
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "7mtFxFRbO7M",
+                  "china_cdn_id": "7mtFxFRbO7M.mp4",
+                  "topher_id": "853496ca-d4a2-11e9-94e8-bf5970babfe5",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cc_pearsons-correlation-coefficient/pearsons-correlation-coefficient_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cc_pearsons-correlation-coefficient/pearsons-correlation-coefficient_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cc_pearsons-correlation-coefficient/pearsons-correlation-coefficient_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 29337,
+          "key": "34045286970923",
+          "title": "Which model?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34045286970923",
+            "completed_at": "2020-03-26T16:21:49.507Z",
+            "last_viewed_at": "2020-03-26T16:21:49.162Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 11529,
+              "key": "3404528697",
+              "title": "Which model?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "KXv7Qcbu-3g",
+                "china_cdn_id": "KXv7Qcbu-3g.mp4",
+                "topher_id": "854d7d52-d4a2-11e9-bf22-772b3926a98d",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15012_which-model-model-building-and-validation/which-model-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15012_which-model-model-building-and-validation/which-model-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15012_which-model-model-building-and-validation/which-model-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 25780,
+          "key": "34335385700923",
+          "title": "Kerndel Density Estimates",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34335385700923",
+            "completed_at": "2020-03-26T16:21:56.530Z",
+            "last_viewed_at": "2020-03-26T16:21:56.175Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 128949,
+              "key": "3433538570",
+              "title": "Kerndel Density Estimates",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "WNxU1cBCnjg",
+                "china_cdn_id": "WNxU1cBCnjg.mp4",
+                "topher_id": "855f84ac-d4a2-11e9-b882-9b2665ebc3d2",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2992c_kerndel-density-estimates-model-building-and-validation/kerndel-density-estimates-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2992c_kerndel-density-estimates-model-building-and-validation/kerndel-density-estimates-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2992c_kerndel-density-estimates-model-building-and-validation/kerndel-density-estimates-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30218,
+          "key": "34041588310923",
+          "title": "Histogram of our feature",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34041588310923",
+            "completed_at": "2020-03-26T16:22:03.097Z",
+            "last_viewed_at": "2020-03-26T16:22:01.955Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 106444,
+              "key": "3404158831",
+              "title": "Histogram of our feature",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "OErRxuV3eok",
+                "china_cdn_id": "OErRxuV3eok.mp4",
+                "topher_id": "8552700a-d4a2-11e9-9383-174cff27c4bd",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a1f7_histogram-of-our-feature-model-building-and-validation/histogram-of-our-feature-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a1f7_histogram-of-our-feature-model-building-and-validation/histogram-of-our-feature-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a1f7_histogram-of-our-feature-model-building-and-validation/histogram-of-our-feature-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128406,
+          "key": "31687386040923",
+          "title": "KDE",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31687386040923",
+            "completed_at": "2020-03-26T16:22:08.592Z",
+            "last_viewed_at": "2020-03-26T16:22:08.273Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 106455,
+              "key": "3168738604",
+              "title": "KDE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "CCmhtLdwUHk",
+                "china_cdn_id": "CCmhtLdwUHk.mp4",
+                "topher_id": "853d8316-d4a2-11e9-a236-b3ab6bc9ea30",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a75c_kde-model-building-and-validation/kde-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a75c_kde-model-building-and-validation/kde-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a75c_kde-model-building-and-validation/kde-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16128,
+          "key": "31687386060923",
+          "title": "Non Parametric Models And KDEs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31687386060923",
+            "completed_at": "2020-03-26T16:22:14.766Z",
+            "last_viewed_at": "2020-03-26T16:22:14.443Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 42380,
+              "key": "3168738606",
+              "title": "Non Parametric Models And KDEs",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3168738606",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "EAmo6pe2NvQ",
+                  "china_cdn_id": "EAmo6pe2NvQ.mp4",
+                  "topher_id": "84e1c1d4-d4a2-11e9-9e12-af25347fd9c5",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c938_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c938_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c938_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Non Parametric Models And KDEs Forming a",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/58SNB3j8K1_vBCgnFsjAtv9duVMeUg1EGJA8toiDHimR1PE96xVYTeA0xDi30WOd4H6t70MifzII7eb-7w=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3168738606",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3189308574",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.27581437032418954,
+                      "y": 0.3803007206208426
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "tpQBEPL5HAE",
+                  "china_cdn_id": "tpQBEPL5HAE.mp4",
+                  "topher_id": "84cc2108-d4a2-11e9-bba8-fbbba7acc38f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26d17_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26d17_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26d17_non-parametric-models-and-kdes-forming-a-model-building-and-validation/non-parametric-models-and-kdes-forming-a-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 136965,
+          "key": "30958086760923",
+          "title": "Histogramming Derived Feature",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086760923",
+            "completed_at": "2020-03-26T16:22:22.310Z",
+            "last_viewed_at": "2020-03-26T16:22:21.977Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73674,
+              "key": "3095808676",
+              "title": "Histogramming Derived Feature",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3095808676",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "CI2IzfkIQkQ",
+                  "china_cdn_id": "CI2IzfkIQkQ.mp4",
+                  "topher_id": "853d19b2-d4a2-11e9-a105-0b4f00a27e78",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7af_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7af_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7af_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Histogramming Derived FeatureStill001",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/b33971ju9QjDobedOEqJ1z2d8LneecJHbh06eQsv3CpJS98tJbBhih16LICCazoUzAQWdrRedQIDv8hXMqY=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3095808676",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3095808677",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.4133611284289277,
+                      "y": 0.8615230044345898
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0gT7Ipq5Zv4",
+                  "china_cdn_id": "0gT7Ipq5Zv4.mp4",
+                  "topher_id": "852eb408-d4a2-11e9-bf00-5f757847130e",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb9f3_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb9f3_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb9f3_histogramming-derived-feature-model-building-and-validation/histogramming-derived-feature-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 65281,
+          "key": "30958086790923",
+          "title": "Kernel Density Estimation (KDE) Part1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086790923",
+            "completed_at": "2020-03-26T16:22:30.444Z",
+            "last_viewed_at": "2020-03-26T16:22:30.106Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77429,
+              "key": "3095808679",
+              "title": "Kernel Density Estimation (KDE) Part1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ge4Oh-h1Of8",
+                "china_cdn_id": "ge4Oh-h1Of8.mp4",
+                "topher_id": "8541b5e4-d4a2-11e9-addc-23ee20b29bb1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f160_kernel-density-estimation-kde-part1-model-building-and-validation/kernel-density-estimation-kde-part1-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f160_kernel-density-estimation-kde-part1-model-building-and-validation/kernel-density-estimation-kde-part1-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f160_kernel-density-estimation-kde-part1-model-building-and-validation/kernel-density-estimation-kde-part1-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30217,
+          "key": "31093986550923",
+          "title": "KDE Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31093986550923",
+            "completed_at": "2020-03-26T16:22:37.341Z",
+            "last_viewed_at": "2020-03-26T16:22:37.003Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120867,
+              "key": "3109398655",
+              "title": "KDE Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "lpSIWtNQsVY",
+                "china_cdn_id": "lpSIWtNQsVY.mp4",
+                "topher_id": "854e6c44-d4a2-11e9-8867-4bfe67e3714e",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15e81_kde-part-2-model-building-and-validation/kde-part-2-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15e81_kde-part-2-model-building-and-validation/kde-part-2-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15e81_kde-part-2-model-building-and-validation/kde-part-2-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137202,
+          "key": "30809188300923",
+          "title": "Panzer Window",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30809188300923",
+            "completed_at": "2020-03-26T16:22:44.580Z",
+            "last_viewed_at": "2020-03-26T16:22:44.232Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 13795,
+              "key": "3080918830",
+              "title": "Panzer Window",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "n5V_pJp-adk",
+                "china_cdn_id": "n5V_pJp-adk.mp4",
+                "topher_id": "85500efa-d4a2-11e9-8cec-7f273d7e2865",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17c4e_panzer-window-model-building-and-validation/panzer-window-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17c4e_panzer-window-model-building-and-validation/panzer-window-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17c4e_panzer-window-model-building-and-validation/panzer-window-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 18391,
+          "key": "30615191270923",
+          "title": "Gaussian Kernel and Bandwidth",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30615191270923",
+            "completed_at": "2020-03-26T16:22:51.434Z",
+            "last_viewed_at": "2020-03-26T16:22:50.308Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 121532,
+              "key": "3061519127",
+              "title": "Gaussian Kernel and Bandwidth",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "_W6nUvL0Zz8",
+                "china_cdn_id": "_W6nUvL0Zz8.mp4",
+                "topher_id": "853adfbc-d4a2-11e9-9aad-9b44b7f8ac8e",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d7e_gaussian-kernel-and-bandwidth-model-building-and-validation/gaussian-kernel-and-bandwidth-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d7e_gaussian-kernel-and-bandwidth-model-building-and-validation/gaussian-kernel-and-bandwidth-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d7e_gaussian-kernel-and-bandwidth-model-building-and-validation/gaussian-kernel-and-bandwidth-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16042,
+          "key": "31117786060923",
+          "title": "KDE in ipython notebook",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31117786060923",
+            "completed_at": "2020-03-26T16:22:57.763Z",
+            "last_viewed_at": "2020-03-26T16:22:57.404Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120707,
+              "key": "3111778606",
+              "title": "KDE in ipython notebook",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "nG6XpKxXVUM",
+                "china_cdn_id": "nG6XpKxXVUM.mp4",
+                "topher_id": "85506f6c-d4a2-11e9-8e0e-af1162fac87e",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d18213_kde-in-ipython-notebook-model-building-and-validation/kde-in-ipython-notebook-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d18213_kde-in-ipython-notebook-model-building-and-validation/kde-in-ipython-notebook-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d18213_kde-in-ipython-notebook-model-building-and-validation/kde-in-ipython-notebook-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 128468,
+          "key": "30866589650923",
+          "title": "Validating our KDE",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30866589650923",
+            "completed_at": "2020-03-26T16:23:04.099Z",
+            "last_viewed_at": "2020-03-26T16:23:03.783Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120129,
+              "key": "3086658965",
+              "title": "Validating our KDE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "p8_N1DPPfeI",
+                "china_cdn_id": "p8_N1DPPfeI.mp4",
+                "topher_id": "85534ffc-d4a2-11e9-960d-07a58f87f541",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b2e2_validating-our-kde-model-building-and-validation/validating-our-kde-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b2e2_validating-our-kde-model-building-and-validation/validating-our-kde-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b2e2_validating-our-kde-model-building-and-validation/validating-our-kde-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 38622,
+          "key": "30972486270923",
+          "title": "MISE and AMISE",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30972486270923",
+            "completed_at": "2020-03-26T16:23:10.428Z",
+            "last_viewed_at": "2020-03-26T16:23:10.074Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120270,
+              "key": "3097248627",
+              "title": "MISE and AMISE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QypEyiact0c",
+                "china_cdn_id": "QypEyiact0c.mp4",
+                "topher_id": "85570278-d4a2-11e9-a068-7bb57af1a6cc",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d28c_mise-and-amise-model-building-and-validation/mise-and-amise-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d28c_mise-and-amise-model-building-and-validation/mise-and-amise-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d28c_mise-and-amise-model-building-and-validation/mise-and-amise-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 17602,
+          "key": "30958086810923",
+          "title": "Silverman’s Rule of thumb",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086810923",
+            "completed_at": "2020-03-26T16:23:16.729Z",
+            "last_viewed_at": "2020-03-26T16:23:16.352Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10524,
+              "key": "3095808681",
+              "title": "Silverman’s Rule of thumb",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "zVr624HRGWY",
+                "china_cdn_id": "zVr624HRGWY.mp4",
+                "topher_id": "8553d79c-d4a2-11e9-979b-5b7ea3ee6677",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bbe3_silvermans-rule-of-thumb/silvermans-rule-of-thumb_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bbe3_silvermans-rule-of-thumb/silvermans-rule-of-thumb_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bbe3_silvermans-rule-of-thumb/silvermans-rule-of-thumb_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 47843,
+          "key": "30958086820923",
+          "title": "The Kullback–Leibler divergence",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086820923",
+            "completed_at": "2020-03-26T16:23:23.550Z",
+            "last_viewed_at": "2020-03-26T16:23:23.231Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10527,
+              "key": "3095808682",
+              "title": "The Kullback–Leibler divergence",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Jt9Vx44adGM",
+                "china_cdn_id": "Jt9Vx44adGM.mp4",
+                "topher_id": "854c1304-d4a2-11e9-badb-cb1506ae5516",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1395a_the-kullbackleibler-divergence/the-kullbackleibler-divergence_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1395a_the-kullbackleibler-divergence/the-kullbackleibler-divergence_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1395a_the-kullbackleibler-divergence/the-kullbackleibler-divergence_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 43395,
+          "key": "30958086830923",
+          "title": "Univariate KDE",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086830923",
+            "completed_at": "2020-03-26T16:23:30.333Z",
+            "last_viewed_at": "2020-03-26T16:23:30.011Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 131067,
+              "key": "3095808683",
+              "title": "Univariate KDE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "The book that Rishi referred to is:\nAll of Statistics by Larry Wasserman\n\nYou can find a copy below:  \nhttp://www.stat.cmu.edu/~larry/all-of-statistics/",
+              "video": {
+                "youtube_id": "XD8CiMse1ME",
+                "china_cdn_id": "XD8CiMse1ME.mp4",
+                "topher_id": "85583666-d4a2-11e9-a3d5-871ada980ce0",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d22e_univariate-kde-model-building-and-validation/univariate-kde-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d22e_univariate-kde-model-building-and-validation/univariate-kde-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d22e_univariate-kde-model-building-and-validation/univariate-kde-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 17604,
+          "key": "30787186720923",
+          "title": "Detecting Outliers in Data Part 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30787186720923",
+            "completed_at": "2020-03-26T16:23:36.624Z",
+            "last_viewed_at": "2020-03-26T16:23:36.269Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 116125,
+              "key": "3078718672",
+              "title": "Detecting Outliers in Data Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Yvf3U2NCAU4",
+                "china_cdn_id": "Yvf3U2NCAU4.mp4",
+                "topher_id": "84c80bea-d4a2-11e9-af97-83c117389b69",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ceb3_detecting-outliers-in-data-part-1-model-building-and-validation/detecting-outliers-in-data-part-1-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ceb3_detecting-outliers-in-data-part-1-model-building-and-validation/detecting-outliers-in-data-part-1-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ceb3_detecting-outliers-in-data-part-1-model-building-and-validation/detecting-outliers-in-data-part-1-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 18370,
+          "key": "30860687610923",
+          "title": "Detecting Outliers in Data Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30860687610923",
+            "completed_at": "2020-03-26T16:23:42.405Z",
+            "last_viewed_at": "2020-03-26T16:23:42.062Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 76992,
+              "key": "3086068761",
+              "title": "Detecting Outliers in Data Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "7q2Te-MLVTk",
+                "china_cdn_id": "7q2Te-MLVTk.mp4",
+                "topher_id": "8529ee28-d4a2-11e9-b0f9-0f7588f8d75d",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9989_detecting-outliers-in-data-part-2-model-building-and-validation/detecting-outliers-in-data-part-2-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9989_detecting-outliers-in-data-part-2-model-building-and-validation/detecting-outliers-in-data-part-2-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9989_detecting-outliers-in-data-part-2-model-building-and-validation/detecting-outliers-in-data-part-2-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 25741,
+          "key": "30958086850923",
+          "title": "Mahalanobis Distance To Find Outliers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086850923",
+            "completed_at": "2020-03-26T16:23:48.768Z",
+            "last_viewed_at": "2020-03-26T16:23:48.444Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 76926,
+              "key": "3095808685",
+              "title": "Mahalanobis Distance To Find Outliers",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3095808685",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "2wCfct0noik",
+                  "china_cdn_id": "2wCfct0noik.mp4",
+                  "topher_id": "84c6652e-d4a2-11e9-aa9d-ab3159efff60",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0780d_using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation/using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0780d_using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation/using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0780d_using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation/using-mahalanobis-distance-to-look-for-outliers-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Using Mahalanobis Distance To Look For Outliers",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/6xkn4E0Ejngkl7xO1OTGld9Xvmpc5oZkF1MT_K34QSls-Ee6itBZCK6WdUE7epzVgTn8ys00AAC0kf0bFs31=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3095808685",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3095808687",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5212164900249376,
+                      "y": 0.6539634146341463
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5554083541147132,
+                      "y": 0.7593195676274944
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.45078709476309226,
+                      "y": 0.8678977272727273
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.9488778054862843,
+                      "y": 0.6903755543237251
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 46238,
+          "key": "30958086890923",
+          "title": "Using Mahalanobis Distance - Part 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086890923",
+            "completed_at": "2020-03-26T16:23:55.257Z",
+            "last_viewed_at": "2020-03-26T16:23:54.909Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15073,
+              "key": "3095808689",
+              "title": "Using Mahalanobis Distance - Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Please share your thoughts in this [forum post](http://forums.udacity.com/questions/100245359/lesson-3-modeling-mahalanobis-distance-food-for-thought#ud919) and see what your fellow students think as well.",
+              "video": {
+                "youtube_id": "TmJjoiizBoI",
+                "china_cdn_id": "TmJjoiizBoI.mp4",
+                "topher_id": "852aacdc-d4a2-11e9-b343-8716302b6763",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9f34_using-mahalanobis-distance-part-1-model-building-and-validation/using-mahalanobis-distance-part-1-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9f34_using-mahalanobis-distance-part-1-model-building-and-validation/using-mahalanobis-distance-part-1-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9f34_using-mahalanobis-distance-part-1-model-building-and-validation/using-mahalanobis-distance-part-1-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 69662,
+          "key": "30958086910923",
+          "title": "Using Mahalanobis Distance - Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086910923",
+            "completed_at": "2020-03-26T16:24:01.650Z",
+            "last_viewed_at": "2020-03-26T16:24:01.282Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15085,
+              "key": "3095808691",
+              "title": "Using Mahalanobis Distance - Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "COiZQaY-axE",
+                "china_cdn_id": "COiZQaY-axE.mp4",
+                "topher_id": "852c6068-d4a2-11e9-b862-839c3630b532",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbba4_using-mahalanobis-distance-part-2-model-building-and-validation/using-mahalanobis-distance-part-2-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbba4_using-mahalanobis-distance-part-2-model-building-and-validation/using-mahalanobis-distance-part-2-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbba4_using-mahalanobis-distance-part-2-model-building-and-validation/using-mahalanobis-distance-part-2-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 20886,
+          "key": "30958086920923",
+          "title": "Recap of what we've done so far",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086920923",
+            "completed_at": "2020-03-26T16:24:07.717Z",
+            "last_viewed_at": "2020-03-26T16:24:07.322Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 4690,
+              "key": "3095808692",
+              "title": "Recap of what we've done so far",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QGglhfDCOeo",
+                "china_cdn_id": "QGglhfDCOeo.mp4",
+                "topher_id": "8556cf88-d4a2-11e9-9fd5-df39f11a58ad",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c8c0_recap-of-what-weve-done-so-far-model-building-and-validation/recap-of-what-weve-done-so-far-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c8c0_recap-of-what-weve-done-so-far-model-building-and-validation/recap-of-what-weve-done-so-far-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c8c0_recap-of-what-weve-done-so-far-model-building-and-validation/recap-of-what-weve-done-so-far-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 47458,
+          "key": "30958086930923",
+          "title": "Other Models",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30958086930923",
+            "completed_at": "2020-03-26T16:24:14.358Z",
+            "last_viewed_at": "2020-03-26T16:24:14.042Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120187,
+              "key": "3095808693",
+              "title": "Other Models",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "w8SIkZ47p48",
+                "china_cdn_id": "w8SIkZ47p48.mp4",
+                "topher_id": "855d2338-d4a2-11e9-b1a7-e3a3e0980f5a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29048_other-models-model-building-and-validation/other-models-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29048_other-models-model-building-and-validation/other-models-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29048_other-models-model-building-and-validation/other-models-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

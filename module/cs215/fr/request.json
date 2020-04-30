@@ -1,0 +1,22 @@
+{
+  "app": "com.android.chrome",
+  "duration": "1273ms",
+  "headers": {
+    "Host": "freerepublic.com",
+    "Connection": "keep-alive",
+    "Save-Data": "on",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q\u003d0.9,image/webp,image/apng,*/*;q\u003d0.8,application/signed-exchange;v\u003db3;q\u003d0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept-Language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "Cookie": "__utmz\u003d217263553.1581725196.1.1.utmccn\u003d(direct)|utmcsr\u003d(direct)|utmcmd\u003d(none); __utmc\u003d217263553; __utma\u003d217263553.1226648136.1585680503.1588095700.1588102797.204"
+  },
+  "method": "GET",
+  "protocol": "HTTP/1.1",
+  "remoteIp": "209.157.64.200",
+  "remotePort": 80,
+  "sessionId": "4ae9b135-bf00-4f51-b456-881e289d82ff",
+  "time": "2020-04-29 02:36:24",
+  "url": "http://freerepublic.com/tag/*/index"
+}

@@ -1,0 +1,980 @@
+{
+  "data": {
+    "lesson": {
+      "id": 32150,
+      "key": "3483858580",
+      "title": "Python DB-API",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn the Python database API, and apply your knowledge to fix common bugs that arise in database-backed web services.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3483858580/32150/1516802617417/Python%20DB-API%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3483858580/32150/1516802580509/Python%20DB-API%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 126834,
+          "key": "34895588210923",
+          "title": "Welcome to your Database",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34895588210923",
+            "completed_at": "2015-12-26T13:57:52.594Z",
+            "last_viewed_at": "2020-03-27T07:37:39.181Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73822,
+              "key": "3489558821",
+              "title": "Welcome to your Database",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "usAGebKnQSk",
+                "china_cdn_id": "usAGebKnQSk.mp4",
+                "topher_id": "8551a846-d4a2-11e9-91aa-7fc7593e14b3",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e32_welcome-to-your-database-intro-to-relational-databases/welcome-to-your-database-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e32_welcome-to-your-database-intro-to-relational-databases/welcome-to-your-database-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e32_welcome-to-your-database-intro-to-relational-databases/welcome-to-your-database-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 336535,
+              "key": "6719ce5d-03d8-4681-a466-a446573a9aab",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "For a quick reference on the material in this lesson, see the \"Reference\" page at the end of the lesson.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 61614,
+          "key": "34925786360923",
+          "title": "What's a DB-API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34925786360923",
+            "completed_at": "2016-03-14T09:02:19.860Z",
+            "last_viewed_at": "2020-03-27T07:38:46.701Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 25413,
+              "key": "3492578636",
+              "title": "What's a DB-API",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "l-8BgRIaPtc",
+                "china_cdn_id": "l-8BgRIaPtc.mp4",
+                "topher_id": "854d8324-d4a2-11e9-bf33-6f959cbd2bfc",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15171_whats-a-db-api-intro-to-relational-databases/whats-a-db-api-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15171_whats-a-db-api-intro-to-relational-databases/whats-a-db-api-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15171_whats-a-db-api-intro-to-relational-databases/whats-a-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 52986,
+          "key": "35153985360923",
+          "title": "Writing Code with DB API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985360923",
+            "completed_at": "2016-03-14T09:03:49.315Z",
+            "last_viewed_at": "2020-03-27T07:38:54.245Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 81833,
+              "key": "3515398536",
+              "title": "Writing Code with DB API",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "The <strong>connect</strong> function for PostgreSQL uses a different argument syntax from the one for SQLite. When you want to connect to a database called, say, <strong>bears</strong>, you'll use <strong>psycopg2.connect(\"dbname=bears\")</strong>.",
+              "video": {
+                "youtube_id": "Zd0PAgb6vY4",
+                "china_cdn_id": "Zd0PAgb6vY4.mp4",
+                "topher_id": "8554a672-d4a2-11e9-99f2-bfd90de6c5ac",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b640_writing-code-with-db-api-intro-to-relational-databases/writing-code-with-db-api-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b640_writing-code-with-db-api-intro-to-relational-databases/writing-code-with-db-api-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b640_writing-code-with-db-api-intro-to-relational-databases/writing-code-with-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4603,
+          "key": "35153985370923",
+          "title": "Trying out DB API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985370923",
+            "completed_at": "2016-03-19T10:39:08.568Z",
+            "last_viewed_at": "2020-03-27T07:39:03.619Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 70545,
+              "key": "3515398537",
+              "title": "Trying out DB API",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3515398537",
+                "completed_at": "2016-04-05T08:04:24.521Z",
+                "last_viewed_at": "2016-04-05T08:04:24.521Z",
+                "unstructured": "{\"query.py\":\"# To see how the various functions in the DB-API work, take a look at this code,\\n# then the results that it prints when you press \\\"Test Run\\\".\\n#\\n# Then modify this code so that the student records are fetched in sorted order\\n# by student's name.\\n#\\n\\nimport sqlite3\\n\\n# Fetch some student records from the database.\\ndb = sqlite3.connect(\\\"students\\\")\\nc = db.cursor()\\nquery = \\\"select name, id from students order by name;\\\"\\nc.execute(query)\\nrows = c.fetchall()\\n\\n# First, what data structure did we get?\\nprint \\\"Row data:\\\"\\nprint rows\\n\\n# And let's loop over it too:\\nprint\\nprint \\\"Student names:\\\"\\nfor row in rows:\\n  print \\\"  \\\", row[0]\\n\\ndb.close()\\n\"}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "4Ywln5AT6Hc",
+                  "china_cdn_id": "4Ywln5AT6Hc.mp4",
+                  "topher_id": "85331de0-d4a2-11e9-bfff-2b66262f77a6",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07dfe_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07dfe_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07dfe_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Trying Out DB-API - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3567448585",
+                "initial_code_files": [
+                  {
+                    "text": "# To see how the various functions in the DB-API work, take a look at this code,\n# then the results that it prints when you press \"Test Run\".\n#\n# Then modify this code so that the student records are fetched in sorted order\n# by student's name.\n#\n\nimport sqlite3\n\n# Fetch some student records from the database.\ndb = sqlite3.connect(\"students\")\nc = db.cursor()\nquery = \"select name, id from students;\"\nc.execute(query)\nrows = c.fetchall()\n\n# First, what data structure did we get?\nprint \"Row data:\"\nprint rows\n\n# And let's loop over it too:\nprint\nprint \"Student names:\"\nfor row in rows:\n  print \"  \", row[0]\n\ndb.close()\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "QTq9pGMoZAE",
+                  "china_cdn_id": "QTq9pGMoZAE.mp4",
+                  "topher_id": "8556dfa0-d4a2-11e9-a005-2fac7223303d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d086_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d086_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d086_trying-out-db-api-intro-to-relational-databases/trying-out-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 38050,
+          "key": "35153985400923",
+          "title": "Inserts in DB API",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985400923",
+            "completed_at": "2016-03-20T17:52:19.699Z",
+            "last_viewed_at": "2020-03-27T07:39:13.736Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 114296,
+              "key": "3515398540",
+              "title": "Inserts in DB API",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3515398540",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "pn3MunHovMc",
+                  "china_cdn_id": "pn3MunHovMc.mp4",
+                  "topher_id": "8554b004-d4a2-11e9-9a0f-4b931ccb7c22",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba99_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba99_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba99_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Inserts in DB-API - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3579638544",
+                "initial_code_files": [
+                  {
+                    "text": "# This code attempts to insert a new row into the database, but doesn't\n# commit the insertion.  Add a commit call in the right place to make\n# it work properly.\n# \n\nimport sqlite3\n\ndb = sqlite3.connect(\"testdb\")\nc = db.cursor()\nc.execute(\"insert into balloons values ('blue', 'water') \")\ndb.close()\n",
+                    "name": "student.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "RfYFqGPxMQM",
+                  "china_cdn_id": "RfYFqGPxMQM.mp4",
+                  "topher_id": "85593b42-d4a2-11e9-a6c1-8fe50ae122e5",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d9cc_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d9cc_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d9cc_inserts-in-db-api-intro-to-relational-databases/inserts-in-db-api-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 298910,
+          "key": "750eee9e-9980-4b07-a225-93c612ed26db",
+          "title": "Running the Forum",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "750eee9e-9980-4b07-a225-93c612ed26db",
+            "completed_at": "2020-03-27T07:39:25.821Z",
+            "last_viewed_at": "2020-03-27T07:39:24.494Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 298949,
+              "key": "2d543dfc-7200-45a9-acee-446b062e44cb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " If you missed the instructions for setting up your Vagrant VM at the end of the previous lesson, here they are again:\n\n[Installing the Virtual Machine (Full Stack ND)](https://classroom.udacity.com/nanodegrees/nd004/parts/51200cee-6bb3-4b55-b469-7d4dd9ad7765/modules/c57b57d4-29a8-4c5f-9bb8-5d53df3e48f4/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0)\n(If that link doesn't work for you, please try [this link](https://classroom.udacity.com/nanodegrees/nd004-ent/parts/72d6fe39-3e47-45b4-ac52-9300b146094f/modules/0f94ae26-c39d-4231-924b-b1eb6e06cf41/lessons/5475ecd6-cfdb-4418-85a2-f2583074c08d/concepts/14c72fe3-e3fe-4959-9c4b-467cf5b7c3a0).)\n\nYou will need a terminal open and logged in to your VM (with `vagrant ssh`) before continuing on.\n\n### Errata:\n\nOn some Windows systems, you will need to use `winpty vagrant ssh` instead of `vagrant ssh`. See the **Troubleshooting** section on the page linked above.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298914,
+              "key": "63ed9c22-cee8-4b6a-8a39-e213b3bf01a1",
+              "title": "Ud197 RDB REDO L3 07L Running The Forum",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aqtXzfexKLo",
+                "china_cdn_id": "aqtXzfexKLo.mp4",
+                "topher_id": "85121b86-d4a2-11e9-b5ea-af87898b861f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdac8_ud197-rdb-redo-l3-07l-running-the-forum/ud197-rdb-redo-l3-07l-running-the-forum_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdac8_ud197-rdb-redo-l3-07l-running-the-forum/ud197-rdb-redo-l3-07l-running-the-forum_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdac8_ud197-rdb-redo-l3-07l-running-the-forum/ud197-rdb-redo-l3-07l-running-the-forum_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 298937,
+              "key": "78be3e97-ad3f-4080-ad8d-64bc4baff5c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You can use your preferred text editor on your computer to edit the forum code. However, when you _run_ the forum code, you should only run it inside the Vagrant virtual machine, i.e. within a terminal window where you've run `vagrant ssh` to log into the VM.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 298909,
+          "key": "0b4079f5-6e64-4dd8-aee9-5c3a0db39840",
+          "title": "Hello PostgreSQL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b4079f5-6e64-4dd8-aee9-5c3a0db39840",
+            "completed_at": "2020-03-27T07:39:33.689Z",
+            "last_viewed_at": "2020-03-27T07:39:32.329Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 298950,
+              "key": "2daacf28-8e81-4eb2-9c9d-be165c664fdd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298915,
+              "key": "9ce91657-6a34-48fd-9ef7-454589e30646",
+              "title": "Ud197 RDB REDO L3 08L Hello PostgreSQL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kD22qRZzkRg",
+                "china_cdn_id": "kD22qRZzkRg.mp4",
+                "topher_id": "84d76950-d4a2-11e9-b19b-bf90a2a291a1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdaca_ud197-rdb-redo-l3-08l-hello-postgresql/ud197-rdb-redo-l3-08l-hello-postgresql_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdaca_ud197-rdb-redo-l3-08l-hello-postgresql/ud197-rdb-redo-l3-08l-hello-postgresql_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdaca_ud197-rdb-redo-l3-08l-hello-postgresql/ud197-rdb-redo-l3-08l-hello-postgresql_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 298938,
+              "key": "0195df17-caf3-4859-a8c7-e7e7b76832a1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The `psql` command-line tool is really powerful. There's a complete reference to it [in the PostgreSQL documentation](http://www.postgresql.org/docs/9.4/static/app-psql.html).\n\nTo connect `psql` to a database running on the same machine (such as your VM), all you need to give it is the database name. For instance, the command `psql forum` will connect to the `forum` database.\n\nFrom within `psql`, you can run any SQL statement using the tables in the connected database. Make sure to end SQL statements with a semicolon, which is not always required from Python.\n\nYou can also use a number of special `psql` commands to get information about the database and make configuration changes. The `\\d posts` command shown in the video is one example — this displays the columns of the `posts` table.\n\nSome other things you can do:\n\n`\\dt` — list all the tables in the database.\n\n`\\dt+` — list tables plus additional information (notably, how big each table is on disk).\n\n`\\H` — switch between printing tables in plain text vs. HTML.\n\n----\n\nHere's a fun one to run in `psql` while your forum web app is running:\n\n`select * from posts \\watch`\n\n(Note that `\\watch` replaces the semicolon.) This will display the contents of the `posts` table and refresh it every two seconds, so you can see changes to the table as you use the app.\n\nIn order to do this, you'll need two terminal sessions into your VM — one running the forum app, and the other running `psql`. You can connect to the VM from any number of terminal windows at once — just open up another terminal, change to the `vagrant` directory, and type `vagrant ssh` again.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 298911,
+          "key": "1640cfaa-6d3a-4307-9441-1f128faed7c5",
+          "title": "Give That App a Backend",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1640cfaa-6d3a-4307-9441-1f128faed7c5",
+            "completed_at": "2020-03-27T07:39:40.041Z",
+            "last_viewed_at": "2020-03-27T07:39:38.712Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 298916,
+              "key": "9a911f73-7153-424a-9f88-90e92066214d",
+              "title": "Ud197 RDB REDO L3 09Q Give That App A Back End V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0ZwU6bmEQDI",
+                "china_cdn_id": "0ZwU6bmEQDI.mp4",
+                "topher_id": "84d8fb1c-d4a2-11e9-b5a1-cba60ec594aa",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdacc_ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2/ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdacc_ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2/ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdacc_ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2/ud197-rdb-redo-l3-09q-give-that-app-a-back-end-v2_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 298951,
+              "key": "6b81fb78-6bb5-42d7-8ea5-7a530f0e203c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The `forum` database has already been created for you in the virtual machine that you downloaded. Your code will need to connect to it using `psycopg2.connect(\"dbname=forum\")` and then perform `select` and `insert` operations on the `posts` table. \n\nThe existing `get_posts` function returns all the entries from a list. So its database version should return all the entries from the `posts` table.\n\nAnd likewise, the existing `add_post` function inserts an entry into a list.\n\nYou do not need to provide the `time` column when you insert a post. The table is set up to already provide a timestamp.\n\nThe existing `get_posts` function puts the posts in order using a Python `reversed` function. When you implement this function using the database, can you put the posts in order using only SQL?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298952,
+              "key": "4d3c898c-b10f-4129-aa33-2c4a735fd59e",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4d3c898c-b10f-4129-aa33-2c4a735fd59e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "I've updated `get_posts` to perform a `select` query.",
+                "I've updated `add_post` to perform an `insert` query.",
+                "I'm putting the posts in order using SQL rather than in Python code."
+              ],
+              "positive_feedback": "Great!",
+              "video_feedback": null,
+              "description": "Update the `forumdb.py` code to use the database."
+            },
+            {
+              "id": 298940,
+              "key": "4cb329fb-c703-4938-84c6-3f5d8aa1e94d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution (almost):",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298939,
+              "key": "c068609f-7b57-4467-8dd9-9da0ae8cf4d7",
+              "title": "Ud197 RDB REDO L3 09S Solution Give That App A Back End",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GTGzAsE9wS4",
+                "china_cdn_id": "GTGzAsE9wS4.mp4",
+                "topher_id": "84d7bb30-d4a2-11e9-b257-575e365c7086",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdace_ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end/ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdace_ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end/ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdace_ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end/ud197-rdb-redo-l3-09s-solution-give-that-app-a-back-end_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 518561,
+              "key": "389991e3-c80a-4241-a070-b865e108c067",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Errata:\n\n**There is a mistake in the code in the video above.** Lines 14 and 15 should be swapped, so that `db.close()` is called before the `get_posts` function returns.\n\nThe code appears correctly in the video at the top of the next page.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 298912,
+          "key": "beb89220-ae86-4b7f-997b-5cef00417867",
+          "title": "Bobby Tables, Destroyer of Posts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "beb89220-ae86-4b7f-997b-5cef00417867",
+            "completed_at": "2020-03-27T07:39:46.625Z",
+            "last_viewed_at": "2020-03-27T07:39:45.294Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 299054,
+              "key": "365ac6ba-7195-4e70-be9e-b1567fa56d73",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": " ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298920,
+              "key": "88b2df2a-8884-416c-833b-83447f537f38",
+              "title": "Ud197 RDB REDO L3 10L Bobby Tables Destroyer Of Posts",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SrlvcnS_WUo",
+                "china_cdn_id": "SrlvcnS_WUo.mp4",
+                "topher_id": "84d79074-d4a2-11e9-b1f3-9f1b664ea90f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad1_ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts/ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad1_ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts/ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad1_ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts/ud197-rdb-redo-l3-10l-bobby-tables-destroyer-of-posts_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 298941,
+              "key": "68aa9f8a-e03f-4976-b17d-6eb11993268f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When the video prompts you to, copy this post into your forum and submit it:\n\n```text\n'); delete from posts; --\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 298913,
+          "key": "f44a66ad-570a-4d1a-8b1c-208fee1bb51c",
+          "title": "Curing Bobby Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f44a66ad-570a-4d1a-8b1c-208fee1bb51c",
+            "completed_at": "2020-03-27T07:39:53.925Z",
+            "last_viewed_at": "2020-03-27T07:39:51.758Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 298918,
+              "key": "d05c2555-6f06-42c3-9d31-032339930090",
+              "title": "Curing Bobby Tables - Intro to Relational Databases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "93ea9H3ZtqE",
+                "china_cdn_id": "93ea9H3ZtqE.mp4",
+                "topher_id": "85357cca-d4a2-11e9-9779-ab08de7fa076",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d098a5_curing-bobby-tables-intro-to-relational-databases/curing-bobby-tables-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d098a5_curing-bobby-tables-intro-to-relational-databases/curing-bobby-tables-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d098a5_curing-bobby-tables-intro-to-relational-databases/curing-bobby-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 299057,
+              "key": "ea3f95f6-dc9f-4498-8557-9b9ad243cef9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "At the end, the video says to press \"Submit\". That's for an older version of this quiz. Instead, just complete this checklist —",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298942,
+              "key": "70864ce5-722e-451e-a85b-065612747857",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "70864ce5-722e-451e-a85b-065612747857",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "I updated the code to use query parameters.",
+                "I tested it with a post containing a single quote.",
+                "I tested it with the attack query `'); delete from posts; --`."
+              ],
+              "positive_feedback": "Great! Take a look at the next video for one way to do this.",
+              "video_feedback": null,
+              "description": "Update the forum code to be safe against the SQL injection attack. Check your work by writing forum posts that contain single quotes. Also check that the attack message doesn't delete the forum any more."
+            },
+            {
+              "id": 298919,
+              "key": "923056c0-e23d-4341-abc4-04c170db1b35",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298917,
+              "key": "47c24593-fbd3-4566-831c-3f6211a0045b",
+              "title": "Ud197 RDB REDO L3 11S Curing Bobby Tables SOLUTION",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WQv2ORD-OAU",
+                "china_cdn_id": "WQv2ORD-OAU.mp4",
+                "topher_id": "84d790c4-d4a2-11e9-b1f4-d3ad35ad5b75",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad4_ud197-rdb-redo-l3-11s-curing-bobby-tables-solution/ud197-rdb-redo-l3-11s-curing-bobby-tables-solution_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad4_ud197-rdb-redo-l3-11s-curing-bobby-tables-solution/ud197-rdb-redo-l3-11s-curing-bobby-tables-solution_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/February/58afdad4_ud197-rdb-redo-l3-11s-curing-bobby-tables-solution/ud197-rdb-redo-l3-11s-curing-bobby-tables-solution_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 299261,
+              "key": "83b98abc-e8b1-4a89-bd4e-265c005fea9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By the way, the warnings about using `%` with SQL statements and user data also apply to newer ways of doing string formatting in Python. This includes [f-strings, introduced in Python 3.6](https://docs.python.org/3/reference/lexical_analysis.html#f-strings).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 41823,
+          "key": "34857286290923",
+          "title": "Spammy Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286290923",
+            "completed_at": "2016-03-20T17:55:10.191Z",
+            "last_viewed_at": "2020-03-27T07:39:59.109Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73026,
+              "key": "3485728629",
+              "title": "Spammy Tables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Paste this text into your forum (including the <strong>script</strong> tags!) and submit it:\n\n<pre>\n&lt;script>\nsetTimeout(function() {\n    var tt = document.getElementById('content');\n    tt.value = \"&lt;h2 style='color: #FF6699; font-family: Comic Sans MS'>Spam, spam, spam, spam,&lt;br>Wonderful spam, glorious spam!&lt;/h2>\";\n    tt.form.submit();\n}, 2500);\n&lt;/script>\n</pre>",
+              "video": {
+                "youtube_id": "5B8Ly3WX7sI",
+                "china_cdn_id": "5B8Ly3WX7sI.mp4",
+                "topher_id": "85338834-d4a2-11e9-91d7-6f558388e3b4",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07f50_spammy-tables-intro-to-relational-databases/spammy-tables-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07f50_spammy-tables-intro-to-relational-databases/spammy-tables-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07f50_spammy-tables-intro-to-relational-databases/spammy-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 25465,
+          "key": "34857286300923",
+          "title": "Stopping the Spam",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286300923",
+            "completed_at": "2016-03-20T18:00:18.616Z",
+            "last_viewed_at": "2020-03-27T07:40:05.739Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 104784,
+              "key": "3485728630",
+              "title": "Stopping the Spam",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://bleach.readthedocs.org/en/latest/\" target=\"_blank\">Bleach Documentation</a>",
+              "user_state": {
+                "node_key": "3485728630",
+                "completed_at": "2016-04-05T08:04:24.521Z",
+                "last_viewed_at": "2016-04-05T08:04:24.521Z",
+                "unstructured": "{\"check1\":true,\"check2\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "R3r8i4pasGE",
+                  "china_cdn_id": "R3r8i4pasGE.mp4",
+                  "topher_id": "85578e8c-d4a2-11e9-a1f7-0f4a458d8dff",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d499_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d499_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d499_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Stopping the Spam",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/M6NcVPqXHos9ZHDSBO8pk__CZA7PhukzGq2RuwZWIsjkNXFWtSkZGqHHV4U1tvzqk-Mk3VfMiOvCAiGjWfD3=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3485728630",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3483298571",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15589931421446385,
+                      "y": 0.3485656873614191
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.15492518703241895,
+                      "y": 0.6024113082039911
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "9XHEthXA37k",
+                  "china_cdn_id": "9XHEthXA37k.mp4",
+                  "topher_id": "853a1532-d4a2-11e9-99cc-6bafb0343352",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b49_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b49_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b49_stopping-the-spam-intro-to-relational-databases/stopping-the-spam-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112432,
+          "key": "34857286320923",
+          "title": "Updating Away the Spam",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34857286320923",
+            "completed_at": "2016-03-20T18:18:07.044Z",
+            "last_viewed_at": "2020-03-27T07:40:15.340Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 127074,
+              "key": "3485728632",
+              "title": "Updating Away the Spam",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The syntax of the **update** statement:\n\n**update** *table* **set** *column* **=** *value* **where** *restriction* **;**\n\nThe *restriction* works the same as in **select** and supports the same set of operators on column values.\n\n----\n\nThe **like** operator supports a simple form of text pattern-matching. Whatever is on the left side of the operator (usually the name of a text column) will be matched against the pattern on the right. The pattern is an SQL text string (so it's in **'single quotes'**) and can use the **%** sign to match any sub-string, including the empty string.\n\nIf you are familiar with regular expressions, think of the **%** in **like** patterns as being like the regex **.*** (dot star).\n\nIf you are more familiar with filename patterns in the Unix shell or Windows command prompt, **%** here is a lot like ***** (star) in those systems.\n\nFor instance, for a table row where the column **fish** has the value **'salmon'**, all of these restrictions would be true:\n\n* **fish like 'salmon'**\n* **fish like 'salmon%'**\n* **fish like 'sal%'**\n* **fish like '%n'**\n* **fish like 's%n'**\n* **fish like '%al%'**\n* **fish like '%'**\n* **fish like '%%%'**\n\nAnd all of these would be false:\n\n* **fish like 'carp'**\n* **fish like 'salmonella'**\n* **fish like '%b%'**\n* **fish like 'b%'**\n* **fish like ''**",
+              "user_state": {
+                "node_key": "3485728632",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "hYhU47dUwo8",
+                  "china_cdn_id": "hYhU47dUwo8.mp4",
+                  "topher_id": "85442694-d4a2-11e9-b48b-875b130b7149",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1160a_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1160a_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1160a_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Updating Away the Spam - Exercise",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/V8R2AZLnnyNMq9dFDgIRv6q_JMIAOv0-bIjNXghMisL5kuLC1qW6DkLtb6LYr3g95Xq_xvuEXxVcGlvKgA=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3485728632",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3485059084",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.2516560162094763,
+                      "y": 0.7300097006651884
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Tf56Uv5zJMc",
+                  "china_cdn_id": "Tf56Uv5zJMc.mp4",
+                  "topher_id": "85558bb4-d4a2-11e9-9c8a-37396af7dc67",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26712_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26712_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26712_updating-away-the-spam-intro-to-relational-databases/updating-away-the-spam-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 34805,
+          "key": "35153985490923",
+          "title": "Deleting the Spam",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35153985490923",
+            "completed_at": "2016-03-20T18:20:31.021Z",
+            "last_viewed_at": "2020-03-27T07:40:25.488Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 115963,
+              "key": "3515398549",
+              "title": "Deleting the Spam",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "<a href=\"http://xkcd.com/327/\">Don't remember who Bobby Tables is?</a>\n\nHe's got his own web site now: http://bobby-tables.com/\n\nThe syntax for the **delete** command:\n**delete from** *table* **where** *restriction* **;**\nThe *restriction* works the same way as in **select**, with the same set of operators allowed.",
+              "user_state": {
+                "node_key": "3515398549",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "X_RkedyfwX0",
+                  "china_cdn_id": "X_RkedyfwX0.mp4",
+                  "topher_id": "84c86bd0-d4a2-11e9-b0b9-479a7ed1ba82",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d093_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d093_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d093_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": null,
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/FyyOLbyFHgk1ELAffBn6zd-41FYy6FzC5n76yqLFHAUzJ6DS0WbRC2bAn2FANktHvlRBFDp1gYMORrHrDcc=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3515398549",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3511118884",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1881818890274314,
+                      "y": 0.8331485587583148
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YbvvcMlQHQ8",
+                  "china_cdn_id": "YbvvcMlQHQ8.mp4",
+                  "topher_id": "84c5ae7c-d4a2-11e9-a879-33eeb1a46a1f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c6b2_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c6b2_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c6b2_deleting-the-cheese-intro-to-relational-databases/deleting-the-cheese-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 65066,
+          "key": "35235187600923",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35235187600923",
+            "completed_at": "2016-03-20T18:20:57.047Z",
+            "last_viewed_at": "2020-03-27T07:40:34.596Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 93722,
+              "key": "3523518760",
+              "title": "Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Xm0MkVaZwmQ",
+                "china_cdn_id": "Xm0MkVaZwmQ.mp4",
+                "topher_id": "8556f49a-d4a2-11e9-a041-1f1b67106191",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d336_conclusion-intro-to-relational-databases/conclusion-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d336_conclusion-intro-to-relational-databases/conclusion-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d336_conclusion-intro-to-relational-databases/conclusion-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "data": {
+    "lesson": {
+      "id": 293727,
+      "key": "b8756d6f-2072-4511-9a46-33579413153d",
+      "title": "Deeper Into SQL",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Create your own database tables using normalized table design, using keys to declare relationships between tables; then apply these relationships to draw conclusions from data.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/b8756d6f-2072-4511-9a46-33579413153d/293727/1518055816053/Deeper%20Into%20SQL%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/b8756d6f-2072-4511-9a46-33579413153d/293727/1518055776570/Deeper%20Into%20SQL%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 127586,
+          "key": "35586985410923",
+          "title": "Intro to Creating Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35586985410923",
+            "completed_at": "2015-12-26T13:58:44.691Z",
+            "last_viewed_at": "2020-03-27T07:42:05.178Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 31779,
+              "key": "3558698541",
+              "title": "Intro to Creating Tables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mIIL-p2gaK4",
+                "china_cdn_id": "mIIL-p2gaK4.mp4",
+                "topher_id": "854f592e-d4a2-11e9-8ac8-6f3943155e1f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16e4c_intro-to-creating-tables-intro-to-relational-databases/intro-to-creating-tables-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16e4c_intro-to-creating-tables-intro-to-relational-databases/intro-to-creating-tables-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16e4c_intro-to-creating-tables-intro-to-relational-databases/intro-to-creating-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 336534,
+              "key": "35084f19-939a-434d-bf95-dcbdc9c35424",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "    ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 124640,
+          "key": "35140186460923",
+          "title": "Normalized Design Part One",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186460923",
+            "completed_at": "2015-12-26T13:59:21.637Z",
+            "last_viewed_at": "2020-03-27T07:42:55.511Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 97722,
+              "key": "3514018646",
+              "title": "Normalized Design Part One",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Check out William Kent's paper <a href=\"http://www.bkent.net/Doc/simple5.htm\" target=\"_blank\">\"A Simple Guide to Five Normal Forms in Relational Database Theory\"</a> for a lot more about normalization and how it can help your database design.",
+              "video": {
+                "youtube_id": "LQq5F77ANiY",
+                "china_cdn_id": "LQq5F77ANiY.mp4",
+                "topher_id": "84d236f6-d4a2-11e9-a396-1752ca057c48",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15f33_normalized-design-part-one-intro-to-relational-databases/normalized-design-part-one-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15f33_normalized-design-part-one-intro-to-relational-databases/normalized-design-part-one-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15f33_normalized-design-part-one-intro-to-relational-databases/normalized-design-part-one-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30992,
+          "key": "35140186470923",
+          "title": "Normalized Design Part Two",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186470923",
+            "completed_at": "2016-03-20T18:21:42.132Z",
+            "last_viewed_at": "2020-03-27T07:43:02.515Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 125093,
+              "key": "3514018647",
+              "title": "Normalized Design Part Two",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "l6SDnhM7B_k",
+                "china_cdn_id": "l6SDnhM7B_k.mp4",
+                "topher_id": "854dc168-d4a2-11e9-bfef-5f8906d4bd91",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15385_normalized-design-part-two-intro-to-relational-databases/normalized-design-part-two-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15385_normalized-design-part-two-intro-to-relational-databases/normalized-design-part-two-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15385_normalized-design-part-two-intro-to-relational-databases/normalized-design-part-two-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187239,
+              "key": "848c8886-4822-4166-9c46-3f6c56cad4d4",
+              "title": "a",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Check out William Kent's paper [\"A Simple Guide to Five Normal Forms in Relational Database Theory\"](http://www.bkent.net/Doc/simple5.htm) for a lot more about normalization and how it can help your database design.\n\nWikipedia's article on [database normalization](http://en.wikipedia.org/wiki/Database_normalization) is somewhat brief, but describes some of the history of normalization as well as some more of the motivations for it.\n\nYou will sometimes hear about *denormalization* as an approach to making database queries faster by avoiding joins. This is an advanced topic beyond the scope of this course. But if you're interested in it, on modern database systems (such as PostgreSQL) it is often possible to meet the same goals using tools such as [indexes](http://www.postgresql.org/docs/9.4/static/sql-createindex.html) and [materialized views](http://www.postgresql.org/docs/9.4/static/sql-creatematerializedview.html).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 66921,
+          "key": "35140186480923",
+          "title": "What's Normalized",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186480923",
+            "completed_at": "2016-03-20T18:29:05.402Z",
+            "last_viewed_at": "2020-03-27T07:43:09.092Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 61569,
+              "key": "3514018648",
+              "title": "What's Normalized",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3514018648",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "T_LpzJl-EVE",
+                  "china_cdn_id": "T_LpzJl-EVE.mp4",
+                  "topher_id": "855c24ec-d4a2-11e9-aecc-7b4c4bbfd3c4",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d263a3_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d263a3_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d263a3_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "What's Normalized - Quiz",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/T3IN3NP8JvPVOIOfjIhvmh2iJqzQYy4NTqO4Uei78OyYfjpquIxQl-t7-TPKUyH3HF1tnd-IEQYxF9GF46s=s0#w=1440&h=812",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3514018648",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3479838876",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.47165289900249374,
+                      "y": 0.43736141906873616
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.524021976309227,
+                      "y": 0.43646064301552107
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.47175031172069826,
+                      "y": 0.5276815410199557
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5255805798004988,
+                      "y": 0.530349223946785
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "f1fz9cLnetM",
+                  "china_cdn_id": "f1fz9cLnetM.mp4",
+                  "topher_id": "84cdf5e6-d4a2-11e9-9682-0740adb16492",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50740_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50740_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d50740_whats-normalized-intro-to-relational-databases/whats-normalized-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            },
+            {
+              "id": 187315,
+              "key": "b3ef585a-4b1c-4db1-a2b4-4f0a1fff224c",
+              "title": "a",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Rules for normalized tables:\n\n**1. Every row has the same number of columns.**  \nIn practice, the database system won't let us *literally* have different numbers of columns in different rows. But if we have columns that are sometimes empty (null) and sometimes not, or if we stuff multiple values into a single field, we're bending this rule.\n\nThe example to keep in mind here is the **diet** table from the zoo database. Instead of trying to stuff multiple foods for a species into a single row about that species, we separate them out. This makes it much easier to do aggregations and comparisons.\n\n**2. There is a unique *key* and everything in a row says something about the key.**  \nThe key may be one column or more than one. It may even be the whole row, as in the **diet** table. But we don't have duplicate rows in a table.\n\nMore importantly, if we are storing non-unique facts — such as people's names — we distinguish them using a unique identifier such as a serial number. This makes sure that we don't combine two people's grades or parking tickets just because they have the same name.\n\n**3. Facts that don't relate to the key belong in different tables.**  \nThe example here was the **items** table, which had items, their locations, and the location's street addresses in it. The address isn't a fact about the item; it's a fact about the location. Moving it to a separate table saves space and reduces ambiguity, and we can always reconstitute the original table using a **join**.\n\n**4. Tables shouldn't imply relationships that don't exist.**  \nThe example here was the **job_skills** table, where a single row listed one of a person's technology skills (like 'Linux') and one of their language skills (like 'French'). This made it look like their Linux knowledge was specific to French, or vice versa ... when that isn't the case in the real world. Normalizing this involved splitting the tech skills and job skills into separate tables.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 127244,
+          "key": "35140186510923",
+          "title": "Create Table and Types",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186510923",
+            "completed_at": "2016-03-20T18:31:02.236Z",
+            "last_viewed_at": "2020-03-27T07:43:17.967Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 46174,
+              "key": "3514018651",
+              "title": "Create Table and Types",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "There are occasions where you'd want to create tables from within your application's code. For instance, this can be a handy way to have it set itself up when you first run it. (That's what your browser does when it creates your cookies file, for instance.)",
+              "video": {
+                "youtube_id": "cjbpD7NZhAs",
+                "china_cdn_id": "cjbpD7NZhAs.mp4",
+                "topher_id": "853d2448-d4a2-11e9-a124-cfc7faf4a750",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7cb_create-table-and-types-intro-to-relational-databases/create-table-and-types-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7cb_create-table-and-types-intro-to-relational-databases/create-table-and-types-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7cb_create-table-and-types-intro-to-relational-databases/create-table-and-types-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 29208,
+          "key": "35140186520923",
+          "title": "Creating and Dropping",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186520923",
+            "completed_at": "2016-03-20T20:25:20.179Z",
+            "last_viewed_at": "2020-03-27T07:54:10.083Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 127848,
+              "key": "3514018652",
+              "title": "Creating and Dropping",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Since not everything fits on the screen at once, here's what to try in **psql**:\n\n* Create a new database called **fishies** (or whatever you like).\n* Connect to it with **\\c fishies**, or by exiting **psql** and running **psql fishies**.\n* In the new database, create a table that has two columns: a **text** column and a **serial** column.\n* Try running **insert** statements into this table, providing only a value for the **text** column. (For an example, scroll down to the bottom of this page.)\n\n----\nLook up these commands in the PostgreSQL documentation:\n\n[Create Database](http://www.postgresql.org/docs/9.4/static/sql-createdatabase.html)  \n[Drop Database](http://www.postgresql.org/docs/9.4/static/sql-dropdatabase.html)  \n[Create Table](http://www.postgresql.org/docs/9.4/static/sql-createtable.html)  \n[Drop Table](http://www.postgresql.org/docs/9.4/static/sql-droptable.html)\n\n----\n\nHere's an example **insert** statement you might try. Replace *sometable* with the name of the table you created:\n\n**insert into *sometable* values ('This is text!');**\n\nFor more detail on the <strong>serial</strong> type, take a look at the last section of this page in the PostgreSQL manual:\nhttp://www.postgresql.org/docs/9.4/static/datatype-numeric.html",
+              "user_state": {
+                "node_key": "3514018652",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "fqu1CzUY-PA",
+                  "china_cdn_id": "fqu1CzUY-PA.mp4",
+                  "topher_id": "854101a8-d4a2-11e9-abdd-8b2e3acf6698",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e646_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e646_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e646_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Creating and Dropping - Quiz",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/zWRJPiFerANJjCw1LOZ5O4hWu_6WimsnWgtI-yMjhTOTNttL-z9LO-hkY40t5Y_zizDV805Zh8t4VXZDMfI=s0#w=1440&h=811",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3514018652",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3484649004",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.10199556541019955,
+                      "width": 0.6483790523690773,
+                      "x": 0.26841100374064836,
+                      "y": 0.4330654101995565
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.10199556541019955,
+                      "width": 0.6471321695760599,
+                      "x": 0.27117752493765584,
+                      "y": 0.6683411862527716
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "gYUX7bl6UKA",
+                  "china_cdn_id": "gYUX7bl6UKA.mp4",
+                  "topher_id": "8542d47e-d4a2-11e9-b0b1-4fd29ddba0de",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fea6_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fea6_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fea6_create-drop-database-table-intro-to-relational-databases/create-drop-database-table-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39439,
+          "key": "35140186550923",
+          "title": "Declaring Primary Keys",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186550923",
+            "completed_at": "2016-03-20T20:35:03.008Z",
+            "last_viewed_at": "2020-03-27T07:55:11.280Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 96436,
+              "key": "3514018655",
+              "title": "Declaring Primary Keys",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3514018655",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "AaLIKufl_mY",
+                  "china_cdn_id": "AaLIKufl_mY.mp4",
+                  "topher_id": "84c8a24e-d4a2-11e9-b15a-6f4eb90d1854",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09ea9_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09ea9_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09ea9_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Primary Keys - Quiz",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/wz_mPWgvYGNqYkv0ufvug5Vs1Z3C6h-crMyV_ghsBY_pAv3GFeP_M8-LdmtDeszkFogro9XUIgugmDsTsTU=s0#w=1440&h=811",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3514018655",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3526608668",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.044,
+                      "y": 0.52
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.524,
+                      "y": 0.52
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.044,
+                      "y": 0.73
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.524,
+                      "y": 0.73
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "P1NzBPnfl2E",
+                  "china_cdn_id": "P1NzBPnfl2E.mp4",
+                  "topher_id": "84cd7b66-d4a2-11e9-bf9e-eb2ca3dd60ec",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50128_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50128_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d50128_declaring-primary-keys-intro-to-relational-databases/declaring-primary-keys-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 43773,
+          "key": "35140186570923",
+          "title": "Declaring Relationships",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186570923",
+            "completed_at": "2016-03-20T20:35:46.666Z",
+            "last_viewed_at": "2020-03-27T08:18:18.692Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 99372,
+              "key": "3514018657",
+              "title": "Declaring Relationships",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "1FjqstT1faI",
+                "china_cdn_id": "1FjqstT1faI.mp4",
+                "topher_id": "8532192c-d4a2-11e9-bd3f-8bd721890490",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d077f9_declaring-relationships-intro-to-relational-databases/declaring-relationships-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d077f9_declaring-relationships-intro-to-relational-databases/declaring-relationships-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d077f9_declaring-relationships-intro-to-relational-databases/declaring-relationships-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 131564,
+          "key": "35140186580923",
+          "title": "Foreign Keys",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186580923",
+            "completed_at": "2016-03-20T20:44:16.793Z",
+            "last_viewed_at": "2020-03-27T08:18:27.696Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 105574,
+              "key": "3514018658",
+              "title": "Foreign Keys",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The tables in this quiz:\n\n**users:**\n\n| **username** | **full_name** |\n|----|---|\n| PrinceUtena | Tenjō Utena |\n| arachnidsGrip | Vriska Serket |\n| drFalken | Stephen Falken |\n| ... | ... |\n\n**posts:**\n\n| **content** | **author** | **id** |\n|----|----|----|\n| Hello m8s! This is your ... | arachnidsGrip | 1 |\n| I miss Joshua. Maybe I will write some code ... | drFalken | 2 |\n| ... | ... | ... |\n\n**votes:**\n\n| **post_id** | **voter** | **vote** | \n|----|----|----|\n| 1 | drFalken | -1 |\n| 2 | PrinceUtena | 1 |\n| 2 | tipsyGnostalgic | -1 |\n| ... | ... | ... |",
+              "user_state": {
+                "node_key": "3514018658",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "fnbLMcd0FGQ",
+                  "china_cdn_id": "fnbLMcd0FGQ.mp4",
+                  "topher_id": "8540d886-d4a2-11e9-ab69-131afd149b93",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e346_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e346_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e346_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Foreign Keys - Quiz",
+                "alt_text": "",
+                "background_image": "//lh5.ggpht.com/2ZS5kc680uERMu3jJ9eHV0tyYFLvLD5ydVyn2ZUPkJUaSybIClnCMwYD3mi4VG3zXEd9ZH03EjZBGIe-nQ0=s0#w=1440&h=808",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3514018658",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3510528803",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "",
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.04114713216957606,
+                      "x": 0.03290601620947631,
+                      "y": 0.32895648558758317
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.0399002493765586,
+                      "x": 0.16377026184538654,
+                      "y": 0.32840216186252774
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.04114713216957606,
+                      "x": 0.35290679551122195,
+                      "y": 0.32916435698447893
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text4",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04114713216957606,
+                      "x": 0.5046758104738155,
+                      "y": 0.33235171840354766
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text5",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04114713216957606,
+                      "x": 0.5993999376558603,
+                      "y": 0.32798641906873616
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text6",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.0399002493765586,
+                      "x": 0.7081125311720698,
+                      "y": 0.328090354767184
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text7",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04114713216957606,
+                      "x": 0.8029925187032418,
+                      "y": 0.3302730044345898
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text8",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.04114713216957606,
+                      "x": 0.921290523690773,
+                      "y": 0.32964939024390244
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "mFPq74OMkKk",
+                  "china_cdn_id": "mFPq74OMkKk.mp4",
+                  "topher_id": "854f28e6-d4a2-11e9-8a35-4f8435c34eb1",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c8c_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c8c_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16c8c_foreign-keys-intro-to-relational-databases/foreign-keys-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 298548,
+          "key": "f72b6287-dfca-4867-b05d-be28614d5112",
+          "title": "Self Joins",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f72b6287-dfca-4867-b05d-be28614d5112",
+            "completed_at": "2020-03-27T08:18:41.315Z",
+            "last_viewed_at": "2020-03-27T08:18:39.940Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 298550,
+              "key": "982d8190-4397-4941-9538-83099c4227c9",
+              "title": "Self Joins - Intro to Relational Databases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "P1aYwQhPnPQ",
+                "china_cdn_id": "P1aYwQhPnPQ.mp4",
+                "topher_id": "855307ae-d4a2-11e9-953e-8b004dd3a54a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1afcb_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1afcb_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1afcb_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 298571,
+              "key": "4165fa1f-6b9a-4883-840b-3c7d887c3597",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "4165fa1f-6b9a-4883-840b-3c7d887c3597",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "4547417946062848",
+                "initial_code_files": [
+                  {
+                    "text": "-- Roommate Finder v0.9\n--\n-- This query is intended to find pairs of roommates.  It almost works!\n-- There's something not quite right about it, though.  Find and fix the bug.\n\nselect a.id, b.id, a.building, a.room\n       from residences as a, residences as b\n where a.building = b.building\n   and a.room = b.room\n order by a.building, a.room;\n\n-- To see the complete residences table, comment out the query above,\n-- uncomment this query and press \"Test Run\":\n\n-- select id, building, room from residences;\n",
+                    "name": "query.sql"
+                  }
+                ]
+              },
+              "answer": null
+            },
+            {
+              "id": 298564,
+              "key": "6eb91ab8-cbad-4e6a-b5bf-34bd2ccdaaf7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 298551,
+              "key": "4d41ea1a-1347-469c-bce2-6c4fc664f163",
+              "title": "Self Joins - Intro to Relational Databases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dHS0BtLFTSQ",
+                "china_cdn_id": "dHS0BtLFTSQ.mp4",
+                "topher_id": "853ea124-d4a2-11e9-a565-d70255e97209",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b004_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b004_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b004_self-joins-intro-to-relational-databases/self-joins-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 189130,
+          "key": "92db779d-1888-47bd-9f6b-3e3d22161a07",
+          "title": "Counting What Isn't There",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92db779d-1888-47bd-9f6b-3e3d22161a07",
+            "completed_at": "2020-03-27T08:41:39.117Z",
+            "last_viewed_at": "2020-03-27T08:41:36.766Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 189137,
+              "key": "d3a416a9-6ad3-4070-ba26-5cc6961bbcf8",
+              "title": "a",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Counting what isn’t there\n\nCounting rows in a single table is something you’ve seen many times before in this course. A column aggregated with the **count** aggregation function will return the number of rows in the table, or the number of rows for each value of a **group by** clause.\n\nFor instance, you saw queries like these back in Lesson 2:\n\n`select count(*) from animals;`   \n*-- returns the number of animals in the zoo*\n\n`select count(*) from animals where species = 'gorilla';`  \n*-- returns the number of gorillas*\n\n`select species, count(*) from animals group by species;`  \n*-- returns each species’ name and the number of animals of that species*\n\nThings get a little more complicated if you want to count the results of a **join**. Consider these tables we saw earlier in Lesson 4, the **products** and **sales** tables for a store:\n\n-----\n\n### products:\n\n| **sku** _primary key_ | **price** | **name** |\n|-----|----|----|\n| 101 | $4.13 | Ash Diffuser |\n| 222 | $11.11 | Circular Fluid |\n| 343 | $61.20 | Auxiliary Vise |\n| 1025 | $0.33 | Coaxial Grommet |\n-----\n### sales:\n\n| **sku** | **sale_date** | **count** |\n|----|----|----|\n| 222 | 2009-04-13 | 4 |\n| 343 | 2010-05-31 | 1 |\n| 222 | 2011-11-11 | 4 |\n\n----\n\nSuppose that we want to know how many times we have sold each product. In other words, for each **sku** value in the **products** table, we want to know the number of times it occurs in the **sales** table. We might start out with a query like this:\n\n```\nselect products.name, products.sku, count(*) as num\n  from products join sales\n    on products.sku = sales.sku\n  group by products.sku;\n```\n\nBut this query might not do exactly what we want. If a particular **sku** has never been sold — if there are no entries for it in the **sales** table — then this query will not return a row for it at all.\n\nIf we wanted to see a row with the number zero in it, we’ll be disappointed!\n\nHowever, there is a way to get the database to give us a count with a zero in it. To do this, we’ll need to change two things about this query —\n\n```\nselect products.name, products.sku, count(sales.sku) as num\n  from products left join sales\n    on products.sku = sales.sku\n  group by products.sku;\n```\n\nThis query will give us a row for every product in the **products** table, even the ones that have no sales in the **sales** table.\n\nWhat’s changed? First, we’re using **count(sales.sku)** instead of **count(*)**. This means that the database will count only rows where **sales.sku** is defined, instead of all rows.\n\nSecond, we’re using a **left join** instead of a plain **join**.\n\n## Um, so what’s a left join?\n\nSQL supports a number of variations on the theme of joins. The kind of join that you have seen earlier in this course is called an *inner* join, and it is the most common kind of join — so common that SQL doesn’t actually make us say \"inner join\" to do one.\n\nBut the second most common is the **left join**, and its mirror-image partner, the **right join**. The words “left” and “right” refer to the tables to the left and right of the join operator. (Above, the left table is **products** and the right table is **sales**.)\n\nA regular (inner) join returns only those rows where the two tables have entries matching the join condition. A **left join** returns all those rows, plus the rows where the *left* table has an entry but the right table doesn’t. And a **right join** does the same but for the *right* table.\n\n(Just as “join” is short for “inner join”, so too is “left join” actually short for “left outer join”. But SQL lets us just say “left join”, which is a lot less typing. So we’ll do that.)\n\n## Quiz\nBelow, you'll see a query written with **count(*)** and an inner **join**. Try running it as is, then change it as described above and see what happens!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 189132,
+              "key": "9662761285",
+              "title": "Counting What Isn't There - Lectureless",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "9662761285",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "Counting What Isn't There - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3593528582",
+                "initial_code_files": [
+                  {
+                    "text": "-- Here are two tables describing bugs found in some programs.\n-- The \"programs\" table gives the name of each program and the files\n-- that it's made of.  The \"bugs\" table gives the file in which each\n-- bug was found.\n--\n-- create table programs (\n--    name text,\n--    filename text\n-- );\n-- create table bugs (\n--    filename text,\n--    description text,\n--    id serial primary key\n-- );\n--\n-- The query below is intended to count the number of bugs in each\n-- program. But it doesn't return a row for any program that has zero\n-- bugs. Try running it as it is.  Then change it so that the results\n-- will also include rows for the programs with no bugs.  These rows\n-- should have a 0 in the \"bugs\" column.\n\nselect programs.name, count(*) as num\n   from programs join bugs\n        on programs.filename = bugs.filename\n   group by programs.name\n   order by num;\n",
+                    "name": "query.sql"
+                  }
+                ]
+              },
+              "answer": null
+            },
+            {
+              "id": 189134,
+              "key": "df11e6b5-fd69-4aa4-8acb-6096ad6634fe",
+              "title": "a",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution\n\nHere's the original query from the quiz again —\n\n```\nselect programs.name, count(*) as num\n       from programs join bugs\n         on programs.filename = bugs.filename\n       group by programs.name\n       order by num;\n```\n\nAnd here's one possible corrected version:\n\n```\nselect programs.name, count(bugs.filename) as num\n       from programs left join bugs\n         on programs.filename = bugs.filename\n       group by programs.name\n       order by num;\n```\n\nSomething to watch out for: What do you put in the `count` aggregation? If you leave it as `count(*)` or use a column from the `programs` table, your query will count entries that don't have bugs as well as ones that do.\n\nIn order to correctly report a zero for programs that don't have any entries in the `bugs` table, you have to use a column from the `bugs` table as the argument to `count`.\n\nFor instance, `count(bugs.filename)` will work, and so will `count(bugs.description)`.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 78086,
+          "key": "35140186620923",
+          "title": "Subqueries",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186620923",
+            "completed_at": "2016-03-20T23:20:05.910Z",
+            "last_viewed_at": "2020-03-27T08:41:47.694Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 27595,
+              "key": "3514018662",
+              "title": "Subqueries",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Here are some sections in the PostgreSQL documentation that discuss other forms of subqueries:\n\n[Scalar Subqueries](http://www.postgresql.org/docs/9.4/static/sql-expressions.html#SQL-SYNTAX-SCALAR-SUBQUERIES)  \n[Subquery Expressions](http://www.postgresql.org/docs/9.4/static/functions-subquery.html)  \n[The FROM clause](http://www.postgresql.org/docs/9.4/static/sql-select.html#SQL-FROM)",
+              "video": {
+                "youtube_id": "7G24LiGgmGI",
+                "china_cdn_id": "7G24LiGgmGI.mp4",
+                "topher_id": "8561d766-d4a2-11e9-be8e-2365ee18beb4",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0911c_subqueries-intro-to-relational-databases/subqueries-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0911c_subqueries-intro-to-relational-databases/subqueries-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0911c_subqueries-intro-to-relational-databases/subqueries-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 118603,
+          "key": "35140186630923",
+          "title": "One Query Not Two",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35140186630923",
+            "completed_at": "2016-03-21T00:54:55.069Z",
+            "last_viewed_at": "2020-03-27T08:41:56.950Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 65898,
+              "key": "3514018663",
+              "title": "One Query Not Two",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "SQLite does not require a table alias (the <strong>as subq</strong> part) in this query. However, PostgreSQL does, and other database systems may.\n\nSee [the PostgreSQL documentation](http://www.postgresql.org/docs/9.4/static/queries-table-expressions.html#QUERIES-SUBQUERIES) for details.",
+              "user_state": {
+                "node_key": "3514018663",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "n7v-y8UrVJ0",
+                  "china_cdn_id": "n7v-y8UrVJ0.mp4",
+                  "topher_id": "85501a9e-d4a2-11e9-8d0e-575ac236420a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17cef_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17cef_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17cef_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "One Query, Not Two - Quiz",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "3489818744",
+                "initial_code_files": [
+                  {
+                    "text": "# Find the players whose weight is less than the average.\n# \n# The function below performs two database queries in order to find the right players.\n# Refactor this code so that it performs only one query.\n#\n\ndef lightweights(cursor):\n    \"\"\"Returns a list of the players in the db whose weight is less than the average.\"\"\"\n    cursor.execute(\"select avg(weight) as av from players;\")\n    av = cursor.fetchall()[0][0]  # first column of first (and only) row\n    cursor.execute(\"select name, weight from players where weight < \" + str(av))\n    return cursor.fetchall()\n",
+                    "name": "query.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_c_chcNiHyo",
+                  "china_cdn_id": "_c_chcNiHyo.mp4",
+                  "topher_id": "853a9cd2-d4a2-11e9-99ec-ff6b620ffdda",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c44_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c44_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c44_one-query-not-two-intro-to-relational-databases/one-query-not-two-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 220672,
+          "key": "f49b275d-c91f-48c6-b3a1-06627323bf03",
+          "title": "Views",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f49b275d-c91f-48c6-b3a1-06627323bf03",
+            "completed_at": "2020-03-27T08:42:25.421Z",
+            "last_viewed_at": "2020-03-27T08:42:24.001Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 112389,
+              "key": "3514018665",
+              "title": "Views",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3514018665",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "t_ZSrov187k",
+                  "china_cdn_id": "t_ZSrov187k.mp4",
+                  "topher_id": "855c2c6c-d4a2-11e9-aee2-c39086de921f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d263de_views-intro-to-relational-databases/views-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d263de_views-intro-to-relational-databases/views-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d263de_views-intro-to-relational-databases/views-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Views - Quiz",
+                "alt_text": "",
+                "background_image": "//lh6.ggpht.com/nwgyEFkyP3lFijzSY1cDAYQq78JSI42X7dlR1mzJKjNVwSmbdnbottDH7V_lG3Oq89BDvJaufr5Omk34IK7t=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3514018665",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3515748857",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.16688746882793018,
+                      "y": 0.39048641906873616
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.16636144014962592,
+                      "y": 0.5416782150776053
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1674719451371571,
+                      "y": 0.684555155210643
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "omL8MVZjLts",
+                  "china_cdn_id": "omL8MVZjLts.mp4",
+                  "topher_id": "8552be70-d4a2-11e9-9466-f3794f13843a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a6b0_views-intro-to-relational-databases/views-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a6b0_views-intro-to-relational-databases/views-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a6b0_views-intro-to-relational-databases/views-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            },
+            {
+              "id": 220679,
+              "key": "34a627e0-e056-4f05-b0e4-009fc1e7517d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Creating views — Quiz\n\nNow, try creating a view of your own in the programming quiz below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 220674,
+              "key": "07f6a8ee-cdfb-4d81-9c2e-22784c45891e",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "07f6a8ee-cdfb-4d81-9c2e-22784c45891e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "5787055844098048",
+                "initial_code_files": [
+                  {
+                    "text": "-- Here's a select statement that runs on the zoo database.\n-- It selects the species with the top five highest populations in the zoo.\n-- Change it into a statement that creates a view named \"topfive\".\n\nselect species, count(*) as num \n  from animals\n  group by species\n  order by num desc\n  limit 5;\n\n\n-- Don't change the statement below!  It's there to test the view.\n\nselect * from topfive;\n",
+                    "name": "query.sql"
+                  }
+                ]
+              },
+              "answer": null
+            }
+          ]
+        },
+        {
+          "id": 336530,
+          "key": "63dd558d-b765-4ecf-9ec9-8cd06f04b777",
+          "title": "Reference — Deeper into SQL",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "63dd558d-b765-4ecf-9ec9-8cd06f04b777",
+            "completed_at": "2020-03-27T08:45:36.556Z",
+            "last_viewed_at": "2020-03-27T08:45:35.162Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 336532,
+              "key": "cc00f3b9-0db3-42d3-b336-9b5f36a5c562",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Reference — Deeper into SQL\n\nThis is a reference for the material covered in the \"Deeper into SQL\" lesson.\n\n----\n\n## The **create table** statement\n\nThe full syntax of the **create table** statement is quite complex. See the [PostgreSQL **create table** documentation](http://www.postgresql.org/docs/9.4/static/sql-createtable.html) for the whole thing.  Here's the syntax for the form we're seeing in this lesson:\n\n**create table** *table* **(** *column type [restriction]* **,** ... **)** *[rowrestriction]* **;**\n\nThere are a lot of restrictions that can be put on a column or a row. **primary key** and **references** are just two of them. See the \"Examples\" section of the [**create table** documentation](http://www.postgresql.org/docs/9.4/static/sql-createtable.html) for many, many more.\n\n----\n\n## Rules for normalized tables\n\nIn a normalized database, the relationships among the tables match the relationships that are really there among the data. Examples [here](https://www.udacity.com/course/viewer#!/c-ud197/l-3490418600/m-3514018646) refer to tables in Lessons 2 and 4.\n\n**1. Every row has the same number of columns.**  \nIn practice, the database system won't let us *literally* have different numbers of columns in different rows. But if we have columns that are sometimes empty (null) and sometimes not, or if we stuff multiple values into a single field, we're bending this rule.\n\nThe example to keep in mind here is the **diet** table from the zoo database. Instead of trying to stuff multiple foods for a species into a single row about that species, we separate them out. This makes it much easier to do aggregations and comparisons.\n\n**2. There is a unique *key* and everything in a row says something about the key.**  \nThe key may be one column or more than one. It may even be the whole row, as in the **diet** table. But we don't have duplicate rows in a table.\n\nMore importantly, if we are storing non-unique facts — such as people's names — we distinguish them using a unique identifier such as a serial number. This makes sure that we don't combine two people's grades or parking tickets just because they have the same name.\n\n**3. Facts that don't relate to the key belong in different tables.**  \nThe example here was the **items** table, which had items, their locations, and the location's street addresses in it. The address isn't a fact about the item; it's a fact about the location. Moving it to a separate table saves space and reduces ambiguity, and we can always reconstitute the original table using a **join**.\n\n**4. Tables shouldn't imply relationships that don't exist.**  \nThe example here was the **job_skills** table, where a single row listed one of a person's technology skills (like 'Linux') and one of their language skills (like 'French'). This made it look like their Linux knowledge was specific to French, or vice versa ... when that isn't the case in the real world. Normalizing this involved splitting the tech skills and job skills into separate tables.\n\n----\n\n## The **serial** type\n\nFor more detail on the <strong>serial</strong> type, take a look at the last section of [this page in the PostgreSQL manual](http://www.postgresql.org/docs/9.4/static/datatype-numeric.html).\n\n\n----\n\n## Other subqueries\n\nHere are some sections in the PostgreSQL documentation that discuss other forms of subqueries besides the ones discussed in this lesson:\n\n[Scalar Subqueries](http://www.postgresql.org/docs/9.4/static/sql-expressions.html#SQL-SYNTAX-SCALAR-SUBQUERIES)  \n[Subquery Expressions](http://www.postgresql.org/docs/9.4/static/functions-subquery.html)  \n[The FROM clause](http://www.postgresql.org/docs/9.4/static/sql-select.html#SQL-FROM)\n\n----\n\nMooseball is not a real sport (yet), but you can get a roughly [ball-shaped moose](http://www.squishable.com/pc/squish_moose_15/Big_Animals/Squishable+Moose) from Squishables.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 293741,
+          "key": "0d406988-c46f-4ceb-82e8-96bc5235cd57",
+          "title": "Outro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0d406988-c46f-4ceb-82e8-96bc5235cd57",
+            "completed_at": "2020-03-27T08:45:46.305Z",
+            "last_viewed_at": "2020-03-27T08:46:21.125Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 293742,
+              "key": "08145554-7ea4-4adf-91d0-239c13ecf097",
+              "title": "Ud197 L04 A14 Outro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "p9ddj5CoOEc",
+                "china_cdn_id": "p9ddj5CoOEc.mp4",
+                "topher_id": "84ce985c-d4a2-11e9-9870-5fff69b15687",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/December/5845d4f5_ud197-l04-a14-outro/ud197-l04-a14-outro_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/December/5845d4f5_ud197-l04-a14-outro/ud197-l04-a14-outro_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/December/5845d4f5_ud197-l04-a14-outro/ud197-l04-a14-outro_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

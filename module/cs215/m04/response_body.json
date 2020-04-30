@@ -1,0 +1,1161 @@
+{
+  "data": {
+    "lesson": {
+      "id": 56368,
+      "key": "48698673",
+      "title": "Problem Set 2",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48698673/56368/1516979003974/Problem%20Set%202%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48698673/56368/1516978992275/Problem%20Set%202%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 76573,
+          "key": "487214260923",
+          "title": "Star Network",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487214260923",
+            "completed_at": "2020-03-26T17:03:41.710Z",
+            "last_viewed_at": "2020-03-26T17:03:41.372Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 110991,
+              "key": "48721426",
+              "title": "Star Network",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48721426",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "RIXwNktR1Yo",
+                  "china_cdn_id": "RIXwNktR1Yo.mp4",
+                  "topher_id": "855a2aca-d4a2-11e9-a90f-9711c079201a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1dd8d_star-network-intro-to-algorithms/star-network-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1dd8d_star-network-intro-to-algorithms/star-network-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1dd8d_star-network-intro-to-algorithms/star-network-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Star Network",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48697605",
+                "initial_code_files": [
+                  {
+                    "text": "# Write a program that returns the number of edges\n# in a star network that has `n` nodes \n#\n\ndef star_network(n):\n    # return number of edges\n    return 0\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125190,
+          "key": "486807740923",
+          "title": "Recurrence Relation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486807740923",
+            "completed_at": "2020-03-26T17:03:50.524Z",
+            "last_viewed_at": "2020-03-26T17:03:50.195Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 95771,
+              "key": "48680774",
+              "title": "Recurrence Relation",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Post your answer here:\n<https://discussions.udacity.com/t/problem-set-2-question-2>\n**NOTE**: The forum URL changed since this quiz was written, if the grader rejects your submission you can skip to the next video.",
+              "user_state": {
+                "node_key": "48680774",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PJrhk83k-B8",
+                  "china_cdn_id": "PJrhk83k-B8.mp4",
+                  "topher_id": "8553c522-d4a2-11e9-9765-fba4f80a8e57",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b8a2_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b8a2_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b8a2_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Recurrence Relation",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/m4ERlFriac9Kqx6vg9UIJNgjEg3Rvud585mJOC9sY8evXXhhz-9v1-PQJa3grHzA6Xa87DwQU1GjUM_jIBW1=s0#w=710&h=399",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48680774",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48749022",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "textAnswer1",
+                    "marker": "1341368036357",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.12562814070351758,
+                      "width": 0.535966149506347,
+                      "x": 0.2333333619883363,
+                      "y": 0.8126744984382361
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 91824,
+          "key": "487014900923",
+          "title": "Subsets",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487014900923",
+            "completed_at": "2020-03-26T17:04:20.170Z",
+            "last_viewed_at": "2020-03-26T17:04:19.846Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 76632,
+              "key": "48701490",
+              "title": "Subsets",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48701490",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "P_fiXZYhI7Q",
+                  "china_cdn_id": "P_fiXZYhI7Q.mp4",
+                  "topher_id": "85536b5e-d4a2-11e9-965c-4ffa8d1ce60e",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b36c_subsets-intro-to-algorithms/subsets-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b36c_subsets-intro-to-algorithms/subsets-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b36c_subsets-intro-to-algorithms/subsets-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Subsets",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/0NZQPe78oCT4sdAUIhqwKSoM3s98T7pIivtLKtPJDeoxDjk10zL5mlY6T95j4lHw51Rfhh9ylfTpfzVTKg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48701490",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48718318",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341368277474",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.44166666666666665,
+                      "y": 0.42407407407407405
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341368291913",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.59375,
+                      "y": 0.42592592592592593
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341368299178",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.71875,
+                      "y": 0.41666666666666674
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341368303920",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.41666666666666674
+                    }
+                  },
+                  {
+                    "group": "multipleChoice6",
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1341368359735",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.4375,
+                      "y": 0.5092592592592593
+                    }
+                  },
+                  {
+                    "group": "multipleChoice6",
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1341368366966",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.59375,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": "multipleChoice6",
+                    "initial_value": "false",
+                    "label": "option9",
+                    "marker": "1341368372512",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": "multipleChoice6",
+                    "initial_value": "false",
+                    "label": "option10",
+                    "marker": "1341368377265",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 10,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": "multipleChoice13",
+                    "initial_value": "false",
+                    "label": "option14",
+                    "marker": "1341368405734",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 14,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.4375,
+                      "y": 0.5833333333333334
+                    }
+                  },
+                  {
+                    "group": "multipleChoice13",
+                    "initial_value": "false",
+                    "label": "option15",
+                    "marker": "1341368410685",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 15,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5885416666666666,
+                      "y": 0.5833333333333334
+                    }
+                  },
+                  {
+                    "group": "multipleChoice13",
+                    "initial_value": "false",
+                    "label": "option16",
+                    "marker": "1341368415704",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 16,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.5833333333333334
+                    }
+                  },
+                  {
+                    "group": "multipleChoice13",
+                    "initial_value": "false",
+                    "label": "option17",
+                    "marker": "1341368421165",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 17,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.5833333333333334
+                    }
+                  },
+                  {
+                    "group": "multipleChoice18",
+                    "initial_value": "false",
+                    "label": "option19",
+                    "marker": "1341368430847",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 19,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.4375,
+                      "y": 0.6666666666666665
+                    }
+                  },
+                  {
+                    "group": "multipleChoice18",
+                    "initial_value": "false",
+                    "label": "option20",
+                    "marker": "1341368436615",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 20,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5885416666666666,
+                      "y": 0.6574074074074074
+                    }
+                  },
+                  {
+                    "group": "multipleChoice18",
+                    "initial_value": "false",
+                    "label": "option21",
+                    "marker": "1341368442601",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 21,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.6574074074074074
+                    }
+                  },
+                  {
+                    "group": "multipleChoice18",
+                    "initial_value": "false",
+                    "label": "option22",
+                    "marker": "1341368448577",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 22,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.8791666666666668,
+                      "y": 0.6574074074074074
+                    }
+                  },
+                  {
+                    "group": "multipleChoice23",
+                    "initial_value": "false",
+                    "label": "option24",
+                    "marker": "1341368488526",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 24,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.4375,
+                      "y": 0.7407407407407408
+                    }
+                  },
+                  {
+                    "group": "multipleChoice23",
+                    "initial_value": "false",
+                    "label": "option25",
+                    "marker": "1341368494191",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 25,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5833333333333334,
+                      "y": 0.7407407407407408
+                    }
+                  },
+                  {
+                    "group": "multipleChoice23",
+                    "initial_value": "false",
+                    "label": "option26",
+                    "marker": "1341368500289",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 26,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7239583333333335,
+                      "y": 0.7407407407407408
+                    }
+                  },
+                  {
+                    "group": "multipleChoice23",
+                    "initial_value": "false",
+                    "label": "option27",
+                    "marker": "1341368506449",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 27,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.7314814814814815
+                    }
+                  },
+                  {
+                    "group": "multipleChoice29",
+                    "initial_value": "false",
+                    "label": "option30",
+                    "marker": "1341368523779",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 30,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.4375,
+                      "y": 0.8148148148148148
+                    }
+                  },
+                  {
+                    "group": "multipleChoice29",
+                    "initial_value": "false",
+                    "label": "option31",
+                    "marker": "1341368531612",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 31,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5833333333333334,
+                      "y": 0.8148148148148148
+                    }
+                  },
+                  {
+                    "group": "multipleChoice29",
+                    "initial_value": "false",
+                    "label": "option32",
+                    "marker": "1341368536735",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 32,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7239583333333335,
+                      "y": 0.8055555555555556
+                    }
+                  },
+                  {
+                    "group": "multipleChoice29",
+                    "initial_value": "false",
+                    "label": "option33",
+                    "marker": "1341368544320",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 33,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.8055555555555556
+                    }
+                  },
+                  {
+                    "group": "multipleChoice34",
+                    "initial_value": "false",
+                    "label": "option35",
+                    "marker": "1341368606744",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 35,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.44270833333333326,
+                      "y": 0.8888888888888888
+                    }
+                  },
+                  {
+                    "group": "multipleChoice34",
+                    "initial_value": "false",
+                    "label": "option36",
+                    "marker": "1341368618022",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 36,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5833333333333334,
+                      "y": 0.8888888888888888
+                    }
+                  },
+                  {
+                    "group": "multipleChoice34",
+                    "initial_value": "false",
+                    "label": "option37",
+                    "marker": "1341368625534",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 37,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.8888888888888888
+                    }
+                  },
+                  {
+                    "group": "multipleChoice34",
+                    "initial_value": "false",
+                    "label": "option38",
+                    "marker": "1341368634511",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 38,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.875,
+                      "y": 0.8796296296296297
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95871,
+          "key": "487491070923",
+          "title": "Function Comparision",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487491070923",
+            "completed_at": "2020-03-26T17:04:27.029Z",
+            "last_viewed_at": "2020-03-26T17:04:26.700Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 45631,
+              "key": "48749107",
+              "title": "Function Comparision",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "### Big-Theta definition: \n\n<span class=\"mathquill\">f(n) \\in \\Theta(g(n)) \\iff \\exists c_1, c_2, n_0 \\text{such that} \\forall  n>n_0;   0\\leq c_1g(n) \\leq f(n) \\leq c_2 g(n)</span>\n\n\n\n### Big-O definition:\n\n<span class=\"mathquill\">f(n) \\in O(g(n)) \\iff \\exists   c_1, n_0 \\text{ such that } \\forall  n > n_0; f(n) \\leq c_1 g(n) </span>\n\n\n\nIf you're unfamiliar with this notation here's a brief review:\n\n* <span class=\"mathquill\">f(n)\\in\\Theta(...)</span> indicates that <span class=\"mathquill\">f(n)</span> is in the set <span class=\"mathquill\">\\Theta(...)</span>\n* <span class=\"mathquill\">\\exists a,b,c</span> means that there exist some values a, b and c\n* <span class=\"mathquill\">\\forall n</span> means that the following expression holds for all values of n\n\nYou can review logical and set notation by reading this [Introduction to Quantifiers](http://www.cs.odu.edu/~toida/nerzic/level-a/logic/pred_logic/quantification/quantification.html).",
+              "user_state": {
+                "node_key": "48749107",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "wiuHLZSedqw",
+                  "china_cdn_id": "wiuHLZSedqw.mp4",
+                  "topher_id": "855f42d0-d4a2-11e9-b7c6-4ba45678ad9a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d295be_function-comparision-intro-to-algorithms/function-comparision-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d295be_function-comparision-intro-to-algorithms/function-comparision-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d295be_function-comparision-intro-to-algorithms/function-comparision-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Function Comparision",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/AgeOpkGFd-M6ZvmgfR1DUS2ydv2x_-v5pBPK7rFHvb9TytyJ97f6Lz_kSvfXL19vrgDxix1YkeHPsuBOnOQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48749107",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48391921",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341500327892",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.015625,
+                      "y": 0.4722222222222222
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341500333206",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.015625,
+                      "y": 0.5277777777777778
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341500339148",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.021006981531778976,
+                      "y": 0.6108024879738136
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341500349131",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.02065971692403158,
+                      "y": 0.6663580435293693
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1341500354259",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.02065971692403158,
+                      "y": 0.7305555555555556
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1341500358923",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.021006981531778976,
+                      "y": 0.7861111111111111
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95571,
+          "key": "486927630923",
+          "title": "Planar Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486927630923",
+            "completed_at": "2020-03-26T17:04:33.761Z",
+            "last_viewed_at": "2020-03-26T17:04:33.409Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 64294,
+              "key": "48692763",
+              "title": "Planar Graphs",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Sorry - I was a little sloppy drawing edges that cross.  The graph (with its three edges) is still planar through: <http://forums.udacity.com/cs215/questions/1450/ps2-5-planar-graph>",
+              "user_state": {
+                "node_key": "48692763",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "tmwICk-1Ff0",
+                  "china_cdn_id": "tmwICk-1Ff0.mp4",
+                  "topher_id": "855aa72a-d4a2-11e9-aa7b-8f5c90f85255",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26bc9_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26bc9_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26bc9_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Planar Graphs",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/YEisUPIxzEA9yem1RhzRAhNzbqEIS03WpuPJ_OHqzXdlb6SaefNhg89nYtwh2AoEfBWS8HeQK4OfVN7PmQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48692763",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48695599",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341500429375",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0787037037037037,
+                      "width": 0.159375,
+                      "x": 0.6043402989705403,
+                      "y": 0.370679035893193
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 90071,
+          "key": "486976880923",
+          "title": "Combination Locks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486976880923",
+            "completed_at": "2020-03-26T17:04:40.025Z",
+            "last_viewed_at": "2020-03-26T17:04:39.677Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 69893,
+              "key": "48697688",
+              "title": "Combination Locks",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The picture given here is slightly wrong: there should only be one edge between the first and second node, not two.",
+              "user_state": {
+                "node_key": "48697688",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "mjLJ9UVRdRI",
+                  "china_cdn_id": "mjLJ9UVRdRI.mp4",
+                  "topher_id": "854f6342-d4a2-11e9-8ae5-df5bdc44655c",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16f03_combination-locks-intro-to-algorithms/combination-locks-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16f03_combination-locks-intro-to-algorithms/combination-locks-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16f03_combination-locks-intro-to-algorithms/combination-locks-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Combination Locks",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/VJ2CoEZVY0Ohs0uNoyqN5uUSBJCUE-EqaI584inPoBQOTGhs8wCp10NINtmmnsBkE12U33kPTNUHYMqM5g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48697688",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48701435",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341500506637",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.3387152830759684,
+                      "y": 0.7589506643789786
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341500511942",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.3387152830759684,
+                      "y": 0.8145062199345341
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341500516574",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.3383680502573649,
+                      "y": 0.8694444727014612
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 3252,
+          "key": "487491080923",
+          "title": "Make A Combination Lock",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487491080923",
+            "completed_at": "2020-03-26T17:04:46.147Z",
+            "last_viewed_at": "2020-03-26T17:04:45.775Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 74777,
+              "key": "48749108",
+              "title": "Make A Combination Lock",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48749108",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "n4JbA0GpqLY",
+                  "china_cdn_id": "n4JbA0GpqLY.mp4",
+                  "topher_id": "85500540-d4a2-11e9-8cce-83a86c490e1b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17b09_make-a-combination-lock-intro-to-algorithms/make-a-combination-lock-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17b09_make-a-combination-lock-intro-to-algorithms/make-a-combination-lock-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17b09_make-a-combination-lock-intro-to-algorithms/make-a-combination-lock-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Make A Combination Lock",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48721353",
+                "initial_code_files": [
+                  {
+                    "text": "# Generate a combination lock graph given a list of nodes\n#\n\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef create_combo_lock(nodes):\n    G = {}\n    # your code here\n    return G\n\n##############\n# Code for testing\n#\ndef is_chain(graph, nodes):\n    # find the first node with degree one\n    start = (n for n, e in graph.iteritems()\n             if len(e) == 1).next()\n    count = 1\n    # keep track of what we've seen to make\n    # sure there are no cycles\n    seen = set([start])\n    # follow the edges\n    prev = None\n    current = start\n    while True:\n        nexts = graph[current].keys()\n        # get rid of the edge back to prev\n        nexts = [n for n in nexts if not n == prev]\n        if len(nexts) > 1:\n            # bad.  too many edges to be a chain\n            return False\n        elif len(nexts) == 0:\n            # We're done following the chain\n            # Did we get enough edges:\n            return count == len(nodes)\n        prev = current\n        current = nexts[0]\n        if current in seen:\n            # bad.  this isn't a chain\n            # it has a loop\n            return False\n        seen.add(current)\n        count += 1\n\ndef is_combo_lock(graph, nodes):\n    # first see if we have a star\n    center = None\n    degree = None\n    for node, edges in graph.iteritems():\n        if len(edges) > degree:\n            center = node\n            degree = len(edges)\n    if not degree == len(nodes) - 1:\n        return False\n    # make a graph out of all the edges\n    # not connected to the center\n    chain = {}\n    for node, edges in graph.iteritems():\n        if node == center:\n            continue\n        for e in edges:\n            if e == center:\n                continue\n            make_link(chain, node, e)\n    return is_chain(chain, [n for n in nodes if n != center])\n\ndef test():\n    for n in [5, 10, 20]:\n        combo = create_combo_lock(range(n))\n        if not is_combo_lock(combo, range(n)):\n            return False\n    return True\n        ",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 91346,
+          "key": "486937770923",
+          "title": "Erdos-Renyi",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486937770923",
+            "completed_at": "2020-03-26T17:04:52.774Z",
+            "last_viewed_at": "2020-03-26T17:04:52.421Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 97775,
+              "key": "48693777",
+              "title": "Erdos-Renyi",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48693777",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "LnJ2rRB6ziI",
+                  "china_cdn_id": "LnJ2rRB6ziI.mp4",
+                  "topher_id": "854e4962-d4a2-11e9-8800-b71839ce2405",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15d39_erdos-renyi-intro-to-algorithms/erdos-renyi-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15d39_erdos-renyi-intro-to-algorithms/erdos-renyi-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15d39_erdos-renyi-intro-to-algorithms/erdos-renyi-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Erdos-Renyi",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/axKPTf0wX39yxBvc9w2W5zs6wiD9__m5fvmdv8k7hNgsQCMi-3kgfHTLDiN2mWPlP_PpI9fMp4xaCsRdYKJP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48693777",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48204968",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer2",
+                    "marker": "1341500584976",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.20324189526184538,
+                      "x": 0.591451059850374,
+                      "y": 0.5817973946784922
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

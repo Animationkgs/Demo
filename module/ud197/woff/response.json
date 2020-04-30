@@ -1,0 +1,31 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "481ms",
+  "headers": {
+    "date": "Tue, 28 Apr 2020 15:40:55 GMT",
+    "content-type": "text/html",
+    "cf-ray": "58b1e26c9a92a904-SIN",
+    "age": "71448",
+    "cache-control": "public, max-age\u003d120",
+    "etag": "W/\"b8e3760a95ddd3aed2c4b04082340089\"",
+    "expires": "Tue, 28 Apr 2020 19:40:55 GMT",
+    "last-modified": "Mon, 27 Apr 2020 19:49:50 GMT",
+    "strict-transport-security": "max-age\u003d15552000; includeSubDomains",
+    "cf-cache-status": "HIT",
+    "expect-ct": "max-age\u003d604800, report-uri\u003d\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm\u003d2e8d5f424ef4dfc2e7266b81f1410dfb0abae18e-1588088455-1800-AdMwHpiByc6IJKVSY6l/9FUqpHkhlZ+B7wwdotN8Nr5SLFm6V59l8l0eUMokke0L9m/vqlUgzQ48XK0Zop/NKrI\u003d; path\u003d/; expires\u003dTue, 28-Apr-20 16:10:55 GMT; domain\u003d.udacity.com; HttpOnly; Secure; SameSite\u003dNone",
+    "vary": "Accept-Encoding",
+    "server": "cloudflare",
+    "content-encoding": "br",
+    "cf-request-id": "02630bd7da0000a9041ab93200000001"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "47e9f86c-4335-4aec-a332-6cd1da85d0b2",
+  "time": "2020-04-28 21:10:53"
+}

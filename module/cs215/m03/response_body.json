@@ -1,0 +1,2012 @@
+{
+  "data": {
+    "lesson": {
+      "id": 84867,
+      "key": "48369875",
+      "title": "Growth Rates in Social Networks",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48369875/84867/1516979584736/Growth%20Rates%20in%20Social%20Networks%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48369875/84867/1516979501425/Growth%20Rates%20in%20Social%20Networks%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 134964,
+          "key": "487172750923",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487172750923",
+            "completed_at": "2016-06-07T18:12:41.749Z",
+            "last_viewed_at": "2020-03-26T16:54:51.065Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 72308,
+              "key": "48717275",
+              "title": "Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "hPxLGTR2DUI",
+                "china_cdn_id": "hPxLGTR2DUI.mp4",
+                "topher_id": "8543b240-d4a2-11e9-b338-db8af9eaff7a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1109b_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1109b_introduction-intro-to-algorithms/introduction-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1109b_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1373,
+          "key": "487263130923",
+          "title": "Divisible By Five",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487263130923",
+            "completed_at": "2016-06-07T18:19:34.228Z",
+            "last_viewed_at": "2020-03-26T16:58:20.559Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 36405,
+              "key": "48726313",
+              "title": "Divisible By Five",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The numbers are:\n<pre>\n361 636 277 129 434 577 796 596 727 566\n156 109 714 716 546 979 366 766 137 243\n331 999 922 304 657 314 634 303 677 597\n363 174 431 193 361 677 403 926 279 692\n749 401 346 202 763 314 333 244 796 697\n674 651 517 349 337 667 617 464 379 793\n542 464 962 146 946 199 302 699 606 126\n519 203 137 517 146 724 696 699 747 663\n126 247 469 953 396 502 562 647 364 214\n346 646 331 426 763 291 557 764 939 656\n753 561 797 224 537 361 263 493 196 162\n362 102 629 936 663 279 966 241 907 677\n<b>945</b> 416 122 563 667 394 654 592 977 177\n666 199 463 561 954 924 991 363 754 754\n199 451 796 566 629 651 517 167 704 749\n622 299 466 559 973 243 639 276 603 753\n</pre>\n",
+              "user_state": {
+                "node_key": "48726313",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "h3fY3jigar4",
+                  "china_cdn_id": "h3fY3jigar4.mp4",
+                  "topher_id": "85297164-d4a2-11e9-af7e-0ff585bf681a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9497_divisible-by-five-intro-to-algorithms/divisible-by-five-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9497_divisible-by-five-intro-to-algorithms/divisible-by-five-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9497_divisible-by-five-intro-to-algorithms/divisible-by-five-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Divisible By Five",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/NMbtDANcM-0lpHBfbujbTTjKJ63nNZsOY-g1P2u0l-8zCYfJ01Pb4u_oBm8d6W9QKyJCJP2tzHU3Yfy4afNm=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48726313",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48532616",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341115072094",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.13026620546976725,
+                      "y": 0.27788068276864514
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341115076365",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.13026620546976725,
+                      "y": 0.3241769790649414
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Z0q_7mMA6e4",
+                  "china_cdn_id": "Z0q_7mMA6e4.mp4",
+                  "topher_id": "856323f0-d4a2-11e9-bcb9-2b19da50711f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cfeb_divisible-by-five-solution-intro-to-algorithms/divisible-by-five-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cfeb_divisible-by-five-solution-intro-to-algorithms/divisible-by-five-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cfeb_divisible-by-five-solution-intro-to-algorithms/divisible-by-five-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 954,
+          "key": "487024290923",
+          "title": "Chain Network",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487024290923",
+            "completed_at": "2016-06-07T18:20:17.856Z",
+            "last_viewed_at": "2020-03-26T16:58:28.732Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 63486,
+              "key": "48702429",
+              "title": "Chain Network",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Actually, there are 12 edges.  Sorry for miscounting.  -MLL",
+              "user_state": {
+                "node_key": "48702429",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "fAxlZSYAf1s",
+                  "china_cdn_id": "fAxlZSYAf1s.mp4",
+                  "topher_id": "8540472c-d4a2-11e9-a9c5-d7998c649957",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dbe7_chain-network-intro-to-algorithms/chain-network-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dbe7_chain-network-intro-to-algorithms/chain-network-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dbe7_chain-network-intro-to-algorithms/chain-network-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Chain Network",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/iSUtGyZN8cwh_xQhlMUEITmxnVonliIE-tGuQohU786ul8yHeCVcSRx1Qj7tOcU2KTqetJyRDSpmuP6XK32f=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48702429",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48719226",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341115661763",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6766938527425129,
+                      "y": 0.543157019438567
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341115668429",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6756303151448567,
+                      "y": 0.6635551947134514
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341115673470",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6714229583740234,
+                      "y": 0.8025274983158818
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "hzxxtQ1n7rs",
+                  "china_cdn_id": "hzxxtQ1n7rs.mp4",
+                  "topher_id": "854433aa-d4a2-11e9-b4b1-0b25c3e612dd",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d116a4_chain-network-solution-intro-to-algorithms/chain-network-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d116a4_chain-network-solution-intro-to-algorithms/chain-network-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d116a4_chain-network-solution-intro-to-algorithms/chain-network-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113395,
+          "key": "487430030923",
+          "title": "Ring Network",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487430030923",
+            "completed_at": "2016-06-07T18:55:15.765Z",
+            "last_viewed_at": "2020-03-26T17:00:10.813Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 52367,
+              "key": "48743003",
+              "title": "Ring Network",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "I probably should have written a_ring = make_link(a_ring, i (i+1)%n) since make_link returns the graph.  I think it works either way, though. -MLL",
+              "video": {
+                "youtube_id": "WHDh4qbyXG8",
+                "china_cdn_id": "WHDh4qbyXG8.mp4",
+                "topher_id": "855f3fe2-d4a2-11e9-b7bc-73eaef2766d1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29517_ring-network-intro-to-algorithms/ring-network-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29517_ring-network-intro-to-algorithms/ring-network-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29517_ring-network-intro-to-algorithms/ring-network-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95635,
+          "key": "487283110923",
+          "title": "Grid Network",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487283110923",
+            "completed_at": "2016-06-07T18:56:25.753Z",
+            "last_viewed_at": "2020-03-26T16:58:42.322Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 58399,
+              "key": "48728311",
+              "title": "Grid Network",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48728311",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "SH2lXzLqObE",
+                  "china_cdn_id": "SH2lXzLqObE.mp4",
+                  "topher_id": "855afd2e-d4a2-11e9-ab76-6fa400d53682",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ea8c_grid-network-intro-to-algorithms/grid-network-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ea8c_grid-network-intro-to-algorithms/grid-network-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ea8c_grid-network-intro-to-algorithms/grid-network-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Grid Network",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/f-SdpN_4ws8j6a_16fSShhihbsIlTbyJPzmpwqN-6wT7DPKJGQ9XUqD6zRPrlL8oBrPvka-hGDxCFpOmvw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48728311",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48532623",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341115733144",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07692307692307693,
+                      "width": 0.10062565172054222,
+                      "x": 0.769800538191333,
+                      "y": 0.8576704136633674
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_QWiADIunec",
+                  "china_cdn_id": "_QWiADIunec.mp4",
+                  "topher_id": "853b321e-d4a2-11e9-9b95-c777673fcb86",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d53_grid-network-solution-intro-to-algorithms/grid-network-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d53_grid-network-solution-intro-to-algorithms/grid-network-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09d53_grid-network-solution-intro-to-algorithms/grid-network-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 81036,
+          "key": "486486870923",
+          "title": "Big-Theta",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486486870923",
+            "completed_at": "2016-06-07T19:03:26.442Z",
+            "last_viewed_at": "2020-03-26T16:58:49.907Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 91422,
+              "key": "48648687",
+              "title": "Big-Theta",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "2eFySdh2sWE",
+                "china_cdn_id": "2eFySdh2sWE.mp4",
+                "topher_id": "8531dc1e-d4a2-11e9-bc90-032b123fca02",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d075f1_big-theta-intro-to-algorithms/big-theta-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d075f1_big-theta-intro-to-algorithms/big-theta-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d075f1_big-theta-intro-to-algorithms/big-theta-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95470,
+          "key": "486468050923",
+          "title": "Big-Theta Reflexive",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486468050923",
+            "completed_at": "2016-06-07T19:04:14.542Z",
+            "last_viewed_at": "2020-03-26T16:58:59.749Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 55664,
+              "key": "48646805",
+              "title": "Big-Theta Reflexive",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Oops, I mean symmetric!  -MLL",
+              "user_state": {
+                "node_key": "48646805",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZkutIEqjrbA",
+                  "china_cdn_id": "ZkutIEqjrbA.mp4",
+                  "topher_id": "8554d53e-d4a2-11e9-9a7a-4302e0b3b1d9",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b70d_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b70d_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b70d_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Big-Theta Reflexive",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/CH3fGcJ7-VvGCYohgjHW6-wqk8-lLQz-NwWWPmj2QzvPJgg-VKUqPswOEuLR8ehRGWSn9InjuKGdVXo7XQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48646805",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48743004",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341115949800",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.171875,
+                      "y": 0.4537037037037037
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341115954579",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.16666666666666663,
+                      "y": 0.6203703703703703
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341115991196",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.171875,
+                      "y": 0.75
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "RKfTnRGHHUQ",
+                  "china_cdn_id": "RKfTnRGHHUQ.mp4",
+                  "topher_id": "8558a38a-d4a2-11e9-a510-ff6c149363a8",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1de8b_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1de8b_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1de8b_big-theta-reflexive-intro-to-algorithms/big-theta-reflexive-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 88129,
+          "key": "486486880923",
+          "title": "Big-Theta Examples",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486486880923",
+            "completed_at": "2016-06-07T19:07:45.331Z",
+            "last_viewed_at": "2020-03-26T16:59:06.671Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 85441,
+              "key": "48648688",
+              "title": "Big-Theta Examples",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "CArQLvPffns",
+                "china_cdn_id": "CArQLvPffns.mp4",
+                "topher_id": "853ce9ce-d4a2-11e9-a078-cf75111d4a38",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6ee_big-theta-examples-intro-to-algorithms/big-theta-examples-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6ee_big-theta-examples-intro-to-algorithms/big-theta-examples-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6ee_big-theta-examples-intro-to-algorithms/big-theta-examples-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137482,
+          "key": "487273400923",
+          "title": "Other sets of Functions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487273400923",
+            "completed_at": "2016-06-07T19:08:33.395Z",
+            "last_viewed_at": "2020-03-26T16:59:13.015Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 82521,
+              "key": "48727340",
+              "title": "Other sets of Functions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "I didn't give formal definitions for any of these because we don't really use them in the class.  The wikipedia page for Big O (http://en.wikipedia.org/wiki/Big_O_notation) has additional details if you are interested.  -MLL",
+              "video": {
+                "youtube_id": "3OKOwtOOzrM",
+                "china_cdn_id": "3OKOwtOOzrM.mp4",
+                "topher_id": "85328d62-d4a2-11e9-be7f-d7de0517a03b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07aac_other-sets-of-functions-intro-to-algorithms/other-sets-of-functions-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07aac_other-sets-of-functions-intro-to-algorithms/other-sets-of-functions-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07aac_other-sets-of-functions-intro-to-algorithms/other-sets-of-functions-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 79684,
+          "key": "486468060923",
+          "title": "Big-Theta Practice",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486468060923",
+            "completed_at": "2016-06-07T19:09:22.522Z",
+            "last_viewed_at": "2020-03-26T16:59:20.007Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77084,
+              "key": "48646806",
+              "title": "Big-Theta Practice",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48646806",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ThVlVMFVGbY",
+                  "china_cdn_id": "ThVlVMFVGbY.mp4",
+                  "topher_id": "855a9348-d4a2-11e9-aa42-a7d2b0567496",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d268d1_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d268d1_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d268d1_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Big-Theta Practice",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Vv0lQ4EY24yVhhReUAlM_qbZyIupCTFtfeCZNWKU5oVC1NTVOt3zZ_oq_bSOMuS0zbLtHoQC0iNDI9zCUA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48646806",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48258987",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341116145199",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.16644433491918664,
+                      "y": 0.34245642519748465
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341116150007",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.17710671211059698,
+                      "y": 0.4633001799490631
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341116154719",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.18208562793274244,
+                      "y": 0.5931334402740167
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341116158856",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.18751858421858705,
+                      "y": 0.7030672881203298
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1341116163313",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.1875029276508733,
+                      "y": 0.8055701481180129
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "oMSnkHD16Vs",
+                  "china_cdn_id": "oMSnkHD16Vs.mp4",
+                  "topher_id": "8552c26c-d4a2-11e9-9473-cfbfe362a984",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a702_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a702_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a702_big-theta-practice-intro-to-algorithms/big-theta-practice-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 55522,
+          "key": "485369910923",
+          "title": "Planar Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "485369910923",
+            "completed_at": "2016-06-07T19:10:04.343Z",
+            "last_viewed_at": "2020-03-26T16:59:29.787Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 81040,
+              "key": "48536991",
+              "title": "Planar Graphs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NJ_5X-JB3A8",
+                "china_cdn_id": "NJ_5X-JB3A8.mp4",
+                "topher_id": "85507732-d4a2-11e9-8e26-0f1b49011e3f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d183e0_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d183e0_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d183e0_planar-graphs-intro-to-algorithms/planar-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106350,
+          "key": "487172760923",
+          "title": "Nodes, Edges, Regions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487172760923",
+            "completed_at": "2016-06-07T19:10:56.035Z",
+            "last_viewed_at": "2020-03-26T16:59:36.886Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 56754,
+              "key": "48717276",
+              "title": "Nodes, Edges, Regions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Note that Euler's formula depends on the assumption that the planar graph is actually drawn in the plane with no edge crossings (or touchings).",
+              "video": {
+                "youtube_id": "6vyrVwP2GTc",
+                "china_cdn_id": "6vyrVwP2GTc.mp4",
+                "topher_id": "85606cdc-d4a2-11e9-bad2-07d1296a61dc",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4faf0_nodes-edges-regions-intro-to-algorithms/nodes-edges-regions-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4faf0_nodes-edges-regions-intro-to-algorithms/nodes-edges-regions-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d4faf0_nodes-edges-regions-intro-to-algorithms/nodes-edges-regions-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 105748,
+          "key": "487470970923",
+          "title": "Regions In A Planar Graph",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487470970923",
+            "completed_at": "2016-06-07T19:11:38.501Z",
+            "last_viewed_at": "2020-03-26T16:59:43.103Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 95259,
+              "key": "48747097",
+              "title": "Regions In A Planar Graph",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48747097",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "aDLHDSHFyts",
+                  "china_cdn_id": "aDLHDSHFyts.mp4",
+                  "topher_id": "8562a25e-d4a2-11e9-bb46-afc8ffc8a65f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f50_regions-in-a-planar-graph-intro-to-algorithms/regions-in-a-planar-graph-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f50_regions-in-a-planar-graph-intro-to-algorithms/regions-in-a-planar-graph-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f50_regions-in-a-planar-graph-intro-to-algorithms/regions-in-a-planar-graph-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Regions In A Planar Graph",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ZK67AjnlTRKLhcCAtGbe86AP7IXvsJQSYlVbD-aJU0VfTg6ztrNgTO-pYc4ySwLfCn2NWSDZvapLAQXGdal-=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48747097",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48532619",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341116364114",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.11529933481152993,
+                      "width": 0.13591022443890274,
+                      "x": 0.5462515586034913,
+                      "y": 0.545004157427938
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "_F3kS_2Z2pc",
+                  "china_cdn_id": "_F3kS_2Z2pc.mp4",
+                  "topher_id": "853aacc2-d4a2-11e9-9a1b-4b502f870a50",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c72_regions-in-a-planar-graph-solution-intro-to-algorithms/regions-in-a-planar-graph-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c72_regions-in-a-planar-graph-solution-intro-to-algorithms/regions-in-a-planar-graph-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09c72_regions-in-a-planar-graph-solution-intro-to-algorithms/regions-in-a-planar-graph-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 102502,
+          "key": "482589850923",
+          "title": "Eulers Formula",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "482589850923",
+            "completed_at": "2016-06-07T21:17:15.471Z",
+            "last_viewed_at": "2020-03-26T16:59:49.947Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44787,
+              "key": "48258985",
+              "title": "Eulers Formula",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "vCEmzb-V_ds",
+                "china_cdn_id": "vCEmzb-V_ds.mp4",
+                "topher_id": "855e2512-d4a2-11e9-b48d-b330fe666afb",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d280a0_eulers-formula-intro-to-algorithms/eulers-formula-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d280a0_eulers-formula-intro-to-algorithms/eulers-formula-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d280a0_eulers-formula-intro-to-algorithms/eulers-formula-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 42597,
+          "key": "487282010923",
+          "title": "Growth Rates",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487282010923",
+            "completed_at": "2020-03-26T16:59:57.362Z",
+            "last_viewed_at": "2020-03-26T16:59:56.204Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30073,
+              "key": "48728201",
+              "title": "Growth Rates",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "RpcP8U3-qPM",
+                "china_cdn_id": "RpcP8U3-qPM.mp4",
+                "topher_id": "85592328-d4a2-11e9-a679-2f436399cce8",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e09e_growth-rates-intro-to-algorithms/growth-rates-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e09e_growth-rates-intro-to-algorithms/growth-rates-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e09e_growth-rates-intro-to-algorithms/growth-rates-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 74793,
+          "key": "486468070923",
+          "title": "Complete Graph",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486468070923",
+            "completed_at": "2020-03-26T17:00:02.733Z",
+            "last_viewed_at": "2020-03-26T17:00:02.410Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 80218,
+              "key": "48646807",
+              "title": "Complete Graph",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Oops at about 0:14, I said \"grows linearly with the number edges.\"  I meant to say \"grows linearly with the number of nodes.\"  -MLL",
+              "user_state": {
+                "node_key": "48646807",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "paPTifsJQfo",
+                  "china_cdn_id": "paPTifsJQfo.mp4",
+                  "topher_id": "852f2622-d4a2-11e9-b525-07311d6ba90d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d03592_complete-graph-intro-to-algorithms/complete-graph-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d03592_complete-graph-intro-to-algorithms/complete-graph-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d03592_complete-graph-intro-to-algorithms/complete-graph-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Complete Graph",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48727352",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# How many edges in a complete graph on n nodes? \n# \n\ndef clique(n):\n    # Return the number of edges\n    # Try to use a mathematical formula...\n    return n\n\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XQ4iwMUV30k",
+                  "china_cdn_id": "XQ4iwMUV30k.mp4",
+                  "topher_id": "8557fcdc-d4a2-11e9-a32f-9bb59732f415",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d44b_complete-graph-solution-intro-to-algorithms/complete-graph-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d44b_complete-graph-solution-intro-to-algorithms/complete-graph-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d44b_complete-graph-solution-intro-to-algorithms/complete-graph-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100602,
+          "key": "487273500923",
+          "title": "Hypercube",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487273500923",
+            "completed_at": "2020-03-26T17:00:10.073Z",
+            "last_viewed_at": "2020-03-26T17:00:09.742Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15237,
+              "key": "48727350",
+              "title": "Hypercube",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "V4TXwxDS0Ss",
+                "china_cdn_id": "V4TXwxDS0Ss.mp4",
+                "topher_id": "85531dde-d4a2-11e9-957f-5b605200cdcd",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac24_hypercube-intro-to-algorithms/hypercube-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac24_hypercube-intro-to-algorithms/hypercube-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac24_hypercube-intro-to-algorithms/hypercube-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 98519,
+          "key": "486965970923",
+          "title": "Hypercube Edges",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486965970923",
+            "completed_at": "2020-03-26T17:00:20.905Z",
+            "last_viewed_at": "2020-03-26T17:00:20.555Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 45990,
+              "key": "48696597",
+              "title": "Hypercube Edges",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48696597",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "2JQWxNcHWkg",
+                  "china_cdn_id": "2JQWxNcHWkg.mp4",
+                  "topher_id": "85312ad0-d4a2-11e9-ba9f-8f8f986a528b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0767b_hypercube-edges-intro-to-algorithms/hypercube-edges-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0767b_hypercube-edges-intro-to-algorithms/hypercube-edges-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0767b_hypercube-edges-intro-to-algorithms/hypercube-edges-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Hypercube Edges",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/euirGu6PwzwROFKSitX53O_wyhW2fmJu_BmP7JnF2HMRLuXgcrIUEOdH4Q55kpCTbzyOXDD_fqTa_Ls6xCw0=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48696597",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48648691",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341116259111",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.22323834336711418,
+                      "y": 0.4350068284141675
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341116263141",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.21858821546695778,
+                      "y": 0.5926435822353416
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341116270182",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.2237863232370959,
+                      "y": 0.7493897827827234
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341116274567",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.21857255889924404,
+                      "y": 0.9061915881110078
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1341116279217",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5418102912783499,
+                      "y": 0.38791616897653713
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1341116284745",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5412153417052268,
+                      "y": 0.5555443891891183
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1341116289834",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5407613012415277,
+                      "y": 0.7129585541874529
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option9",
+                    "marker": "1341116296129",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5365965269404979,
+                      "y": 0.8798353462113176
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "8xPIq9o6E00",
+                  "china_cdn_id": "8xPIq9o6E00.mp4",
+                  "topher_id": "8535907a-d4a2-11e9-97b2-6f2907aa6fc2",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d098c0_hypercube-edges-solution-intro-to-algorithms/hypercube-edges-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d098c0_hypercube-edges-solution-intro-to-algorithms/hypercube-edges-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d098c0_hypercube-edges-solution-intro-to-algorithms/hypercube-edges-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 90642,
+          "key": "483698740923",
+          "title": "Tree Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483698740923",
+            "completed_at": "2020-03-26T17:00:28.327Z",
+            "last_viewed_at": "2020-03-26T17:00:27.966Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 109696,
+              "key": "48369874",
+              "title": "Tree Graphs",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48369874",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "fDr2O-d20vA",
+                  "china_cdn_id": "fDr2O-d20vA.mp4",
+                  "topher_id": "85406676-d4a2-11e9-aa1b-638ce7e93bbe",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0ddbf_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0ddbf_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0ddbf_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Tree Graphs",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/xrmwOpW0nejN5uMi-ruPQZ33I-16X0coYtIQyx5Z4xGyGiUz7jy1nF5nPULvTmujOYctG7HYqPuZJgC6PYg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48369874",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48678765",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341354705836",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.03125,
+                      "y": 0.3425925925925926
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341354710364",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.2604166666666667,
+                      "y": 0.32407407407407407
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341354715331",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.05208333333333334,
+                      "y": 0.75
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341354721445",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.28125,
+                      "y": 0.7129629629629629
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1341354726053",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.546875,
+                      "y": 0.3148148148148148
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1341354730803",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.546875,
+                      "y": 0.6759259259259259
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1341354735669",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.78125,
+                      "y": 0.6481481481481481
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option9",
+                    "marker": "1341354741253",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 9,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.796875,
+                      "y": 0.3055555555555556
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "vci-nZo48mw",
+                  "china_cdn_id": "vci-nZo48mw.mp4",
+                  "topher_id": "855e1ac2-d4a2-11e9-b46f-3ba7b5b27412",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d280be_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d280be_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d280be_tree-graphs-intro-to-algorithms/tree-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 96518,
+          "key": "486965020923",
+          "title": "Randomly Generated Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486965020923",
+            "completed_at": "2020-03-26T17:00:36.014Z",
+            "last_viewed_at": "2020-03-26T17:00:35.659Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 29227,
+              "key": "48696502",
+              "title": "Randomly Generated Graphs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ZAtYbC9E6qM",
+                "china_cdn_id": "ZAtYbC9E6qM.mp4",
+                "topher_id": "85533c4c-d4a2-11e9-95d7-db3467392f54",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b535_randomly-generated-graphs-intro-to-algorithms/randomly-generated-graphs-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b535_randomly-generated-graphs-intro-to-algorithms/randomly-generated-graphs-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b535_randomly-generated-graphs-intro-to-algorithms/randomly-generated-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113482,
+          "key": "486965990923",
+          "title": "Recursive Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486965990923",
+            "completed_at": "2020-03-26T17:00:43.330Z",
+            "last_viewed_at": "2020-03-26T17:00:42.990Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 111944,
+              "key": "48696599",
+              "title": "Recursive Graphs",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48696599",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FsbiTru67mA",
+                  "china_cdn_id": "FsbiTru67mA.mp4",
+                  "topher_id": "85410cf2-d4a2-11e9-abfa-bff797dba814",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e70c_recursive-graphs-intro-to-algorithms/recursive-graphs-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e70c_recursive-graphs-intro-to-algorithms/recursive-graphs-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e70c_recursive-graphs-intro-to-algorithms/recursive-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Recursive Graphs",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/50VOywRlYrQnabMhHG5cNnM9_zmjQEKp489Dnf5DAqMRce88yQLfw0vc0dqE0v3YFs_oStzyMdpD0VeF3g=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48696599",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48532627",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341116431419",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6094891087727949,
+                      "y": 0.6921017905757645
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341116435597",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6093074094515771,
+                      "y": 0.7754120848817445
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341116440221",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6092917528838634,
+                      "y": 0.8959775046135564
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FCXy5sbLigs",
+                  "china_cdn_id": "FCXy5sbLigs.mp4",
+                  "topher_id": "85405fd2-d4a2-11e9-aa0a-f7e4d1c592e2",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dd65_recursive-graphs-solution-intro-to-algorithms/recursive-graphs-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dd65_recursive-graphs-solution-intro-to-algorithms/recursive-graphs-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dd65_recursive-graphs-solution-intro-to-algorithms/recursive-graphs-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109577,
+          "key": "487275610923",
+          "title": "Recurrence Relation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487275610923",
+            "completed_at": "2020-03-26T17:00:51.233Z",
+            "last_viewed_at": "2020-03-26T17:00:50.897Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 80882,
+              "key": "48727561",
+              "title": "Recurrence Relation",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Another way to see that the number of nodes is n is that the invariant at each level is that the sum (across the level) of the values is exactly n.  The first level is n.  The second one is 2 (n/2) = n.  The third is 4 (n/4) = n.  The last is some number of 1s that adds up to n.  Must be n!  -MLL",
+              "user_state": {
+                "node_key": "48727561",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "FW59FG0xqug",
+                  "china_cdn_id": "FW59FG0xqug.mp4",
+                  "topher_id": "85414352-d4a2-11e9-ac98-a3ccdb026786",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e97c_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e97c_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e97c_recurrence-relation-intro-to-algorithms/recurrence-relation-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Recurrence Relation",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/enccL4MfemeCd7_oRgNTUt677R9a1BOEK__ioJWfb4Rn66qxs_NpamjkDWoXx662-l6aX6yr2DTlZY1MWZqv=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48727561",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48737034",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341116540376",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.036458333333333336,
+                      "y": 0.6666666666666665
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341116545224",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.04166666666666666,
+                      "y": 0.75
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341116550050",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.04166666666666666,
+                      "y": 0.8240740740740741
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1341116576415",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.2552083333333333,
+                      "y": 0.6481481481481481
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1341116583042",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.2552083333333333,
+                      "y": 0.7407407407407408
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1341116587769",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.2604166666666667,
+                      "y": 0.8240740740740741
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "fPecKtW6XaY",
+                  "china_cdn_id": "fPecKtW6XaY.mp4",
+                  "topher_id": "8540e808-d4a2-11e9-ab96-dff7a8742c3d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e46f_recurrence-relation-solution-intro-to-algorithms/recurrence-relation-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e46f_recurrence-relation-solution-intro-to-algorithms/recurrence-relation-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0e46f_recurrence-relation-solution-intro-to-algorithms/recurrence-relation-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113484,
+          "key": "486964950923",
+          "title": "Number Of Edges",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486964950923",
+            "completed_at": "2020-03-26T17:00:58.015Z",
+            "last_viewed_at": "2020-03-26T17:00:57.643Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30150,
+              "key": "48696495",
+              "title": "Number Of Edges",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Na5qImpCFek",
+                "china_cdn_id": "Na5qImpCFek.mp4",
+                "topher_id": "8550381c-d4a2-11e9-8d67-27f785085af4",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17ea6_number-of-edges-intro-to-algorithms/number-of-edges-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17ea6_number-of-edges-intro-to-algorithms/number-of-edges-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17ea6_number-of-edges-intro-to-algorithms/number-of-edges-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 76529,
+          "key": "487273370923",
+          "title": "N Squared",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487273370923",
+            "completed_at": "2020-03-26T17:01:04.856Z",
+            "last_viewed_at": "2020-03-26T17:01:04.493Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 28919,
+              "key": "48727337",
+              "title": "N Squared",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Ny9i6w5DiSU",
+                "china_cdn_id": "Ny9i6w5DiSU.mp4",
+                "topher_id": "850ad79a-d4a2-11e9-a03a-87df4dfef805",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbc0d_n-squared-intro-to-algorithms/n-squared-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbc0d_n-squared-intro-to-algorithms/n-squared-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbc0d_n-squared-intro-to-algorithms/n-squared-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106250,
+          "key": "487371620923",
+          "title": "Tangled Hypercube",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487371620923",
+            "completed_at": "2020-03-26T17:01:10.945Z",
+            "last_viewed_at": "2020-03-26T17:01:10.579Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 52067,
+              "key": "48737162",
+              "title": "Tangled Hypercube",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Oops, that's n/2 edges added at each level because each of G1 and G2 have n/2 nodes. -MLL",
+              "user_state": {
+                "node_key": "48737162",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kH-oFk054ZM",
+                  "china_cdn_id": "kH-oFk054ZM.mp4",
+                  "topher_id": "854cdb22-d4a2-11e9-bd38-0332fbbff231",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1451e_tangled-hypercube-intro-to-algorithms/tangled-hypercube-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1451e_tangled-hypercube-intro-to-algorithms/tangled-hypercube-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1451e_tangled-hypercube-intro-to-algorithms/tangled-hypercube-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Tangled Hypercube",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/8HVIstdie1fFw7obwzbFyu12uJDsT61U0gbURoUA_yBDv7JTSSs23FNjZ93Vsr5_iM_WIA4tptFMcvl3qw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48737162",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48743001",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1341116781018",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.11458333333333331,
+                      "y": 0.8148148148148148
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1341116785859",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.36458333333333326,
+                      "y": 0.7962962962962963
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1341116792739",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.5677083333333334,
+                      "y": 0.7870370370370371
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1341116798381",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.78125,
+                      "y": 0.7962962962962963
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "IQphAliLvTk",
+                  "china_cdn_id": "IQphAliLvTk.mp4",
+                  "topher_id": "852cf3ca-d4a2-11e9-ba13-3730fb01122b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb235_tangled-hypercube-solution-intro-to-algorithms/tangled-hypercube-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb235_tangled-hypercube-solution-intro-to-algorithms/tangled-hypercube-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb235_tangled-hypercube-solution-intro-to-algorithms/tangled-hypercube-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 134223,
+          "key": "484037530923",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484037530923",
+            "completed_at": "2020-03-26T17:01:17.307Z",
+            "last_viewed_at": "2020-03-26T17:01:16.956Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 78725,
+              "key": "48403753",
+              "title": "Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "VQoHZ36cTRI",
+                "china_cdn_id": "VQoHZ36cTRI.mp4",
+                "topher_id": "855eb20c-d4a2-11e9-b628-2fbc319ecab7",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d287ea_recap-intro-to-algorithms/recap-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d287ea_recap-intro-to-algorithms/recap-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d287ea_recap-intro-to-algorithms/recap-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

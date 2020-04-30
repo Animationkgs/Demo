@@ -1,0 +1,2129 @@
+{
+  "data": {
+    "lesson": {
+      "id": 95969,
+      "key": "48439444",
+      "title": "Hardness of Network Problems",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48439444/95969/1516978215556/Hardness%20of%20Network%20Problems%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48439444/95969/1516978082346/Hardness%20of%20Network%20Problems%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 91893,
+          "key": "487192380923",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487192380923",
+            "completed_at": "2020-03-26T23:29:41.161Z",
+            "last_viewed_at": "2020-03-26T23:29:39.836Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 31476,
+              "key": "48719238",
+              "title": "Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "57maMObhwBY",
+                "china_cdn_id": "57maMObhwBY.mp4",
+                "topher_id": "85336f3e-d4a2-11e9-918e-2bd72456c701",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07ed4_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07ed4_introduction-intro-to-algorithms/introduction-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07ed4_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 76567,
+          "key": "487092980923",
+          "title": "Tetristan",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487092980923",
+            "completed_at": "2020-03-26T23:41:22.771Z",
+            "last_viewed_at": "2020-03-26T23:41:21.247Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73835,
+              "key": "48709298",
+              "title": "Tetristan",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48709298",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "U8ZDkjyyUDM",
+                  "china_cdn_id": "U8ZDkjyyUDM.mp4",
+                  "topher_id": "855d42b4-d4a2-11e9-b203-67bb16a7cbf0",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27601_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27601_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d27601_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Tetristan",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/WgWZTE9GMyGB3Yv2Hv1LAIqsVDnqbubCZ2g9ksUdq8YZ3DdCoCeJUIV17wOONpYwe29Qzb-xLsedHzPlyAA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48709298",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48204926",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343661857425",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0851851851851852,
+                      "width": 0.11979166666666669,
+                      "x": 0.7910050710042317,
+                      "y": 0.5827410238760489
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "W43ApQ2We6k",
+                  "china_cdn_id": "W43ApQ2We6k.mp4",
+                  "topher_id": "852f4972-d4a2-11e9-b58a-b7b573bf588d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d035ad_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d035ad_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d035ad_tetristan-intro-to-algorithms/tetristan-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137531,
+          "key": "487135480923",
+          "title": "Efficient Algorithms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487135480923",
+            "completed_at": "2020-03-26T23:41:34.040Z",
+            "last_viewed_at": "2020-03-26T23:41:32.680Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 26917,
+              "key": "48713548",
+              "title": "Efficient Algorithms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "jZ588U8i9Hg",
+                "china_cdn_id": "jZ588U8i9Hg.mp4",
+                "topher_id": "852e5bfc-d4a2-11e9-be48-e39e5f3b2fdf",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb962_efficient-algorithms-intro-to-algorithms/efficient-algorithms-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb962_efficient-algorithms-intro-to-algorithms/efficient-algorithms-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfb962_efficient-algorithms-intro-to-algorithms/efficient-algorithms-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 76491,
+          "key": "486865340923",
+          "title": "Exponential Running Time",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865340923",
+            "completed_at": "2020-03-26T23:47:16.758Z",
+            "last_viewed_at": "2020-03-26T23:47:15.285Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 32569,
+              "key": "48686534",
+              "title": "Exponential Running Time",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "H7vUJB9DiSY",
+                "china_cdn_id": "H7vUJB9DiSY.mp4",
+                "topher_id": "852c780a-d4a2-11e9-b8a5-8b3c011edaee",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfaa3e_exponential-running-time-intro-to-algorithms/exponential-running-time-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfaa3e_exponential-running-time-intro-to-algorithms/exponential-running-time-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfaa3e_exponential-running-time-intro-to-algorithms/exponential-running-time-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 118988,
+          "key": "486867140923",
+          "title": "Degrees of Hardness",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486867140923",
+            "completed_at": "2020-03-26T23:47:26.408Z",
+            "last_viewed_at": "2020-03-26T23:47:25.124Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73281,
+              "key": "48686714",
+              "title": "Degrees of Hardness",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "\"The Answer Man\" video about the Halting Problem: http://www.youtube.com/watch?v=VF3_Fqloxj0",
+              "user_state": {
+                "node_key": "48686714",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "xvd-M2mLh9M",
+                  "china_cdn_id": "xvd-M2mLh9M.mp4",
+                  "topher_id": "8561f6d8-d4a2-11e9-bee4-f72c73bc3b82",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d5e7_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d5e7_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d5e7_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Degrees of Hardness",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/51X-v-XWm9oII5bPVSIVjcwwipAxvkIoFOxq_7ww73vh2OlaHtTGuiJSKwm72wxAKNBNRt06Tsig9dWPrMI=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48686714",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48652459",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343662339493",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07818288803100586,
+                      "y": 0.9445473847565827
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343662344443",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07239586512247721,
+                      "y": 0.8149177268699365
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343662348910",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0677662213643392,
+                      "y": 0.6112140231662326
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343662358106",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.06255788803100586,
+                      "y": 0.3982510602032697
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YjcHHe2oQUc",
+                  "china_cdn_id": "YjcHHe2oQUc.mp4",
+                  "topher_id": "85567812-d4a2-11e9-9edd-1377638caa03",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ca8f_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ca8f_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ca8f_degrees-of-hardness-intro-to-algorithms/degrees-of-hardness-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 85370,
+          "key": "484394430923",
+          "title": "Lower Bound on Complexity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484394430923",
+            "completed_at": "2020-03-26T23:47:35.498Z",
+            "last_viewed_at": "2020-03-26T23:47:34.158Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 122578,
+              "key": "48439443",
+              "title": "Lower Bound on Complexity",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48439443",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PNPKUcX940o",
+                  "china_cdn_id": "PNPKUcX940o.mp4",
+                  "topher_id": "8553b5c8-d4a2-11e9-9738-2b083cd13374",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb0a_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb0a_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb0a_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Lower Bound on Complexity",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/fbLNGxqL_qKSVjELBfXC9YWP1kHKp9TSFGEAQi821PsV3OCxRfytMEXWhV5X9MrQinVRfQIfji9OnZQQCKxU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48439443",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48713557",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343662527201",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.09380787710348765,
+                      "y": 0.4352881254973235
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343662533157",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.09901621143023172,
+                      "y": 0.5186214305736401
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343662538571",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.09901621143023172,
+                      "y": 0.731584393536603
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "EQK5t0FMnNY",
+                  "china_cdn_id": "EQK5t0FMnNY.mp4",
+                  "topher_id": "8560b084-d4a2-11e9-bb91-e7939b3d6dd8",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fe01_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fe01_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fe01_lower-bound-on-complexity-intro-to-algorithms/lower-bound-on-complexity-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100515,
+          "key": "486524530923",
+          "title": "Decision Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486524530923",
+            "completed_at": "2020-03-26T23:47:43.892Z",
+            "last_viewed_at": "2020-03-26T23:47:42.536Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 91488,
+              "key": "48652453",
+              "title": "Decision Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Oops.  Just to be clear, 0=no=off, 1=yes=on.  The way I drew it implies 0=yes.  -MLL",
+              "video": {
+                "youtube_id": "LsvVC8u5OPE",
+                "china_cdn_id": "LsvVC8u5OPE.mp4",
+                "topher_id": "854ea786-d4a2-11e9-88ae-4b799fed3ccb",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16068_decision-problems-intro-to-algorithms/decision-problems-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16068_decision-problems-intro-to-algorithms/decision-problems-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16068_decision-problems-intro-to-algorithms/decision-problems-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 88575,
+          "key": "486058360923",
+          "title": "Longest Simple Path",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486058360923",
+            "completed_at": "2020-03-26T23:50:02.059Z",
+            "last_viewed_at": "2020-03-26T23:50:00.538Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 61465,
+              "key": "48605836",
+              "title": "Longest Simple Path",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "In this example, a path's length is the number of nodes in the path (usually we count the edges so the lengths are one longer for this example).  -MLL",
+              "user_state": {
+                "node_key": "48605836",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "lRH0tax5dFA",
+                  "china_cdn_id": "lRH0tax5dFA.mp4",
+                  "topher_id": "854ea6dc-d4a2-11e9-88ac-5b6362f12f9e",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15fac_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15fac_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15fac_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Longest Simple Path",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/gtGvwSIs60Y2lu23XMonn65xdUB7hkhIg_KEig85i7-98G7bUhpdyT-M0-I4eRoFiXVzQcIZV0y6DxyuVJbE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48605836",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48050980",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343662986852",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0515625,
+                      "y": 0.12973253462049697
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343662993051",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.05214122136433919,
+                      "y": 0.203806608694571
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343663001676",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.05734955469767253,
+                      "y": 0.3149177198056822
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343663009501",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.06255788803100586,
+                      "y": 0.416769571657534
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1343663019865",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.06255788803100586,
+                      "y": 0.5093621642501266
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1343663026303",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0677662213643392,
+                      "y": 0.6112139949092159
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1343663066248",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0677662213643392,
+                      "y": 0.694547356499566
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "LgeXhp-hQIw",
+                  "china_cdn_id": "LgeXhp-hQIw.mp4",
+                  "topher_id": "854e0eca-d4a2-11e9-8752-2fae856b1161",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d158ed_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d158ed_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d158ed_longest-simple-path-intro-to-algorithms/longest-simple-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106427,
+          "key": "487033220923",
+          "title": "Reduction: Long and Simple Path",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487033220923",
+            "completed_at": "2020-03-26T23:50:12.095Z",
+            "last_viewed_at": "2020-03-26T23:50:10.786Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 90637,
+              "key": "48703322",
+              "title": "Reduction: Long and Simple Path",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48703322",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZFVJGgiYDu8",
+                  "china_cdn_id": "ZFVJGgiYDu8.mp4",
+                  "topher_id": "85081b18-d4a2-11e9-b953-1782ce148bff",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b6ab_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b6ab_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b6ab_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Reduction: Long and Simple Path",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48743006",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Modify long_and_simple_path \n# to build and return the path\n# \n\n# Find me that path!\ndef long_and_simple_path(G,u,v,l):\n    \"\"\"\n    G: Graph\n    u: starting node\n    v: ending node\n    l: minimum length of path\n    \"\"\"\n    if not long_and_simple_decision(G,u,v,l):\n        return False\n    # Otherwise, build and return the path\n\n#############\n\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef break_link(G, node1, node2):\n    if node1 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G[node1]:\n        print \"error: breaking non-existent link\"\n        return\n    if node1 not in G[node2]:\n        print \"error: breaking non-existent link\"\n        return\n    del G[node1][node2]\n    del G[node2][node1]\n    return G\n\nflights = [(1,2),(1,3),(2,3),(2,6),(2,4),(2,5),(3,6),(4,5)]\nG = {}\nfor (x,y) in flights: make_link(G,x,y)\n\ndef all_perms(seq):\n    if len(seq) == 0: return [[]]\n    if len(seq) == 1: return [seq, []]\n    most = all_perms(seq[1:])\n    first = seq[0]\n    rest = []\n    for perm in most:\n        for i in range(len(perm)+1):\n            rest.append(perm[0:i] + [first] + perm[i:])\n    return most + rest\n\ndef check_path(G,path):\n    for i in range(len(path)-1):\n        if path[i+1] not in G[path[i]]: return False\n    return True\n    \ndef long_and_simple_decision(G,u,v,l):\n    if l == 0:\n        return False\n    n = len(G)\n    perms = all_perms(G.keys())\n    for perm in perms:\n        # check path\n        if (len(perm) >= l and check_path(G,perm) and perm[0] == u \n            and perm[len(perm)-1] == v): \n            return True\n    return False\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "FC08vDjG_tY",
+                  "china_cdn_id": "FC08vDjG_tY.mp4",
+                  "topher_id": "854049f2-d4a2-11e9-a9c9-23414c221125",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dc6d_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dc6d_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0dc6d_reduction-long-and-simple-path-intro-to-algorithms/reduction-long-and-simple-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 4924,
+          "key": "482049200923",
+          "title": "Polynomial Time Decidable Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "482049200923",
+            "completed_at": "2020-03-26T23:51:11.127Z",
+            "last_viewed_at": "2020-03-26T23:51:09.792Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44074,
+              "key": "48204920",
+              "title": "Polynomial Time Decidable Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "WYWtleSQ4F0",
+                "china_cdn_id": "WYWtleSQ4F0.mp4",
+                "topher_id": "85600832-d4a2-11e9-b9fd-1b871ca4e8e2",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a00e_polynomial-time-decidable-problems-intro-to-algorithms/polynomial-time-decidable-problems-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a00e_polynomial-time-decidable-problems-intro-to-algorithms/polynomial-time-decidable-problems-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a00e_polynomial-time-decidable-problems-intro-to-algorithms/polynomial-time-decidable-problems-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1707,
+          "key": "486865370923",
+          "title": "Non-deterministic Polynomial Time Decidable Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865370923",
+            "completed_at": "2020-03-26T23:53:33.854Z",
+            "last_viewed_at": "2020-03-26T23:53:32.496Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 95675,
+              "key": "48686537",
+              "title": "Non-deterministic Polynomial Time Decidable Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "DoGIm5jNAtc",
+                "china_cdn_id": "DoGIm5jNAtc.mp4",
+                "topher_id": "84ce1864-d4a2-11e9-96eb-579e7c446702",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fcf9_non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms/non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fcf9_non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms/non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fcf9_non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms/non-deterministic-polynomial-time-decidable-problem-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 102861,
+          "key": "487480680923",
+          "title": "Accepting Certificate",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487480680923",
+            "completed_at": "2020-03-26T23:53:46.165Z",
+            "last_viewed_at": "2020-03-26T23:53:44.728Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77600,
+              "key": "48748068",
+              "title": "Accepting Certificate",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48748068",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "9zgDVdga19A",
+                  "china_cdn_id": "9zgDVdga19A.mp4",
+                  "topher_id": "8529b4ee-d4a2-11e9-b04c-3ffe29e9d013",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf97a3_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf97a3_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf97a3_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Accepting Certificate",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/TDY1nLFyHExT-LcGZgNkfzzwdYYfZOjUrRjxsjBJ2rmcaCG6dMBbX_-AIy5YOqgRMIrHgtdA6k-VRfGvkLs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48748068",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48652451",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343666069246",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.09370265007019044,
+                      "y": 0.29621210451479313
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343666074441",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.09370265007019044,
+                      "y": 0.435100993403682
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343666080152",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.10411931673685709,
+                      "y": 0.6758417341444227
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "M05s3hDMFIU",
+                  "china_cdn_id": "M05s3hDMFIU.mp4",
+                  "topher_id": "854eff56-d4a2-11e9-89b9-03198284e751",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16578_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16578_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16578_accepting-certificate-intro-to-algorithms/accepting-certificate-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 76638,
+          "key": "487550150923",
+          "title": "Clique Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487550150923",
+            "completed_at": "2020-03-26T23:53:59.433Z",
+            "last_viewed_at": "2020-03-26T23:53:58.123Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 75673,
+              "key": "48755015",
+              "title": "Clique Problem",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48755015",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "eya-cyk-7-4",
+                  "china_cdn_id": "eya-cyk-7-4.mp4",
+                  "topher_id": "853f536c-d4a2-11e9-a76b-536f10f546ce",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d5e9_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d5e9_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d5e9_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Clique Problem",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/pJLXQPNIAmHVigv8dyNKD4WriHcoIFFu1VlfUwMjYuv94OpeXhoENKFAezsssW8yYlFLHzRljeuBXSyrvm4=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48755015",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48648694",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343666317015",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.11086474501108648,
+                      "width": 0.15211970074812967,
+                      "x": 0.2335177680798005,
+                      "y": 0.5866130820399114
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "lHCGlcR9VEc",
+                  "china_cdn_id": "lHCGlcR9VEc.mp4",
+                  "topher_id": "854e10e6-d4a2-11e9-8759-2f7e0a9e3a7b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15993_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15993_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15993_clique-problem-intro-to-algorithms/clique-problem-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 96556,
+          "key": "486524560923",
+          "title": "Clique Problem in NP?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486524560923",
+            "completed_at": "2020-03-26T23:54:29.598Z",
+            "last_viewed_at": "2020-03-26T23:54:28.289Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 103891,
+              "key": "48652456",
+              "title": "Clique Problem in NP?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "_6bZfyv-_ts",
+                "china_cdn_id": "_6bZfyv-_ts.mp4",
+                "topher_id": "8535ae52-d4a2-11e9-9807-c3165a6a500a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b81_clique-problem-in-np-intro-to-algorithms/clique-problem-in-np-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b81_clique-problem-in-np-intro-to-algorithms/clique-problem-in-np-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09b81_clique-problem-in-np-intro-to-algorithms/clique-problem-in-np-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113568,
+          "key": "486865390923",
+          "title": "Good Guessing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865390923",
+            "completed_at": "2020-03-26T23:54:38.485Z",
+            "last_viewed_at": "2020-03-26T23:54:36.375Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30960,
+              "key": "48686539",
+              "title": "Good Guessing",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "J-j6yhzIRlM",
+                "china_cdn_id": "J-j6yhzIRlM.mp4",
+                "topher_id": "85458db8-d4a2-11e9-b8a3-e72bbf9ecb2e",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d129bb_good-guessing-intro-to-algorithms/good-guessing-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d129bb_good-guessing-intro-to-algorithms/good-guessing-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d129bb_good-guessing-intro-to-algorithms/good-guessing-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 75519,
+          "key": "482049230923",
+          "title": "Exponential Upperbound",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "482049230923",
+            "completed_at": "2020-03-26T23:54:45.418Z",
+            "last_viewed_at": "2020-03-26T23:54:44.107Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44088,
+              "key": "48204923",
+              "title": "Exponential Upperbound",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NXyKj07oStc",
+                "china_cdn_id": "NXyKj07oStc.mp4",
+                "topher_id": "85510ecc-d4a2-11e9-8fef-9fadb0106cf2",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a2b_exponential-upperbound-intro-to-algorithms/exponential-upperbound-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a2b_exponential-upperbound-intro-to-algorithms/exponential-upperbound-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a2b_exponential-upperbound-intro-to-algorithms/exponential-upperbound-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100537,
+          "key": "487235480923",
+          "title": "P=NP?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487235480923",
+            "completed_at": "2020-03-26T23:54:58.094Z",
+            "last_viewed_at": "2020-03-26T23:54:56.774Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 53995,
+              "key": "48723548",
+              "title": "P=NP?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48723548",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "EmlUJ5Oeiv8",
+                  "china_cdn_id": "EmlUJ5Oeiv8.mp4",
+                  "topher_id": "84e22ad4-d4a2-11e9-9f54-432b126c5552",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cff8_p-np-intro-to-algorithms/p-np-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cff8_p-np-intro-to-algorithms/p-np-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0cff8_p-np-intro-to-algorithms/p-np-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "P=NP?",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/IP-IDb-us5Y-VDMhjm-PY54QoSmToNEthCMLIf1SQ_3A7NUnN0H-m83rS-kVeakBBxksO418JgcajiHO5pU=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48723548",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48726195",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343667305606",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07807765007019044,
+                      "y": 0.6295454237196181
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343667310910",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07286931673685709,
+                      "y": 0.49065654895923755
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343667316929",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.06766098340352376,
+                      "y": 0.2591750674777561
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "rrckxJiIKmE",
+                  "china_cdn_id": "rrckxJiIKmE.mp4",
+                  "topher_id": "8558f3e4-d4a2-11e9-a5f5-731477db675f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e03a_p-np-intro-to-algorithms/p-np-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e03a_p-np-intro-to-algorithms/p-np-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e03a_p-np-intro-to-algorithms/p-np-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93802,
+          "key": "486245970923",
+          "title": "NP-Hard",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486245970923",
+            "completed_at": "2020-03-26T23:55:08.541Z",
+            "last_viewed_at": "2020-03-26T23:55:07.212Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 82115,
+              "key": "48624597",
+              "title": "NP-Hard",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "AO9m5Xf4DJ8",
+                "china_cdn_id": "AO9m5Xf4DJ8.mp4",
+                "topher_id": "85606f70-d4a2-11e9-bad7-5ff3b0c4ea19",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fbae_np-hard-intro-to-algorithms/np-hard-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fbae_np-hard-intro-to-algorithms/np-hard-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d4fbae_np-hard-intro-to-algorithms/np-hard-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39715,
+          "key": "482999520923",
+          "title": "Find the Strangers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "482999520923",
+            "completed_at": "2020-03-26T23:55:16.250Z",
+            "last_viewed_at": "2020-03-26T23:55:14.930Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 5472,
+              "key": "48299952",
+              "title": "Find the Strangers",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48299952",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "iF7tMy2ztrU",
+                  "china_cdn_id": "iF7tMy2ztrU.mp4",
+                  "topher_id": "8544833c-d4a2-11e9-b599-07aacfd94713",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11d96_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11d96_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d11d96_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Find the Strangers",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/U5zevXrmCJRVkCGEoEth4uUAfNO_q_nn0d1zif3IAnmvhq0_9p4bFgPj4mjaJtyowmPRmMyfeVra0mAilho=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48299952",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48403767",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343667886156",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.02994466957605985,
+                      "y": 0.5840146895787139
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343667892369",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.030158977556109724,
+                      "y": 0.7369733924611973
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343667897807",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.03140586034912718,
+                      "y": 0.8062292128603105
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343667901952",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.03140586034912718,
+                      "y": 0.915119179600887
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "R7wvfPiIbmM",
+                  "china_cdn_id": "R7wvfPiIbmM.mp4",
+                  "topher_id": "8558cf36-d4a2-11e9-a58a-07d7a32fc42b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d574_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d574_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d574_find-the-strangers-intro-to-algorithms/find-the-strangers-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 116446,
+          "key": "487192320923",
+          "title": "Reducing to Clique",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487192320923",
+            "completed_at": "2020-03-26T23:58:07.363Z",
+            "last_viewed_at": "2020-03-26T23:58:06.043Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73826,
+              "key": "48719232",
+              "title": "Reducing to Clique",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "_aymuPWobIQ",
+                "china_cdn_id": "_aymuPWobIQ.mp4",
+                "topher_id": "8535e746-d4a2-11e9-98ab-bf31099fd059",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09bd7_reducing-to-clique-intro-to-algorithms/reducing-to-clique-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09bd7_reducing-to-clique-intro-to-algorithms/reducing-to-clique-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09bd7_reducing-to-clique-intro-to-algorithms/reducing-to-clique-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 114953,
+          "key": "486245980923",
+          "title": "SAT is NP-Hard",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486245980923",
+            "completed_at": "2020-03-26T23:58:25.672Z",
+            "last_viewed_at": "2020-03-26T23:58:24.328Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 51299,
+              "key": "48624598",
+              "title": "SAT is NP-Hard",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Definition of SAT: <http://en.wikipedia.org/wiki/Boolean_satisfiability_problem>",
+              "video": {
+                "youtube_id": "s4MhiPGGskc",
+                "china_cdn_id": "s4MhiPGGskc.mp4",
+                "topher_id": "85285cc0-d4a2-11e9-ad7c-c3899fc3438d",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf91d9_sat-is-np-hard-intro-to-algorithms/sat-is-np-hard-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf91d9_sat-is-np-hard-intro-to-algorithms/sat-is-np-hard-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf91d9_sat-is-np-hard-intro-to-algorithms/sat-is-np-hard-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 75570,
+          "key": "484529460923",
+          "title": "NP-Completeness",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484529460923",
+            "completed_at": "2020-03-26T23:58:52.293Z",
+            "last_viewed_at": "2020-03-26T23:58:50.976Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 56181,
+              "key": "48452946",
+              "title": "NP-Completeness",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Here's a website, for example: http://en.wikipedia.org/wiki/List_of_NP-complete_problems . -MLL",
+              "user_state": {
+                "node_key": "48452946",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kN8ciYykim4",
+                  "china_cdn_id": "kN8ciYykim4.mp4",
+                  "topher_id": "854d340a-d4a2-11e9-be46-a797dff921b5",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d149ab_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d149ab_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d149ab_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "NP-Completeness",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/mMrHav0RQHVuDzlyaTl5jRE-pcVuTx4qMkxmrW5lvPM-4DOsuJUIr3Nid4UiHgThg4Q9cMkf6Jez5CEHaUQ=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48452946",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48733115",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343668424391",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.05203598340352376,
+                      "y": 0.7962120903862846
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343668428961",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.04682765007019043,
+                      "y": 0.7036194977936922
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343668433462",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0416193167368571,
+                      "y": 0.5739898681640625
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343668438884",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0416193167368571,
+                      "y": 0.46287877824571394
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "MRLokxvnhsA",
+                  "china_cdn_id": "MRLokxvnhsA.mp4",
+                  "topher_id": "854fb720-d4a2-11e9-8be3-87154ed51402",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d173eb_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d173eb_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d173eb_np-completeness-intro-to-algorithms/np-completeness-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1250,
+          "key": "487135490923",
+          "title": "Graph Coloring is NP-Complete",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487135490923",
+            "completed_at": "2020-03-26T23:59:19.120Z",
+            "last_viewed_at": "2020-03-26T23:59:17.808Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 49581,
+              "key": "48713549",
+              "title": "Graph Coloring is NP-Complete",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "otjOaczA2n4",
+                "china_cdn_id": "otjOaczA2n4.mp4",
+                "topher_id": "855323d8-d4a2-11e9-9590-ab48e5196e63",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1aad3_graph-coloring-is-np-complete-intro-to-algorithms/graph-coloring-is-np-complete-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1aad3_graph-coloring-is-np-complete-intro-to-algorithms/graph-coloring-is-np-complete-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1aad3_graph-coloring-is-np-complete-intro-to-algorithms/graph-coloring-is-np-complete-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "key": "487440870923",
+          "title": "Solving 3-Colorability",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487440870923",
+            "completed_at": "2020-03-26T23:59:29.145Z",
+            "last_viewed_at": "2020-03-26T23:59:27.803Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 66429,
+              "key": "48744087",
+              "title": "Solving 3-Colorability",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48744087",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DysIgouoGQQ",
+                  "china_cdn_id": "DysIgouoGQQ.mp4",
+                  "topher_id": "84e05ace-d4a2-11e9-99b8-37b4ef09b61f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c5d0_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c5d0_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c5d0_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Solving 3-Colorability",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48652452",
+                "initial_code_files": [
+                  {
+                    "text": "############\n#\n# Verify a coloring of a graph\n#\n############\n\n# if cert a k-coloring of G?\n#   colors in {0, ..., k-1}\ndef verify(G, cert, k):\n    return False\n\n#######\n#\n# Testing\n\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\n\n(a,b,c,d,e,f,g,h) = ('a','b','c','d','e','f','g','h')\ncxns = [(a,c),(a,b),(c,d),(b,d),(d,e),(d,f),(e,g),(f,g),(f,h),(g,h)]\n\nG = {}\nfor (x,y) in cxns: make_link(G,x,y)\n\n\ncert = {}\nfor (node, color) in [(a,0),(b,1),(c,2),(d,0),(e,1),(f,2),(g,0),(h,1)]:\n    cert[node] = color\nprint verify(G,cert,3)\n\ncert = {}\nfor (node, color) in [(a,0),(b,1),(c,2),(d,0),(e,0),(f,1),(g,2),(h,0)]:\n    cert[node] = color\nprint verify(G,cert,4)\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "OWPCE9NZmxI",
+                  "china_cdn_id": "OWPCE9NZmxI.mp4",
+                  "topher_id": "855234b4-d4a2-11e9-92d5-eb21700ca566",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1acf1_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1acf1_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1acf1_solving-3-colorability-intro-to-algorithms/solving-3-colorability-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93736,
+          "key": "486347270923",
+          "title": "Reduce 3-Colorability to SAT",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486347270923",
+            "completed_at": "2020-03-26T23:59:48.576Z",
+            "last_viewed_at": "2020-03-26T23:59:46.431Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 56546,
+              "key": "48634727",
+              "title": "Reduce 3-Colorability to SAT",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "HhFSgXbWiWY",
+                "china_cdn_id": "HhFSgXbWiWY.mp4",
+                "topher_id": "84d04e0e-d4a2-11e9-9db0-738b7b727e84",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb53_reduce-3-colorability-to-sat-intro-to-algorithms/reduce-3-colorability-to-sat-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb53_reduce-3-colorability-to-sat-intro-to-algorithms/reduce-3-colorability-to-sat-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb53_reduce-3-colorability-to-sat-intro-to-algorithms/reduce-3-colorability-to-sat-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112594,
+          "key": "483118430923",
+          "title": "Generating a Formula",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483118430923",
+            "completed_at": "2020-03-27T00:00:07.291Z",
+            "last_viewed_at": "2020-03-27T00:00:05.922Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 98891,
+              "key": "48311843",
+              "title": "Generating a Formula",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48311843",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Moo_ayWSyzA",
+                  "china_cdn_id": "Moo_ayWSyzA.mp4",
+                  "topher_id": "854f8da4-d4a2-11e9-8b68-2b747087b1f3",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d171ff_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d171ff_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d171ff_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Generating a Formula",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/1n8WGg046i1EdU5asTCbtSIpqjOvGioKoJeutIlq4LxKB-IQE1UgIN16GFNgKTfbE1-mlwxsGaC5f5-wPg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48311843",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48532633",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343671765278",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08981481481481483,
+                      "width": 0.153125,
+                      "x": 0.7343276182810466,
+                      "y": 0.46287878530996823
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "NBUCGEu3k34",
+                  "china_cdn_id": "NBUCGEu3k34.mp4",
+                  "topher_id": "85504988-d4a2-11e9-8d9b-8be3b2d26622",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17f49_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17f49_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17f49_generating-a-formula-intro-to-algorithms/generating-a-formula-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137448,
+          "key": "486825370923",
+          "title": "Reduce SAT to 3-Colorability",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486825370923",
+            "completed_at": "2020-03-27T00:00:45.781Z",
+            "last_viewed_at": "2020-03-27T00:00:44.200Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 27759,
+              "key": "48682537",
+              "title": "Reduce SAT to 3-Colorability",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "c__DzvVZw4I",
+                "china_cdn_id": "c__DzvVZw4I.mp4",
+                "topher_id": "84c8f2b2-d4a2-11e9-b249-8f18bb277322",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_reduce-sat-to-3-colorability-intro-to-algorithms/reduce-sat-to-3-colorability-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_reduce-sat-to-3-colorability-intro-to-algorithms/reduce-sat-to-3-colorability-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_reduce-sat-to-3-colorability-intro-to-algorithms/reduce-sat-to-3-colorability-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 89385,
+          "key": "487192360923",
+          "title": "Making a SAT graph",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487192360923",
+            "completed_at": "2020-03-27T00:01:52.814Z",
+            "last_viewed_at": "2020-03-27T00:01:51.479Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 46517,
+              "key": "48719236",
+              "title": "Making a SAT graph",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Oops, 3-SAT and 3-CNF are intended to refer to the same thing, here.  -MLL",
+              "video": {
+                "youtube_id": "2z2iQdUpx0o",
+                "china_cdn_id": "2z2iQdUpx0o.mp4",
+                "topher_id": "84cb6650-d4a2-11e9-b98b-f7bb0cda037b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc181_making-a-sat-graph-intro-to-algorithms/making-a-sat-graph-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc181_making-a-sat-graph-intro-to-algorithms/making-a-sat-graph-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc181_making-a-sat-graph-intro-to-algorithms/making-a-sat-graph-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 88034,
+          "key": "486865350923",
+          "title": "Gadgets",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865350923",
+            "completed_at": "2020-03-27T00:02:01.978Z",
+            "last_viewed_at": "2020-03-27T00:02:00.645Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30964,
+              "key": "48686535",
+              "title": "Gadgets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "EMp40CE0kNU",
+                "china_cdn_id": "EMp40CE0kNU.mp4",
+                "topher_id": "850e97ea-d4a2-11e9-ab46-0b9a96e85e24",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d035d4_gadgets-intro-to-algorithms/gadgets-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d035d4_gadgets-intro-to-algorithms/gadgets-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d035d4_gadgets-intro-to-algorithms/gadgets-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 120000,
+          "key": "483118440923",
+          "title": "4-Colorabiity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483118440923",
+            "completed_at": "2020-03-27T00:02:09.691Z",
+            "last_viewed_at": "2020-03-27T00:02:08.253Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44409,
+              "key": "48311844",
+              "title": "4-Colorabiity",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48311844",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "xIi_uanHvaI",
+                  "china_cdn_id": "xIi_uanHvaI.mp4",
+                  "topher_id": "852a859a-d4a2-11e9-b2cc-6375a23f7f0a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa1b5_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa1b5_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa1b5_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "4-Colorabiity",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/rqvRBEte-mop859RRX6DfXxZiXuTHTGSIs8Cn_Zh_7f548Dj_3c1wCRgdR2X48kquyDFh4231fktMDaSQrMC=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48311844",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48726197",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343673072329",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.06245265007019043,
+                      "y": 0.9435184902615018
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343673076321",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.0572443167368571,
+                      "y": 0.7869528311270254
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343673081768",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.05203598340352376,
+                      "y": 0.6480639704951534
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343673086052",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.036410983403523764,
+                      "y": 0.4443602667914497
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1343673090936",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.025994316736857096,
+                      "y": 0.21287877824571397
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ChDQopf8GrM",
+                  "china_cdn_id": "ChDQopf8GrM.mp4",
+                  "topher_id": "853d6980-d4a2-11e9-a1ee-df7282ad7a56",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a79b_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a79b_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a79b_4-colorabiity-intro-to-algorithms/4-colorabiity-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113616,
+          "key": "487142500923",
+          "title": "Coloring Planar Graphs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487142500923",
+            "completed_at": "2020-03-27T00:02:17.460Z",
+            "last_viewed_at": "2020-03-27T00:02:16.184Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 72756,
+              "key": "48714250",
+              "title": "Coloring Planar Graphs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "R1lDrc_Igc4",
+                "china_cdn_id": "R1lDrc_Igc4.mp4",
+                "topher_id": "8557c3e8-d4a2-11e9-a28b-5fee9c075c7f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d40c_coloring-planar-graphs-intro-to-algorithms/coloring-planar-graphs-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d40c_coloring-planar-graphs-intro-to-algorithms/coloring-planar-graphs-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d40c_coloring-planar-graphs-intro-to-algorithms/coloring-planar-graphs-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93769,
+          "key": "486347280923",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486347280923",
+            "completed_at": "2020-03-27T00:02:27.885Z",
+            "last_viewed_at": "2020-03-27T05:15:58.838Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 56524,
+              "key": "48634728",
+              "title": "Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "WBqaqoTNbVE",
+                "china_cdn_id": "WBqaqoTNbVE.mp4",
+                "topher_id": "855e26e8-d4a2-11e9-b491-4fd2a6eba585",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29179_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29179_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29179_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

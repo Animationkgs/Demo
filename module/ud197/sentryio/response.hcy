@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 28 Apr 2020 15:40:49 GMT
+Content-Type: application/json
+Content-Length: 41
+Connection: keep-alive
+access-control-allow-origin: https://classroom.udacity.com
+access-control-expose-headers: retry-after, x-sentry-rate-limits, x-sentry-error
+vary: Origin
+x-envoy-upstream-service-time: 1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+{"id":"2886a939b52242f18f32767998461a35"}

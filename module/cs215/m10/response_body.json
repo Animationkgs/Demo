@@ -1,0 +1,553 @@
+{
+  "data": {
+    "lesson": {
+      "id": 109215,
+      "key": "48723546",
+      "title": "Problem Set 4",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48723546/109215/1516979174186/Problem%20Set%204%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48723546/109215/1516979170735/Problem%20Set%204%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 79691,
+          "key": "487092970923",
+          "title": "Build a Heap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487092970923",
+            "completed_at": "2020-03-26T23:18:35.657Z",
+            "last_viewed_at": "2020-03-26T23:18:34.340Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 58905,
+              "key": "48709297",
+              "title": "Build a Heap",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Here, \"n\" represents the length of the list \"vals\". -MLL\n\n`insert_heap` is:\n    def insert_heap(L, v):\n        L.append(v)\n        up_heapify(L, len(L)-1)",
+              "user_state": {
+                "node_key": "48709297",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "xKdmHvDs8us",
+                  "china_cdn_id": "xKdmHvDs8us.mp4",
+                  "topher_id": "8557f9d0-d4a2-11e9-a327-730d4e04433d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d299_build-a-heap-intro-to-algorithms/build-a-heap-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d299_build-a-heap-intro-to-algorithms/build-a-heap-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d299_build-a-heap-intro-to-algorithms/build-a-heap-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Build a Heap",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/Sn_kf5GHGPK1pUA_mCUtFMxAfZMbGSdA1C75oYuox3W9pEh3hXsPVc_aKNGuHmqALtY4a1f4e9UdNq1RGUs=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48709297",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48738036",
+                "widgets": [
+                  {
+                    "group": "multipleChoice3",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1342731532685",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6297187805175781,
+                      "y": 0.6665748878761574
+                    }
+                  },
+                  {
+                    "group": "multipleChoice3",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1342731538621",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6295310656229655,
+                      "y": 0.7586669921875
+                    }
+                  },
+                  {
+                    "group": "multipleChoice3",
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1342731544254",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6298126220703125,
+                      "y": 0.8507868448893228
+                    }
+                  },
+                  {
+                    "group": "multipleChoice3",
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1342731550208",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.8332035064697265,
+                      "y": 0.6934350472909433
+                    }
+                  },
+                  {
+                    "group": "multipleChoice3",
+                    "initial_value": "false",
+                    "label": "option8",
+                    "marker": "1342731556169",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 8,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.8277449289957682,
+                      "y": 0.8049076786747684
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100875,
+          "key": "7032685480923",
+          "title": "Minimize Sum of Absolute Value",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7032685480923",
+            "completed_at": "2020-03-26T23:18:47.012Z",
+            "last_viewed_at": "2020-03-26T23:19:05.769Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 109617,
+              "key": "703268548",
+              "title": "Minimize Sum of Absolute Value",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Find the value of x that minimizes this sum:\n\n<span class=\"mathquill\">\\sum_{i=0}^{n-1} |L[i]-x|</span>",
+              "user_state": {
+                "node_key": "703268548",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Minimize Sum of Absolute Value",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48658943",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Given a list of numbers, L, find a number, x, that\n# minimizes the sum of the absolute value of the difference\n# between each element in L and x: SUM_{i=0}^{n-1} |L[i] - x|\n# \n# Your code should run in Theta(n) time\n#\n\ndef minimize_absolute(L):\n    x = 0\n    # your code here\n    return x\n\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 96901,
+          "key": "7032685490923",
+          "title": "Minimize Sum of Squares",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7032685490923",
+            "completed_at": "2020-03-26T23:19:28.420Z",
+            "last_viewed_at": "2020-03-26T23:19:26.874Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 109365,
+              "key": "703268549",
+              "title": "Minimize Sum of Squares",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Find the value of x that minimizes this sum:\n\n<span class=\"mathquill\">\\sum_{i=0}^{n-1} (L[i] - x)^2</span>",
+              "user_state": {
+                "node_key": "703268549",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Minimize Sum of Squares",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48700426",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Given a list of numbers, L, find a number, x, that\n# minimizes the sum of the square of the difference\n# between each element in L and x: SUM_{i=0}^{n-1} (L[i] - x)^2\n# \n# Your code should run in Theta(n) time\n# \n\ndef minimize_square(L):\n    x = 0\n    # your code here\n    return x\n    ",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 114621,
+          "key": "7032685500923",
+          "title": "Mode",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7032685500923",
+            "completed_at": "2020-03-26T23:19:35.497Z",
+            "last_viewed_at": "2020-03-26T23:19:34.170Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 97811,
+              "key": "703268550",
+              "title": "Mode",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "703268550",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Mode",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48665910",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Given a list L of n numbers, find the mode \n# (the number that appears the most times).  \n# Your algorithm should run in Theta(n).\n# If there are ties - just pick one value to return \n#\nfrom operator import itemgetter\n\ndef mode(L):\n    # your code here\n    pass\n\n####\n# Test\n#\nimport time\nfrom random import randint\n\ndef test():\n    assert 5 == mode([1, 5, 2, 5, 3, 5])\n    iterations = (10, 20, 30, 100, 200, 300, 1000, 5000, 10000, 20000, 30000)\n    times = []\n    for i in iterations:\n        L = []\n        for j in range(i):\n            L.append(randint(1, 10))\n        start = time.clock()\n        for j in range(500):\n            mode(L)\n        end = time.clock()\n        print start, end\n        times.append(float(end - start))\n    slopes = []\n    for (x1, x2), (y1, y2) in zip(zip(iterations[:-1], iterations[1:]), zip(times[:-1], times[1:])):\n        print (x1, x2), (y1, y2)\n        slopes.append((y2 - y1) / (x2 - x1))\n    # if mode runs in linear time, \n    # these factors should be close (kind of)\n    print slopes\n\n#test()\n                ",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113575,
+          "key": "7032685510923",
+          "title": "Up Heapify",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7032685510923",
+            "completed_at": "2020-03-26T23:19:41.567Z",
+            "last_viewed_at": "2020-03-26T23:19:40.275Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 91457,
+              "key": "703268551",
+              "title": "Up Heapify",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "703268551",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Up Heapify",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48683678",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# write up_heapify, an algorithm that checks if\n# node i and its parent satisfy the heap\n# property, swapping and recursing if they don't\n#\n# L should be a heap when up_heapify is done\n#\n\ndef up_heapify(L, i):\n    # your code here\n    return\n\ndef parent(i): \n    return (i-1)/2\ndef left_child(i): \n    return 2*i+1\ndef right_child(i): \n    return 2*i+2\ndef is_leaf(L,i): \n    return (left_child(i) >= len(L)) and (right_child(i) >= len(L))\ndef one_child(L,i): \n    return (left_child(i) < len(L)) and (right_child(i) >= len(L))\n\ndef test():\n    L = [2, 4, 3, 5, 9, 7, 7]\n    L.append(1)\n    up_heapify(L, 7)\n    assert 1 == L[0]\n    assert 2 == L[1]\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 88432,
+          "key": "7032685520923",
+          "title": "Actor Centrality",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7032685520923",
+            "completed_at": "2020-03-26T23:19:50.050Z",
+            "last_viewed_at": "2020-03-26T23:19:48.725Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 62794,
+              "key": "703268552",
+              "title": "Actor Centrality",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "To clarify, the graph here is a bipartite graph where each edge is between a movie and an actor. Refer to [this video from Lesson 3](https://classroom.udacity.com/courses/cs215/lessons/48723544/concepts/487213600923) to review average centrality. You can also refer to the [code from Lesson 3](https://www.udacity.com/wiki/cs215/unit3code).\n\nHere is the file: [imdb-1.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQY69QQDAsSDEF0dGFjaGVkRmlsZRiSrQsM)\n\n**Warning!**\nThe data set contains some movies that share a name but were released in different years. For example The Karate Kid (1984) and The Karate Kid (2010) are different movies and should be connected to different actors. Make sure your data structure handles this correctly!\n\n**Extra Challenge!**\nFor more of a challenge here are three files with bigger networks: \n[imdb-2.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQY69QQDAsSDEF0dGFjaGVkRmlsZRiMgwwM), [imdb-3.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQY69QQDAsSDEF0dGFjaGVkRmlsZRjKqRQM), [imdb-4.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQY69QQDAsSDEF0dGFjaGVkRmlsZRiJ6BQM)",
+              "user_state": {
+                "node_key": "703268552",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Actor Centrality",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/KyHHMe6CwMl5q7pt3OYnWkjLlaALSnOwPM8ljKz6Kqoaw4thKr2GKa1ZuR0IuUp8e5LTstYe7UQWYSj4i4Wb=s0#w=1400&h=838",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/703268552",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48740020",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1342734340492",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07093594139650873,
+                      "y": 0.4954961197339246
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1342734345000",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07064370324189526,
+                      "y": 0.5467017738359202
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1342734353956",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07007870947630923,
+                      "y": 0.594754711751663
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1342734360556",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07132559226932668,
+                      "y": 0.6402785476718403
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer6",
+                    "marker": "1342734368471",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.06651884700665188,
+                      "width": 0.14713216957605985,
+                      "x": 0.3902937967581047,
+                      "y": 0.7960781596452328
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

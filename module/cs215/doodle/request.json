@@ -1,0 +1,20 @@
+{
+  "app": "com.android.chrome",
+  "duration": "176ms",
+  "headers": {
+    "Host": "www.google.com",
+    "sec-fetch-site": "none",
+    "sec-fetch-mode": "no-cors",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "SIDCC\u003dAJi4QfH7M89Y2gs2_eaChkdWv6mKoKtrLUQZ7SbxGI6Rka5VyukjVeovirUn53v5LenO2kc_3tk"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "216.58.200.132",
+  "remotePort": 443,
+  "sessionId": "50c4d4a2-7638-4fe8-bdb6-4cdcbce6811d",
+  "time": "2020-04-29 02:36:23",
+  "url": "https://www.google.com/async/ddljson?async\u003dntp:1"
+}

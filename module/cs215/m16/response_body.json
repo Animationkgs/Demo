@@ -1,0 +1,1000 @@
+{
+  "data": {
+    "lesson": {
+      "id": 110066,
+      "key": "48624716",
+      "title": "Lesson 7",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48624716/110066/1516978885430/Lesson%207%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48624716/110066/1516978823595/Lesson%207%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 88022,
+          "key": "486806550923",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486806550923",
+            "completed_at": "2020-03-27T05:28:27.722Z",
+            "last_viewed_at": "2020-03-27T05:28:25.560Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 34464,
+              "key": "48680655",
+              "title": "Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Qp2_yAX1A94",
+                "china_cdn_id": "Qp2_yAX1A94.mp4",
+                "topher_id": "85575ac0-d4a2-11e9-a163-cb19f5adeab2",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cd8d_intro-intro-to-algorithms/intro-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cd8d_intro-intro-to-algorithms/intro-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cd8d_intro-intro-to-algorithms/intro-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1893,
+          "key": "486975590923",
+          "title": "Spy Control Setup",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486975590923",
+            "completed_at": "2020-03-27T05:36:43.441Z",
+            "last_viewed_at": "2020-03-27T05:36:42.017Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44303,
+              "key": "48697559",
+              "title": "Spy Control Setup",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Here's a link to Peter's amazing book!  http://www.amazon.com/Mathematical-Puzzles-A-Connoisseurs-Collection/dp/1568812019  -MLL",
+              "video": {
+                "youtube_id": "Od6QzEpFekI",
+                "china_cdn_id": "Od6QzEpFekI.mp4",
+                "topher_id": "855263b2-d4a2-11e9-9360-93826f8018a1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0d1_spy-control-setup-intro-to-algorithms/spy-control-setup-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0d1_spy-control-setup-intro-to-algorithms/spy-control-setup-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0d1_spy-control-setup-intro-to-algorithms/spy-control-setup-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93753,
+          "key": "486247150923",
+          "title": "Spy Control",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486247150923",
+            "completed_at": "2020-03-27T05:36:49.765Z",
+            "last_viewed_at": "2020-03-27T05:36:48.233Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 93549,
+              "key": "48624715",
+              "title": "Spy Control",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48624715",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7PWCwKI3ueE",
+                  "china_cdn_id": "7PWCwKI3ueE.mp4",
+                  "topher_id": "853497c4-d4a2-11e9-94e9-935872f26bb0",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cf_spy-control-intro-to-algorithms/spy-control-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cf_spy-control-intro-to-algorithms/spy-control-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d095cf_spy-control-intro-to-algorithms/spy-control-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Spy Control",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/Y1hENElZlyaRVsvkQ47Nf3wPR32xS_BOSxH-Hj-k1m6lWc4qR-somL_vxSHaCRGJwAYJycI6pMmul-NIvSk=s0#w=720&h=480",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48624715",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48723379",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "regexAnswer1 Field",
+                    "marker": "1344276933652",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.09375,
+                      "width": 0.15416666666666667,
+                      "x": 0.7638888888888888,
+                      "y": 0.6666666666666665
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "CbUWITx7riA",
+                  "china_cdn_id": "CbUWITx7riA.mp4",
+                  "topher_id": "84ca428e-d4a2-11e9-b63a-c3b80d110e37",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_spy-control-solution-intro-to-algorithms/spy-control-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_spy-control-solution-intro-to-algorithms/spy-control-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6fa_spy-control-solution-intro-to-algorithms/spy-control-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95517,
+          "key": "486926590923",
+          "title": "Puzzles and Algorithms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486926590923",
+            "completed_at": "2020-03-27T05:44:45.463Z",
+            "last_viewed_at": "2020-03-27T05:44:44.020Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30357,
+              "key": "48692659",
+              "title": "Puzzles and Algorithms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "h1W994dnH6w",
+                "china_cdn_id": "h1W994dnH6w.mp4",
+                "topher_id": "8542fca6-d4a2-11e9-b127-5b74748c9e61",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d10053_puzzles-and-algorithms-intro-to-algorithms/puzzles-and-algorithms-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d10053_puzzles-and-algorithms-intro-to-algorithms/puzzles-and-algorithms-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d10053_puzzles-and-algorithms-intro-to-algorithms/puzzles-and-algorithms-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 935,
+          "key": "487213100923",
+          "title": "Names And Boxes Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487213100923",
+            "completed_at": "2020-03-27T05:44:55.315Z",
+            "last_viewed_at": "2020-03-27T05:44:53.931Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44728,
+              "key": "48721310",
+              "title": "Names And Boxes Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "wNUwIKuTYCo",
+                "china_cdn_id": "wNUwIKuTYCo.mp4",
+                "topher_id": "855f89f2-d4a2-11e9-b891-bf51f6848938",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29925_names-and-boxes-problem-intro-to-algorithms/names-and-boxes-problem-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29925_names-and-boxes-problem-intro-to-algorithms/names-and-boxes-problem-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29925_names-and-boxes-problem-intro-to-algorithms/names-and-boxes-problem-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 105535,
+          "key": "486975570923",
+          "title": "Big Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486975570923",
+            "completed_at": "2020-03-27T05:45:08.828Z",
+            "last_viewed_at": "2020-03-27T05:45:07.428Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 44302,
+              "key": "48697557",
+              "title": "Big Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "Clc9W_hd8mE",
+                "china_cdn_id": "Clc9W_hd8mE.mp4",
+                "topher_id": "853dc524-d4a2-11e9-a2f5-372c743160e7",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0abc6_big-data-intro-to-algorithms/big-data-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0abc6_big-data-intro-to-algorithms/big-data-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0abc6_big-data-intro-to-algorithms/big-data-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 86671,
+          "key": "486975580923",
+          "title": "Statistical Measures In Networks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486975580923",
+            "completed_at": "2020-03-27T05:45:17.381Z",
+            "last_viewed_at": "2020-03-27T05:45:16.028Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 29078,
+              "key": "48697558",
+              "title": "Statistical Measures In Networks",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "The paper Tina refers to is at: http://arxiv.org/abs/1112.2774 . -MLL",
+              "video": {
+                "youtube_id": "gVBJpjSD2f8",
+                "china_cdn_id": "gVBJpjSD2f8.mp4",
+                "topher_id": "8542a47c-d4a2-11e9-b025-d311860753b3",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fc6f_statistical-measures-in-networks-intro-to-algorithms/statistical-measures-in-networks-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fc6f_statistical-measures-in-networks-intro-to-algorithms/statistical-measures-in-networks-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0fc6f_statistical-measures-in-networks-intro-to-algorithms/statistical-measures-in-networks-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 98463,
+          "key": "486525550923",
+          "title": "Homophily",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486525550923",
+            "completed_at": "2020-03-27T05:45:24.756Z",
+            "last_viewed_at": "2020-03-27T05:45:23.211Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 41487,
+              "key": "48652555",
+              "title": "Homophily",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The other definitions are related to:\n - homophones\n - hemophilia\n - homophobia\n - home of Philly\n\n-MLL\n",
+              "user_state": {
+                "node_key": "48652555",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "yaA2O85TQc8",
+                  "china_cdn_id": "yaA2O85TQc8.mp4",
+                  "topher_id": "850b531e-d4a2-11e9-a1b2-038fd0bedf76",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c69f_homophily-intro-to-algorithms/homophily-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c69f_homophily-intro-to-algorithms/homophily-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c69f_homophily-intro-to-algorithms/homophily-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Homophily",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/V2_AC5IJjP8DD2eyWkFNtr_JjjfqjBxcNjbIf-8h3oF9vAeZVq5oURvXCsjFe7P9W9K9b-JoO6PDygb7Jyk=s0#w=720&h=480",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48652555",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48723381",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1344278430552",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.15138888888888888,
+                      "y": 0.2708333333333333
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1344278433861",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.1527777777777778,
+                      "y": 0.375
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1344278437896",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.1527777777777778,
+                      "y": 0.5416666666666666
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1344278443375",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.1527777777777778,
+                      "y": 0.6666666666666665
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1344278448696",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.1527777777777778,
+                      "y": 0.8125
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "v7pP6_eOMag",
+                  "china_cdn_id": "v7pP6_eOMag.mp4",
+                  "topher_id": "855de78c-d4a2-11e9-b3dd-ab61eecffc7a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27e76_homophily-solution-intro-to-algorithms/homophily-solution-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27e76_homophily-solution-intro-to-algorithms/homophily-solution-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d27e76_homophily-solution-intro-to-algorithms/homophily-solution-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 114327,
+          "key": "486955570923",
+          "title": "Social Networks In Security And Politics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486955570923",
+            "completed_at": "2020-03-27T05:45:34.249Z",
+            "last_viewed_at": "2020-03-27T05:45:32.098Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 29522,
+              "key": "48695557",
+              "title": "Social Networks In Security And Politics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "c6OoehdSRHc",
+                "china_cdn_id": "c6OoehdSRHc.mp4",
+                "topher_id": "853d9aae-d4a2-11e9-a27b-dbfc43703f20",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6e4_social-networks-in-security-and-politics-intro-to-algorithms/social-networks-in-security-and-politics-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6e4_social-networks-in-security-and-politics-intro-to-algorithms/social-networks-in-security-and-politics-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6e4_social-networks-in-security-and-politics-intro-to-algorithms/social-networks-in-security-and-politics-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 119102,
+          "key": "487291820923",
+          "title": "Getting To Point B",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487291820923",
+            "completed_at": "2020-03-27T05:45:41.563Z",
+            "last_viewed_at": "2020-03-27T05:45:40.180Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 69209,
+              "key": "48729182",
+              "title": "Getting To Point B",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "drxSrOnytIM",
+                "china_cdn_id": "drxSrOnytIM.mp4",
+                "topher_id": "853e9814-d4a2-11e9-a54a-7b13f2991fd1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b166_getting-to-point-b-intro-to-algorithms/getting-to-point-b-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b166_getting-to-point-b-intro-to-algorithms/getting-to-point-b-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b166_getting-to-point-b-intro-to-algorithms/getting-to-point-b-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137516,
+          "key": "487343620923",
+          "title": "Networks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487343620923",
+            "completed_at": "2020-03-27T05:45:48.335Z",
+            "last_viewed_at": "2020-03-27T05:45:46.963Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 103102,
+              "key": "48734362",
+              "title": "Networks",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48734362",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Kfkc1ZSgppg",
+                  "china_cdn_id": "Kfkc1ZSgppg.mp4",
+                  "topher_id": "854cd10e-d4a2-11e9-bd18-ab9af519dcb5",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1441b_networks-intro-to-algorithms/networks-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1441b_networks-intro-to-algorithms/networks-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1441b_networks-intro-to-algorithms/networks-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Networks",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/udroXLU5bRA3JTIooFJTO7mXMv7CdHTmQ2YOW3zbE2K99_XrssdFHOafnTo02CndSfklz48sduPcQpKxKM4=s0#w=1420&h=945",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48734362",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48723383",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1344278389874",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.0582010582010582,
+                      "width": 0.1387323943661972,
+                      "x": 0.6049295774647887,
+                      "y": 0.2328042328042328
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "1zG3dpILyOQ",
+                  "china_cdn_id": "1zG3dpILyOQ.mp4",
+                  "topher_id": "8531887c-d4a2-11e9-bb9d-e7331362628d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07519_networks-intro-to-algorithms/networks-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07519_networks-intro-to-algorithms/networks-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07519_networks-intro-to-algorithms/networks-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 98477,
+          "key": "487291860923",
+          "title": "Practical Algorithms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487291860923",
+            "completed_at": "2020-03-27T05:45:56.877Z",
+            "last_viewed_at": "2020-03-27T05:45:55.491Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 30279,
+              "key": "48729186",
+              "title": "Practical Algorithms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "0_s7MxBO6t8",
+                "china_cdn_id": "0_s7MxBO6t8.mp4",
+                "topher_id": "8530bd20-d4a2-11e9-b99a-b35089cb601f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d071a0_practical-algorithms-intro-to-algorithms/practical-algorithms-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d071a0_practical-algorithms-intro-to-algorithms/practical-algorithms-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d071a0_practical-algorithms-intro-to-algorithms/practical-algorithms-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 137476,
+          "key": "486887990923",
+          "title": "Social Algorithms",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486887990923",
+            "completed_at": "2020-03-27T05:46:03.594Z",
+            "last_viewed_at": "2020-03-27T05:46:02.199Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 99869,
+              "key": "48688799",
+              "title": "Social Algorithms",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "RoyXRPwcQ8c",
+                "china_cdn_id": "RoyXRPwcQ8c.mp4",
+                "topher_id": "8558ec8c-d4a2-11e9-a5e2-8350d4d3494d",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e041_social-algorithms-intro-to-algorithms/social-algorithms-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e041_social-algorithms-intro-to-algorithms/social-algorithms-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1e041_social-algorithms-intro-to-algorithms/social-algorithms-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 136012,
+          "key": "486769750923",
+          "title": "Algorithms In Industry",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486769750923",
+            "completed_at": "2020-03-27T05:46:12.176Z",
+            "last_viewed_at": "2020-03-27T05:46:10.793Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94581,
+              "key": "48676975",
+              "title": "Algorithms In Industry",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "d8HuA7YxWrI",
+                "china_cdn_id": "d8HuA7YxWrI.mp4",
+                "topher_id": "853e4378-d4a2-11e9-a458-531f11f287f9",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af3c_algorithms-in-industry-intro-to-algorithms/algorithms-in-industry-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af3c_algorithms-in-industry-intro-to-algorithms/algorithms-in-industry-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af3c_algorithms-in-industry-intro-to-algorithms/algorithms-in-industry-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113591,
+          "key": "487390920923",
+          "title": "Learning More About Crunching Social Networks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487390920923",
+            "completed_at": "2020-03-27T05:46:19.754Z",
+            "last_viewed_at": "2020-03-27T05:46:17.565Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 52267,
+              "key": "48739092",
+              "title": "Learning More About Crunching Social Networks",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Here's the book Tina referenced: http://www.cs.cornell.edu/home/kleinber/networks-book/ -MLL",
+              "video": {
+                "youtube_id": "nL3e1Nl4wBQ",
+                "china_cdn_id": "nL3e1Nl4wBQ.mp4",
+                "topher_id": "8550d29a-d4a2-11e9-8f3b-a3cb151dca3a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d18567_learning-more-about-crunching-social-networks-intro-to-algorithms/learning-more-about-crunching-social-networks-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d18567_learning-more-about-crunching-social-networks-intro-to-algorithms/learning-more-about-crunching-social-networks-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d18567_learning-more-about-crunching-social-networks-intro-to-algorithms/learning-more-about-crunching-social-networks-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1786,
+          "key": "486955560923",
+          "title": "The Future",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486955560923",
+            "completed_at": "2020-03-27T05:46:26.751Z",
+            "last_viewed_at": "2020-03-27T05:46:24.576Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 43438,
+              "key": "48695556",
+              "title": "The Future",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "um-U0nK4kKs",
+                "china_cdn_id": "um-U0nK4kKs.mp4",
+                "topher_id": "855dd526-d4a2-11e9-b3a8-0fb89a5a5207",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27d1b_the-future-intro-to-algorithms/the-future-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27d1b_the-future-intro-to-algorithms/the-future-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d27d1b_the-future-intro-to-algorithms/the-future-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125263,
+          "key": "486806560923",
+          "title": "Duncan Watts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486806560923",
+            "completed_at": "2020-03-27T05:46:33.307Z",
+            "last_viewed_at": "2020-03-27T05:46:31.930Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 94801,
+              "key": "48680656",
+              "title": "Duncan Watts",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ismeIWrPKn8",
+                "china_cdn_id": "ismeIWrPKn8.mp4",
+                "topher_id": "85451a2c-d4a2-11e9-b751-13bc49328720",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d124c3_duncan-watts-intro-to-algorithms/duncan-watts-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d124c3_duncan-watts-intro-to-algorithms/duncan-watts-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d124c3_duncan-watts-intro-to-algorithms/duncan-watts-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95498,
+          "key": "486955580923",
+          "title": "Intro to Music Video",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486955580923",
+            "completed_at": "2020-03-27T05:46:55.898Z",
+            "last_viewed_at": "2020-03-27T05:47:17.035Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 102129,
+              "key": "48695558",
+              "title": "Intro to Music Video",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "NYukpu7QHcE",
+                "china_cdn_id": "NYukpu7QHcE.mp4",
+                "topher_id": "84f6f770-d4a2-11e9-bfab-43044a60499f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19adf_intro-to-music-video-intro-to-algorithms/intro-to-music-video-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19adf_intro-to-music-video-intro-to-algorithms/intro-to-music-video-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19adf_intro-to-music-video-intro-to-algorithms/intro-to-music-video-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 106242,
+          "key": "486787570923",
+          "title": "Pathway That Can Use Two Nodes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486787570923",
+            "completed_at": "2020-03-27T05:47:05.465Z",
+            "last_viewed_at": "2020-03-27T05:47:40.455Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73390,
+              "key": "48678757",
+              "title": "Pathway That Can Use Two Nodes",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Ellie Escher provided the female lead vocals.  http://escherstudio.org/",
+              "video": {
+                "youtube_id": "stdG3BGmhqo",
+                "china_cdn_id": "stdG3BGmhqo.mp4",
+                "topher_id": "852b7b4e-d4a2-11e9-b5bd-234e8d3d2eb3",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa566_pathway-that-can-use-two-nodes-intro-to-algorithms/pathway-that-can-use-two-nodes-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa566_pathway-that-can-use-two-nodes-intro-to-algorithms/pathway-that-can-use-two-nodes-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfa566_pathway-that-can-use-two-nodes-intro-to-algorithms/pathway-that-can-use-two-nodes-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 96437,
+          "key": "486888010923",
+          "title": "Intro to Graph Search Animation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486888010923",
+            "completed_at": "2020-03-27T05:47:35.970Z",
+            "last_viewed_at": "2020-03-27T05:47:49.711Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 28024,
+              "key": "48688801",
+              "title": "Intro to Graph Search Animation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "d6kNAwLoROE",
+                "china_cdn_id": "d6kNAwLoROE.mp4",
+                "topher_id": "853e2424-d4a2-11e9-a3fe-13251a778e19",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af1b_intro-to-graph-search-animation-intro-to-algorithms/intro-to-graph-search-animation-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af1b_intro-to-graph-search-animation-intro-to-algorithms/intro-to-graph-search-animation-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0af1b_intro-to-graph-search-animation-intro-to-algorithms/intro-to-graph-search-animation-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 109489,
+          "key": "486769770923",
+          "title": "Graph Search Animation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486769770923",
+            "completed_at": "2020-03-27T05:47:57.700Z",
+            "last_viewed_at": "2020-03-27T05:47:56.339Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 35651,
+              "key": "48676977",
+              "title": "Graph Search Animation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "V7Ff1U9ysQY",
+                "china_cdn_id": "V7Ff1U9ysQY.mp4",
+                "topher_id": "855143e2-d4a2-11e9-9086-db7bd1d426bd",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac8a_no-pathway/no-pathway_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac8a_no-pathway/no-pathway_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac8a_no-pathway/no-pathway_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1787,
+          "key": "486926600923",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486926600923",
+            "completed_at": "2020-03-27T05:48:04.545Z",
+            "last_viewed_at": "2020-03-27T05:48:03.191Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 34241,
+              "key": "48692660",
+              "title": "Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "7YaUAXHMw08",
+                "china_cdn_id": "7YaUAXHMw08.mp4",
+                "topher_id": "85362d3c-d4a2-11e9-9972-7f7eaf101f2f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09af3_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09af3_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09af3_wrap-up-intro-to-algorithms/wrap-up-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

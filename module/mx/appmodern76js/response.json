@@ -1,0 +1,28 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "344ms",
+  "headers": {
+    "content-type": "application/javascript; charset\u003dUTF-8",
+    "content-length": "76994",
+    "last-modified": "Thu, 16 Apr 2020 19:18:04 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "server": "AmazonS3",
+    "date": "Tue, 28 Apr 2020 13:07:26 GMT",
+    "etag": "\"5032d2bac1e916ea1b880f90cb76e15d\"",
+    "cache-control": "max-age\u003d31536000, s-maxage\u003d7200, public",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 9c958dcd7cfe69b7305581ffd7680ca3.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "MAA50-C1",
+    "x-amz-cf-id": "33z9oarlYG-X7XavKO4wYV_gJfqQt_4GKNAihgBZjLcWEu0OidduHA\u003d\u003d",
+    "age": "4014"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "13.33.169.71",
+  "remotePort": 443,
+  "sessionId": "c229d9a4-0265-4d0e-8d8f-551fca5a69ad",
+  "time": "2020-04-28 19:44:12"
+}

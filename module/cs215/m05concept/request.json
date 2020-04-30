@@ -1,0 +1,26 @@
+{
+  "app": "com.android.chrome",
+  "duration": "260ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "cache-control": "max-age\u003d0",
+    "save-data": "on",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "sec-fetch-dest": "document",
+    "accept": "text/html,application/xhtml+xml,application/xml;q\u003d0.9,image/webp,image/apng,*/*;q\u003d0.8,application/signed-exchange;v\u003db3;q\u003d0.9",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "amplitude_id_0143e7ffb7c6fc432d74f0a362536439udacity.com\u003deyJkZXZpY2VJZCI6ImJlZmIzNGQzLTI5YjAtNDVkNi04ZGJmLTZjYjQ4ZDllOGIxMyIsInVzZXJJZCI6InUxMjA4NzExOSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4ODEwNjEwODY3MCwibGFzdEV2ZW50VGltZSI6MTU4ODEwNjQxMDQwNiwiZXZlbnRJZCI6NDU1NSwiaWRlbnRpZnlJZCI6MTYyLCJzZXF1ZW5jZU51bWJlciI6NDcxN30\u003d"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "7700605f-ba24-49ae-b0c6-ff2605a7785c",
+  "time": "2020-04-29 02:11:11",
+  "url": "https://classroom.udacity.com/courses/cs215/lessons/48311839/concepts/487400210923"
+}

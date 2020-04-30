@@ -1,0 +1,28 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "117ms",
+  "headers": {
+    "content-type": "application/javascript; charset\u003dUTF-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "Cache-Control",
+    "content-encoding": "br",
+    "vary": "Accept-Encoding",
+    "date": "Tue, 28 Apr 2020 14:14:15 GMT",
+    "expires": "Tue, 28 Apr 2020 14:14:15 GMT",
+    "cache-control": "private, max-age\u003d900",
+    "last-modified": "Tue, 28 Apr 2020 12:00:00 GMT",
+    "strict-transport-security": "max-age\u003d31536000; includeSubDomains",
+    "server": "Google Tag Manager",
+    "content-length": "24267",
+    "x-xss-protection": "0",
+    "alt-svc": "quic\u003d\":443\"; ma\u003d2592000; v\u003d\"46,43\",h3-Q050\u003d\":443\"; ma\u003d2592000,h3-Q049\u003d\":443\"; ma\u003d2592000,h3-Q048\u003d\":443\"; ma\u003d2592000,h3-Q046\u003d\":443\"; ma\u003d2592000,h3-Q043\u003d\":443\"; ma\u003d2592000,h3-T050\u003d\":443\"; ma\u003d2592000"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "172.217.163.174",
+  "remotePort": 443,
+  "sessionId": "afeed803-d6d7-47f3-b19f-0a4963774fb0",
+  "time": "2020-04-28 19:44:13"
+}

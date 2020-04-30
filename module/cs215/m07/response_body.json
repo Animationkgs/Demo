@@ -1,0 +1,663 @@
+{
+  "data": {
+    "lesson": {
+      "id": 111018,
+      "key": "48704314",
+      "title": "Problem Set 3",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48704314/111018/1516978544365/Problem%20Set%203%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48704314/111018/1516978534711/Problem%20Set%203%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 88210,
+          "key": "487440850923",
+          "title": "Clustering Coefficient",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487440850923",
+            "completed_at": "2020-03-26T22:49:13.268Z",
+            "last_viewed_at": "2020-03-26T22:49:11.954Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 113419,
+              "key": "48744085",
+              "title": "Clustering Coefficient",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Note: Enter your answer with no spaces or commas... just six contiguous characters.  -MLL",
+              "user_state": {
+                "node_key": "48744085",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "r1FRTEP_nyk",
+                  "china_cdn_id": "r1FRTEP_nyk.mp4",
+                  "topher_id": "8556f06c-d4a2-11e9-a037-2f30db4e766c",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d405_clustering-coefficient-intro-to-algorithms/clustering-coefficient-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d405_clustering-coefficient-intro-to-algorithms/clustering-coefficient-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d405_clustering-coefficient-intro-to-algorithms/clustering-coefficient-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Clustering Coefficient",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/fHMah-9RHtKn51TTl9sQcPGkLVvUVk6GZC9f8m18ewrcipPXAwMTKfkivwa4IGZ8xENJ0T9xBlw5gul_f8Tm=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48744085",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48713525",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "regexAnswer1 Field",
+                    "marker": "1341868398634",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.09814814814814815,
+                      "width": 0.20520833333333333,
+                      "x": 0.571875,
+                      "y": 0.8518518518518519
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 94764,
+          "key": "487550120923",
+          "title": "Bipartite I",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487550120923",
+            "completed_at": "2020-03-26T22:49:33.242Z",
+            "last_viewed_at": "2020-03-26T22:49:31.904Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 75225,
+              "key": "48755012",
+              "title": "Bipartite I",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48755012",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "DBpIfP4x0m4",
+                  "china_cdn_id": "DBpIfP4x0m4.mp4",
+                  "topher_id": "853e4d0a-d4a2-11e9-a474-839e13a4461f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0afaa_bipartite-i-intro-to-algorithms/bipartite-i-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0afaa_bipartite-i-intro-to-algorithms/bipartite-i-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0afaa_bipartite-i-intro-to-algorithms/bipartite-i-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Bipartite I",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/JTP5NG6Xc4dz_fWr4d_T4Frn5Ca7Tb3TP5bXI8h2GZ3QF-tZXuz3c1bz_8Vy9-aD82M1IWuenpa7I8v5Lx5M=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48755012",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48687695",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341868938486",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.05925925925925926,
+                      "width": 0.13541666666666666,
+                      "x": 0.8125,
+                      "y": 0.7407407407407408
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 91638,
+          "key": "487043130923",
+          "title": "Bipartite II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487043130923",
+            "completed_at": "2020-03-26T22:50:19.137Z",
+            "last_viewed_at": "2020-03-26T22:50:17.813Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 110526,
+              "key": "48704313",
+              "title": "Bipartite II",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48704313",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Xl18UC914gw",
+                  "china_cdn_id": "Xl18UC914gw.mp4",
+                  "topher_id": "8554a384-d4a2-11e9-99e8-e3c0a5f5fbd9",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d51a_bipartite-ii-intro-to-algorithms/bipartite-ii-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d51a_bipartite-ii-intro-to-algorithms/bipartite-ii-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d51a_bipartite-ii-intro-to-algorithms/bipartite-ii-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Bipartite II",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/1WU-ugrB7GJvdKEldJuIp-R8JePUI7kc53JOwNF_Cr8X9lPtE2sBZm2E2gh2xeSGmjO2yYivBXcMjVuJnw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48704313",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48738030",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1342035400668",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08055555555555555,
+                      "width": 0.11979166666666669,
+                      "x": 0.4112847169240316,
+                      "y": 0.8879629912199798
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93789,
+          "key": "486058320923",
+          "title": "Bipartite III",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486058320923",
+            "completed_at": "2020-03-26T22:50:26.202Z",
+            "last_viewed_at": "2020-03-26T22:50:24.856Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 69299,
+              "key": "48605832",
+              "title": "Bipartite III",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "I mis-spoke here and described the graph as having 5 edges on the left and 3 edges on the right.  I meant to say 5 **nodes** on the left and 3 **nodes** on the right.\n\n**Path Length** is defined as the shortest distance between two nodes.  (Here, we are interested in finite lengths only.)",
+              "user_state": {
+                "node_key": "48605832",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "PGYPpQjaY84",
+                  "china_cdn_id": "PGYPpQjaY84.mp4",
+                  "topher_id": "8554c47c-d4a2-11e9-9a49-1f7ea1289c30",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b751_bipartite-iii-intro-to-algorithms/bipartite-iii-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b751_bipartite-iii-intro-to-algorithms/bipartite-iii-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b751_bipartite-iii-intro-to-algorithms/bipartite-iii-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Bipartite III",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/eCdoxaCHCnpt-82WJAATQ-JvJ5zht629qDpr2Maw9vpK7XrqsVlIKsyAvGe8E4yMZEKPHJ-lVQ_XH-1jrBE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48605832",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48736044",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341869711425",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.13591022443890274,
+                      "x": 0.8127143079800498,
+                      "y": 0.59375
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113147,
+          "key": "486867130923",
+          "title": "Bipartite IV",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486867130923",
+            "completed_at": "2020-03-26T22:50:31.661Z",
+            "last_viewed_at": "2020-03-26T22:50:30.334Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 90116,
+              "key": "48686713",
+              "title": "Bipartite IV",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Actually, only consider nodes with degree greater then or **equal** to two.",
+              "user_state": {
+                "node_key": "48686713",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-kWUa5eVKv4",
+                  "china_cdn_id": "-kWUa5eVKv4.mp4",
+                  "topher_id": "85300c4a-d4a2-11e9-b7ba-97846ee77ef7",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d069fb_bipartite-iv-intro-to-algorithms/bipartite-iv-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d069fb_bipartite-iv-intro-to-algorithms/bipartite-iv-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d069fb_bipartite-iv-intro-to-algorithms/bipartite-iv-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Bipartite IV",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/c2W6paGA2zbsbUI1O-pp2tPJJsEZvGSTYfEEBGA5gPkrD0eABBsuOPk6xut3v7rkdZ11sLYcI5dkx0JjzUE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48686713",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48687696",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1341869750895",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07592592592592592,
+                      "width": 0.14375,
+                      "x": 0.478125,
+                      "y": 0.8518518518518519
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1224,
+          "key": "487244510923",
+          "title": "Mark Component",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487244510923",
+            "completed_at": "2020-03-26T22:50:37.269Z",
+            "last_viewed_at": "2020-03-26T22:50:35.973Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 27998,
+              "key": "48724451",
+              "title": "Mark Component",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48724451",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "HwF5h7CMS9M",
+                  "china_cdn_id": "HwF5h7CMS9M.mp4",
+                  "topher_id": "854403a8-d4a2-11e9-b428-23f88c9e311d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11492_mark-component-intro-to-algorithms/mark-component-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11492_mark-component-intro-to-algorithms/mark-component-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d11492_mark-component-intro-to-algorithms/mark-component-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Mark Component",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48687697",
+                "initial_code_files": [
+                  {
+                    "text": "# Rewrite `mark_component` to not use recursion \n# and instead use the `open_list` data structure \n# discussed in lecture\n#\n\ndef mark_component(G, node, marked):\n    marked[node] = True\n    total_marked = 1\n    for neighbor in G[node]:\n        if neighbor not in marked:\n            total_marked += mark_component(G, neighbor, marked)\n    return total_marked\n\n#########\n# Code for testing\n#\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef test():\n    test_edges = [(1, 2), (2, 3), (4, 5), (5, 6)]\n    G = {}\n    for n1, n2 in test_edges:\n        make_link(G, n1, n2)\n    marked = {}\n    assert mark_component(G, 1, marked) == 3\n    assert 1 in marked\n    assert 2 in marked\n    assert 3 in marked\n    assert 4 not in marked\n    assert 5 not in marked\n    assert 6 not in marked\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 100616,
+          "key": "487440860923",
+          "title": "Centrality",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487440860923",
+            "completed_at": "2020-03-26T22:50:43.285Z",
+            "last_viewed_at": "2020-03-26T22:50:41.936Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 49039,
+              "key": "48744086",
+              "title": "Centrality",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48744086",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "0dwX8TQnlPg",
+                  "china_cdn_id": "0dwX8TQnlPg.mp4",
+                  "topher_id": "8507cc1c-d4a2-11e9-b85b-533642d166e3",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb99_centrality-intro-to-algorithms/centrality-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb99_centrality-intro-to-algorithms/centrality-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfbb99_centrality-intro-to-algorithms/centrality-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Centrality",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48699486",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Write centrality_max to return the maximum distance\n# from a node to all the other nodes it can reach\n#\n\ndef centrality_max(G, v):\n    # your code here\n    return 0\n\n#################\n# Testing code\n#\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef test():\n    chain = ((1,2), (2,3), (3,4), (4,5), (5,6))\n    G = {}\n    for n1, n2 in chain:\n        make_link(G, n1, n2)\n    assert centrality_max(G, 1) == 5\n    assert centrality_max(G, 3) == 3\n    tree = ((1, 2), (1, 3),\n            (2, 4), (2, 5),\n            (3, 6), (3, 7),\n            (4, 8), (4, 9),\n            (6, 10), (6, 11))\n    G = {}\n    for n1, n2 in tree:\n        make_link(G, n1, n2)\n    assert centrality_max(G, 1) == 3\n    assert centrality_max(G, 11) == 6\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 105900,
+          "key": "486846440923",
+          "title": "Eulerian Tour Revisited",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486846440923",
+            "completed_at": "2020-03-26T22:50:54.147Z",
+            "last_viewed_at": "2020-03-26T22:50:51.933Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 35028,
+              "key": "48684644",
+              "title": "Eulerian Tour Revisited",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "BwreFtWbQsI",
+                "china_cdn_id": "BwreFtWbQsI.mp4",
+                "topher_id": "853d3eec-d4a2-11e9-a16f-a3dc2b2ffebc",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a604_eulerian-tour-revisited-intro-to-algorithms/eulerian-tour-revisited-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a604_eulerian-tour-revisited-intro-to-algorithms/eulerian-tour-revisited-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a604_eulerian-tour-revisited-intro-to-algorithms/eulerian-tour-revisited-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 130265,
+          "key": "7035585550923",
+          "title": "Challenge: Bridge Edges",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7035585550923",
+            "completed_at": "2020-03-26T22:50:58.495Z",
+            "last_viewed_at": "2020-03-26T22:50:57.214Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 105151,
+              "key": "703558555",
+              "title": "Challenge: Bridge Edges",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "703558555",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Challenge: Bridge Edges",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48699485",
+                "initial_code_files": [
+                  {
+                    "text": "# Bridge Edges v4\n#\n# Find the bridge edges in a graph given the\n# algorithm in lecture.\n# Complete the intermediate steps\n#  - create_rooted_spanning_tree\n#  - post_order\n#  - number_of_descendants\n#  - lowest_post_order\n#  - highest_post_order\n#\n# And then combine them together in\n# `bridge_edges`\n\n# So far, we've represented graphs \n# as a dictionary where G[n1][n2] == 1\n# meant there was an edge between n1 and n2\n# \n# In order to represent a spanning tree\n# we need to create two classes of edges\n# we'll refer to them as \"green\" and \"red\"\n# for the green and red edges as specified in lecture\n#\n# So, for example, the graph given in lecture\n# G = {'a': {'c': 1, 'b': 1}, \n#      'b': {'a': 1, 'd': 1}, \n#      'c': {'a': 1, 'd': 1}, \n#      'd': {'c': 1, 'b': 1, 'e': 1}, \n#      'e': {'d': 1, 'g': 1, 'f': 1}, \n#      'f': {'e': 1, 'g': 1},\n#      'g': {'e': 1, 'f': 1} \n#      }\n# would be written as a spanning tree\n# S = {'a': {'c': 'green', 'b': 'green'}, \n#      'b': {'a': 'green', 'd': 'red'}, \n#      'c': {'a': 'green', 'd': 'green'}, \n#      'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n#      'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n#      'f': {'e': 'green', 'g': 'red'},\n#      'g': {'e': 'green', 'f': 'red'} \n#      }\n#       \ndef create_rooted_spanning_tree(G, root):\n    S = {}\n    # your code here\n    return S\n\n# This is just one possible solution\n# There are other ways to create a \n# spanning tree, and the grader will\n# accept any valid result\n# feel free to edit the test to\n# match the solution your program produces\ndef test_create_rooted_spanning_tree():\n    G = {'a': {'c': 1, 'b': 1}, \n         'b': {'a': 1, 'd': 1}, \n         'c': {'a': 1, 'd': 1}, \n         'd': {'c': 1, 'b': 1, 'e': 1}, \n         'e': {'d': 1, 'g': 1, 'f': 1}, \n         'f': {'e': 1, 'g': 1},\n         'g': {'e': 1, 'f': 1} \n         }\n    S = create_rooted_spanning_tree(G, \"a\")\n    assert S == {'a': {'c': 'green', 'b': 'green'}, \n                 'b': {'a': 'green', 'd': 'red'}, \n                 'c': {'a': 'green', 'd': 'green'}, \n                 'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n                 'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n                 'f': {'e': 'green', 'g': 'red'},\n                 'g': {'e': 'green', 'f': 'red'} \n                 }\n\n###########\n\ndef post_order(S, root):\n    # return mapping between nodes of S and the post-order value\n    # of that node\n    pass\n\n# This is just one possible solution\n# There are other ways to create a \n# spanning tree, and the grader will\n# accept any valid result.\n# feel free to edit the test to\n# match the solution your program produces\ndef test_post_order():\n    S = {'a': {'c': 'green', 'b': 'green'}, \n         'b': {'a': 'green', 'd': 'red'}, \n         'c': {'a': 'green', 'd': 'green'}, \n         'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n         'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n         'f': {'e': 'green', 'g': 'red'},\n         'g': {'e': 'green', 'f': 'red'} \n         }\n    po = post_order(S, 'a')\n    assert po == {'a':7, 'b':1, 'c':6, 'd':5, 'e':4, 'f':2, 'g':3}\n\n##############\n\ndef number_of_descendants(S, root):\n    # return mapping between nodes of S and the number of descendants\n    # of that node\n    pass\n\ndef test_number_of_descendants():\n    S =  {'a': {'c': 'green', 'b': 'green'}, \n          'b': {'a': 'green', 'd': 'red'}, \n          'c': {'a': 'green', 'd': 'green'}, \n          'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n          'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n          'f': {'e': 'green', 'g': 'red'},\n          'g': {'e': 'green', 'f': 'red'} \n          }\n    nd = number_of_descendants(S, 'a')\n    assert nd == {'a':7, 'b':1, 'c':5, 'd':4, 'e':3, 'f':1, 'g':1}\n\n###############\n\ndef lowest_post_order(S, root, po):\n    # return a mapping of the nodes in S\n    # to the lowest post order value\n    # below that node\n    # (and you're allowed to follow 1 red edge)\n    pass\n\ndef test_lowest_post_order():\n    S = {'a': {'c': 'green', 'b': 'green'}, \n         'b': {'a': 'green', 'd': 'red'}, \n         'c': {'a': 'green', 'd': 'green'}, \n         'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n         'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n         'f': {'e': 'green', 'g': 'red'},\n         'g': {'e': 'green', 'f': 'red'} \n         }\n    po = post_order(S, 'a')\n    l = lowest_post_order(S, 'a', po)\n    assert l == {'a':1, 'b':1, 'c':1, 'd':1, 'e':2, 'f':2, 'g':2}\n\n\n################\n\ndef highest_post_order(S, root, po):\n    # return a mapping of the nodes in S\n    # to the highest post order value\n    # below that node\n    # (and you're allowed to follow 1 red edge)\n    pass\n\ndef test_highest_post_order():\n    S = {'a': {'c': 'green', 'b': 'green'}, \n         'b': {'a': 'green', 'd': 'red'}, \n         'c': {'a': 'green', 'd': 'green'}, \n         'd': {'c': 'green', 'b': 'red', 'e': 'green'}, \n         'e': {'d': 'green', 'g': 'green', 'f': 'green'}, \n         'f': {'e': 'green', 'g': 'red'},\n         'g': {'e': 'green', 'f': 'red'} \n         }\n    po = post_order(S, 'a')\n    h = highest_post_order(S, 'a', po)\n    assert h == {'a':7, 'b':5, 'c':6, 'd':5, 'e':4, 'f':3, 'g':3}\n    \n#################\n\ndef bridge_edges(G, root):\n    # use the four functions above\n    # and then determine which edges in G are bridge edges\n    # return them as a list of tuples ie: [(n1, n2), (n4, n5)]\n    pass\n\ndef test_bridge_edges():\n    G = {'a': {'c': 1, 'b': 1}, \n         'b': {'a': 1, 'd': 1}, \n         'c': {'a': 1, 'd': 1}, \n         'd': {'c': 1, 'b': 1, 'e': 1}, \n         'e': {'d': 1, 'g': 1, 'f': 1}, \n         'f': {'e': 1, 'g': 1},\n         'g': {'e': 1, 'f': 1} \n         }\n    bridges = bridge_edges(G, 'a')\n    assert bridges == [('d', 'e')]\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

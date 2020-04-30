@@ -1,0 +1,1635 @@
+{
+  "data": {
+    "lesson": {
+      "id": 293722,
+      "key": "af3d5856-2fec-47eb-837f-749eac4e4d17",
+      "title": "Data and Tables",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn the principles behind relational data organization: tables, queries, aggregations, keys, and joins.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/af3d5856-2fec-47eb-837f-749eac4e4d17/293722/1518055900874/Data%20and%20Tables%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/af3d5856-2fec-47eb-837f-749eac4e4d17/293722/1518055853676/Data%20and%20Tables%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 293739,
+          "key": "a094301f-4277-4d7c-9981-cad4ed560030",
+          "title": "Welcome to Relational Databases",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a094301f-4277-4d7c-9981-cad4ed560030",
+            "completed_at": "2020-03-27T05:55:46.125Z",
+            "last_viewed_at": "2020-03-27T05:55:44.741Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 293740,
+              "key": "52c4403e-c622-4849-a167-95adcd5e6a92",
+              "title": "Ud197 L1 01 L Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "skSSxx2fjsI",
+                "china_cdn_id": "skSSxx2fjsI.mp4",
+                "topher_id": "856359d8-d4a2-11e9-bd4f-c3029a4f3a09",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/October/580a7c90_ud197-l1-01-l-intro/ud197-l1-01-l-intro_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/October/580a7c90_ud197-l1-01-l-intro/ud197-l1-01-l-intro_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/October/580a7c90_ud197-l1-01-l-intro/ud197-l1-01-l-intro_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 78406,
+          "key": "34029186300923",
+          "title": "What's a Database",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186300923",
+            "completed_at": "2016-03-09T10:28:28.281Z",
+            "last_viewed_at": "2020-03-27T05:55:56.999Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 286404,
+              "key": "a376c9e0-6c0a-4c94-9d7c-63e0fad732c5",
+              "title": "What's a Database - Intro to Relational Databases",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "V4gbPVdUOpw",
+                "china_cdn_id": "V4gbPVdUOpw.mp4",
+                "topher_id": "85532e8c-d4a2-11e9-95af-274c37e7f350",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ab96_whats-a-database-intro-to-relational-databases/whats-a-database-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ab96_whats-a-database-intro-to-relational-databases/whats-a-database-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ab96_whats-a-database-intro-to-relational-databases/whats-a-database-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 61416,
+          "key": "34221585900923",
+          "title": "Looking at Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34221585900923",
+            "completed_at": "2016-03-09T10:32:14.334Z",
+            "last_viewed_at": "2020-03-27T05:56:06.190Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 57707,
+              "key": "3422158590",
+              "title": "Looking at Tables",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3422158590",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "e8zSXnyskro",
+                  "china_cdn_id": "e8zSXnyskro.mp4",
+                  "topher_id": "853f359e-d4a2-11e9-a713-fbbd3c94811d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c8ea_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c8ea_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c8ea_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Looking at Tables",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/2hTdBPqipByrTiX2aHefxOU8xjfHYb41Pnu7aXCRmJI6RhRLqxlt5p41WbVfA2nfO14aq-1shmFug2LQgj4=s0#w=1440&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3422158590",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148667",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.11529933481152993,
+                      "width": 0.3254364089775561,
+                      "x": 0.6137196072319202,
+                      "y": 0.35345066518847007
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": true,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.11751662971175167,
+                      "width": 0.32418952618453867,
+                      "x": 0.6124337593516209,
+                      "y": 0.7281388580931264
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "08GsrEIOP9Q",
+                  "china_cdn_id": "08GsrEIOP9Q.mp4",
+                  "topher_id": "8530137a-d4a2-11e9-b7cf-bf6c7eae06f7",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06bb6_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06bb6_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d06bb6_looking-at-tables-intro-to-relational-databases/looking-at-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            },
+            {
+              "id": 187214,
+              "key": "1d2b2f26-b53f-4613-8a59-9eafcccd6bc8",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here's the table for this quiz:\n\n| **country** | **population** | **literacy** |\n| --- | ---| ---| \n| Argentina | 43 million | 98% |\n| Brazil | 203 million | 91% |\n| Colombia | 47 million | 94% |\n| Ecuador | 15 million | 92% |\n| ... | ... | ... |\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 66971,
+          "key": "34029186330923",
+          "title": "Data Types and Meaning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186330923",
+            "completed_at": "2016-03-09T10:36:25.925Z",
+            "last_viewed_at": "2020-03-27T05:56:58.480Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 104906,
+              "key": "3402918633",
+              "title": "Data Types and Meaning",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3402918633",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "OB7iJnEY0Tg",
+                  "china_cdn_id": "OB7iJnEY0Tg.mp4",
+                  "topher_id": "855214a2-d4a2-11e9-9278-336b9d614804",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19f52_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19f52_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19f52_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Data Types and Meaning",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/ZRJfM0PJGmYFu50MWR-wwoXp-S_syPYHY_3-OUkG3C80mA1achIxz0SnoOfM_kPKbWCXWLyMz32XavOU4gM=s0#w=1280&h=720",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3402918633",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148674",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.12365570448877805,
+                      "y": 0.33373752771618626
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5098971321695761,
+                      "y": 0.3267391906873614
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.04268625311720698,
+                      "y": 0.5239052106430155
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6271820448877805,
+                      "y": 0.51759977827051
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35884897132169574,
+                      "y": 0.6841740576496674
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Bb2K_pql26Y",
+                  "china_cdn_id": "Bb2K_pql26Y.mp4",
+                  "topher_id": "85284ad2-d4a2-11e9-ad45-03cdd91aa3f3",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9181_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9181_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf9181_data-types-and-meaning-intro-to-relational-databases/data-types-and-meaning-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 33464,
+          "key": "34029186350923",
+          "title": "Data Meanings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186350923",
+            "completed_at": "2016-03-09T10:38:25.714Z",
+            "last_viewed_at": "2020-03-27T05:57:23.219Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 37046,
+              "key": "3402918635",
+              "title": "Data Meanings",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3402918635",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-laXTx9corQ",
+                  "china_cdn_id": "-laXTx9corQ.mp4",
+                  "topher_id": "85300e34-d4a2-11e9-b7be-0f11d17fab99",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06a03_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06a03_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d06a03_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Data Meanings",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/29liUrs8LXrvhDNGRP6teKvytRtzqGoqe5dk4ipfyd9HSUjbSg7x8S-uPUSG0qubRfE2bWJDfKfRCdpl5_E=s0#w=1440&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3402918635",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148668",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.32,
+                      "y": 0.445
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.32,
+                      "y": 0.545
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.32,
+                      "y": 0.645
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.32,
+                      "y": 0.738
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "0-LYyC_70jk",
+                  "china_cdn_id": "0-LYyC_70jk.mp4",
+                  "topher_id": "84c62e92-d4a2-11e9-a9fa-93dc47bfc2f1",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d03bd7_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d03bd7_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d03bd7_data-meanings-intro-to-relational-databases/data-meanings-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 61602,
+          "key": "35237394500923",
+          "title": "Zoo",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35237394500923",
+            "completed_at": "2016-03-12T09:53:23.512Z",
+            "last_viewed_at": "2020-03-27T05:57:36.564Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 22970,
+              "key": "3523739450",
+              "title": "Zoo",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "YG8zfeRXAvM",
+                "china_cdn_id": "YG8zfeRXAvM.mp4",
+                "topher_id": "85554b5e-d4a2-11e9-9bcf-0b20e2b087d7",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9c1_zoo-intro-to-relational-databases/zoo-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9c1_zoo-intro-to-relational-databases/zoo-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9c1_zoo-intro-to-relational-databases/zoo-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39409,
+          "key": "34029186380923",
+          "title": "Anatomy of a Table",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186380923",
+            "completed_at": "2016-03-12T09:54:10.325Z",
+            "last_viewed_at": "2020-03-27T05:57:44.929Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 347973,
+              "key": "b690ac91-c785-4c7f-bbf7-4224857511c2",
+              "title": "Anatomy of a Table",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PhvA7DCgtpw",
+                "china_cdn_id": "PhvA7DCgtpw.mp4",
+                "topher_id": "85512010-d4a2-11e9-9022-632b80b5fc57",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b7c5_anatomy-of-a-table-intro-to-relational-databases/anatomy-of-a-table-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b7c5_anatomy-of-a-table-intro-to-relational-databases/anatomy-of-a-table-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b7c5_anatomy-of-a-table-intro-to-relational-databases/anatomy-of-a-table-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187207,
+              "key": "40946115-6e8f-4437-b12d-fe10239a1c65",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here's the table from the video.\n\n**animals:**\n\n| **name** *string* | **species** *string* | **birthdate** *date* |\n| --- | --- | ---|\n| Max | gorilla | 2001-04-13 |\n| Sue | gorilla | 1998-06-12 |\n| Max | moose | 2012-02-20 | \n| Alison | llama | 1997-11-24 |\n| George | gorilla | 2011-01-09 |\n| Spot | iguana | 2010-07-23 |\n| Ratu | orangutan | 1989-09-15 |\n| Eli | llama | 2002-02-22 |",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 52941,
+          "key": "34219786130923",
+          "title": "Answering Questions from a Table",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34219786130923",
+            "completed_at": "2016-03-13T08:32:26.933Z",
+            "last_viewed_at": "2020-03-27T05:57:52.333Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 35660,
+              "key": "3421978613",
+              "title": "Answering Questions from a Table",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3421978613",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "tt-XjT9RdDg",
+                  "china_cdn_id": "tt-XjT9RdDg.mp4",
+                  "topher_id": "855ca61a-d4a2-11e9-b043-3f011fb202e4",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26f26_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26f26_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26f26_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Answering Questions From a Table",
+                "alt_text": null,
+                "background_image": "//lh3.googleusercontent.com/oneBTYoRQT7-Ct_wu0z4nKRrA61eTHzTaqv58-rR7s7TnfWwHIGf17qyXMkMD616tirqXhyqgEftITCtkmQ=s0#w=1440&h=810",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3421978613",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148669",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.27556109725685785,
+                      "x": 0.6267729114713217,
+                      "y": 0.2312569290465632
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6406834476309227,
+                      "y": 0.4370496119733925
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.777821072319202,
+                      "y": 0.43957871396895787
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.27680798004987534,
+                      "x": 0.6191552369077307,
+                      "y": 0.6750277161862528
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.27680798004987534,
+                      "x": 0.616797849127182,
+                      "y": 0.8540396341463414
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "52c-0doU44I",
+                  "china_cdn_id": "52c-0doU44I.mp4",
+                  "topher_id": "853333ca-d4a2-11e9-90e1-bf446a7cb0f0",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07e32_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07e32_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07e32_answering-questions-from-a-table-intro-to-relational-databases/answering-questions-from-a-table-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            },
+            {
+              "id": 187206,
+              "key": "0f180477-2ba7-404b-ba0a-f03a4e1302c8",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here's the table for this quiz.\n\n**animals:**\n\n| **name** *string* | **species** *string* | **birthdate** *date* |\n| --- | --- | ---|\n| Max | gorilla | 2001-04-13 |\n| Sue | gorilla | 1998-06-12 |\n| Max | moose | 2012-02-20 | \n| Alison | llama | 1997-11-24 |\n| George | gorilla | 2011-01-09 |\n| Spot | iguana | 2010-07-23 | \n| Ratu | orangutan | 1989-09-15 |\n| Eli | llama | 2002-02-22 |",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 124880,
+          "key": "34029186410923",
+          "title": "Aggregations",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186410923",
+            "completed_at": "2016-03-13T08:33:57.965Z",
+            "last_viewed_at": "2020-03-27T05:58:05.106Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 124093,
+              "key": "3402918641",
+              "title": "Aggregations",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "TE9uvPwvpu4",
+                "china_cdn_id": "TE9uvPwvpu4.mp4",
+                "topher_id": "855c528c-d4a2-11e9-af50-2f1f74451a84",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2667c_aggregations-intro-to-relational-databases/aggregations-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2667c_aggregations-intro-to-relational-databases/aggregations-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2667c_aggregations-intro-to-relational-databases/aggregations-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187215,
+              "key": "2fdf45b4-5164-4e30-8afd-818dc059e68f",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This video shows the results of a **count** aggregation on the **animals** table. It's a **count** aggregation, grouping the values in the table using the **species** column. In other words, it's counting the number of rows that have the same value in that column.\n\nHere's the table we start with:\n\n| **name** *string* | **species** *string* | **birthdate** *date* |\n| --- | --- | ---|\n| Max | gorilla | 2001-04-13 |\n| Sue | gorilla | 1998-06-12 |\n| Max | moose | 2012-02-20 | \n| Alison | llama | 1997-11-24 |\n| George | gorilla | 2011-01-09 |\n| Spot | iguana | 2010-07-23 | \n| Ratu | orangutan | 1989-09-15 |\n| Eli | llama | 2002-02-22 |\n\nAnd here's the result of the aggregation:\n\n| **species** *string* | **count** *integer* |\n| --- | --- |\n| gorilla | 3 |\n| moose | 1 |\n| llama | 2 |\n| iguana | 1 |\n| orangutan | 1 |",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 115612,
+          "key": "33933688800923",
+          "title": "Queries and Results",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33933688800923",
+            "completed_at": "2016-03-13T10:36:18.337Z",
+            "last_viewed_at": "2020-03-27T05:58:11.914Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 57838,
+              "key": "3393368880",
+              "title": "Queries and Results",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3393368880",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZFn9xVQ0hD4",
+                  "china_cdn_id": "ZFn9xVQ0hD4.mp4",
+                  "topher_id": "8554a4f6-d4a2-11e9-99ed-af917ba6094b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b668_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b668_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b668_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Queries and Results",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/9q2oe0wdnqKXOf8Ms1ERAGZuwRdldWwuW0CMt5JkhjZdGLbw6l_N09czQCS_M_VYgz7Us87-VwC4obZwJx-o=s0#w=1440&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3393368880",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148677",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.21,
+                      "y": 0.255
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.395,
+                      "y": 0.255
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.45,
+                      "y": 0.35
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.45,
+                      "y": 0.44
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.45,
+                      "y": 0.517
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check6",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.451,
+                      "y": 0.605
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check7",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.451,
+                      "y": 0.685
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check8",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.452,
+                      "y": 0.765
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "l_HFnHve3Ok",
+                  "china_cdn_id": "l_HFnHve3Ok.mp4",
+                  "topher_id": "84ccb320-d4a2-11e9-bd50-9376b5be4e94",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d154ba_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d154ba_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d154ba_queries-and-results-intro-to-relational-databases/queries-and-results-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            },
+            {
+              "id": 187218,
+              "key": "123fafee-c797-46f9-9f8c-9f4e1065f9c1",
+              "title": "ars",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In a relational database, when there are multiple answers to a question (like \"What do brown bears eat?\") they will usually appear as multiple rows in a table.\n\nHere's the table from this quiz:\n\n**diet:**\n\n| **species** *string* | **food** *string* |\n| --- | --- |\n| llama | plants |\n| brown bear | fish |\n| brown bear | meat |\n| brown bear | plants |\n| orangutan | plants |\n| orangutan | insects |\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 39810,
+          "key": "34029186420923",
+          "title": "How Queries Happen",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186420923",
+            "completed_at": "2016-03-13T10:37:15.867Z",
+            "last_viewed_at": "2020-03-27T05:59:54.345Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 32217,
+              "key": "3402918642",
+              "title": "How Queries Happen",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "v3EkXogyIL4",
+                "china_cdn_id": "v3EkXogyIL4.mp4",
+                "topher_id": "8552c636-d4a2-11e9-947d-33c56f711aab",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac1b_how-queries-happen-intro-to-relational-databases/how-queries-happen-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac1b_how-queries-happen-intro-to-relational-databases/how-queries-happen-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ac1b_how-queries-happen-intro-to-relational-databases/how-queries-happen-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 114525,
+          "key": "35532485610923",
+          "title": "Favorite Animals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35532485610923",
+            "completed_at": "2016-03-13T10:39:22.616Z",
+            "last_viewed_at": "2020-03-27T06:00:10.230Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 62799,
+              "key": "3553248561",
+              "title": "Favorite Animals",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Check out Kittenwar: http://www.kittenwar.com/",
+              "video": {
+                "youtube_id": "O7kWdC8ffEw",
+                "china_cdn_id": "O7kWdC8ffEw.mp4",
+                "topher_id": "85516d18-d4a2-11e9-90ff-7f2a02ccc835",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19db4_favorite-animals-intro-to-relational-databases/favorite-animals-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19db4_favorite-animals-intro-to-relational-databases/favorite-animals-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19db4_favorite-animals-intro-to-relational-databases/favorite-animals-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 78810,
+          "key": "34029186430923",
+          "title": "Related Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186430923",
+            "completed_at": "2016-03-13T10:39:55.649Z",
+            "last_viewed_at": "2020-03-27T06:00:18.530Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15158,
+              "key": "3402918643",
+              "title": "Related Tables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "lMwSjDYgCq0",
+                "china_cdn_id": "lMwSjDYgCq0.mp4",
+                "topher_id": "854e41e2-d4a2-11e9-87ea-e30e80b42e0b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15cb5_related-tables-intro-to-relational-databases/related-tables-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d15cb5_related-tables-intro-to-relational-databases/related-tables-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d15cb5_related-tables-intro-to-relational-databases/related-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187221,
+              "key": "e0e2dc3a-943b-41de-aee6-68d22a1998e3",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here are the tables from this video.\n\nThe **pictures** table stores the names of cute animals and the filenames of their pictures.\n\n| **id** | **name** | **filename** |\n| --- | --- | --- |\n| 1 | Fluffy | fluffsocute.jpg |\n| 2 | Monster | monstie-basket.png |\n| 3 | George | george.jpg |\n| ... | ... | ... |\n\nThe **votes** table stores information about which pictures have been displayed together, and which one the user voted for:\n\n| **left** | **right** | **winner** |\n| --- | --- | --- |\n| 2 | 3 | 3 |\n| 1 | 3 | 1 |\n| 2 | 1 | 1 |\n| 3 | 2 | 3 |\n| 3 | 1 | 1 |\n| 2 | 3 | 3 |\n| ... | ... | ... |\n\nWe can ask the database to **join** these tables, to look up the animal names for each of the votes:\n\n| **left_name** | **right_name** | **winner_name** |\n| --- | --- | --- |\n| Monster | George | George |\n| Fluffy | George  | George |\n| Monster | Fluffy | Fluffy |\n| George | Monster | George |\n| George | Fluffy | Fluffy |\n| Monster | George | George |\n| ... | ... | ... |\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 41968,
+          "key": "34029186440923",
+          "title": "Uniqueness and Keys",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186440923",
+            "completed_at": "2016-03-13T10:42:26.268Z",
+            "last_viewed_at": "2020-03-27T06:00:28.765Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 12442,
+              "key": "3402918644",
+              "title": "Uniqueness and Keys",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "TIayTr4y9RA",
+                "china_cdn_id": "TIayTr4y9RA.mp4",
+                "topher_id": "855a9758-d4a2-11e9-aa4f-7fd6d1df6080",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26919_uniqueness-and-keys-intro-to-relational-databases/uniqueness-and-keys-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26919_uniqueness-and-keys-intro-to-relational-databases/uniqueness-and-keys-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26919_uniqueness-and-keys-intro-to-relational-databases/uniqueness-and-keys-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187225,
+              "key": "6b889ebd-d1b6-4319-895b-8ca4dffd7e2c",
+              "title": "arst",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The examples in the video are not made up! [There actually are five Springfields in the state of Wisconsin.](https://en.wikipedia.org/wiki/Springfield,_Wisconsin)\n\nCountry names are not actually as unique as I said in the video, though. There's only one France, but there are two Congos. That is, as of 2016 there are two countries often called \"Congo\": the *Democratic Republic of the Congo*, also known as Congo-Kinshasa and previously known as Zaire; and the *Republic of the Congo*, also known as Congo-Brazzaville.\n\nA better primary key for countries exists, though: the international community has established standard [country codes](https://en.wikipedia.org/wiki/ISO_3166), unique abbreviations for each country. Congo-Kinshasa has country code `CD`, while Congo-Brazzaville is `CG`. These are also their Internet top-level domain names.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 126812,
+          "key": "34029186450923",
+          "title": "Primary Key",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34029186450923",
+            "completed_at": "2016-03-13T10:44:47.521Z",
+            "last_viewed_at": "2020-03-27T06:00:39.715Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 74666,
+              "key": "3402918645",
+              "title": "Primary Key",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3402918645",
+                "completed_at": "2016-04-05T08:04:24.521Z",
+                "last_viewed_at": "2016-04-05T08:04:24.521Z",
+                "unstructured": "{\"check1\":true,\"check2\":false,\"check3\":true,\"check4\":false,\"check5\":false}"
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "q23Nlo1Rfn4",
+                  "china_cdn_id": "q23Nlo1Rfn4.mp4",
+                  "topher_id": "84cdfc58-d4a2-11e9-9694-0b85963caa71",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c2bd_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c2bd_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c2bd_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Primary Key",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/4Y985k7S-UchTbp5IEHozj0yptfv8S5ugyx8TR7M0u95B3xPwarXJ07bhr-JCFoQ4w4DA9NFEBrLr0SRmMQ-=s0#w=1440&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3402918645",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148670",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35,
+                      "y": 0.425
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check2",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35,
+                      "y": 0.5
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check3",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35,
+                      "y": 0.58
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check4",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35,
+                      "y": 0.65
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check5",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.35,
+                      "y": 0.725
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "80aFO4KmcPM",
+                  "china_cdn_id": "80aFO4KmcPM.mp4",
+                  "topher_id": "85351d66-d4a2-11e9-966f-43891ed67d7d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09723_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09723_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09723_primary-key-intro-to-relational-databases/primary-key-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 36057,
+          "key": "33932188550923",
+          "title": "Joining Tables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33932188550923",
+            "completed_at": "2016-03-13T10:45:06.918Z",
+            "last_viewed_at": "2020-03-27T06:00:51.644Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 25866,
+              "key": "3393218855",
+              "title": "Joining Tables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lXoiI0gx3MU",
+                "china_cdn_id": "lXoiI0gx3MU.mp4",
+                "topher_id": "84c77310-d4a2-11e9-adcc-2f934af1aced",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16389_joining-tables-intro-to-relational-databases/joining-tables-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16389_joining-tables-intro-to-relational-databases/joining-tables-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16389_joining-tables-intro-to-relational-databases/joining-tables-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            },
+            {
+              "id": 187227,
+              "key": "ad7dcee0-aaa2-4dc9-88fe-9055d0e89721",
+              "title": "a",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the video, there are two tables, **animals** and **diet**. Joining those tables gives us a new table, which contains information taken from the two original tables. The join statement has a *join condition* that tells the database how to match up the rows from one table with the rows from the other.\n\n----\n\n# Table reference\n\nHere are the tables from the video. They're the same ones as earlier in this lesson.\n\n**animals:**\n\n| **name** *string* | **species** *string* | **birthdate** *date* |\n| --- | --- | ---|\n| Max | gorilla | 2001-04-13 |\n| Sue | gorilla | 1998-06-12 |\n| Max | moose | 2012-02-20 | \n| Alison | llama | 1997-11-24 |\n| George | gorilla | 2011-01-09 |\n| Spot | iguana | 2010-07-23 |\n| Ratu | orangutan | 1989-09-15 |\n| Eli | llama | 2002-02-22 |\n\n**diet:**\n\n| **species** *string* | **food** *string* |\n| --- | --- |\n| llama | plants |\n| brown bear | fish |\n| brown bear | meat |\n| brown bear | plants |\n| orangutan | plants |\n| orangutan | insects |\n\n----\n\nThis SQL query will join the two tables to find out what foods each animal can eat:\n\n```sql\nselect animals.name, animals.species, diet.food\n       from animals join diet\n       on animals.species = diet.species;\n```\n\nYou'll see much more with these tables later in the course!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 65070,
+          "key": "34121486710923",
+          "title": "Database Concepts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34121486710923",
+            "completed_at": "2016-03-13T12:00:47.100Z",
+            "last_viewed_at": "2020-03-27T07:19:45.400Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 114210,
+              "key": "3412148671",
+              "title": "Database Concepts",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Here are some possible column names to choose from. Not all of these are *good* choices; it's up to you to choose the ones that are!\n\n* donor\n* favorite\n* gorilla\n* home\n* mobile\n* name\n* number\n* phones\n* phone_type\n* phone_number\n* type",
+              "user_state": {
+                "node_key": "3412148671",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "WZRsqdNrC1A",
+                  "china_cdn_id": "WZRsqdNrC1A.mp4",
+                  "topher_id": "855ff89c-d4a2-11e9-b9cf-679f4f020eb2",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29fb6_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29fb6_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29fb6_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Database Concepts",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/t4cHgGdpwIbIVqlT_uasUeLfOax2q-7iz27o5qgp-tgH7oy9gBOtsXnhWkRMQJQGcQRx2fT4N4Pq3nijMc0=s0#w=1440&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3412148671",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3412148672",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "",
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.09975062344139651,
+                      "x": 0.5791575748129676,
+                      "y": 0.22533259423503327
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text2",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.15336658354114713,
+                      "x": 0.6830969451371571,
+                      "y": 0.22578298226164079
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text3",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.12468827930174564,
+                      "x": 0.8379052369077307,
+                      "y": 0.22290742793791574
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text4",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.09725685785536159,
+                      "x": 0.5799368765586035,
+                      "y": 0.34132483370288247
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text5",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.10199556541019955,
+                      "width": 0.15336658354114713,
+                      "x": 0.6828047069825436,
+                      "y": 0.3402508314855876
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text6",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09977827050997783,
+                      "width": 0.12219451371571072,
+                      "x": 0.8402041770573566,
+                      "y": 0.33824140798226165
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text7",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.09476309226932668,
+                      "x": 0.5820020261845387,
+                      "y": 0.5998129157427938
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text8",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.11346633416458853,
+                      "x": 0.6815188591022444,
+                      "y": 0.6016491130820399
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text9",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.09312638580931264,
+                      "width": 0.15835411471321695,
+                      "x": 0.800109102244389,
+                      "y": 0.5999861419068736
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text10",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.09725685785536159,
+                      "x": 0.5793718827930174,
+                      "y": 0.7116130820399114
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text11",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.11221945137157108,
+                      "x": 0.6814993765586035,
+                      "y": 0.7113705654101996
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text12",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.15835411471321695,
+                      "x": 0.79991427680798,
+                      "y": 0.7108162416851441
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text13",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.09600997506234414,
+                      "x": 0.5804629052369077,
+                      "y": 0.7893223392461197
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text14",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.11596009975062344,
+                      "x": 0.6799797381546134,
+                      "y": 0.7898073725055432
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text15",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.15586034912718205,
+                      "x": 0.8009078865336658,
+                      "y": 0.7903616962305987
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "PXNaLWJ5SKg",
+                  "china_cdn_id": "PXNaLWJ5SKg.mp4",
+                  "topher_id": "84cdec04-d4a2-11e9-9664-c3ceb36f5929",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c084_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c084_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c084_database-concepts-intro-to-relational-databases/database-concepts-intro-to-relational-databases_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30610,
+          "key": "34732488970923",
+          "title": "Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34732488970923",
+            "completed_at": "2016-03-13T12:01:39.837Z",
+            "last_viewed_at": "2020-03-27T07:19:56.217Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 78814,
+              "key": "3473248897",
+              "title": "Summary",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "1Gp4l-ZTCVk",
+                "china_cdn_id": "1Gp4l-ZTCVk.mp4",
+                "topher_id": "85312fb2-d4a2-11e9-baac-6f7fe19f6993",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d072db_summary-intro-to-relational-databases/summary-intro-to-relational-databases_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d072db_summary-intro-to-relational-databases/summary-intro-to-relational-databases_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d072db_summary-intro-to-relational-databases/summary-intro-to-relational-databases_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

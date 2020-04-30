@@ -1,0 +1,1528 @@
+{
+  "data": {
+    "lesson": {
+      "id": 130976,
+      "key": "3104518651",
+      "title": "Lesson 2 - The Questioning Phase",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3104518651/130976/1516882428512/Lesson%202%20-%20The%20Questioning%20Phase%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/3104518651/130976/1516882353035/Lesson%202%20-%20The%20Questioning%20Phase%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 58431,
+          "key": "36065785990923",
+          "title": "Before You Start",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "36065785990923",
+            "completed_at": "2020-03-26T13:04:15.531Z",
+            "last_viewed_at": "2020-03-26T13:04:14.699Z",
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Lesson_2.zip",
+                "uri": "https://www.udacity.com/api/nodes/3606578599/supplemental_media/lesson-2zip/download"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 4700,
+              "key": "3606578599",
+              "title": "Before You Start",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Introduction\nIn this lesson, we will focus on the questioning part of the QMV process in more depth.\n\nMose specifically, we will teach you how to examine data, identify what elements of it are most significant to investigate a hypothesis, and quantify the impact of data quality on their model. \n\n### Downloads\nThis [download link](https://www.udacity.com/api/nodes/3606578599/supplemental_media/lesson-2zip/download) contains the files that you need to follow along Don in lesson 2.",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 43498,
+          "key": "31055588240923",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31055588240923",
+            "completed_at": "2020-03-26T13:04:26.407Z",
+            "last_viewed_at": "2020-03-26T13:04:25.631Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120832,
+              "key": "3105558824",
+              "title": "Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "fGfvobn7ruE",
+                "china_cdn_id": "fGfvobn7ruE.mp4",
+                "topher_id": "85408142-d4a2-11e9-aa6b-838cc243ef93",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0df3d_introduction-model-building-and-validation/introduction-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0df3d_introduction-model-building-and-validation/introduction-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0df3d_introduction-model-building-and-validation/introduction-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16122,
+          "key": "35571790190923",
+          "title": "Brief Overview of Whats to Come",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35571790190923",
+            "completed_at": "2020-03-26T13:04:33.503Z",
+            "last_viewed_at": "2020-03-26T13:04:32.722Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 74759,
+              "key": "3557179019",
+              "title": "Brief Overview of Whats to Come",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "05_Lg2V_KaM",
+                "china_cdn_id": "05_Lg2V_KaM.mp4",
+                "topher_id": "85301f6e-d4a2-11e9-b7f2-37f1bd81d7a9",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06b59_brief-overview-of-whats-to-come-model-building-and-validation/brief-overview-of-whats-to-come-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06b59_brief-overview-of-whats-to-come-model-building-and-validation/brief-overview-of-whats-to-come-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d06b59_brief-overview-of-whats-to-come-model-building-and-validation/brief-overview-of-whats-to-come-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39652,
+          "key": "31003987660923",
+          "title": "Decision about quantity of interest",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987660923",
+            "completed_at": "2020-03-26T13:04:40.027Z",
+            "last_viewed_at": "2020-03-26T13:04:39.240Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10538,
+              "key": "3100398766",
+              "title": "Decision about quantity of interest",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "PAHzWfKQ7vQ",
+                "china_cdn_id": "PAHzWfKQ7vQ.mp4",
+                "topher_id": "85537bc6-d4a2-11e9-968d-ffa477e8a730",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b3e6_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b3e6_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1b3e6_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 38661,
+          "key": "31003987670923",
+          "title": "Histograms of Intertweet Times",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987670923",
+            "completed_at": "2020-03-26T13:04:47.717Z",
+            "last_viewed_at": "2020-03-26T13:04:46.104Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120200,
+              "key": "3100398767",
+              "title": "Histograms of Intertweet Times",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "wuMSgQTjg-Y",
+                "china_cdn_id": "wuMSgQTjg-Y.mp4",
+                "topher_id": "855fba44-d4a2-11e9-b91a-6f9d38ecb9a8",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29d0e_histograms-of-intertweet-times-model-building-and-validation/histograms-of-intertweet-times-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d29d0e_histograms-of-intertweet-times-model-building-and-validation/histograms-of-intertweet-times-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d29d0e_histograms-of-intertweet-times-model-building-and-validation/histograms-of-intertweet-times-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 75851,
+          "key": "31003987680923",
+          "title": "Decision about Quantity of Interest",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987680923",
+            "completed_at": "2020-03-26T13:04:53.397Z",
+            "last_viewed_at": "2020-03-26T13:05:09.414Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 45264,
+              "key": "3100398768",
+              "title": "Decision about Quantity of Interest",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398768",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "2qtxjnMRivA",
+                  "china_cdn_id": "2qtxjnMRivA.mp4",
+                  "topher_id": "85318b10-d4a2-11e9-bba6-bb6b46b5016d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07696_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07696_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07696_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Decision about Quantity of Interest",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/3KeWQqDjZ-HNAcRoiTReM4sdnyWO2CaXWwDut6XWHmgHbHhHODdTIj735z75AILOnofFu1DYNyClnUuQ=s0#w=2878&h=1618",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398768",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3100398770",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.33359959476309226,
+                      "y": 0.38054323725055433
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3382948877805486,
+                      "y": 0.4981984478935698
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio3",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3446461970074813,
+                      "y": 0.6062915742793792
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio4",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3463411783042394,
+                      "y": 0.7043375831485588
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "YNzteTqxXZI",
+                  "china_cdn_id": "YNzteTqxXZI.mp4",
+                  "topher_id": "8556d6ae-d4a2-11e9-9fea-db5e2f9836ed",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cbc8_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cbc8_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cbc8_decision-about-quantity-of-interest-model-building-and-validation/decision-about-quantity-of-interest-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 47565,
+          "key": "31003987720923",
+          "title": "exponential fit",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987720923",
+            "completed_at": "2020-03-26T13:05:05.374Z",
+            "last_viewed_at": "2020-03-26T13:05:21.104Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77382,
+              "key": "3100398772",
+              "title": "exponential fit",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Please check out lesson 3 in [Stats 101](https://www.udacity.com/course/st101) on Udacity to learn more about Maximum Likelihood Estimate.",
+              "video": {
+                "youtube_id": "bUomFwnyBUA",
+                "china_cdn_id": "bUomFwnyBUA.mp4",
+                "topher_id": "853d385c-d4a2-11e9-a15d-2b6dbe6f5bd8",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a5f2_exponential-fit-model-building-and-validation/exponential-fit-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a5f2_exponential-fit-model-building-and-validation/exponential-fit-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a5f2_exponential-fit-model-building-and-validation/exponential-fit-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 18111,
+          "key": "31003987730923",
+          "title": "confidence band vs amount of data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987730923",
+            "completed_at": "2020-03-26T13:05:28.529Z",
+            "last_viewed_at": "2020-03-26T13:05:27.729Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 54503,
+              "key": "3100398773",
+              "title": "confidence band vs amount of data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "More information about [Markov's Inequality](http://en.wikipedia.org/wiki/Markov%27s_inequality)",
+              "video": {
+                "youtube_id": "yEPhkR7EwGo",
+                "china_cdn_id": "yEPhkR7EwGo.mp4",
+                "topher_id": "85559262-d4a2-11e9-9c9d-67645912d201",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9cb_confidence-band-vs-amount-of-data-model-building-and-validation/confidence-band-vs-amount-of-data-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9cb_confidence-band-vs-amount-of-data-model-building-and-validation/confidence-band-vs-amount-of-data-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c9cb_confidence-band-vs-amount-of-data-model-building-and-validation/confidence-band-vs-amount-of-data-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 136950,
+          "key": "31003987740923",
+          "title": "How many data points are needed",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987740923",
+            "completed_at": "2020-03-26T13:05:34.880Z",
+            "last_viewed_at": "2020-03-26T13:05:34.101Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 48978,
+              "key": "3100398774",
+              "title": "How many data points are needed",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398774",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "MM59XhRRg_w",
+                  "china_cdn_id": "MM59XhRRg_w.mp4",
+                  "topher_id": "84cd0406-d4a2-11e9-be3e-db30b7ad478f",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17072_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17072_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17072_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "How many data points are needed",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/w366jfrXxU6E3i1wrHwXhSlcNJ6deC6sN-DaSB22yVnEdWBAztJ4O9AdZCwjAhaDkhmhWg8fbiq4CK_Sf9EB=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398774",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3100398776",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.43458980044345896,
+                      "width": 0.9201995012468828,
+                      "x": 0.04112764962593516,
+                      "y": 0.5432372505543237
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "e9uxUhhgVrM",
+                  "china_cdn_id": "e9uxUhhgVrM.mp4",
+                  "topher_id": "84dde21c-d4a2-11e9-920d-2b8ba90db425",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c913_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c913_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0c913_how-many-data-points-are-needed-model-building-and-validation/how-many-data-points-are-needed-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16138,
+          "key": "31003987780923",
+          "title": "Confidence bound on amount of data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987780923",
+            "completed_at": "2020-03-26T13:05:43.802Z",
+            "last_viewed_at": "2020-03-26T13:05:42.210Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 95981,
+              "key": "3100398778",
+              "title": "Confidence bound on amount of data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "More information about [Hoeffding's inequality](http://en.wikipedia.org/wiki/Hoeffding%27s_inequality)",
+              "video": {
+                "youtube_id": "MWsqbYdW5qw",
+                "china_cdn_id": "MWsqbYdW5qw.mp4",
+                "topher_id": "84cccdba-d4a2-11e9-bd9e-a3e05ebb5752",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17715_confidence-bound-on-amount-of-data-model-building-and-validation/confidence-bound-on-amount-of-data-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d17715_confidence-bound-on-amount-of-data-model-building-and-validation/confidence-bound-on-amount-of-data-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d17715_confidence-bound-on-amount-of-data-model-building-and-validation/confidence-bound-on-amount-of-data-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 20854,
+          "key": "31003987790923",
+          "title": "recalling the beta parameter",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987790923",
+            "completed_at": "2020-03-26T13:05:49.748Z",
+            "last_viewed_at": "2020-03-26T13:05:48.967Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15006,
+              "key": "3100398779",
+              "title": "recalling the beta parameter",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "79EyDjTnCJc",
+                "china_cdn_id": "79EyDjTnCJc.mp4",
+                "topher_id": "85349634-d4a2-11e9-94e6-5382f78f0f75",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0958e_recalling-the-beta-parameter-model-building-and-validation/recalling-the-beta-parameter-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0958e_recalling-the-beta-parameter-model-building-and-validation/recalling-the-beta-parameter-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0958e_recalling-the-beta-parameter-model-building-and-validation/recalling-the-beta-parameter-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 43510,
+          "key": "31003987800923",
+          "title": "create and evaluate an estimator ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987800923",
+            "completed_at": "2020-03-26T13:05:58.405Z",
+            "last_viewed_at": "2020-03-26T13:05:57.623Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77347,
+              "key": "3100398780",
+              "title": "create and evaluate an estimator ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "DuGOMxdNEE0",
+                "china_cdn_id": "DuGOMxdNEE0.mp4",
+                "topher_id": "853eebca-d4a2-11e9-a636-c7700f74ea6b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b1a8_create-and-evaluate-an-estimator-model-building-and-validation/create-and-evaluate-an-estimator-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b1a8_create-and-evaluate-an-estimator-model-building-and-validation/create-and-evaluate-an-estimator-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0b1a8_create-and-evaluate-an-estimator-model-building-and-validation/create-and-evaluate-an-estimator-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 20883,
+          "key": "31003987810923",
+          "title": "Absolute Error",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987810923",
+            "completed_at": "2020-03-26T13:06:25.733Z",
+            "last_viewed_at": "2020-03-26T13:06:55.875Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 20954,
+              "key": "3100398781",
+              "title": "Absolute Error",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398781",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "2MPGMHtq2qg",
+                  "china_cdn_id": "2MPGMHtq2qg.mp4",
+                  "topher_id": "84cf39f6-d4a2-11e9-9a59-4b9a4a776ec3",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07706_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d07706_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d07706_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Absolute Error",
+                "alt_text": "",
+                "background_image": "//lh3.ggpht.com/8id3WQD4lQ20iGv1ft-QbEW4mwYHTfT1iieu9RpydBQcGRmBpknPfo-YZpQxAczMudn2rEAUJkQyQIMRPg=s0#w=2876&h=1618",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398781",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3090808800",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": null,
+                    "label": null,
+                    "marker": "numeric1",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.2793791574279379,
+                      "width": 0.4251870324189526,
+                      "x": 0.3082917705735661,
+                      "y": 0.38140936807095344
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "wM1Jnq0n6Kg",
+                  "china_cdn_id": "wM1Jnq0n6Kg.mp4",
+                  "topher_id": "855f749e-d4a2-11e9-b857-4bc7c970e360",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2980f_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2980f_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2980f_absolute-error-model-building-and-validation/absolute-error-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 46350,
+          "key": "31003987840923",
+          "title": "Average Absolute Error",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987840923",
+            "completed_at": "2020-03-26T13:06:35.249Z",
+            "last_viewed_at": "2020-03-26T13:06:34.422Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120343,
+              "key": "3100398784",
+              "title": "Average Absolute Error",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "HSZVgdsXoKQ",
+                "china_cdn_id": "HSZVgdsXoKQ.mp4",
+                "topher_id": "8543ddce-d4a2-11e9-b3ba-db511298c2eb",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1126e_average-absolute-error-model-building-and-validation/average-absolute-error-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1126e_average-absolute-error-model-building-and-validation/average-absolute-error-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1126e_average-absolute-error-model-building-and-validation/average-absolute-error-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112740,
+          "key": "31003987850923",
+          "title": "examine the sources of prediction error",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987850923",
+            "completed_at": "2020-03-26T13:06:48.015Z",
+            "last_viewed_at": "2020-03-26T13:06:47.220Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10547,
+              "key": "3100398785",
+              "title": "examine the sources of prediction error",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "gG2gegFJtak",
+                "china_cdn_id": "gG2gegFJtak.mp4",
+                "topher_id": "8541e44c-d4a2-11e9-ae63-53e0087ef3a1",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f28b_examine-the-sources-of-prediction-error-model-building-and-validation/examine-the-sources-of-prediction-error-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f28b_examine-the-sources-of-prediction-error-model-building-and-validation/examine-the-sources-of-prediction-error-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f28b_examine-the-sources-of-prediction-error-model-building-and-validation/examine-the-sources-of-prediction-error-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 70169,
+          "key": "31003987860923",
+          "title": "examine the sources of prediction error",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987860923",
+            "completed_at": "2020-03-26T13:06:57.037Z",
+            "last_viewed_at": "2020-03-26T16:07:31.890Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 80166,
+              "key": "3100398786",
+              "title": "examine the sources of prediction error",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "You can share your thoughts with your fellow classmates in this [forum post](http://forums.udacity.com/questions/100239265/increasing-variance#ud919).",
+              "user_state": {
+                "node_key": "3100398786",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "aoRmSKrkEyQ",
+                  "china_cdn_id": "aoRmSKrkEyQ.mp4",
+                  "topher_id": "84cdf550-d4a2-11e9-9680-4b061be664d7",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50355_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50355_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d50355_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Cause of prediction error?",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/Hd_Ty1O545x4_1b64fap1w2JbtPT3gbEyHb0BVO7-np78ZQU9KHiWj2gxhpETOiskHjj1C_sakjTAy6TnA=s0#w=889&h=500",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398786",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3100398788",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1936175187032419,
+                      "y": 0.7659368070953437
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "f7k_n1XBISw",
+                  "china_cdn_id": "f7k_n1XBISw.mp4",
+                  "topher_id": "84e34964-d4a2-11e9-a2b9-27a96181c778",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0da6b_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0da6b_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0da6b_cause-of-prediction-error-model-building-and-validation/cause-of-prediction-error-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 18110,
+          "key": "31003987900923",
+          "title": "impact of uncaptured influencing features ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987900923",
+            "completed_at": "2020-03-26T13:07:09.343Z",
+            "last_viewed_at": "2020-03-26T16:13:40.254Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10568,
+              "key": "3100398790",
+              "title": "impact of uncaptured influencing features ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "gipB2CUNh40",
+                "china_cdn_id": "gipB2CUNh40.mp4",
+                "topher_id": "8541f3ba-d4a2-11e9-ae8f-cbc4e6a11729",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f56a_impact-of-uncaptured-influencing-features-model-building-and-validation/impact-of-uncaptured-influencing-features-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f56a_impact-of-uncaptured-influencing-features-model-building-and-validation/impact-of-uncaptured-influencing-features-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0f56a_impact-of-uncaptured-influencing-features-model-building-and-validation/impact-of-uncaptured-influencing-features-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 17044,
+          "key": "33678085730923",
+          "title": "identifying features pt. 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33678085730923",
+            "completed_at": "2020-03-26T13:07:21.404Z",
+            "last_viewed_at": "2020-03-26T16:13:50.630Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 6104,
+              "key": "3367808573",
+              "title": "identifying features pt. 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "UbeSvufvDyg",
+                "china_cdn_id": "UbeSvufvDyg.mp4",
+                "topher_id": "855d5e20-d4a2-11e9-b253-8303d27f2717",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27746_identifying-features-pt.-1-model-building-and-validation/identifying-features-pt.-1-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d27746_identifying-features-pt.-1-model-building-and-validation/identifying-features-pt.-1-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d27746_identifying-features-pt.-1-model-building-and-validation/identifying-features-pt.-1-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 56647,
+          "key": "31003987910923",
+          "title": "identifying features with influencing relationship part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987910923",
+            "completed_at": "2020-03-26T13:07:31.288Z",
+            "last_viewed_at": "2020-03-26T16:14:05.274Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 130995,
+              "key": "3100398791",
+              "title": "identifying features with influencing relationship part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "t1z6crLchmo",
+                "china_cdn_id": "t1z6crLchmo.mp4",
+                "topher_id": "84cc02e0-d4a2-11e9-bb4f-2f89817903d2",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26117_identifying-features-with-influencing-relationship-part-2-model-building-and-validation/identifying-features-with-influencing-relationship-part-2-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26117_identifying-features-with-influencing-relationship-part-2-model-building-and-validation/identifying-features-with-influencing-relationship-part-2-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26117_identifying-features-with-influencing-relationship-part-2-model-building-and-validation/identifying-features-with-influencing-relationship-part-2-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 12476,
+          "key": "31003987920923",
+          "title": "identifying features with influencing relationship part 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987920923",
+            "completed_at": "2020-03-26T13:07:40.111Z",
+            "last_viewed_at": "2020-03-26T16:13:58.141Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 14993,
+              "key": "3100398792",
+              "title": "identifying features with influencing relationship part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "oL6Gi1Mn6PM",
+                "china_cdn_id": "oL6Gi1Mn6PM.mp4",
+                "topher_id": "84cd5eba-d4a2-11e9-bf48-930b935ebb3f",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a5c5_identifying-features-with-influencing-relationship-part-3-model-building-and-validation/identifying-features-with-influencing-relationship-part-3-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a5c5_identifying-features-with-influencing-relationship-part-3-model-building-and-validation/identifying-features-with-influencing-relationship-part-3-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a5c5_identifying-features-with-influencing-relationship-part-3-model-building-and-validation/identifying-features-with-influencing-relationship-part-3-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 36020,
+          "key": "31003987930923",
+          "title": "identifying features with influencing relationship part 4 ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987930923",
+            "completed_at": "2020-03-26T13:57:06.613Z",
+            "last_viewed_at": "2020-03-27T00:17:55.255Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 10561,
+              "key": "3100398793",
+              "title": "identifying features with influencing relationship part 4 ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "i8VfhCCNRmE",
+                "china_cdn_id": "i8VfhCCNRmE.mp4",
+                "topher_id": "85446654-d4a2-11e9-b547-5b6e82d2ce70",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11939_identifying-features-with-influencing-relationship-part-4-model-building-and-validation/identifying-features-with-influencing-relationship-part-4-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d11939_identifying-features-with-influencing-relationship-part-4-model-building-and-validation/identifying-features-with-influencing-relationship-part-4-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d11939_identifying-features-with-influencing-relationship-part-4-model-building-and-validation/identifying-features-with-influencing-relationship-part-4-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 18156,
+          "key": "31003987940923",
+          "title": "identifying features with influencing relationship part 5",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987940923",
+            "completed_at": "2020-03-26T16:14:22.027Z",
+            "last_viewed_at": "2020-03-27T00:18:24.653Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 14968,
+              "key": "3100398794",
+              "title": "identifying features with influencing relationship part 5",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "7t4hwgjXSQw",
+                "china_cdn_id": "7t4hwgjXSQw.mp4",
+                "topher_id": "84c8193c-d4a2-11e9-afbf-177ebce8cda9",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09613_identifying-features-with-influencing-relationship-part-5-model-building-and-validation/identifying-features-with-influencing-relationship-part-5-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09613_identifying-features-with-influencing-relationship-part-5-model-building-and-validation/identifying-features-with-influencing-relationship-part-5-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09613_identifying-features-with-influencing-relationship-part-5-model-building-and-validation/identifying-features-with-influencing-relationship-part-5-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 47574,
+          "key": "31003987950923",
+          "title": "Information theory assessment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987950923",
+            "completed_at": "2020-03-26T16:14:31.918Z",
+            "last_viewed_at": "2020-03-27T00:18:33.583Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 27157,
+              "key": "3100398795",
+              "title": "Information theory assessment",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398795",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "c9v8nuQ4-58",
+                  "china_cdn_id": "c9v8nuQ4-58.mp4",
+                  "topher_id": "853d00d0-d4a2-11e9-a0bb-f7dfdd07ca6c",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6f5_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6f5_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a6f5_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "information theory assessmentStill001",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/srC_gjBmyK19J7fsbCm5n5AxAs4KeXdWGe6ycMhoFQ3XeI2w_Lz11rsCN96dpqjwLkZ--Fqzgbz1-sxu0WE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398795",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3100398797",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.5554083541147132,
+                      "y": 0.7847838137472284
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.6230127805486284,
+                      "y": 0.7848184589800443
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "Hu_sIu4cze4",
+                  "china_cdn_id": "Hu_sIu4cze4.mp4",
+                  "topher_id": "84cbe45e-d4a2-11e9-baff-eb5d400205b4",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1131d_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1131d_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1131d_information-theory-assessment-model-building-and-validation/information-theory-assessment-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 74477,
+          "key": "31003987990923",
+          "title": "Applying information theory",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987990923",
+            "completed_at": "2020-03-26T16:14:39.580Z",
+            "last_viewed_at": "2020-03-27T00:18:45.743Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120830,
+              "key": "3100398799",
+              "title": "Applying information theory",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "oXnWo9UWkYA",
+                "china_cdn_id": "oXnWo9UWkYA.mp4",
+                "topher_id": "84cd970e-d4a2-11e9-bff2-4f2cbbf09dce",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ad92_applying-information-theory-model-building-and-validation/applying-information-theory-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ad92_applying-information-theory-model-building-and-validation/applying-information-theory-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ad92_applying-information-theory-model-building-and-validation/applying-information-theory-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 39168,
+          "key": "31003988000923",
+          "title": "Non linear relationships in data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003988000923",
+            "completed_at": "2020-03-26T16:14:46.074Z",
+            "last_viewed_at": "2020-03-27T00:18:54.124Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 46274,
+              "key": "3100398800",
+              "title": "Non linear relationships in data",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398800",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "M5a5thCtDfM",
+                  "china_cdn_id": "M5a5thCtDfM.mp4",
+                  "topher_id": "854f1b76-d4a2-11e9-8a0d-17dc96fb56d9",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1675a_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1675a_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1675a_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "discussion of non linear relationships i",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/XwjkWpurs2chGqJi0xPejUXPMOnQ5uxzjahN3hIRLFKUNqbsX5kaQb2nxXsylLRBiOAWeo-sgfStdEx7Xw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398800",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3061648822",
+                "widgets": [
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio1",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.3411783042394015,
+                      "y": 0.4448101441241685
+                    }
+                  },
+                  {
+                    "group": "group1",
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "radio2",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.34041848503740646,
+                      "y": 0.5489537139689579
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "adpLrzE7odA",
+                  "china_cdn_id": "adpLrzE7odA.mp4",
+                  "topher_id": "853b99d4-d4a2-11e9-9cb8-df62037abbcc",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f6d_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f6d_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d09f6d_discussion-of-non-linear-relationships-in-data-model-building-and-validation/discussion-of-non-linear-relationships-in-data-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 58370,
+          "key": "31003988070923",
+          "title": "Let's examine our analysis so far",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003988070923",
+            "completed_at": "2020-03-26T16:16:10.279Z",
+            "last_viewed_at": "2020-03-27T05:15:03.029Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 120774,
+              "key": "3100398807",
+              "title": "Let's examine our analysis so far",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "iVh5xdGz1Xw",
+                "china_cdn_id": "iVh5xdGz1Xw.mp4",
+                "topher_id": "8545452e-d4a2-11e9-b7ce-f301f97a927d",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d12671_lets-examine-our-analysis-so-far-model-building-and-validation/lets-examine-our-analysis-so-far-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d12671_lets-examine-our-analysis-so-far-model-building-and-validation/lets-examine-our-analysis-so-far-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d12671_lets-examine-our-analysis-so-far-model-building-and-validation/lets-examine-our-analysis-so-far-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 69611,
+          "key": "31003987640923",
+          "title": "What's Going On?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31003987640923",
+            "completed_at": "2020-03-26T16:16:16.467Z",
+            "last_viewed_at": "2020-03-26T16:16:16.123Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 73266,
+              "key": "3100398764",
+              "title": "What's Going On?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3100398764",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "Pt3hcDdwzHY",
+                  "china_cdn_id": "Pt3hcDdwzHY.mp4",
+                  "topher_id": "85551b7a-d4a2-11e9-9b47-d7e51cf77342",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bdce_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bdce_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bdce_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "What's Going On?",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/wsHUXTjKMbr-CpLTgMpziIP5amrKLxzuI8g-fjySx80McoKFvKm46ukJ_AR-fsre70ka7JXmjwFRC9FJWUE=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3100398764",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3100398765",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": null,
+                    "marker": "text1",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.3968957871396896,
+                      "width": 0.8192019950124688,
+                      "x": 0.1059655548628429,
+                      "y": 0.5738289911308204
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "XUzdIOjpC2U",
+                  "china_cdn_id": "XUzdIOjpC2U.mp4",
+                  "topher_id": "855a3fc4-d4a2-11e9-a94e-239643588526",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d7d0_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d7d0_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1d7d0_whats-going-on-model-building-and-validation/whats-going-on-model-building-and-validation_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30827,
+          "key": "30682288710923",
+          "title": "Create model and fit to data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "30682288710923",
+            "completed_at": "2020-03-26T16:16:23.172Z",
+            "last_viewed_at": "2020-03-26T16:16:22.848Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 15317,
+              "key": "3068228871",
+              "title": "Create model and fit to data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "JQ3445jg4G0",
+                "china_cdn_id": "JQ3445jg4G0.mp4",
+                "topher_id": "854c0102-d4a2-11e9-baa6-cf76c25cf138",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d13744_create-model-and-fit-to-data-model-building-and-validation/create-model-and-fit-to-data-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d13744_create-model-and-fit-to-data-model-building-and-validation/create-model-and-fit-to-data-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d13744_create-model-and-fit-to-data-model-building-and-validation/create-model-and-fit-to-data-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 40119,
+          "key": "31017186310923",
+          "title": "Validate our model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31017186310923",
+            "completed_at": "2020-03-26T16:16:28.950Z",
+            "last_viewed_at": "2020-03-26T16:16:28.591Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 14944,
+              "key": "3101718631",
+              "title": "Validate our model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QKmsY4nHtwk",
+                "china_cdn_id": "QKmsY4nHtwk.mp4",
+                "topher_id": "84c710fa-d4a2-11e9-aca3-97bdb0beeb4b",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cb5b_validate-our-model-model-building-and-validation/validate-our-model-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cb5b_validate-our-model-model-building-and-validation/validate-our-model-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1cb5b_validate-our-model-model-building-and-validation/validate-our-model-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 22858,
+          "key": "33414488800923",
+          "title": "Summary pt. 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33414488800923",
+            "completed_at": "2020-03-26T16:16:35.181Z",
+            "last_viewed_at": "2020-03-26T16:16:34.858Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 14840,
+              "key": "3341448880",
+              "title": "Summary pt. 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "UoQ00Gg2nFU",
+                "china_cdn_id": "UoQ00Gg2nFU.mp4",
+                "topher_id": "85513afa-d4a2-11e9-906c-835145fc09f6",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a5f_summary-pt.-1-model-building-and-validation/summary-pt.-1-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a5f_summary-pt.-1-model-building-and-validation/summary-pt.-1-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19a5f_summary-pt.-1-model-building-and-validation/summary-pt.-1-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 65819,
+          "key": "33516686130923",
+          "title": "Summary pt. 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33516686130923",
+            "completed_at": "2020-03-26T16:16:40.888Z",
+            "last_viewed_at": "2020-03-26T16:16:40.548Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 75643,
+              "key": "3351668613",
+              "title": "Summary pt. 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "vrdE9h40dJs",
+                "china_cdn_id": "vrdE9h40dJs.mp4",
+                "topher_id": "855ebdf6-d4a2-11e9-b649-6bd32ebc8a88",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2887c_summary-pt.-2-model-building-and-validation/summary-pt.-2-model-building-and-validation_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2887c_summary-pt.-2-model-building-and-validation/summary-pt.-2-model-building-and-validation_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2887c_summary-pt.-2-model-building-and-validation/summary-pt.-2-model-building-and-validation_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

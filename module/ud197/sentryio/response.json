@@ -1,0 +1,23 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "3234ms",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 28 Apr 2020 15:40:49 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "41",
+    "Connection": "keep-alive",
+    "access-control-allow-origin": "https://classroom.udacity.com",
+    "access-control-expose-headers": "retry-after, x-sentry-rate-limits, x-sentry-error",
+    "vary": "Origin",
+    "x-envoy-upstream-service-time": "1",
+    "Strict-Transport-Security": "max-age\u003d31536000; includeSubDomains; preload"
+  },
+  "message": "OK",
+  "protocol": "HTTP/1.1",
+  "remoteIp": "35.188.42.15",
+  "remotePort": 443,
+  "sessionId": "c4696287-0f11-49bf-9b9f-2b95a0eba744",
+  "time": "2020-04-28 21:10:44"
+}

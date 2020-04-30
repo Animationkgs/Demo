@@ -1,0 +1,28 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "430ms",
+  "headers": {
+    "last-modified": "Mon, 27 Apr 2020 21:24:58 GMT",
+    "cache-control": "no-cache",
+    "content-type": "application/javascript; charset\u003dutf-8",
+    "etag": "\"1d9536984a3ff7a629eda3f70ceadd20+gzip\"",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "date": "Tue, 28 Apr 2020 14:14:13 GMT",
+    "via": "1.1 varnish",
+    "age": "60171",
+    "x-served-by": "cache-maa18321-MAA",
+    "x-cache": "HIT",
+    "x-timer": "S1588083254.657395,VS0,VE0",
+    "vary": "Accept-Encoding,Host",
+    "p3p": "CP\u003d\"CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT\"",
+    "content-length": "1942"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "151.101.156.157",
+  "remotePort": 443,
+  "sessionId": "e9ef01cd-4061-4508-99ab-b0f7fbbeaceb",
+  "time": "2020-04-28 19:44:12"
+}

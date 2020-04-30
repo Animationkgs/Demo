@@ -1,6 +1,10 @@
 
 
 var pretty= function (x) { return x.split( '\n' ).join( '<br>' ); };
+var iframe= function (vid) {
+	return ` <iframe width="440" height="248" src="https://www.youtube.com/embed/${vid}?rel=0&amp;mute=1&cc_load_policy=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `;
+   };
+var img=  function (src) { return ` <img width=440 height=248 src='${src}'> `; }; 
 
 var wrap= function (e) {
    var i;

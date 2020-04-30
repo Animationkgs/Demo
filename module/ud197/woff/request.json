@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "481ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "origin": "https://classroom.udacity.com",
+    "sec-fetch-dest": "font",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "referer": "https://classroom.udacity.com/css/fonts.min.css",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "amplitude_id_0143e7ffb7c6fc432d74f0a362536439udacity.com\u003deyJkZXZpY2VJZCI6ImJlZmIzNGQzLTI5YjAtNDVkNi04ZGJmLTZjYjQ4ZDllOGIxMyIsInVzZXJJZCI6InUxMjA4NzExOSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4ODA4ODQxMjI2NywibGFzdEV2ZW50VGltZSI6MTU4ODA4ODQ0NzgxOSwiZXZlbnRJZCI6NDUzMywiaWRlbnRpZnlJZCI6MTYxLCJzZXF1ZW5jZU51bWJlciI6NDY5NH0\u003d"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "47e9f86c-4335-4aec-a332-6cd1da85d0b2",
+  "time": "2020-04-28 21:10:53",
+  "url": "https://classroom.udacity.com/fonts/opensans/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2"
+}

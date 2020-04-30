@@ -1,0 +1,1255 @@
+{
+  "data": {
+    "lesson": {
+      "id": 77754,
+      "key": "48755014",
+      "title": "Strong and Weak Bonds",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48755014/77754/1516979107690/Strong%20and%20Weak%20Bonds%20Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "http://d2uz2655q5g6b2.cloudfront.net/48755014/77754/1516979036563/Strong%20and%20Weak%20Bonds%20Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 93888,
+          "key": "486057200923",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486057200923",
+            "completed_at": "2020-03-26T23:23:30.430Z",
+            "last_viewed_at": "2020-03-26T23:23:29.116Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 43007,
+              "key": "48605720",
+              "title": "Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "7Mrihlxd9mY",
+                "china_cdn_id": "7Mrihlxd9mY.mp4",
+                "topher_id": "8529abde-d4a2-11e9-b031-4bfa1b267724",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf986e_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cf986e_introduction-intro-to-algorithms/introduction-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cf986e_introduction-intro-to-algorithms/introduction-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5143,
+          "key": "484394420923",
+          "title": "Save the Turtles",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484394420923",
+            "completed_at": "2020-03-26T23:23:39.292Z",
+            "last_viewed_at": "2020-03-26T23:23:37.996Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 84650,
+              "key": "48439442",
+              "title": "Save the Turtles",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48439442",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "kKcKwiFdXkI",
+                  "china_cdn_id": "kKcKwiFdXkI.mp4",
+                  "topher_id": "854d11a0-d4a2-11e9-bdde-c7cdaf9830f6",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d147a4_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d147a4_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d147a4_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Save the Turtles",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/IEP4IgNDCoKXa8LZGw7Gd7hWIqrFR2xV4qZZfKBrJrB42nVm9qrQi1rii1uz6TDOhbJmDAelddHvGPgzoA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48439442",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48703227",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343071021894",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07407407407407407,
+                      "width": 0.128125,
+                      "x": 0.8333333333333335,
+                      "y": 0.46296296296296297
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "zjZ0zlcWOog",
+                  "china_cdn_id": "zjZ0zlcWOog.mp4",
+                  "topher_id": "856188ba-d4a2-11e9-bda6-e3dc81ff3eff",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50c7d_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d50c7d_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d50c7d_save-the-turtles-intro-to-algorithms/save-the-turtles-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 91896,
+          "key": "486865290923",
+          "title": "Make a Tree",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865290923",
+            "completed_at": "2020-03-26T23:23:47.611Z",
+            "last_viewed_at": "2020-03-26T23:23:46.274Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 41486,
+              "key": "48686529",
+              "title": "Make a Tree",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "lI644Qq_yTE",
+                "china_cdn_id": "lI644Qq_yTE.mp4",
+                "topher_id": "854e1258-d4a2-11e9-875e-6ba1fcb7231a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d159f4_make-a-tree-intro-to-algorithms/make-a-tree-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d159f4_make-a-tree-intro-to-algorithms/make-a-tree-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d159f4_make-a-tree-intro-to-algorithms/make-a-tree-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135339,
+          "key": "487550130923",
+          "title": "Strength of Connections",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487550130923",
+            "completed_at": "2020-03-26T23:23:55.051Z",
+            "last_viewed_at": "2020-03-26T23:23:52.906Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 68506,
+              "key": "48755013",
+              "title": "Strength of Connections",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "The Marvel Graph can be found [here](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQYkacNDAsSDEF0dGFjaGVkRmlsZRiByhEM).\n\nCode for reading in the graph can be found in Unit 3: <http://www.udacity.com/wiki/CS215Unit3Code>\n\nBe aware that this code double counts the values.  Students suggested the following fix:\n<pre>\nfor char1 in characters:\n    for book in marvelG[char1]:\n        for char2 in marvelG[book]:\n            if char1 > char 2:\n                 make_link(charG, char1, char2)\n</pre>\n-MLL",
+              "user_state": {
+                "node_key": "48755013",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "qdHYq4pPkfk",
+                  "china_cdn_id": "qdHYq4pPkfk.mp4",
+                  "topher_id": "8556bd72-d4a2-11e9-9f9f-b7fbe86a9661",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c701_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c701_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1c701_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Strength of Connections",
+                "alt_text": null,
+                "background_image": "//lh5.ggpht.com/BjOKNPVPjHUnGlZMGT1bPc2iREtoCZ8Nvj8gt75RD2NHdy6Fbaxtniz0K0HRTCE7IzYZrJcq9Zfgw3EmkJU=s0#w=1918&h=1077",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48755013",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48699496",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343089684206",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.03275015586034913,
+                      "y": 0.5631236141906873
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343089691599",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.030256390274314215,
+                      "y": 0.6188331485587583
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343089708014",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.03150327306733167,
+                      "y": 0.6741962305986696
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343089716197",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.030256390274314215,
+                      "y": 0.7276884700665188
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "ETMyklQKYJc",
+                  "china_cdn_id": "ETMyklQKYJc.mp4",
+                  "topher_id": "853fb212-d4a2-11e9-a876-138e458484cd",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d35d_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d35d_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d35d_strength-of-connections-intro-to-algorithms/strength-of-connections-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 94500,
+          "key": "487233280923",
+          "title": "Matrix Multiplication",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487233280923",
+            "completed_at": "2020-03-26T23:24:05.374Z",
+            "last_viewed_at": "2020-03-26T23:24:04.080Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 43936,
+              "key": "48723328",
+              "title": "Matrix Multiplication",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Note that there are algorithms for matrix multiplication with better worst-case running times than n^3.  See the algorithms section in http://en.wikipedia.org/wiki/Matrix_multiplication .",
+              "video": {
+                "youtube_id": "X1vkyroQfsU",
+                "china_cdn_id": "X1vkyroQfsU.mp4",
+                "topher_id": "85600a26-d4a2-11e9-ba03-3b693f77eac6",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a065_matrix-multiplication-intro-to-algorithms/matrix-multiplication-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a065_matrix-multiplication-intro-to-algorithms/matrix-multiplication-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d2a065_matrix-multiplication-intro-to-algorithms/matrix-multiplication-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93797,
+          "key": "484528610923",
+          "title": "Weighted Social Networks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484528610923",
+            "completed_at": "2020-03-26T23:24:23.006Z",
+            "last_viewed_at": "2020-03-26T23:24:21.713Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 69388,
+              "key": "48452861",
+              "title": "Weighted Social Networks",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Comic that includes Michael Bowling: http://www.wired.com/special_multimedia/2008/ff_poker_1612 .",
+              "video": {
+                "youtube_id": "TqwO-DHK-rI",
+                "china_cdn_id": "TqwO-DHK-rI.mp4",
+                "topher_id": "855c9b98-d4a2-11e9-b024-6f1e900033f6",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26dd1_weighted-social-networks-intro-to-algorithms/weighted-social-networks-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26dd1_weighted-social-networks-intro-to-algorithms/weighted-social-networks-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26dd1_weighted-social-networks-intro-to-algorithms/weighted-social-networks-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95614,
+          "key": "487033210923",
+          "title": "Find the Shortest Path",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "487033210923",
+            "completed_at": "2020-03-26T23:24:31.452Z",
+            "last_viewed_at": "2020-03-26T23:24:30.107Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 76380,
+              "key": "48703321",
+              "title": "Find the Shortest Path",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48703321",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "pM9m33kV6jI",
+                  "china_cdn_id": "pM9m33kV6jI.mp4",
+                  "topher_id": "85544db2-d4a2-11e9-98f1-1f364cb8b82a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba58_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba58_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1ba58_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Find the Shortest Path",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/PrmUnAABxXX5xN2KOi0KjlbReXn3n76cMo3y41-DDshg2l8kzFtu6lSmoo5u291aH63V96bhHgp-aCSbsic=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48703321",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48240915",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343073086018",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.08333333333333331,
+                      "width": 0.140625,
+                      "x": 0.7645833333333333,
+                      "y": 0.6944444444444444
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "evh2FZf7P1E",
+                  "china_cdn_id": "evh2FZf7P1E.mp4",
+                  "topher_id": "853fc3b0-d4a2-11e9-a8a8-4b88867595ac",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d447_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d447_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0d447_find-the-shortest-path-intro-to-algorithms/find-the-shortest-path-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 125489,
+          "key": "484393450923",
+          "title": "How to Find the Shortest Path",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484393450923",
+            "completed_at": "2020-03-26T23:24:39.671Z",
+            "last_viewed_at": "2020-03-26T23:24:38.336Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 50933,
+              "key": "48439345",
+              "title": "How to Find the Shortest Path",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "McXPZz4c0FY",
+                "china_cdn_id": "McXPZz4c0FY.mp4",
+                "topher_id": "854f4e98-d4a2-11e9-8aa7-730325c5154c",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16b11_how-to-find-the-shortest-path-intro-to-algorithms/how-to-find-the-shortest-path-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d16b11_how-to-find-the-shortest-path-intro-to-algorithms/how-to-find-the-shortest-path-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d16b11_how-to-find-the-shortest-path-intro-to-algorithms/how-to-find-the-shortest-path-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 102857,
+          "key": "486058340923",
+          "title": "Simulate this Algorithm",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486058340923",
+            "completed_at": "2020-03-26T23:24:48.428Z",
+            "last_viewed_at": "2020-03-26T23:24:46.815Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 62792,
+              "key": "48605834",
+              "title": "Simulate this Algorithm",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48605834",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ZnGMR08Xsd4",
+                  "china_cdn_id": "ZnGMR08Xsd4.mp4",
+                  "topher_id": "85541018-d4a2-11e9-983d-cb7dbd02606d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb23_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb23_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1bb23_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Simulate this Algorithm",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/IrsLYBIaebXqanpJlbYQhsGdPRi9MzjZjqLGvj_7VvBNavjqweKJxUR86LOE6aPpKi1YEu79fQSmeDl1PuVw=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48605834",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48605719",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343073662254",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.06851851851851852,
+                      "width": 0.14375,
+                      "x": 0.6197916666666666,
+                      "y": 0.8611111111111112
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "gpPJvqOU_gY",
+                  "china_cdn_id": "gpPJvqOU_gY.mp4",
+                  "topher_id": "852f0bec-d4a2-11e9-bff9-b3e3fb5bcd1b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc13d_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc13d_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57cfc13d_simulate-this-algorithm-intro-to-algorithms/simulate-this-algorithm-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 112932,
+          "key": "476459900923",
+          "title": "Dijkstra's Shortest Path Algorithm",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "476459900923",
+            "completed_at": "2020-03-26T23:24:56.614Z",
+            "last_viewed_at": "2020-03-26T23:24:55.316Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 102797,
+              "key": "47645990",
+              "title": "Dijkstra's Shortest Path Algorithm",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "0mIfZR6_QuA",
+                "china_cdn_id": "0mIfZR6_QuA.mp4",
+                "topher_id": "85309f0c-d4a2-11e9-b94c-3bc11214f67c",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06cc9_dijkstras-shortest-path-algorithm-intro-to-algorithms/dijkstras-shortest-path-algorithm-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06cc9_dijkstras-shortest-path-algorithm-intro-to-algorithms/dijkstras-shortest-path-algorithm-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d06cc9_dijkstras-shortest-path-algorithm-intro-to-algorithms/dijkstras-shortest-path-algorithm-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1706,
+          "key": "486865300923",
+          "title": "Code for Dijkstra",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865300923",
+            "completed_at": "2020-03-26T23:25:07.679Z",
+            "last_viewed_at": "2020-03-26T23:25:06.388Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 95629,
+              "key": "48686530",
+              "title": "Code for Dijkstra",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Code for dijkstra is here: <http://www.udacity.com/wiki/CS215Unit5Code>",
+              "video": {
+                "youtube_id": "uRfSsu4zYW0",
+                "china_cdn_id": "uRfSsu4zYW0.mp4",
+                "topher_id": "8551bc3c-d4a2-11e9-91e5-53dd83aa5c33",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e37_code-for-dijkstra-intro-to-algorithms/code-for-dijkstra-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e37_code-for-dijkstra-intro-to-algorithms/code-for-dijkstra-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d19e37_code-for-dijkstra-intro-to-algorithms/code-for-dijkstra-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93107,
+          "key": "483118410923",
+          "title": "What is Missing?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483118410923",
+            "completed_at": "2020-03-26T23:25:15.085Z",
+            "last_viewed_at": "2020-03-26T23:25:13.713Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 113882,
+              "key": "48311841",
+              "title": "What is Missing?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "reminder: n is # of nodes and m is # of edges.",
+              "user_state": {
+                "node_key": "48311841",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "NfqsPCQxZHk",
+                  "china_cdn_id": "NfqsPCQxZHk.mp4",
+                  "topher_id": "85507426-d4a2-11e9-8e1e-7747f54e47d6",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d181f9_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d181f9_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d181f9_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "What is Missing?",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/Hpy1MVSiGgyVP5tETYv6lv5jGRFdbooJ-kU7FvdKfEgFcC-b63orbytUmrnSVVfin_TxUHvRX2PPzE3Kzg=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48311841",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48738042",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343074404853",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6612659454345703,
+                      "y": 0.1663246437355324
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343074410370",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.65583864847819,
+                      "y": 0.4994633427372685
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343074415540",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6664899190266929,
+                      "y": 0.7869452582465277
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "6a_aPae5R8E",
+                  "china_cdn_id": "6a_aPae5R8E.mp4",
+                  "topher_id": "853412cc-d4a2-11e9-9365-a38b8d21784d",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d088b2_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d088b2_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d088b2_what-is-missing-intro-to-algorithms/what-is-missing-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 93831,
+          "key": "484529450923",
+          "title": "Implementing Shortest Distance",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "484529450923",
+            "completed_at": "2020-03-26T23:25:39.973Z",
+            "last_viewed_at": "2020-03-26T23:25:38.650Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 93292,
+              "key": "48452945",
+              "title": "Implementing Shortest Distance",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Assume that we reduce the value of a node by changing it directly in the list (O(1)).  -MLL\n",
+              "user_state": {
+                "node_key": "48452945",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "-3aTQA0ukL8",
+                  "china_cdn_id": "-3aTQA0ukL8.mp4",
+                  "topher_id": "852fbc68-d4a2-11e9-b6d3-8b81d11faa4b",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06792_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d06792_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d06792_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Implementing Shortest Distance",
+                "alt_text": null,
+                "background_image": "//lh4.ggpht.com/xVK7R-anOoIK3Frw6YSGsfrYeJZBMHJe66-NGZuC9XY314fcUW_22JKZhyxjSOs5KuNhE2nrdPlIIarS1SA=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48452945",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48050971",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343075131412",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.4722222222222222
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343075136611",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.734375,
+                      "y": 0.5740740740740741
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343075141143",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.6944444444444444
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343075145790",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.7291666666666665,
+                      "y": 0.8148148148148148
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "CSLI1QIDiqI",
+                  "china_cdn_id": "CSLI1QIDiqI.mp4",
+                  "topher_id": "84df6128-d4a2-11e9-96b0-c327142b7b93",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0aca5_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0aca5_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0aca5_implementing-shortest-distance-intro-to-algorithms/implementing-shortest-distance-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 123876,
+          "key": "486058350923",
+          "title": "Using Heaps",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486058350923",
+            "completed_at": "2020-03-26T23:26:01.259Z",
+            "last_viewed_at": "2020-03-26T23:25:58.958Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 54062,
+              "key": "48605835",
+              "title": "Using Heaps",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "For more on the fancy heaps of Fredman and Tarjan, see: http://en.wikipedia.org/wiki/Fibonacci_heap",
+              "user_state": {
+                "node_key": "48605835",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "ODdYHh6p5r0",
+                  "china_cdn_id": "ODdYHh6p5r0.mp4",
+                  "topher_id": "8552636c-d4a2-11e9-935f-7b968358bc4a",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0ea_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0ea_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d1a0ea_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Using Heaps",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/IFVkpm7FrKRlIRTVryFmieFebzRfyLU23lKcFSkb8Vj4oxW2Y7dTXsq2R2mhRQ9i4QnnN13lKReUlhiGPryP=s0#w=1920&h=1080",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/48605835",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48667893",
+                "widgets": [
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343075741235",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6927083333333335,
+                      "y": 0.24074074074074073
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343075746034",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6927083333333335,
+                      "y": 0.3796296296296296
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343075750404",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6927083333333335,
+                      "y": 0.5277777777777778
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343075755916",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6875,
+                      "y": 0.6574074074074074
+                    }
+                  },
+                  {
+                    "group": "multipleChoice1",
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1343075761273",
+                    "model": "RadioButtonWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.6875,
+                      "y": 0.8333333333333335
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "jyEl4SvVOnQ",
+                  "china_cdn_id": "jyEl4SvVOnQ.mp4",
+                  "topher_id": "854c4b58-d4a2-11e9-bb88-5739f2fbbedc",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d13bfc_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d13bfc_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d13bfc_using-heaps-intro-to-algorithms/using-heaps-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 5191,
+          "key": "486347200923",
+          "title": "All Pairs Shortest Paths",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486347200923",
+            "completed_at": "2020-03-26T23:26:09.132Z",
+            "last_viewed_at": "2020-03-26T23:26:59.234Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 56555,
+              "key": "48634720",
+              "title": "All Pairs Shortest Paths",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "HC46_DxEZjA",
+                "china_cdn_id": "HC46_DxEZjA.mp4",
+                "topher_id": "85431132-d4a2-11e9-b162-63854d699631",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d104b6_all-pairs-shortest-paths-intro-to-algorithms/all-pairs-shortest-paths-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d104b6_all-pairs-shortest-paths-intro-to-algorithms/all-pairs-shortest-paths-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d104b6_all-pairs-shortest-paths-intro-to-algorithms/all-pairs-shortest-paths-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 136224,
+          "key": "486245920923",
+          "title": "Floyd-Warshall Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486245920923",
+            "completed_at": "2020-03-26T23:26:15.686Z",
+            "last_viewed_at": "2020-03-26T23:27:03.499Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 47549,
+              "key": "48624592",
+              "title": "Floyd-Warshall Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "t_dZ72mbD2Q",
+                "china_cdn_id": "t_dZ72mbD2Q.mp4",
+                "topher_id": "855c27f8-d4a2-11e9-aed3-672b768ad696",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26394_floyd-warshall-intro-intro-to-algorithms/floyd-warshall-intro-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d26394_floyd-warshall-intro-intro-to-algorithms/floyd-warshall-intro-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d26394_floyd-warshall-intro-intro-to-algorithms/floyd-warshall-intro-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 95142,
+          "key": "483117390923",
+          "title": "Floyd-Warshall",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483117390923",
+            "completed_at": "2020-03-26T23:27:17.104Z",
+            "last_viewed_at": "2020-03-26T23:27:15.810Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 64618,
+              "key": "48311739",
+              "title": "Floyd-Warshall",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Note: I used D[i,j] and D[i][j] interchangeably here.  Sorry for the inconsistent notation.  -MLL",
+              "video": {
+                "youtube_id": "NfQ0SocgG8c",
+                "china_cdn_id": "NfQ0SocgG8c.mp4",
+                "topher_id": "85507048-d4a2-11e9-8e11-079fd543c599",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d181e8_floyd-warshall-intro-to-algorithms/floyd-warshall-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d181e8_floyd-warshall-intro-to-algorithms/floyd-warshall-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d181e8_floyd-warshall-intro-to-algorithms/floyd-warshall-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 102387,
+          "key": "483118420923",
+          "title": "Randomizing Clustering Coefficient",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "483118420923",
+            "completed_at": "2020-03-26T23:27:23.665Z",
+            "last_viewed_at": "2020-03-26T23:27:22.347Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 5994,
+              "key": "48311842",
+              "title": "Randomizing Clustering Coefficient",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "48311842",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "7ayAEHS1-F8",
+                  "china_cdn_id": "7ayAEHS1-F8.mp4",
+                  "topher_id": "8534d02c-d4a2-11e9-958d-23e047a72f52",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d090b6_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d090b6_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d090b6_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Randomizing Clustering Coefficient",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48709172",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Modify `expected_c`\n# to return the expected value of C[w,x],\n# where C[w,x] is the clustering coefficient\n# given w and x - two randomly choosen neighbors of v\n# \n\n\ndef expected_C(G,v):\n    # G[v].keys() is the set of neighbors of v\n    neighbors = G[v].keys()\n    degree = len(neighbors)\n    # x in G[w][x] if x and w are connected in the graph (C[w,x])\n    return # YOUR ANSWER HERE: expected value of C[w,x]\n\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef clustering_coefficient(G,v):\n    neighbors = G[v].keys()\n    if len(neighbors) == 1: return 0.0\n    links = 0.0\n    for w in neighbors:\n        for u in neighbors:\n            if u in G[w]: links += 0.5\n    return 2.0*links/(len(neighbors)*(len(neighbors)-1))\n\nflights = [(1,2),(1,3),(2,3),(2,6),(2,4),(2,5),(3,6),(4,5)]\nG = {}\nfor (x,y) in flights: make_link(G,x,y)\n\nfor v in [1,2,3,4,5,6]:\n    print v\n    print expected_C(G,v)\n    print clustering_coefficient(G,v)\n\n\n\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": "BO_0A6BuGKY",
+                  "china_cdn_id": "BO_0A6BuGKY.mp4",
+                  "topher_id": "853ca798-d4a2-11e9-9fb8-53c7b0df20bb",
+                  "transcodings": {
+                    "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a565_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_480p.mp4",
+                    "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a565_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_720p.mp4",
+                    "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a565_randomizing-clustering-coefficient-intro-to-algorithms/randomizing-clustering-coefficient-intro-to-algorithms_480p_1000kbps.mp4"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 1661,
+          "key": "486865280923",
+          "title": "Bounds on the Estimate",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "486865280923",
+            "completed_at": "2020-03-26T23:27:32.491Z",
+            "last_viewed_at": "2020-03-26T23:27:31.128Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 92674,
+              "key": "48686528",
+              "title": "Bounds on the Estimate",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Info on Chernoff bounds: <http://en.wikipedia.org/wiki/Chernoff_bound>.  -MLL\n\nCode is here: <http://www.udacity.com/wiki/CS215Unit5Code>",
+              "video": {
+                "youtube_id": "cjMm1m2NAtk",
+                "china_cdn_id": "cjMm1m2NAtk.mp4",
+                "topher_id": "853d4482-d4a2-11e9-a180-0ba8be3c5c4a",
+                "transcodings": {
+                  "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7e4_bounds-on-the-estimate-intro-to-algorithms/bounds-on-the-estimate-intro-to-algorithms_480p.mp4",
+                  "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7e4_bounds-on-the-estimate-intro-to-algorithms/bounds-on-the-estimate-intro-to-algorithms_720p.mp4",
+                  "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/September/57d0a7e4_bounds-on-the-estimate-intro-to-algorithms/bounds-on-the-estimate-intro-to-algorithms_480p_1000kbps.mp4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

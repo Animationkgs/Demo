@@ -1,0 +1,19 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "1273ms",
+  "headers": {
+    "Server": "nginx/1.12.0",
+    "Date": "Wed, 29 Apr 2020 12:39:19 GMT",
+    "Content-Type": "text/html; charset\u003dlatin1",
+    "Cache-Control": "private",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive"
+  },
+  "message": "OK",
+  "protocol": "HTTP/1.1",
+  "remoteIp": "209.157.64.200",
+  "remotePort": 80,
+  "sessionId": "4ae9b135-bf00-4f51-b456-881e289d82ff",
+  "time": "2020-04-29 02:36:24"
+}

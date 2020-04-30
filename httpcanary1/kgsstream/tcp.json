@@ -1,0 +1,10 @@
+{
+  "app": "com.gokgs.client.android",
+  "host": null,
+  "protocol": "TCP",
+  "remoteIp": "35.202.113.240",
+  "remotePort": 2379,
+  "security": false,
+  "sessionId": "28df10a0-6a76-45a9-b2da-22603e820382",
+  "time": "2020-04-27 17:30:18"
+}

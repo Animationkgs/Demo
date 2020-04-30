@@ -1,0 +1,27 @@
+{
+  "app": "com.android.chrome",
+  "duration": "1607ms",
+  "headers": {
+    "Host": "classroom-content.udacity.com",
+    "content-length": "9173",
+    "accept": "application/json",
+    "sec-fetch-dest": "empty",
+    "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODk1MzgxOTksImlhdCI6MTU4Njk0NjE5OSwia2lkIjoiMTAwMCIsInVpZCI6InUxMjA4NzExOSIsInJvbGVzIjpbInVzZXIiXX0.GrH6u2DXcAE-cQ0coiSfJbwBMPzMZQMDnKSlMLeFOLm8aF6LCsagO7JH7yodZ-REXwDIJczl9r-yl1WZJhAP7n6fLjj1IjnSl94tK86shPz9uRIOlRUKQbedCJXg8XsbBI7EKkXHGrSuYjaSfEb5HBdM5XFwi70z-ig3d05yQGAs_TytMEZHHVKxzsvEqNZUg3mewCL02fnkh7OPwGu8j6dHNyNqtpocNg6MJGQqHQFivK4lBQ8R8SjZVdWoAtAOqun6GIkeVVVTrMUzuFcwg9BmPWtnf1OMe-pEv4vHWS71A_nHU_o6y1Jh_vr6U_CE90tuxdA_JcKrcV0MoOEo7g",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "content-type": "application/json; charset\u003dUTF-8",
+    "origin": "https://classroom.udacity.com",
+    "sec-fetch-site": "same-site",
+    "sec-fetch-mode": "cors",
+    "referer": "https://classroom.udacity.com/courses/st095/lessons/190096522/concepts/last-viewed",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1"
+  },
+  "method": "POST",
+  "protocol": "h2",
+  "remoteIp": "104.16.103.31",
+  "remotePort": 443,
+  "sessionId": "9c8b4626-2633-419f-9a37-fc701ca8cc0d",
+  "time": "2020-04-28 20:17:26",
+  "url": "https://classroom-content.udacity.com/api/v1/graphql"
+}

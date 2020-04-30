@@ -1,0 +1,25 @@
+{
+  "app": "com.android.chrome",
+  "duration": "1386ms",
+  "headers": {
+    "Host": "stackoverflow.com",
+    "accept": "*/*",
+    "sec-fetch-dest": "empty",
+    "x-requested-with": "XMLHttpRequest",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "cors",
+    "referer": "https://stackoverflow.com/questions/4146485/get-all-javascript-variables-in-document",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "_gid\u003dGA1.2.359542768.1587912307"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "151.101.1.69",
+  "remotePort": 443,
+  "sessionId": "fff0d888-ad27-427c-97d3-f72428b911b7",
+  "time": "2020-04-28 15:08:02",
+  "url": "https://stackoverflow.com/api/recent-chat?tags\u003djavascript%20firebug\u0026_\u003d1588066675525"
+}

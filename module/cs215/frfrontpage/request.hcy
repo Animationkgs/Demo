@@ -1,0 +1,11 @@
+GET /tag/*/index HTTP/1.1
+Host: freerepublic.com
+Connection: keep-alive
+Save-Data: on
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+Cookie: __utmz=217263553.1581725196.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); __utmc=217263553; __utma=217263553.1226648136.1585680503.1588102797.1588107988.205; __utmb=217263553
+

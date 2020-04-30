@@ -1,0 +1,24 @@
+{
+  "app": "com.android.chrome",
+  "duration": "176ms",
+  "headers": {
+    "Host": "classroom.udacity.com",
+    "sec-fetch-dest": "script",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-mode": "no-cors",
+    "referer": "https://classroom.udacity.com/courses/st095/lessons/142963302/concepts/last-viewed",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1",
+    "cookie": "intercom-session-av16vnft\u003dMVNYM1JNWWY1UjJBeCthN2s4WUtkQ2xnNjJmTVVYc05LekdQcUhoQjJZVVJGUXAwc1ZEeS9ZaG95WHJLSXFCWS0tUzBER004VXN3TUtidTJOSmQ4QVdxUT09--727858d63c11b6b997386d0642fd7b80cf4edd79"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "104.16.104.31",
+  "remotePort": 443,
+  "sessionId": "0c19a0bd-f663-40a6-b402-12445b921530",
+  "time": "2020-04-28 19:33:21",
+  "url": "https://classroom.udacity.com/js/vendors~app.711f5.js"
+}

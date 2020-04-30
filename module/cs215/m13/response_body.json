@@ -1,0 +1,225 @@
+{
+  "data": {
+    "lesson": {
+      "id": 45353,
+      "key": "48718372",
+      "title": "Problem Set 5",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 131437,
+          "key": "7070586140923",
+          "title": "Implementing Dijkstra with Heaps",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7070586140923",
+            "completed_at": "2020-03-26T23:28:33.260Z",
+            "last_viewed_at": "2020-03-26T23:28:31.956Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 91429,
+              "key": "707058614",
+              "title": "Implementing Dijkstra with Heaps",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "707058614",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Implementing Dijkstra with Heaps",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48403773",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# The code below uses a linear\n# scan to find the unfinished node\n# with the smallest distance from\n# the source.\n#\n# Modify it to use a heap instead\n# \n\ndef shortest_dist_node(dist):\n    best_node = 'undefined'\n    best_value = 1000000\n    for v in dist:\n        if dist[v] < best_value:\n            (best_node, best_value) = (v, dist[v])\n    return best_node\n\ndef dijkstra(G,v):\n    dist_so_far = {}\n    dist_so_far[v] = 0\n    final_dist = {}\n    while len(final_dist) < len(G):\n        w = shortest_dist_node(dist_so_far)\n        # lock it down!\n        final_dist[w] = dist_so_far[w]\n        del dist_so_far[w]\n        for x in G[w]:\n            if x not in final_dist:\n                if x not in dist_so_far:\n                    dist_so_far[x] = final_dist[w] + G[w][x]\n                elif final_dist[w] + G[w][x] < dist_so_far[x]:\n                    dist_so_far[x] = final_dist[w] + G[w][x]\n    return final_dist\n\n############\n# \n# Test\n\ndef make_link(G, node1, node2, w):\n    if node1 not in G:\n        G[node1] = {}\n    if node2 not in G[node1]:\n        (G[node1])[node2] = 0\n    (G[node1])[node2] += w\n    if node2 not in G:\n        G[node2] = {}\n    if node1 not in G[node2]:\n        (G[node2])[node1] = 0\n    (G[node2])[node1] += w\n    return G\n\n\ndef test():\n    # shortcuts\n    (a,b,c,d,e,f,g) = ('A', 'B', 'C', 'D', 'E', 'F', 'G')\n    triples = ((a,c,3),(c,b,10),(a,b,15),(d,b,9),(a,d,4),(d,f,7),(d,e,3), \n               (e,g,1),(e,f,5),(f,g,2),(b,f,1))\n    G = {}\n    for (i,j,k) in triples:\n        make_link(G, i, j, k)\n\n    dist = dijkstra(G, a)\n    assert dist[g] == 8 #(a -> d -> e -> g)\n    assert dist[b] == 11 #(a -> d -> e -> g -> f -> b)\n\n    \n\n\n\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 135931,
+          "key": "7070586150923",
+          "title": "Weighted Marvel Graph",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7070586150923",
+            "completed_at": "2020-03-26T23:28:45.619Z",
+            "last_viewed_at": "2020-03-26T23:28:44.320Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 77653,
+              "key": "707058615",
+              "title": "Weighted Marvel Graph",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "Use your code from earlier to change the Marvel graph\nto only have characters as nodes.  Use `1.0/count` as the weight, \nwhere count is the number of comic books each character \nappeared in together\n\nFor each character in this list<br>\n`'SPIDER-MAN/PETER PAR'`<br>\n`'GREEN GOBLIN/NORMAN '`<br>\n`'WOLVERINE/LOGAN '`<br>\n`'PROFESSOR X/CHARLES '`<br>\n`'CAPTAIN AMERICA'`<br>\nsearch your weighted graph.  Find all the characters where \nthe shortest path by weight to that character is different by weight\nfrom the shortest path measured by counting the number\nof hops.\n\nFor example, there is a direct link between `'SPIDER-MAN/PETER PAR'` and `'YAP'`, \nbut the shortest weighted path between the two is<br>\n`['SPIDER-MAN/PETER PAR', 'WOLVERINE/LOGAN ', 'SHADOWCAT/KATHERINE ', 'YAP']`\n\nAs another example, the shortest path by hops between `'WOLVERINE/LOGAN '` and `'HOARFROST/'`\nis <br>\n`['WOLVERINE/LOGAN ', 'CITIZEN V II/HELMUT ', 'HOARFROST/']`\nbut by weight, the shortest path is<br>\n`['WOLVERINE/LOGAN ', 'CYCLOPS/SCOTT SUMMER', 'BEAST/HENRY &HANK& P', 'CAPTAIN AMERICA', 'HAWK', 'HOARFROST/']`\n\nWe've given you two of the paths.  There are over 20 000 more.  \nWhen you've found the total number, fill your answer in box.\n\nThis is the same data that we've used before, and its available here: [Marvel Social Network](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQYkacNDAsSDEF0dGFjaGVkRmlsZRiByhEM)",
+              "user_state": {
+                "node_key": "707058615",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Weighted Marvel Graph",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/ZyQL_Og6eFki69obu7feIo_bQc3xNjtDrP43QXnfIIPHat16b59cBTv-tJwK93kNtGOCkWiisNdk3_eX0g=s0#w=1920&h=1081",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/707058615",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48743010",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "",
+                    "label": "regexAnswer3 Field",
+                    "marker": "1343604736296",
+                    "model": "TextInputWidget",
+                    "is_text_area": false,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.06873614190687362,
+                      "width": 0.1371571072319202,
+                      "x": 0.254479185740153,
+                      "y": 0.6458834454927259
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 72228,
+          "key": "7070586160923",
+          "title": "Least Obscure Path",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7070586160923",
+            "completed_at": "2020-03-26T23:29:06.508Z",
+            "last_viewed_at": "2020-03-26T23:29:04.998Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 66175,
+              "key": "707058616",
+              "title": "Least Obscure Path",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "You will need to use these two data files:\n\n[imdb-1.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQY69QQDAsSDEF0dGFjaGVkRmlsZRiSrQsM) \n\n[imdb-weights.tsv](http://www.udacity.com/file?file_key=agpzfnVkYWNpdHl1ckALEgZDb3Vyc2UiBWNzMjE1DAsSCUNvdXJzZVJldhgBDAsSBFVuaXQYyY4dDAsSDEF0dGFjaGVkRmlsZRjprR0M)",
+              "user_state": {
+                "node_key": "707058616",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Least Obscure Path",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48698546",
+                "initial_code_files": [
+                  {
+                    "text": "#\n# Another way of thinking of a path in the Kevin Bacon game \n# is not about finding *short* paths, but by finding paths \n# that don’t use obscure movies.  We will give you a \n# list of movies along with their obscureness score.  \n#\n# For this assignment, we'll approximate obscurity \n# based on the multiplicative inverse of the amount of \n# money the movie made.  Though, its not really important where\n# the obscurity score came from.\n#\n# Use the the imdb-1.tsv and imdb-weights.tsv files to find\n# the obscurity of the “least obscure” \n# path from a given actor to another.  \n# The obscurity of a path is the maximum obscurity of \n# any of the movies used along the path.\n#\n# You will have to do the processing in your local environment\n# and then copy in your answer.\n#\n# Hint: A variation of Dijkstra can be used to solve this problem.\n#\n\n# Change the `None` values in this dictionary to be the obscurity score\n# of the least obscure path between the two actors\nanswer = {(u'Boone Junior, Mark', u'Del Toro, Benicio'): None,\n          (u'Braine, Richard', u'Coogan, Will'): None,\n          (u'Byrne, Michael (I)', u'Quinn, Al (I)'): None,\n          (u'Cartwright, Veronica', u'Edelstein, Lisa'): None,\n          (u'Curry, Jon (II)', u'Wise, Ray (I)'): None,\n          (u'Di Benedetto, John', u'Hallgrey, Johnathan'): None,\n          (u'Hochendoner, Jeff', u'Cross, Kendall'): None,\n          (u'Izquierdo, Ty', u'Kimball, Donna'): None,\n          (u'Jace, Michael', u'Snell, Don'): None,\n          (u'James, Charity', u'Tuerpe, Paul'): None,\n          (u'Kay, Dominic Scott', u'Cathey, Reg E.'): None,\n          (u'McCabe, Richard', u'Washington, Denzel'): None,\n          (u'Reid, Kevin (I)', u'Affleck, Rab'): None,\n          (u'Reid, R.D.', u'Boston, David (IV)'): None,\n          (u'Restivo, Steve', u'Preston, Carrie (I)'): None,\n          (u'Rodriguez, Ramon (II)', u'Mulrooney, Kelsey'): None,\n          (u'Rooker, Michael (I)', u'Grady, Kevin (I)'): None,\n          (u'Ruscoe, Alan', u'Thornton, Cooper'): None,\n          (u'Sloan, Tina', u'Dever, James D.'): None,\n          (u'Wasserman, Jerry', u'Sizemore, Tom'): None}\n\n# Here are some test cases.\n# For example, the obscurity score of the least obscure path\n# between 'Ali, Tony' and 'Allen, Woody' is 0.5657\ntest = {(u'Ali, Tony', u'Allen, Woody'): 0.5657,\n        (u'Auberjonois, Rene', u'MacInnes, Angus'): 0.0814,\n        (u'Avery, Shondrella', u'Dorsey, Kimberly (I)'): 0.7837,\n        (u'Bollo, Lou', u'Jeremy, Ron'): 0.4763,\n        (u'Byrne, P.J.', u'Clarke, Larry'): 0.109,\n        (u'Couturier, Sandra-Jessica', u'Jean-Louis, Jimmy'): 0.3649,\n        (u'Crawford, Eve (I)', u'Cutler, Tom'): 0.2052,\n        (u'Flemyng, Jason', u'Newman, Laraine'): 0.139,\n        (u'French, Dawn', u'Smallwood, Tucker'): 0.2979,\n        (u'Gunton, Bob', u'Nagra, Joti'): 0.2136,\n        (u'Hoffman, Jake (I)', u'Shook, Carol'): 0.6073,\n        (u'Kamiki, Ry\\xfbnosuke', u'Thor, Cameron'): 0.3644,\n        (u'Roache, Linus', u'Dreyfuss, Richard'): 0.6731,\n        (u'Sanchez, Phillip (I)', u'Wiest, Dianne'): 0.5083,\n        (u'Sheppard, William Morgan', u'Crook, Mackenzie'): 0.0849,\n        (u'Stan, Sebastian', u'Malahide, Patrick'): 0.2857,\n        (u'Tessiero, Michael A.', u'Molen, Gerald R.'): 0.2056,\n        (u'Thomas, Ken (I)', u'Bell, Jamie (I)'): 0.3941,\n        (u'Thompson, Sophie (I)', u'Foley, Dave (I)'): 0.1095,\n        (u'Tzur, Mira', u'Heston, Charlton'): 0.3642}\n\n",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

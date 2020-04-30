@@ -1,0 +1,24 @@
+GET /async/ddljson?async=ntp:1 h2
+Host: www.google.com
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+cookie: CONSENT=YES+IN.en-GB+202001
+cookie: SID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCpP7sZ6FIr2qRhirK2mfOUw.
+cookie: __Secure-3PSID=wQeq2qigYzFXlhT5svPUOyNVKFIuaEhGHXN1gz3b_AGXocoCQSNzHyo-qJjico1456ae6g.
+cookie: HSID=Agjy_QWDqDwDQLiNX
+cookie: SSID=AtLtuLd0e-xxaMUcw
+cookie: APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: SAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: __Secure-HSID=Agjy_QWDqDwDQLiNX
+cookie: __Secure-SSID=AtLtuLd0e-xxaMUcw
+cookie: __Secure-APISID=ZRdUFVWfJrJHp19U/AJZbGxecP9FsZLWv5
+cookie: __Secure-3PAPISID=uOjLaUx54kua6I0l/AjhNkwJx7CfCO6s0X
+cookie: ANID=AHWqTUmTsyuA-1GNvG07rYzcjc-5Qg0GxkOXtkRujsJaDR2BSsZhgErGxDDeul1A
+cookie: NID=203=bz2vyos11_1_4t0H7BLRf4NMwe_YVhubxEougwDe8sorWCDZutR1KegmKkMOTb73Mqo31LkaJpTL9LzYfQ7QErNO6qn_QhyLvsBG79UNzv6NdwwWGza5Ra9omDnNBazBJl3BeQdy6szht7nSn9p0itpsdVJli7kX5HP-4P-ERi8fZNzhkp7Z-rK2Xua4b6rAuKrK_lP-l7g_qPJp_8G86zximCxnZu8
+cookie: UULE=a+cm9sZToxIHByb2R1Y2VyOjEyIHByb3ZlbmFuY2U6NiB0aW1lc3RhbXA6MTU4ODA5NDE1ODk2OTAwMCBsYXRsbmd7bGF0aXR1ZGVfZTc6MTMwMDYyOTE4IGxvbmdpdHVkZV9lNzo3NzYyMjg1NjV9IHJhZGl1czoxNjA3Mi4yNjAyMDgxMjk4ODMgYXR0cmlidXRlc3tzcGVlZF9rcGg6MCBiZWFyaW5nX2RlZ3JlZXM6MjQ2fQ==
+cookie: 1P_JAR=2020-04-28-18
+cookie: SIDCC=AJi4QfH7M89Y2gs2_eaChkdWv6mKoKtrLUQZ7SbxGI6Rka5VyukjVeovirUn53v5LenO2kc_3tk
+

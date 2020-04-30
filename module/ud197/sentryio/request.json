@@ -1,0 +1,27 @@
+{
+  "app": "com.android.chrome",
+  "duration": "3234ms",
+  "headers": {
+    "Host": "sentry.io",
+    "Connection": "keep-alive",
+    "Content-Length": "20911",
+    "Sec-Fetch-Dest": "empty",
+    "Save-Data": "on",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "Content-Type": "text/plain;charset\u003dUTF-8",
+    "Accept": "*/*",
+    "Origin": "https://classroom.udacity.com",
+    "Sec-Fetch-Site": "cross-site",
+    "Sec-Fetch-Mode": "cors",
+    "Referer": "https://classroom.udacity.com/",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1"
+  },
+  "method": "POST",
+  "protocol": "HTTP/1.1",
+  "remoteIp": "35.188.42.15",
+  "remotePort": 443,
+  "sessionId": "c4696287-0f11-49bf-9b9f-2b95a0eba744",
+  "time": "2020-04-28 21:10:44",
+  "url": "https://sentry.io/api/4276398/store/?sentry_key\u003d81159c9de50e4330b219b96221c6d5cd\u0026sentry_version\u003d7"
+}

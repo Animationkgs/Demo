@@ -1,0 +1,29 @@
+{
+  "app": "com.android.chrome",
+  "code": 200,
+  "duration": "1386ms",
+  "headers": {
+    "cache-control": "private",
+    "content-type": "application/json",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age\u003d2592000",
+    "x-frame-options": "SAMEORIGIN",
+    "x-request-guid": "198a8160-c9ea-4b73-8322-cb0284f7985c",
+    "accept-ranges": "bytes",
+    "age": "0",
+    "date": "Tue, 28 Apr 2020 09:38:03 GMT",
+    "via": "1.1 varnish",
+    "x-served-by": "cache-bom18220-BOM",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-timer": "S1588066683.409436,VS0,VE221",
+    "vary": "Accept-Encoding,Fastly-SSL",
+    "x-dns-prefetch-control": "off"
+  },
+  "message": null,
+  "protocol": "h2",
+  "remoteIp": "151.101.1.69",
+  "remotePort": 443,
+  "sessionId": "fff0d888-ad27-427c-97d3-f72428b911b7",
+  "time": "2020-04-28 15:08:02"
+}

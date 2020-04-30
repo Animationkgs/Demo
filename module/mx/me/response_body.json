@@ -1,0 +1,1536 @@
+{
+  "data": {
+    "user": {
+      "id": "u12087119",
+      "subscribed_nanodegrees_count": 2,
+      "subscribed_courses_count": 46,
+      "graduated_nanodegrees_count": 0,
+      "graduated_courses_count": 2,
+      "courses": [
+        {
+          "key": "st095",
+          "title": "Statistics",
+          "summary": "We live in a time of unprecedented access to information. You'll learn how to use statistics to interpret that information and make decisions.",
+          "semantic_type": "Course",
+          "is_public": true,
+          "user_state": {
+            "node_key": "st095",
+            "last_viewed_at": "2020-04-28T14:49:32.673Z"
+          },
+          "lessons": [
+            {
+              "key": "212304785",
+              "title": "Orientation!",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "210528433",
+              "title": "Orientation Problem Set",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "55856454",
+              "title": "Intro to statistical research methods",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "55937989",
+              "title": "Problem Set 1: Intro to statistical research methods",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "56465734",
+              "title": "Visualizing data",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "56532450",
+              "title": "Problem Set 2: Visualizing data",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116708348",
+              "title": "Google Spreadsheet Tutorial",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "66825307",
+              "title": "Central tendency",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "66825308",
+              "title": "Problem Set 3: Central tendency",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "77028103",
+              "title": "Variability",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "76818560",
+              "title": "Problem Set 4: Variability",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "104610718",
+              "title": "Lessons 1-4 Review/Assessment",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "81689336",
+              "title": "Standardizing",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "81750122",
+              "title": "Problem Set 5: Standardizing",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "86217921",
+              "title": "Normal Distribution",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "86540443",
+              "title": "Problem Set 6: Normal Distribution",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116588931",
+              "title": "Sampling Distributions",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116588932",
+              "title": "Problem Set 7: Sampling Distributions",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116588933",
+              "title": "Estimation",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116588934",
+              "title": "Problem Set 8: Estimation",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116588935",
+              "title": "Hypothesis testing",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "116708347",
+              "title": "Problem Set 9: Hypothesis testing",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "141516351",
+              "title": "Lessons 5-9 Review/Assessment",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142625049",
+              "title": "t-Tests",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142781010",
+              "title": "Problem Set 10: t-Tests",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963302",
+              "title": "t-Tests continued",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963303",
+              "title": "Problem Set 11: t-Tests continued",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963304",
+              "title": "One-way ANOVA",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963305",
+              "title": "Problem Set 12: One-way ANOVA",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "163270980",
+              "title": "ANOVA continued",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963307",
+              "title": "Problem Set 13: ANOVA continued",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963308",
+              "title": "Correlation",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963309",
+              "title": "Problem Set 14: Correlation",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963310",
+              "title": "Regression",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963311",
+              "title": "Problem Set 15: Regression",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963312",
+              "title": "Chi-Squared tests",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "142963313",
+              "title": "Problem Set 16: Chi-Squared tests",
+              "semantic_type": "Lesson",
+              "is_public": true
+            },
+            {
+              "key": "190096522",
+              "title": "Lessons 10-16 Review/Assessment",
+              "semantic_type": "Lesson",
+              "is_public": true
+            }
+          ]
+        }
+      ],
+      "nanodegrees": [
+        {
+          "key": "nd000",
+          "title": "Intro to Programming Nanodegree",
+          "summary": "Welcome to the world of programming. Learn the foundational skills that all programmers use whether they program mobile apps, create web pages, or analyze data.",
+          "semantic_type": "Degree",
+          "is_term_based": false,
+          "is_public": true,
+          "is_ready_for_graduation": false,
+          "is_graduated": false,
+          "packaging_options": null,
+          "cohorts": [],
+          "enrollment": {
+            "service_model_id": null
+          },
+          "user_state": {
+            "node_key": "nd000",
+            "last_viewed_at": "2020-04-26T19:14:39.791Z"
+          },
+          "specializations": [],
+          "parts": [
+            {
+              "key": "12665b45-56f0-444e-80ae-63a3d654a696",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "eaf0e993-ea8a-47d6-948c-b23d89c55f6e",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "edc4d49c-a504-40ee-a6c8-c4f60084ecbf",
+                      "is_public": true,
+                      "title": "Welcome to the Nanodegree",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "72f26341-381e-4942-82e8-6df2a93938e3",
+                      "is_public": true,
+                      "title": "Nanodegree Orientation",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                },
+                {
+                  "key": "8f2b6689-b7fd-4c54-9c13-99bb29278990",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "9a1a537b-3993-45b8-ad7e-6e44c8d57802",
+                      "is_public": true,
+                      "title": "The World Wide Web",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "404b6925-2a6e-4617-8818-3bd890906f75",
+                      "is_public": true,
+                      "title": "HTML Basics",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "94e3a192-b124-42e8-9023-4d5be425e389",
+                      "is_public": true,
+                      "title": "Making Your First Project",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "a84be323-f32c-433f-9125-22085cd81cd7",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "01b5b80f-8256-4126-bf54-b11f809acd88",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "4f59dcc6-b317-4111-829e-92a9cc979db6",
+                      "is_public": true,
+                      "title": "Getting Focused",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "3c2aede1-60ac-409e-90a7-b4edbcb2fb83",
+                      "is_public": true,
+                      "title": "Creating a Structured Document",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "678581c4-50ab-40b8-abba-72a56ecdff7f",
+                      "is_public": true,
+                      "title": "Work Session: HTML Structure",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "d48f9f5d-8b12-4a12-b59c-2c5c909ec99c",
+                      "is_public": true,
+                      "title": "Adding CSS for Style",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "6cc7b7b2-dac1-4ef2-b911-6bbba13dd9e8",
+                      "is_public": true,
+                      "title": "Work Session: CSS Practice",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "3dd32726-0cbd-4315-91dd-0aa663fa9511",
+                      "is_public": true,
+                      "title": "Making Your Stylish Web Page",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "f2127d4c-f065-4c74-837e-11df126ec4e3",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "89a40b5c-9a8d-41f2-8c1f-be62bbcac423",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "e98be087-2f47-4c74-a70c-d88e7de187da",
+                      "is_public": true,
+                      "title": "Getting Set Up with Python",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "c063acbc-c0d7-4af9-b13e-6a053a84faaa",
+                      "is_public": true,
+                      "title": "Introduction to Serious Programming",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "c802082d-3a32-4db4-90e2-6a1ff36fe7a0",
+                      "is_public": true,
+                      "title": "Work Session: Basic Debugging",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "b3e7d531-35c5-473e-a3a6-30e76c8b2edc",
+                      "is_public": true,
+                      "title": "Variables & Strings",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "f90dd0f2-bce0-4522-84ad-64dbb6cf7576",
+                      "is_public": true,
+                      "title": "Work Session: String Manipulation",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "e39875c3-61ae-4ddc-aa60-9e14fd9cac52",
+                      "is_public": true,
+                      "title": "Input -> Function -> Output",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "c6635816-f1bb-437e-8baf-1d4f9ae1adff",
+                      "is_public": true,
+                      "title": "Work Session: Print vs Return",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "2cb80bdd-96d5-4f5b-bbb8-7c11d2e13c4b",
+                      "is_public": true,
+                      "title": "Control Flow: If Statements & While Loops",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "7ac2e3c7-82a5-45ca-b28f-c7bfd5dd6389",
+                      "is_public": true,
+                      "title": "Deep Debugging",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "5f2206b1-fc65-42f0-8d37-e667e7b738e6",
+                      "is_public": true,
+                      "title": "Work Session: Mad Libs Generator",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "500e8540-d251-4d0a-816f-9adf4788b46e",
+                      "is_public": true,
+                      "title": "Structured Data: Lists & For Loops",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "f4eeb73a-cbe1-49be-aa28-6e686c81caef",
+                      "is_public": true,
+                      "title": "How to Solve Problems",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "747dbd71-f8a9-4861-9d63-d6851d62ae7d",
+                      "is_public": true,
+                      "title": "Work Session: Mad Libs Continued",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "faa1c67f-592e-4b80-9791-55f07e85f9d0",
+                      "is_public": true,
+                      "title": "Code Your Own Quiz",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "1be8fd72-fcf7-4f43-965f-24e97594442a",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "132e7ed4-dbf2-4f57-8714-95a171750a21",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "a063009d-b57b-4dd1-b83b-d0ef9844bc4c",
+                      "is_public": true,
+                      "title": "Getting Started",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "1d3464e7-5a26-4530-a427-f3ef69858bd0",
+                      "is_public": true,
+                      "title": "Mini-Project: Take a Break",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "e9dbd789-f19e-4f77-9f2d-8cf65f19486c",
+                      "is_public": true,
+                      "title": "Mini-Project: Secret Message",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "a1d9b1c6-b1f6-4a67-a52b-83deae15259b",
+                      "is_public": true,
+                      "title": "Mini-Project: Draw Turtles",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "8f249579-38d7-4cf8-9d35-c5a8ceb66a05",
+                      "is_public": true,
+                      "title": "Mini-Project: Send a Text",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "ce492f34-a237-47b7-b439-364dc0bf92f1",
+                      "is_public": true,
+                      "title": "Mini-Project: Profanity Editor",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "71afa513-a62e-4369-86e1-a7f56f968c66",
+                      "is_public": true,
+                      "title": "Movie Website Creation",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "e6dfd71e-eaea-417c-a4bb-ecca990ea5e0",
+                      "is_public": true,
+                      "title": "Advanced Class Making",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "6cdcc774-708a-4fbc-b0da-e882671f1578",
+                      "is_public": true,
+                      "title": "Create a Movie Website",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "6a063762-d5e8-4d59-b96e-9c9836156faa",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "46fb0d3d-1c1b-4dc0-a491-3771f8369951",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "5855a982-0e64-4f45-982e-c661f7811bec",
+                      "is_public": true,
+                      "title": "Discover Your Path",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "1e83b430-65ef-49ae-8e1d-965ea82694ad",
+                      "is_public": true,
+                      "title": "Front-End Programming",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "71dcc92a-fe03-493a-97c7-529c63ca0b88",
+                      "is_public": true,
+                      "title": "Back-End Programming",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "f92dca20-dd50-495c-a5e5-9d70b0b63cf3",
+                      "is_public": true,
+                      "title": "Mobile Programming",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "59674800-495d-463c-bd17-c8469c810f93",
+                      "is_public": true,
+                      "title": "Data Analysis Programming",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "7948e42b-2a26-49f9-b0bf-715c3f21bbc6",
+                      "is_public": true,
+                      "title": "Reverse Engineer Project Compass",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "55c7cb39-3854-47f8-88bc-1e8bee31b9ff",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Core",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "1bdcae2a-c23a-409d-b4c7-076c02ba8b8c",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "f5a3feb1-79c7-443f-b785-6b906f1990bb",
+                      "is_public": true,
+                      "title": "Completing the Program",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "98310865-45cd-46f1-ab60-9e19263ca342",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Elective",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "1050afbb-ced4-4919-900f-6b197dc2e9b1",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "6e6a6fa4-b819-485b-a36b-97e073f7ea2b",
+                      "is_public": true,
+                      "title": "What is JavaScript?",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "450cf12f-1833-47e7-9b62-0a8cdb3ba32b",
+                      "is_public": true,
+                      "title": "Data Types & Variables",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "21879641-c9a2-4d9e-aa5f-f416b58938d5",
+                      "is_public": true,
+                      "title": "Conditionals",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "35bf72e7-2fc8-48cd-8670-86b56d495c15",
+                      "is_public": true,
+                      "title": "Loops",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "14b413ab-c0ac-4481-ba48-5f460ea8d1b0",
+                      "is_public": true,
+                      "title": "Functions",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "814ef86c-b122-445c-aba4-4a55e7d8a18a",
+                      "is_public": true,
+                      "title": "Arrays",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "f6951b7f-887e-40ca-89bf-6cc0df7a4bb7",
+                      "is_public": true,
+                      "title": "Objects",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "1d80b952-ddac-44c6-9c2d-9286b1d62b6c",
+                      "is_public": true,
+                      "title": "The Basics: the DOM, $, and Selectors",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "2fa15608-ccc7-405b-a417-f69d28d8cfd1",
+                      "is_public": true,
+                      "title": "The Tricks: DOM Manipulation",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "88eb48e3-1d81-4d44-880a-46b67cf0d272",
+                      "is_public": true,
+                      "title": "Event Listeners with jQuery",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "7781c514-aca1-4d8c-8c1e-721f2e0b3746",
+                      "is_public": true,
+                      "title": "Memory Game",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "75cc998e-2ab7-4dcb-9ee7-a562efcf8c89",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Elective",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "a3a0987f-fc76-4d14-a759-b2652d06ab2b",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "cee4ae42-d1ac-4b15-ac2c-ea84597deb15",
+                      "is_public": true,
+                      "title": "Intro to Back-End Development",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "c9425916-aad3-4c06-b991-e08f66a95c4b",
+                      "is_public": true,
+                      "title": "Data and Tables",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "303a271d-bc69-4eba-ae38-e9875f841604",
+                      "is_public": true,
+                      "title": "Elements of SQL",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "477edebf-b8f6-4eab-88bb-0456c9084bc5",
+                      "is_public": true,
+                      "title": "Python DB-API",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "4ad30573-0776-4d2e-8688-35980426d26a",
+                      "is_public": true,
+                      "title": "Deeper Into SQL",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "0aa64f0e-30be-455e-a30d-4cae963f75ea",
+                      "is_public": true,
+                      "title": "Logs Analysis",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "b7b3a09b-4b7f-4df0-804a-87ce92f972cf",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Elective",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "79391853-a445-418a-9d75-b20f904ab380",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "aca8fada-da87-41d4-9342-c16228009bd5",
+                      "is_public": true,
+                      "title": "Data Analyst Path Intro",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "fb9bef26-19b7-477e-b90f-6203da9460f4",
+                      "is_public": true,
+                      "title": "Setting up Anaconda",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "54f9b4f3-9932-4e56-9d4a-05fbe915eeaf",
+                      "is_public": true,
+                      "title": "Setting up Jupyter Notebook",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "acca20cf-9bd5-46fa-baee-5766c00c24a2",
+                      "is_public": true,
+                      "title": "Dictionaries",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "f16e4688-cfe5-4fb5-b56d-5bc3eff3cff0",
+                      "is_public": true,
+                      "title": "Data Analysis Process",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "459079f9-f863-4206-b5da-983f5774fb8b",
+                      "is_public": true,
+                      "title": "NumPy and Pandas for 1D Data",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "7c89ad72-f8b2-4fd1-882a-f99cf75d1707",
+                      "is_public": true,
+                      "title": "NumPy and Pandas for 2D Data",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "9df2d47c-08c6-4597-b6e6-71409fa1c56f",
+                      "is_public": true,
+                      "title": "Investigate a Dataset",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "e04f013d-d561-41ff-9711-8167ff660422",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Elective",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "fb7be3dc-e0d5-4fdf-baf6-7bba4e326891",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "6ba0b644-dc2d-4d5d-a823-93dc24694fbd",
+                      "is_public": true,
+                      "title": "Introduction to iOS",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "74eacb9c-c334-423c-9977-2a2fa6b0cb53",
+                      "is_public": true,
+                      "title": "Swift Variables and Types",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "7acaff2b-1e0a-4c8e-be41-251ddf60fe8a",
+                      "is_public": true,
+                      "title": "Strings",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "9f6bc3f0-e46d-435f-b18b-11f79996dd0c",
+                      "is_public": true,
+                      "title": "If Statements",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "fb786283-8fe1-42c4-9e1b-de50d83d8266",
+                      "is_public": true,
+                      "title": "Functions",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "a87bcc04-be03-4fe6-abb4-a8b75a606e05",
+                      "is_public": true,
+                      "title": "Introduction to Xcode",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "0a8294c9-52dd-4866-93fc-def44b4b9caa",
+                      "is_public": true,
+                      "title": "AutoLayout and Buttons",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "614def93-77b4-4a52-a6b7-e7f81616641c",
+                      "is_public": true,
+                      "title": "ViewController and Multiple Views",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "db6c1f8f-318e-4c45-8cc5-02b1a8f5093e",
+                      "is_public": true,
+                      "title": "Delegation and Recording",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "2b240af1-3447-44b2-9dd1-5c7150d950fa",
+                      "is_public": true,
+                      "title": "Playback and Effects",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "c2437238-a62c-4eb8-9e72-abf87b93a8b7",
+                      "is_public": true,
+                      "title": "Pitch Perfect",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "214c4526-ff57-4855-86df-ea4876137b72",
+              "semantic_type": "Part",
+              "is_public": true,
+              "part_type": "Elective",
+              "locked_reason": "not_locked",
+              "locked_until": null,
+              "specialization": null,
+              "modules": [
+                {
+                  "key": "86312c93-d667-40bb-a3bf-a8bb77240b74",
+                  "is_public": true,
+                  "lessons": [
+                    {
+                      "key": "205940ec-c617-4557-9734-e22828f5a49a",
+                      "is_public": true,
+                      "title": "Introduction to Android",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "bba0a335-4aea-4fd5-bf43-7c15723522ef",
+                      "is_public": true,
+                      "title": "Building Layouts",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "08af0b93-4aae-4155-be42-765e5cbbba77",
+                      "is_public": true,
+                      "title": "Building Layouts Continued",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "834b26c5-a88d-42d8-99b1-f1946fad0160",
+                      "is_public": true,
+                      "title": "Practice Set: Building Layouts",
+                      "semantic_type": "Lesson"
+                    },
+                    {
+                      "key": "b04383f2-a313-48bc-9ce4-498ab48b4d2c",
+                      "is_public": true,
+                      "title": "Build a Single Screen App",
+                      "semantic_type": "Lesson"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "graduated_nanodegrees_and_courses": [
+        {
+          "key": "st101",
+          "title": "Intro to Statistics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Get ready to analyze, visualize, and interpret data! Thought-provoking examples and chances to combine statistics and programming will keep you engaged and challenged.",
+          "semantic_type": "Course",
+          "is_graduated": true,
+          "is_graduation_legacy": true,
+          "is_public": true
+        },
+        {
+          "key": "cs253",
+          "title": "Web Development",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Starting from the basics of how the web works, you will learn everything you need to know to build your own blog and scale it to support large numbers of users.",
+          "semantic_type": "Course",
+          "is_graduated": true,
+          "is_graduation_legacy": true,
+          "is_public": true
+        }
+      ],
+      "current_nanodegrees_and_courses": [
+        {
+          "key": "nd000",
+          "title": "Intro to Programming Nanodegree",
+          "locale": "en-us",
+          "version": "3.0.0",
+          "summary": "Welcome to the world of programming. Learn the foundational skills that all programmers use whether they program mobile apps, create web pages, or analyze data.",
+          "semantic_type": "Degree",
+          "is_term_based": false,
+          "is_graduated": false,
+          "is_public": true,
+          "is_career_oriented": false,
+          "color_scheme": "color_scheme2",
+          "packaging_options": null,
+          "cohorts": [],
+          "enrollment": {
+            "free_preview_status": "NONE",
+            "high_touch": false,
+            "started_at": "2017-10-04T22:56:59.784Z",
+            "static_access": null
+          }
+        },
+        {
+          "key": "nd009-in-basic",
+          "title": "Machine Learning Foundation Nanodegree",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "",
+          "semantic_type": "Degree",
+          "is_term_based": true,
+          "is_graduated": false,
+          "is_public": true,
+          "is_career_oriented": false,
+          "color_scheme": "color_scheme1",
+          "packaging_options": null,
+          "cohorts": [],
+          "enrollment": {
+            "free_preview_status": "NONE",
+            "high_touch": false,
+            "started_at": null,
+            "static_access": null
+          }
+        },
+        {
+          "key": "st095",
+          "title": "Statistics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "We live in a time of unprecedented access to information. You'll learn how to use statistics to interpret that information and make decisions.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud197",
+          "title": "Intro to Relational Databases",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Relational databases are a powerful tool used throughout the industry. Learn the basics of SQL and how to connect your Python code to a relational database.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs215",
+          "title": "Intro to Algorithms",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This class will give you an introduction to the design and analysis of algorithms, enabling you to analyze networks and discover how individuals are connected.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud919",
+          "title": "Model Building and Validation",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course will teach you how to start from scratch in understanding and paying attention to what is important in the data and how to answer questions about data",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs222",
+          "title": "Differential Equations in Action",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Write Python code to find numerical solutions to systems of differential equations. The models you create will fight wildfires, bring spaceships back to earth, and more!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud388",
+          "title": "Designing RESTful APIs",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Build and secure a web server with a RESTful Developer-Friendly API that developers will love to use.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud248",
+          "title": "Make Your Own 2048",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Ten minutes into this class you'll make your own completely personalized version of the insanely addictive game 2048. Even if you've never coded before. Pretty cool, no?",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud595",
+          "title": "Linux Command Line Basics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "An introduction to the Linux command line interface.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "gt101",
+          "title": "OMSCS Student Orientation",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "In this OMS Orientation, we cover several things you will need to know to be a successful OMS student.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud513",
+          "title": "Data Structures & Algorithms in Python",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn the skills technical interviewers expect you to know—efficiency, common algorithms, manipulating popular data structures, and how to explain a solution.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud980",
+          "title": "Time Series Forecasting",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn the fundamentals of time series forecasting and develop proficiency in ETS and ARIMA models, two the most commonly used models in forecasting. ",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud109",
+          "title": "Asynchronous JavaScript Requests",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course covers everything you need to know to asynchronously request data in your web apps. You'll dive into async requests by using the XHR object, jQuery's .ajax method, and the Fetch API.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud501",
+          "title": "Machine Learning for Trading",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Implement machine learning based strategies to make trading decisions using real-world data.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud804",
+          "title": "JavaScript Basics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn JavaScript syntax and coding conventions that web developers use to create interactive and dynamic websites while you create an online résumé for your portfolio.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud168",
+          "title": "Compilers: Theory and Practice",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": null,
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud915",
+          "title": "Educational Technology",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This class is an an introductory course about educational technology offered as CS6460 at Georgia Tech where it is a part of the Online Masters Degree (OMS).",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud120",
+          "title": "Intro to Machine Learning",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This class will teach you the end-to-end process of investigating data through a machine learning lens, and you'll apply what you've learned to a real-world data set.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud600",
+          "title": "Reinforcement Learning",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Study machine learning at a deeper level and become a participant in the reinforcement learning research community.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud902",
+          "title": "Learn Swift Programming Syntax",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course focuses on the syntax of the Swift programming language. By the end of the course, you'll be able to apply Swift essentials to building iOS apps.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud170",
+          "title": "Intro to Data Analysis",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Explore a variety of datasets, posing and answering your own questions about each. You'll be using the Python libraries NumPy, Pandas, and Matplotlib.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs271",
+          "title": "Intro to Artificial Intelligence",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course will introduce you to the basics of AI. Topics include machine learning, probabilistic reasoning, robotics, computer vision, and natural language processing.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud117",
+          "title": "JavaScript and the DOM",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": null,
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud036",
+          "title": "Programming Foundations with Python",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Introductory programming class to learn Object-Oriented Programming, a must-have technique to reuse and share code easily. Learn by making projects that spread happiness!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud803-india",
+          "title": "Introduction to JavaScript",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": null,
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud304",
+          "title": "Intro to HTML and CSS",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn how to convert digital design mockups into static web pages and how to build a responsive portfolio site to showcase your work.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs255",
+          "title": "HTML5 Game Development",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn how to build high-performance web games with HTML5. We'll port industry-standard development techniques to the web and use them to create a game.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud1028",
+          "title": "Passwordless Login Solutions for iOS",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "In this course you'll implement Account Kit and Facebook Login side by side in a sample app, test our login flow on a series of common use cases, and wrap things up with an introduction to Facebook’s ",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs387",
+          "title": "Applied Cryptography",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Cryptography is present in everyday life, from paying with a credit card to using the telephone.  Learn all about making and breaking puzzles in computing.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud201",
+          "title": "Intro to Inferential Statistics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Intro to Inferential Statistics will teach you how to test your hypotheses and begin to make predictions based on statistical results drawn from data!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud923",
+          "title": "Introduction to Operating Systems",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Introduction to Operating Systems teaches the basic operating system abstractions, mechanisms, and their implementations.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud853",
+          "title": "Developing Android Apps",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Build a cloud-connected Android app, and learn the tools, principles, and best practices of mobile and Android development that you'll apply to your own projects.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "design101",
+          "title": "Intro to the Design of Everyday Things",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course will provide you with the insight to start recognizing the role of design in today’s world, and to start making better design decisions in your own life.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ph100",
+          "title": "Intro to Physics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Go to the places where big physics discoveries were made in the past and make them yourself. You’ll visit Italy, the Netherlands, and the UK as you learn basic physics.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs262",
+          "title": "Programming Languages",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course is an introduction to the fundamentals of programming languages. Concepts include how to specify and process valid strings, sentences and program structures.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud827",
+          "title": "Intro to Descriptive Statistics",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Intro to Descriptive Statistics will teach you the basic concepts of statistics that can be used to extract information from data.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs256",
+          "title": "Mobile Web Development",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "In this course, you'll learn how to build great mobile web experiences. We'll cover performance issues on mobile, and how to make use of mobile sensors.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud359",
+          "title": "Intro to Data Science",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "What does a data scientist do? In this course, we will survey the main topics in data science so you can understand the skills that are needed to become a data scientist!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud989",
+          "title": "JavaScript Design Patterns",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn the importance of code organization and how to implement it with either vanilla JavaScript or an organizational library or framework.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud953",
+          "title": "Linear Algebra Refresher Course",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn linear algebra by doing: you will code your own library of linear algebra functions!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud1022",
+          "title": "Swift for Beginners",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "This course offers an entry into the world of coding and an introduction to Apple’s Swift programming language. Writing in Swift, students are introduced to basic programming concepts.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs313",
+          "title": "Intro to Theoretical Computer Science",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn the basic concepts in theoretical computer science. Discover what they imply for solving tough computational challenges.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs046",
+          "title": "Intro to Java Programming",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn essential computer science and object-oriented programming concepts in this introductory Java course.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud884",
+          "title": "Website Performance Optimization",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn how browsers convert HTML, CSS and JavaScript into websites while you experiment with Chrome Developer Tools to measure and optimize website speed!",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "cs258",
+          "title": "Software Testing",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Learn how to catch bugs and break software as you discover different testing methods that will help you build better software.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        },
+        {
+          "key": "ud805",
+          "title": "Software Development Process",
+          "locale": "en-us",
+          "version": "1.0.0",
+          "summary": "Software Development Processes explores requirements engineering, architecture and design, testing, and software quality in general.",
+          "semantic_type": "Course",
+          "is_graduated": false,
+          "is_graduation_legacy": false,
+          "is_public": true
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "is_career_oriented",
+      "reason": "(2016/8/18) Use provides_career_services instead"
+    },
+    {
+      "name": "is_career_oriented",
+      "reason": "(2016/8/18) Use provides_career_services instead"
+    }
+  ]
+}

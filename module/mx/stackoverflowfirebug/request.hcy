@@ -1,0 +1,19 @@
+GET /api/recent-chat?tags=javascript%20firebug&_=1588066675525 h2
+Host: stackoverflow.com
+accept: */*
+sec-fetch-dest: empty
+x-requested-with: XMLHttpRequest
+save-data: on
+user-agent: Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36
+sec-fetch-site: same-origin
+sec-fetch-mode: cors
+referer: https://stackoverflow.com/questions/4146485/get-all-javascript-variables-in-document
+accept-encoding: gzip, deflate, br
+accept-language: en-GB,en;q=0.9,kn-IN;q=0.8,kn;q=0.7,zh-TW;q=0.6,zh;q=0.5,ja-JP;q=0.4,ja;q=0.3,de-DE;q=0.2,de;q=0.1,en-US;q=0.1,hi;q=0.1
+cookie: notice-ssb=1%3B1582586316139
+cookie: prov=8f5ba590-f927-adc4-96a5-b9721a0f8771
+cookie: _ga=GA1.2.1404877561.1582586319
+cookie: __qca=P0-151589772-1582586320761
+cookie: __gads=ID=52dc473ac2ae4ba3:T=1582586322:S=ALNI_Maz3gC_uuElffZutphRXm9KgZH0VQ
+cookie: _gid=GA1.2.359542768.1587912307
+

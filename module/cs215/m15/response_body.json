@@ -1,0 +1,529 @@
+{
+  "data": {
+    "lesson": {
+      "id": 77349,
+      "key": "48635720",
+      "title": "Problem Set 6",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 113584,
+          "key": "7239585380923",
+          "title": "Programming a Reduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7239585380923",
+            "completed_at": "2020-03-27T05:26:53.073Z",
+            "last_viewed_at": "2020-03-27T05:26:51.695Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 91292,
+              "key": "723958538",
+              "title": "Programming a Reduction",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "723958538",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Programming a Reduction",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48648700",
+                "initial_code_files": [
+                  {
+                    "text": "# In the lecture, we described how a solution to k_clique_decision(G, k)\n# can be used to solve independent_set_decision(H,s).  \n# Write a Python function that carries out this transformation.  \n\n# Returns a list of all the subsets of a list of size k\ndef k_subsets(lst, k):\n    if len(lst) < k:\n        return []\n    if len(lst) == k:\n        return [lst]\n    if k == 1:\n        return [[i] for i in lst]\n    return k_subsets(lst[1:],k) + map(lambda x: x + [lst[0]], k_subsets(lst[1:], k-1))\n\n# Checks if the given list of nodes forms a clique in the given graph.\ndef is_clique(G, nodes):\n    for pair in k_subsets(nodes, 2):\n        if pair[1] not in G[pair[0]]:\n            return False\n    return True\n\n# Determines if there is clique of size k or greater in the given graph.\ndef k_clique_decision(G, k):\n    nodes = G.keys()\n    for i in range(k, len(nodes) + 1):\n        for subset in k_subsets(nodes, i):\n            if is_clique(G, subset):\n                return True\n    return False\n    \ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef break_link(G, node1, node2):\n    if node1 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G[node1]:\n        print \"error: breaking non-existent link\"\n        return\n    if node1 not in G[node2]:\n        print \"error: breaking non-existent link\"\n        return\n    del G[node1][node2]\n    del G[node2][node1]\n    return G\n   \n# This function should use the k_clique_decision function\n# to solve the independent set decision problem\ndef independent_set_decision(H, s):\n    # your code here\n    return True",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 80212,
+          "key": "7239585390923",
+          "title": "Reduction: k-Clique to Decision",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7239585390923",
+            "completed_at": "2020-03-27T05:27:08.967Z",
+            "last_viewed_at": "2020-03-27T05:27:07.657Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 106815,
+              "key": "723958539",
+              "title": "Reduction: k-Clique to Decision",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "723958539",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Reduction: k-Clique to Decision",
+                "semantic_type": "ProgrammingQuestion",
+                "evaluation_id": "48646703",
+                "initial_code_files": [
+                  {
+                    "text": "# Decision problems are often just as hard as actually returning an answer.\n# Show how a k-clique can be found using a solution to the k-clique decision \n# problem.  Write a Python function that takes a graph G and a number k \n# as input, and returns a list of k nodes from G that are all connected \n# in the graph.  Your function should make use of \"k_clique_decision(G, k)\", \n# which takes a graph G and a number k and answers whether G contains a k-clique.  \n# We will also provide the standard routines for adding and removing edges from a graph.\n\n# Returns a list of all the subsets of a list of size k\ndef k_subsets(lst, k):\n    if len(lst) < k:\n        return []\n    if len(lst) == k:\n        return [lst]\n    if k == 1:\n        return [[i] for i in lst]\n    return k_subsets(lst[1:],k) + map(lambda x: x + [lst[0]], k_subsets(lst[1:], k-1))\n\n# Checks if the given list of nodes forms a clique in the given graph.\ndef is_clique(G, nodes):\n    for pair in k_subsets(nodes, 2):\n        if pair[1] not in G[pair[0]]:\n            return False\n    return True\n\n# Determines if there is clique of size k or greater in the given graph.\ndef k_clique_decision(G, k):\n    nodes = G.keys()\n    for i in range(k, len(nodes) + 1):\n        for subset in k_subsets(nodes, i):\n            if is_clique(G, subset):\n                return True\n    return False\n\ndef make_link(G, node1, node2):\n    if node1 not in G:\n        G[node1] = {}\n    (G[node1])[node2] = 1\n    if node2 not in G:\n        G[node2] = {}\n    (G[node2])[node1] = 1\n    return G\n\ndef break_link(G, node1, node2):\n    if node1 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G:\n        print \"error: breaking link in a non-existent node\"\n        return\n    if node2 not in G[node1]:\n        print \"error: breaking non-existent link\"\n        return\n    if node1 not in G[node2]:\n        print \"error: breaking non-existent link\"\n        return\n    del G[node1][node2]\n    del G[node2][node1]\n    return G\n    \ndef k_clique(G, k):\n    if not k_clique_decision(G, k):\n        return False\n    # your code here",
+                    "name": "studentMain.py"
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 30190,
+          "key": "7239585400923",
+          "title": "Polynomial vs. Exponential",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7239585400923",
+            "completed_at": "2020-03-27T05:27:15.900Z",
+            "last_viewed_at": "2020-03-27T05:27:14.582Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 90228,
+              "key": "723958540",
+              "title": "Polynomial vs. Exponential",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "We're looking for an integer greater than 1.  -MLL",
+              "user_state": {
+                "node_key": "723958540",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "Polynomial vs. Exponential",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/S0iy1b8jdAIJeB-eaa_20GH3WwF4y1yCrt1U8ZfgwG9HUnGcgHywtW5YLVQcZ91h_UDaru79adCzn7DKlik=s0#w=1743&h=1068",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/723958540",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48726198",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343798796674",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07209737827715355,
+                      "width": 0.15834767641996558,
+                      "x": 0.41308089500860584,
+                      "y": 0.7303370786516854
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 113736,
+          "key": "7239585410923",
+          "title": "From Clauses to Colors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7239585410923",
+            "completed_at": "2020-03-27T05:27:22.847Z",
+            "last_viewed_at": "2020-03-27T05:27:21.481Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 110470,
+              "key": "723958541",
+              "title": "From Clauses to Colors",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "There are other gadgets that could be used to show this reduction. For this problem, we're asking specifically about the one used in [Lesson 29: \"Gadgets\"](https://classroom.udacity.com/courses/cs215/lessons/48439444/concepts/486865350923).",
+              "user_state": {
+                "node_key": "723958541",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "From Clauses to Colors",
+                "alt_text": null,
+                "background_image": "//lh6.ggpht.com/ewjWe1pjZVGSL4kuxRk_syqxU8mSerkmnQ4MFV64JpZe30x7OCJCgjBjpB9RhsCz7kqKb8kVUrear9K7U8w=s0#w=1743&h=1068",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/723958541",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48403770",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer1",
+                    "marker": "1343799025474",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 1,
+                    "placement": {
+                      "height": 0.07317073170731707,
+                      "width": 0.06608478802992519,
+                      "x": 0.3859102244389027,
+                      "y": 0.5099431818181818
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer2",
+                    "marker": "1343799051151",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.06608478802992519,
+                      "x": 0.5368025249376559,
+                      "y": 0.5127494456762749
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer3",
+                    "marker": "1343799078903",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.07760532150776053,
+                      "width": 0.06359102244389027,
+                      "x": 0.6859608790523691,
+                      "y": 0.5127494456762749
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer5",
+                    "marker": "1343799136887",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.07095343680709534,
+                      "width": 0.06608478802992519,
+                      "x": 0.5373675187032418,
+                      "y": 0.5850886917960089
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer6",
+                    "marker": "1343799163383",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.07538802660753881,
+                      "width": 0.06733167082294264,
+                      "x": 0.6834671134663342,
+                      "y": 0.5787832594235033
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "0",
+                    "label": "textAnswer7",
+                    "marker": "1343799965386",
+                    "model": "NumericInputWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.06430155210643015,
+                      "width": 0.06608478802992519,
+                      "x": 0.38581281172069826,
+                      "y": 0.5844997228381374
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 98768,
+          "key": "7239585420923",
+          "title": "NP or Not NP?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7239585420923",
+            "completed_at": "2020-03-27T05:27:27.675Z",
+            "last_viewed_at": "2020-03-27T05:27:26.303Z",
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 79199,
+              "key": "723958542",
+              "title": "NP or Not NP?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "723958542",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                },
+                "text": null
+              },
+              "question": {
+                "title": "NP or Not NP?",
+                "alt_text": null,
+                "background_image": "//lh3.ggpht.com/vbXo41WmSwaKCMzxXGaWIY0zLSg40PvQdtZXFa0YkT-TKL7vST76JYT0vDr71rQe294ryo98MmDQVpe6Gw=s0#w=1743&h=1068",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/723958542",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "48702340",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option2",
+                    "marker": "1343799473530",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 2,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07554025918125627,
+                      "y": 0.4135455870896243
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option3",
+                    "marker": "1343799483380",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 3,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07554025918125627,
+                      "y": 0.46036206649037337
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option4",
+                    "marker": "1343799490684",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 4,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07554025918125627,
+                      "y": 0.5539950110046158
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option5",
+                    "marker": "1343799495031",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 5,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07496653571596655,
+                      "y": 0.6466916402180991
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option6",
+                    "marker": "1343799499729",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 6,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07458405048766495,
+                      "y": 0.7397003745318352
+                    }
+                  },
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": "option7",
+                    "marker": "1343799506321",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": 7,
+                    "placement": {
+                      "height": 0.04,
+                      "width": 0.04,
+                      "x": 0.07458405048766495,
+                      "y": 0.8333333761951003
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "undefined.mp4",
+                  "topher_id": null,
+                  "transcodings": null
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    }
+  ]
+}

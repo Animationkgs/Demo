@@ -1,0 +1,23 @@
+{
+  "app": "com.android.chrome",
+  "duration": "313ms",
+  "headers": {
+    "Host": "www.googletagmanager.com",
+    "sec-fetch-dest": "script",
+    "save-data": "on",
+    "user-agent": "Mozilla/5.0 (Linux; Android 7.0; 9026T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.119 Safari/537.36",
+    "accept": "*/*",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "no-cors",
+    "referer": "https://www.udacity.com/",
+    "accept-encoding": "gzip, deflate, br",
+    "accept-language": "en-GB,en;q\u003d0.9,kn-IN;q\u003d0.8,kn;q\u003d0.7,zh-TW;q\u003d0.6,zh;q\u003d0.5,ja-JP;q\u003d0.4,ja;q\u003d0.3,de-DE;q\u003d0.2,de;q\u003d0.1,en-US;q\u003d0.1,hi;q\u003d0.1"
+  },
+  "method": "GET",
+  "protocol": "h2",
+  "remoteIp": "172.217.31.200",
+  "remotePort": 443,
+  "sessionId": "d777702c-d5e8-441d-ab57-f0323c06305c",
+  "time": "2020-04-28 19:44:12",
+  "url": "https://www.googletagmanager.com/gtm.js?id\u003dGTM-WW3F3H\u0026l\u003ddataLayer"
+}
