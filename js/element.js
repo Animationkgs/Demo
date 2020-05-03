@@ -1,4 +1,5 @@
 
+//alert('0element');
 
 var pretty= function (x) { return x.split( '\n' ).join( '<br>' ); };
 var iframe= function (vid) {

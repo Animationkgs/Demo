@@ -1,4 +1,7 @@
 ﻿
+
+//alert('0fill');
+
 var div= sing2.div;
 var mark= sing2.mark;
 var button= sing2.button;
