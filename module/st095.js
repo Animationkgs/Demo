@@ -106,7 +106,6 @@ st095.lesson03= f(m03);
 st095.lesson04= f(m04);
 st095.lesson05= f(m05);
 st095.lesson06= f(m06);
-/*
 st095.lesson07= f(m07);
 st095.lesson08= f(m08);
 st095.lesson09= f(m09);
@@ -129,7 +128,7 @@ st095.lesson23= f(m23);
 st095.lesson24= f(m24);
 st095.lesson25= f(m25);
 st095.lesson26= f(m26);
-shttps://www.google.com/url?sa=t&source=web&rct=j&url=https://www.dailymotion.com/video/x6v21f2&ved=2ahUKEwi_3Ije5JLpAhXrzTgGHXa0Ao84MhCjtAEwAnoECAkQAQ&usg=AOvVaw0jzE67vekC_lsBGsFwKZX3t095.lesson27= f(m27);
+st095.lesson27= f(m27);
 st095.lesson28= f(m28);
 st095.lesson29= f(m29);
 
@@ -142,7 +141,6 @@ st095.lesson35= f(m35);
 st095.lesson36= f(m36);
 st095.lesson37= f(m37);
 st095.lesson38= f(m38);
-*/
 
 //alert('st095');
 
@@ -176,13 +174,11 @@ var putsrt= function (cx,a,b) {
    }
 };
 
-//alert('0putsrt');
 putsrt(st095.lesson01.concepts, srt01, srtm01);
-//alert('1putsrt');
 putsrt(st095.lesson03.concepts, srt03, srtm03);
-alert('2putsrt');
+putsrt(st095.lesson04.concepts, srt04, srtm04);
 
-alert('0images');
+//alert('0images');
 var images= function (mx) {
 	var j= -1;
 	var ret= [];
@@ -198,4 +194,24 @@ var images= function (mx) {
 };
 
 st095.images= images(st095.mx);
+
+var pad= function (x)   { return x.toString().padStart(2, "0"); };
+var subtitles= function (mx) {
+	var j= -1;
+	var ret= [];
+   while ( ++j < mx.length ) { 
+      var r= mx[j].data.lesson.resources, fx, uri;
+	if (r) fx= r.files;
+	   else continue;
+	   if (fx && fx.length >= 2) {
+		   uri=  fx[1].uri;
+		   //alert(uri);
+		   st095['lesson'+pad(j+1)].TranscriptsZipFile= uri;
+		   ret.push( uri );
+	   }
+   }
+	return ret;
+};
+
+st095.subtitles= subtitles(st095.mx);
 
