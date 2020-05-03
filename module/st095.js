@@ -63,7 +63,8 @@ var constructatom = function (a) {
    if (n) ret.instructor_notes= n;
    ret.semantic_type= a.semantic_type;
       if (isVideoAtom(a)) ret.theory= getiframe(a.video.youtube_id);
-      if (isQuizAtom(a)) ret.quiz= constructquiz(a);
+	else if (isQuizAtom(a)) ret.quiz= constructquiz(a);
+	//else alert(ret.semantic_type);
 	//alert('atom');
 	return ret;
 }
@@ -159,17 +160,15 @@ var putsrt= function (cx,a,b) {
          //x.atom.theory.summary= pretty(b[count]);
          x.atom.theory.video.text= pretty(a[count++]);
       }
-      if (x.atom.semantic_type=='QuizAtom') {
-	      //alert(count);
-         //alert(a[count]);
-         //x.atom.quiz.instruction.summary= pretty(b[count]);
-	if (x.atom.quiz.instruction)
+	   else if (x.atom.semantic_type=='QuizAtom') {
+	if (x.atom.quiz.instruction) {
+         x.atom.quiz.instruction.summary= pretty(b[count]);
          x.atom.quiz.instruction.video.text= pretty(a[count++]);
-	      //alert(count);
-         //alert(a[count]);
-         //x.atom.quiz.answer.summary= pretty(b[count]);
-	if (x.atom.quiz.answer)
+	}
+	if (x.atom.quiz.answer) {
+         x.atom.quiz.answer.summary= pretty(b[count]);
          x.atom.quiz.answer.video.text= pretty(a[count++]);	
+	}
       }
    }
 };
@@ -214,4 +213,50 @@ var subtitles= function (mx) {
 };
 
 st095.subtitles= subtitles(st095.mx);
+
+
+var notes= function (mx) {
+	var j= -1;
+	var ret= [];
+   while ( ++j < mx.length ) { 
+      var cx= mx[j].data.lesson.concepts;
+      var i= -1, count= 0;
+   while ( ++i < cx.length ) {
+      var a= getatom(cx[i]);
+	   var n= getnote(a);
+      if (n) ret.push('lesson'+pad(j+1)+pad(i+1)+' '+n);
+   }
+	}
+	return ret;
+};
+
+st095.instructor_notes= notes(st095.mx);
+
+
+var links= function (mx) {
+   var j= -1;
+   var ret= [];
+   var par= new DOMParser();
+   while ( ++j < mx.length ) { 
+      var cx= mx[j].data.lesson.concepts;
+      var i= -1, count= 0;
+      while ( ++i < cx.length ) {
+         var a= getatom(cx[i]);
+         var n= getnote(a);
+         if (n) {
+            var doc= par.parseFromString(n,'text/html');
+            var ax= doc.getElementsByTagName('a');
+            if (ax.length > 0) {
+               var k=-1; while (++k < ax.length) ret.push(ax[k].href);
+            }
+         }
+      }
+   }
+   return ret;
+};
+
+st095.links= links(st095.mx);
+//var s= new Set();
+//var k=-1; while (++k < st095.links.length) s.add(st095.links[k]);
+st095.uniquelinks= Array.from(new Set(st095.links));
 
